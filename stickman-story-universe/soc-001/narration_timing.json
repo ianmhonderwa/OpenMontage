@@ -1,0 +1,54 @@
+{
+ "voice": "bm_george",
+ "segments": [
+  {
+   "scene": 1,
+   "text": "Athens, twenty-four hundred years ago. Meet Socrates. No money, no shoes, and the most annoying questions in history.",
+   "start": 0.35,
+   "end": 8.243
+  },
+  {
+   "scene": 2,
+   "text": "One day, his friend went to the famous Oracle at Delphi, and asked: Is anyone wiser than Socrates?",
+   "start": 8.693,
+   "end": 15.349
+  },
+  {
+   "scene": 3,
+   "text": "The answer came back: No one is wiser than Socrates.",
+   "start": 15.699,
+   "end": 19.433
+  },
+  {
+   "scene": 4,
+   "text": "Socrates was shocked. Me? I don't know anything! It was like googling yourself, and finding out you're a genius.",
+   "start": 19.933,
+   "end": 26.674
+  },
+  {
+   "scene": 5,
+   "text": "So he went looking for someone wiser, to prove the Oracle wrong.",
+   "start": 27.074,
+   "end": 30.85
+  },
+  {
+   "scene": 6,
+   "text": "He questioned the smartest people in Athens. They all thought they knew everything. They didn't.",
+   "start": 31.15,
+   "end": 36.633
+  },
+  {
+   "scene": 7,
+   "text": "Then he understood. He was wiser only because he knew that he didn't know. Wisdom starts with admitting what you don't know.",
+   "start": 37.083,
+   "end": 44.4
+  },
+  {
+   "scene": 8,
+   "text": "Next time: Socrates tests the politicians. It does not go well. Follow so you don't miss it!",
+   "start": 45.0,
+   "end": 50.888
+  }
+ ],
+ "duration": 51.688
+}

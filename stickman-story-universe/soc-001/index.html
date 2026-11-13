@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SOC-001</title>
+<style>
+  html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+  #stage { position: relative; width: 1080px; height: 1920px; }
+  canvas { position: absolute; inset: 0; display: block; }
+  .ui { position: absolute; left: 0; right: 0; text-align: center; font-family: Inter, "DejaVu Sans", sans-serif; }
+  #badge { top: 120px; }
+  #badge span { display: inline-block; padding: 14px 30px; border-radius: 40px; background: rgba(20,16,12,.72);
+    color: #fff; font-weight: 800; font-size: 34px; letter-spacing: 3px; }
+  #badge b { color: #ffd23f; }
+  #title { top: 215px; padding: 0 70px; color: #fff; font-weight: 900; font-size: 74px; line-height: 1.05;
+    paint-order: stroke fill; -webkit-text-stroke: 14px #111; text-transform: uppercase; opacity: 0; }
+  #caption { top: 1230px; padding: 0 80px; color: #fff; font-weight: 900; font-size: 82px; line-height: 1.12;
+    paint-order: stroke fill; -webkit-text-stroke: 16px #111; text-transform: uppercase; }
+  #caption .on { color: #ffd23f; }
+  #fade { position: absolute; inset: 0; background: #000; opacity: 0; }
+  #endcard { position: absolute; top: 560px; right: 70px; width: 470px; text-align: center; opacity: 0;
+    font-family: Inter, "DejaVu Sans", sans-serif; }
+  #endcard .next { color: #ffd23f; font-weight: 900; font-size: 44px; letter-spacing: 4px; paint-order: stroke fill; -webkit-text-stroke: 10px #111; }
+  #endcard .ep { color: #fff; font-weight: 900; font-size: 66px; line-height: 1.05; margin-top: 18px; paint-order: stroke fill; -webkit-text-stroke: 12px #111; text-transform: uppercase; }
+  #endcard .btn { display: inline-block; margin-top: 46px; padding: 26px 64px; border-radius: 70px; background: #ff3b5c;
+    color: #fff; font-weight: 900; font-size: 58px; letter-spacing: 3px; border: 8px solid #111; box-shadow: 0 10px 0 #111; }
+</style>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js" } }</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1080" height="1920"></canvas>
+  <div id="badge" class="ui"><span>SOCRATES &amp; THE WISE ONES · <b>EP 1</b></span></div>
+  <div id="title" class="ui">The Oracle Says<br>No One Is Wiser</div>
+  <div id="caption" class="ui"></div>
+  <div id="endcard"><div class="next">NEXT TIME</div><div class="ep">Testing the Politicians</div><div class="btn">FOLLOW</div></div>
+  <div id="fade"></div>
+</div>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
