@@ -55,7 +55,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 
 | # | ID | Title | Source | Script status | Action | Done |
 |---|---|---|---|---|---|---|
-| 1 | SOC-002 | Testing the Politicians | Plato, Apology 21c-e | Written – Batch 01 | Lengthen: 127 words (min 130) | [ ] |
+| 1 | SOC-002 | Testing the Politicians | Plato, Apology 21c-e | Written – Batch 01 | Lengthen: 127 words (min 130) | [x] 2026-11-14, 130 words, 52.0 s, Drive: https://drive.google.com/file/d/1swme5n6drvs-hWpXPMTpyOIbPToSyR-F/view |
 | 2 | BIB-001 | Creation, Day by Day | Genesis 1:1-2:3 | Written – Batch 01 | – | [ ] |
 | 3 | AES-001 | The Lion and the Mouse | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 122 words (min 130) | [ ] |
 | 4 | NAS-001 | Do You Know What I'm Going to Say? | The Turkish Jester, tr. George Borrow | Written – Batch 01 | – | [ ] |
