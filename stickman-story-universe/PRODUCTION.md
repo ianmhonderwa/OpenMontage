@@ -27,6 +27,8 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
      God is never drawn as a figure (light/glow/voice only).
    - Engine extras available in `engine/lib.js`: ADAM, EVE, makeAnimal('elephant'|'lion'|'giraffe'|'rabbit'),
      makeBird, makeFish. Sets in `engine/sets/` (agora, endcard). BIB-001 shows how to build a world, a void and a hammock scene.
+   - Also in `engine/lib.js`: makeAnimal 'mouse' (+ `.mouth`, `.eyes`, `.lie(k)`), makeTree. `engine/sets/meadow.js`
+     (Greek countryside, shade tree). AES-001 shows a rope-net build, snapping physics, and contact/high-five posing.
    - Look: 3D toon stickmen (round white heads, black outlines, thin black limbs), warm cartoon sets, 9:16.
    - Rules: violence off-screen; nothing sexual; Bible – never depict God as a figure (light, voice, glow only),
      humour only about people's reactions; Nasreddin – gentle, respectful; no text inside the 3D scene.
