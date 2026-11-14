@@ -39,6 +39,7 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
    `out/<ID>/<name>_preview720.mp4` to Google Drive folder `1VCVWgT_O83g2ty4uX69U3SyH9PTlezbk` with
    `create_file` (contentMimeType video/mp4, disableConversionToGoogleType true, base64Content as a
    `sha256:<hash>:<absolute path>` file reference), title `<ID> <Title> (720p preview).mp4`.
+6b. Add the episode's posting copy (TikTok title/description, YouTube title/description/tags, hashtags from the series set) to `SOCIAL.md`.
 7. Tick the row `[x]` with the date and Drive link, commit (episode folder, lib/sets changes, this file) and push.
 8. Report in two lines: what was made + links, and what the next run will make.
 
