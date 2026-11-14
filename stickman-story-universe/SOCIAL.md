@@ -46,3 +46,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Lion and the Mouse | Aesop's Fable in 45 Seconds #Shorts
 - **YouTube description:** Aesop's classic fable, retold with stick figures. Source: Aesop's Fables, tr. G. F. Townsend (1867). Next episode: The Wolf and the Lamb.
 - **YouTube tags:** aesop, aesops fables, lion and the mouse, fables, moral stories, kids stories, bedtime story, shorts
+
+### NAS-001 – Do You Know What I'm Going to Say?
+- **TikTok title:** Nasreddin gave a speech without saying a word 😂 Ep 1 #nasreddin #folktales #wisdomstories #stickman
+- **TikTok description:** Asked to speak to the whole town, Nasreddin didn't prepare. "Do you know what I'm going to say?" "No." "Then why should I talk to people who know nothing?" Three weeks, three answers, one clever lesson: knowledge grows when we share it. Next: Thank God Camels Can't Fly. Follow @reian.creative.art #nasreddin #nasreddinhoja #folktales #wisdomstories #funnystories #turkishfolklore #lifelessons #stickman #reiancreativeart
+- **YouTube title:** Nasreddin's Three-Week Speech Trick | Funniest Wise Man Ep 1 #Shorts
+- **YouTube description:** A classic Nasreddin anecdote from The Turkish Jester (tr. George Borrow, 1884). Knowledge grows when we share it with each other. Next episode: Thank God Camels Can't Fly.
+- **YouTube tags:** nasreddin, nasreddin hoja, folk tales, wisdom stories, turkish folklore, funny stories, stickman, shorts

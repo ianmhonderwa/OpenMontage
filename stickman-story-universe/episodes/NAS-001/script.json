@@ -1,0 +1,25 @@
+{
+  "id": "NAS-001",
+  "series": "NAS",
+  "series_badge": "NASREDDIN",
+  "ep_number": 1,
+  "title": "Do You Know What I'm Going to Say?",
+  "title_html": "Do You Know What<br>I'm Going to Say?",
+  "next_title": "Thank God Camels Can't Fly",
+  "source": "The Turkish Jester, tr. George Borrow (1884), anecdote 1",
+  "lesson": "Help each other learn; knowledge is meant to be shared.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Nasreddin was asked to give a speech to the whole town. He didn't prepare. At all.",
+    "Do you know what I'm going to say? he asked. No, said the crowd. Then why should I talk to people who know nothing? And he walked off.",
+    "Next week: Do you know what I'm going to say? This time they said, Yes!",
+    "Then you already know. Why should I tell you? And he left again.",
+    "Third week, the crowd was ready. Half said yes, half said no!",
+    "Nasreddin smiled. Wonderful! Then those who know can tell those who don't. And off he went, again.",
+    "Lazy? Maybe. But he had a point: knowledge grows when we share it with each other.",
+    "Next episode: why camels don't have wings. Follow so you don't miss it!"
+  ],
+  "gaps": [0.6, 0.7, 0.55, 0.65, 0.6, 0.7, 0.7, 0.0]
+}

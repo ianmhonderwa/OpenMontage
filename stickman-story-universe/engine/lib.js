@@ -44,6 +44,7 @@ export function makeStick(o = {}) {
     const hip = new THREE.Group(); hip.position.set(side * 0.11, H.hip, 0); body.add(hip);
     hip.add(limb(0.56)); const knee = new THREE.Group(); knee.position.y = -0.56; hip.add(knee); knee.add(joint());
     knee.add(limb(0.54)); const foot = new THREE.Mesh(new THREE.SphereGeometry(0.1, 12, 8), BLACK); foot.scale.set(0.9, 0.55, 1.6); foot.position.set(0, -0.56, 0.07); foot.castShadow = true; knee.add(foot);
+    if (o.slippers) { const sl = outlined(new THREE.ConeGeometry(0.07, 0.3, 8), toon(o.slippers), 1.1); sl.rotation.x = Math.PI / 2 - 0.35; sl.position.set(0, -0.54, 0.22); knee.add(sl); }
     legs.push({ hip, knee });
   }
   // torso
@@ -61,6 +62,7 @@ export function makeStick(o = {}) {
     const len = o.robeLong ? 1.95 : 1.45; const bottom = 1.97 - len;
     const g = new THREE.CylinderGeometry(0.2, o.robeWide ?? 0.52, len, 24, 1, true); g.translate(0, bottom + len / 2, 0);
     const robe = outlined(g, toon(o.robe, { side: THREE.DoubleSide }), 1.04); body.add(robe);
+    if (o.stripes) for (let k = 1; k <= 5; k++) { const fr = k / 6; const rr = (o.robeWide ?? 0.52) + (0.2 - (o.robeWide ?? 0.52)) * fr; const st = new THREE.Mesh(new THREE.TorusGeometry(rr + 0.012, 0.028, 6, 28), toon(o.stripes)); st.rotation.x = Math.PI / 2; st.position.y = bottom + len * fr; body.add(st); }
     const cap = outlined(new THREE.SphereGeometry(0.2, 16, 8, 0, Math.PI * 2, 0, Math.PI / 2), toon(o.robe)); cap.position.y = 1.97; body.add(cap);
     if (o.sash) { const s = outlined(new THREE.BoxGeometry(0.16, 1.05, 0.06), toon(o.sash)); s.position.set(-0.05, 1.6, 0.27); s.rotation.z = 0.62; s.rotation.x = -0.12; body.add(s); }
     if (o.trim) { const tr = new THREE.Mesh(new THREE.TorusGeometry(o.robeWide ?? 0.52, 0.045, 8, 32), toon(o.trim)); tr.rotation.x = Math.PI / 2; tr.position.y = bottom + 0.05; body.add(tr); }
@@ -145,7 +147,7 @@ export const ADAM = { leaf: 0x3f8a3a, hair: 0x2a1a10, seed: 22 };
 export const EVE = { leaf: 0x3f8a3a, hair: 0x2a1a10, longHair: true, seed: 23 };
 export const CRITO = { robe: 0x2f5fa8, hair: 0x6b4423, curls: true, beard: 0x6b4423, seed: 12 };
 export const XANTHIPPE = { robe: 0xc8623e, robeLong: true, hair: 0x2a1a10, bun: true, seed: 13 };
-export const NASREDDIN = { robe: 0x3f8a4a, sash: 0x9fd09a, beard: 0x9a9a9a, turban: 0xffffff, seed: 14 };
+export const NASREDDIN = { robe: 0x3f8a4a, stripes: 0x2a6234, sash: 0x9fd09a, beard: 0x9a9a9a, turban: 0xffffff, slippers: 0xd9a441, seed: 14 };
 export const NOAH = { robe: 0x7a5230, beard: 0xf2f2f2, bigBeard: true, prop: 'hammer', seed: 15 };
 export const ABRAM = { robe: 0xcfa36a, sash: 0x8a5a3c, beard: 0xa0a0a0, bigBeard: true, prop: 'staff', seed: 16 };
 export const SARAI = { robe: 0x9c8a7a, robeLong: true, veil: 0x9a9a9a, seed: 17 };
@@ -203,7 +205,7 @@ export function drop() { const d = outlined(new THREE.SphereGeometry(0.09, 12, 1
 
 
 // ---------- animals: simple stick-legged animals with round white heads (Guide: AES / BIB / ANA) ----------
-// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
+// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse' | 'donkey'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
 export function makeAnimal(kind) {
   const P = {
     elephant: { c: 0x9aa3ad, r: 0.72, len: 1.2, leg: 0.85, hr: 0.5, neck: 0 },
@@ -211,6 +213,7 @@ export function makeAnimal(kind) {
     giraffe: { c: 0xf0c24a, r: 0.42, len: 0.9, leg: 1.55, hr: 0.27, neck: 1.5 },
     rabbit: { c: 0xece6dc, r: 0.2, len: 0.32, leg: 0.16, hr: 0.19, neck: 0 },
     mouse: { c: 0xb9b3ad, r: 0.13, len: 0.22, leg: 0.1, hr: 0.14, neck: 0 },
+    donkey: { c: 0x9aa0a8, r: 0.36, len: 0.85, leg: 0.62, hr: 0.3, neck: 0 },
   }[kind];
   const root = new THREE.Group(); const bg = new THREE.Group(); root.add(bg);
   const by = P.leg + P.r * 0.5;
@@ -243,6 +246,8 @@ export function makeAnimal(kind) {
     for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.8, 16, 12), toon(0x8a939d), 1.05); ear.scale.set(0.3, 1, 0.9); ear.position.set(-hr * 0.2, 0, sd * hr * 1.0); head.add(ear); }
     const curve = new THREE.CatmullRomCurve3([new THREE.Vector3(hr * 0.85, -hr * 0.1, 0), new THREE.Vector3(hr * 1.45, -hr * 0.55, 0), new THREE.Vector3(hr * 1.55, -hr * 1.25, 0), new THREE.Vector3(hr * 1.95, -hr * 1.6, 0)]);
     head.add(outlined(new THREE.TubeGeometry(curve, 14, 0.1, 8), toon(0x9aa3ad), 1.08)); }
+  if (kind === 'donkey') for (const sd of [-1, 1]) { const ear = outlined(new THREE.CapsuleGeometry(0.075, 0.42, 4, 8), toon(0x9aa0a8), 1.08); ear.position.set(-0.04, hr * 1.45, sd * hr * 0.34); ear.rotation.x = -sd * 0.42; head.add(ear);
+    const br = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.035, hr * 0.5), BLACK); br.position.set(hr * 0.74, hr * 0.2 + hr * 0.36, sd * hr * 0.48); br.rotation.x = -sd * 0.5; head.add(br); }
   if (kind === 'mouse') for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.75, 14, 10), toon(0xf2b8c0), 1.08); ear.scale.set(0.22, 1, 1); ear.position.set(-hr * 0.15, hr * 0.8, sd * hr * 0.8); head.add(ear); }
   if (kind === 'rabbit') for (const sd of [-1, 1]) { const ear = outlined(new THREE.CapsuleGeometry(0.06, 0.32, 4, 8), toon(0xf6c8d0), 1.1); ear.position.set(-0.02, hr * 1.5, sd * hr * 0.42); ear.rotation.x = sd * 0.15; head.add(ear); }
   if (kind === 'giraffe') {
