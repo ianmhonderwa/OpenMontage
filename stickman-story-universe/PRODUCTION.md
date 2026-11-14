@@ -49,7 +49,7 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
 
 ## Queue (Season 1, rotation SOC · BIB · AES · NAS · BIB · GRM · ANA)
 
-Done: SOC-001 (pilot, 2026-11-13, Drive: https://drive.google.com/file/d/1wJ3P1zrJmbidIKMxOCPuUw8Cs1FAMXVH/view)
+Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d/1QIDDliYweIlGR0Bph61WmFAIZQPJzxEp/view)
 
 ⏸ Waiting for owner decision (do not produce): ANA-005 (Lizard tale – adapt or skip), NAS-015 (Old Tomb).
 
