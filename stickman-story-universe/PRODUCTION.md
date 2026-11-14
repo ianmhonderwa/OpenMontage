@@ -21,6 +21,8 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
    - Reuse `engine/lib.js` characters and props. When a recurring character first appears, add a preset to
      `lib.js` built from the Guide's fixed description and reuse it ever after (never redesign a character).
    - When a set is used by a second episode, move it into `engine/sets/<name>.js` and import it.
+   - Branding is automatic (engine/index.html + engine/assets/logo.jpg): @reian.creative.art logo watermark top-right
+     on every scene and the large logo + handle on the end card. Never remove it; keep the top-right corner clear.
    - Look: 3D toon stickmen (round white heads, black outlines, thin black limbs), warm cartoon sets, 9:16.
    - Rules: violence off-screen; nothing sexual; Bible – never depict God as a figure (light, voice, glow only),
      humour only about people's reactions; Nasreddin – gentle, respectful; no text inside the 3D scene.

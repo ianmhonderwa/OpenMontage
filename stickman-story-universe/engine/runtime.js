@@ -42,7 +42,7 @@ const scenesFn = mod.build({ ...L, L, scene, camera, renderer, hemi, sunL, aimSu
 if (scenesFn.length !== SCENES.length) console.error(`scenes.js returned ${scenesFn.length} scenes but script has ${SCENES.length} lines`);
 
 // captions: word-highlighted chunks, timing proportional to word length within each narration line
-const capEl = document.getElementById('caption'), titleEl = document.getElementById('title'), fadeEl = document.getElementById('fade'), endEl = document.getElementById('endcard');
+const wmEl = document.getElementById('wm'), capEl = document.getElementById('caption'), titleEl = document.getElementById('title'), fadeEl = document.getElementById('fade'), endEl = document.getElementById('endcard');
 const CAPS = [];
 for (const s of SEG) {
   const words = s.text.replace(/\s+/g, ' ').trim().split(' ');
@@ -67,10 +67,12 @@ window.renderAt = (t) => {
   fadeEl.style.opacity = i > 0 && lt < 0.12 ? (1 - lt / 0.12) * 0.85 : (i < SCENES.length - 1 && d - lt < 0.08 ? (1 - (d - lt) / 0.08) * 0.85 : 0);
   titleEl.style.opacity = t < 3.2 ? clamp(t / 0.3) * clamp((3.2 - t) / 0.4) : 0;
   endEl.style.opacity = i === SCENES.length - 1 ? clamp((lt - 0.2) / 0.4) : 0;
+  wmEl.style.opacity = i === SCENES.length - 1 ? 1 - clamp((lt - 0.1) / 0.3) : 0.92 * clamp((t - 3.2) / 0.4);
   endEl.querySelector('.btn').style.transform = `scale(${1 + 0.05 * Math.sin(lt * 6)})`;
   updateCaption(t);
   renderer.render(scene, camera);
   return i;
 };
 window.DURATION = DUR;
+await Promise.all([...document.images].map(im => im.complete ? 0 : new Promise(r => { im.onload = im.onerror = r; })));
 window.ready = true;
