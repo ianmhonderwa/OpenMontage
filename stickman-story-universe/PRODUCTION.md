@@ -23,6 +23,10 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
    - When a set is used by a second episode, move it into `engine/sets/<name>.js` and import it.
    - Branding is automatic (engine/index.html + engine/assets/logo.jpg): @reian.creative.art logo watermark top-right
      on every scene and the large logo + handle on the end card. Never remove it; keep the top-right corner clear.
+   - Bible (BIB) episodes: show the scripture reference under the title (see episodes/BIB-001/script.json `title_html`).
+     God is never drawn as a figure (light/glow/voice only).
+   - Engine extras available in `engine/lib.js`: ADAM, EVE, makeAnimal('elephant'|'lion'|'giraffe'|'rabbit'),
+     makeBird, makeFish. Sets in `engine/sets/` (agora, endcard). BIB-001 shows how to build a world, a void and a hammock scene.
    - Look: 3D toon stickmen (round white heads, black outlines, thin black limbs), warm cartoon sets, 9:16.
    - Rules: violence off-screen; nothing sexual; Bible – never depict God as a figure (light, voice, glow only),
      humour only about people's reactions; Nasreddin – gentle, respectful; no text inside the 3D scene.

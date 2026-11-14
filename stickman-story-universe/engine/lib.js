@@ -96,6 +96,9 @@ export function makeStick(o = {}) {
     if (o.curls) { for (let i = 0; i < 14; i++) { const a = R() * Math.PI * 2, el = 0.3 + R() * 0.9; const c = outlined(new THREE.SphereGeometry(0.15, 10, 8), hm, 1.1); c.position.set(Math.cos(a) * Math.cos(el) * 0.5, Math.sin(el) * 0.5 + 0.06, Math.sin(a) * Math.cos(el) * 0.5 - 0.06); if (c.position.z > 0.2) c.position.z = 0.2; headG.add(c); } }
     else { const cap = outlined(new THREE.SphereGeometry(0.585, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.36), hm, 1.04); cap.rotation.x = -0.35; headG.add(cap); }
   }
+  if (o.leaf) { const lf = outlined(new THREE.CylinderGeometry(0.17, 0.32, 0.42, 14, 1, true), toon(o.leaf, { side: THREE.DoubleSide }), 1.05); lf.position.y = 1.0; body.add(lf);
+    for (let i = 0; i < 7; i++) { const a = i / 7 * Math.PI * 2; const tip = outlined(new THREE.ConeGeometry(0.06, 0.16, 6), toon(o.leaf), 1.1); tip.position.set(Math.cos(a) * 0.3, 0.74, Math.sin(a) * 0.3); tip.rotation.x = Math.PI; body.add(tip); } }
+  if (o.longHair) { const lh = outlined(new THREE.CapsuleGeometry(0.3, 0.55, 6, 14), toon(o.hair), 1.05); lh.position.set(0, -0.28, -0.3); headG.add(lh); }
   if (o.turban) { const tb = outlined(new THREE.SphereGeometry(0.62, 28, 18), toon(o.turban), 1.04); tb.scale.set(1.05, 0.62, 1.05); tb.position.y = 0.42; headG.add(tb); }
   if (o.bun) { const cap = outlined(new THREE.SphereGeometry(0.585, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.36), toon(o.hair), 1.04); cap.rotation.x = -0.35; headG.add(cap); const bn = outlined(new THREE.SphereGeometry(0.2, 14, 10), toon(o.hair), 1.08); bn.position.set(0, 0.45, -0.42); headG.add(bn); }
   if (o.hat) { const h = outlined(new THREE.CylinderGeometry(0.3, 0.42, 0.3, 20), toon(o.hat)); h.position.y = 0.55; headG.add(h); }
@@ -138,6 +141,8 @@ export function makeStick(o = {}) {
 
 // ---------- canonical recurring characters (Style & Script Guide) – reuse word for word ----------
 export const STORYTELLER = { glasses: true, scarf: 0xc8323c, book: 0x8a3b2e, seed: 21 }; // host: BIB, AES, ANA, GRM
+export const ADAM = { leaf: 0x3f8a3a, hair: 0x2a1a10, seed: 22 };
+export const EVE = { leaf: 0x3f8a3a, hair: 0x2a1a10, longHair: true, seed: 23 };
 export const CRITO = { robe: 0x2f5fa8, hair: 0x6b4423, curls: true, beard: 0x6b4423, seed: 12 };
 export const XANTHIPPE = { robe: 0xc8623e, robeLong: true, hair: 0x2a1a10, bun: true, seed: 13 };
 export const NASREDDIN = { robe: 0x3f8a4a, sash: 0x9fd09a, beard: 0x9a9a9a, turban: 0xffffff, seed: 14 };
@@ -196,3 +201,69 @@ export function laurel() {
 }
 export function drop() { const d = outlined(new THREE.SphereGeometry(0.09, 12, 10), toon(0x5bc0eb), 1.15); d.scale.y = 1.45; return d; }
 
+
+// ---------- animals: simple stick-legged animals with round white heads (Guide: AES / BIB / ANA) ----------
+// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit'. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
+export function makeAnimal(kind) {
+  const P = {
+    elephant: { c: 0x9aa3ad, r: 0.72, len: 1.2, leg: 0.85, hr: 0.5, neck: 0 },
+    lion: { c: 0xe0a23a, r: 0.42, len: 0.95, leg: 0.55, hr: 0.36, neck: 0 },
+    giraffe: { c: 0xf0c24a, r: 0.42, len: 0.9, leg: 1.55, hr: 0.27, neck: 1.5 },
+    rabbit: { c: 0xece6dc, r: 0.2, len: 0.32, leg: 0.16, hr: 0.19, neck: 0 },
+  }[kind];
+  const root = new THREE.Group(); const bg = new THREE.Group(); root.add(bg);
+  const by = P.leg + P.r * 0.5;
+  const body = outlined(new THREE.CapsuleGeometry(P.r, P.len, 6, 16), toon(P.c), 1.04); body.rotation.z = Math.PI / 2; body.position.y = by; bg.add(body);
+  const L = by - P.r * 0.35, legs = [];
+  for (const [x, z] of [[P.len / 2, 1], [P.len / 2, -1], [-P.len / 2, 1], [-P.len / 2, -1]]) {
+    const piv = new THREE.Group(); piv.position.set(x, L, z * P.r * 0.55); bg.add(piv);
+    const w = kind === 'elephant' ? 0.14 : 0.055; const g = new THREE.CylinderGeometry(w, w, L, 8); g.translate(0, -L / 2, 0);
+    const m = new THREE.Mesh(g, kind === 'elephant' ? toon(P.c) : BLACK); m.castShadow = true; piv.add(m); legs.push(piv);
+  }
+  const hr = P.hr; const head = new THREE.Group(); bg.add(head);
+  if (P.neck) {
+    const t = 0.25, bx = P.len / 2 + P.r * 0.4, byy = by + P.r * 0.3;
+    const nk = outlined(new THREE.CylinderGeometry(0.15, 0.22, P.neck, 10), toon(P.c), 1.05); nk.position.set(bx + Math.sin(t) * P.neck / 2, byy + Math.cos(t) * P.neck / 2, 0); nk.rotation.z = -t; bg.add(nk);
+    head.position.set(bx + Math.sin(t) * P.neck + 0.12, byy + Math.cos(t) * P.neck + 0.05, 0);
+  } else head.position.set(P.len / 2 + P.r * 0.55 + hr * 0.5, by + P.r * 0.45, 0);
+  head.add(outlined(new THREE.SphereGeometry(hr, 24, 18), toon(0xffffff), 1.06));
+  for (const sd of [-1, 1]) {
+    const e = outlined(new THREE.SphereGeometry(hr * 0.27, 14, 10), toon(0xffffff), 1.15); e.position.set(hr * 0.72, hr * 0.2, sd * hr * 0.48); head.add(e);
+    const pu = new THREE.Mesh(new THREE.SphereGeometry(hr * 0.14, 10, 8), BLACK); pu.position.set(hr * 0.2, 0, 0); e.add(pu);
+  }
+  const nose = new THREE.Mesh(new THREE.SphereGeometry(hr * 0.17, 10, 8), BLACK); nose.position.set(hr * 0.98, -hr * 0.12, 0); head.add(nose);
+  const tail = new THREE.Group(); tail.position.set(-P.len / 2 - P.r * 0.8, by + P.r * 0.2, 0); bg.add(tail);
+  const tl = kind === 'rabbit' ? 0.01 : 0.7 * P.r + 0.2; const tg = new THREE.CylinderGeometry(0.035, 0.035, tl, 6); tg.translate(0, -tl / 2, 0); tail.add(new THREE.Mesh(tg, BLACK)); tail.rotation.z = 0.5;
+  if (kind === 'lion') { const tuft = outlined(new THREE.SphereGeometry(0.1, 10, 8), toon(0x9a5a1a), 1.1); tuft.position.y = -tl; tail.add(tuft);
+    for (let i = 0; i < 10; i++) { const a = i / 10 * Math.PI * 2; const m = outlined(new THREE.SphereGeometry(0.17, 12, 10), toon(0xb8641a), 1.08); m.position.set(-0.12, Math.sin(a) * hr * 1.05, Math.cos(a) * hr * 1.05); head.add(m); } }
+  if (kind === 'elephant') {
+    for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.8, 16, 12), toon(0x8a939d), 1.05); ear.scale.set(0.3, 1, 0.9); ear.position.set(-hr * 0.2, 0, sd * hr * 1.0); head.add(ear); }
+    const curve = new THREE.CatmullRomCurve3([new THREE.Vector3(hr * 0.85, -hr * 0.1, 0), new THREE.Vector3(hr * 1.45, -hr * 0.55, 0), new THREE.Vector3(hr * 1.55, -hr * 1.25, 0), new THREE.Vector3(hr * 1.95, -hr * 1.6, 0)]);
+    head.add(outlined(new THREE.TubeGeometry(curve, 14, 0.1, 8), toon(0x9aa3ad), 1.08)); }
+  if (kind === 'rabbit') for (const sd of [-1, 1]) { const ear = outlined(new THREE.CapsuleGeometry(0.06, 0.32, 4, 8), toon(0xf6c8d0), 1.1); ear.position.set(-0.02, hr * 1.5, sd * hr * 0.42); ear.rotation.x = sd * 0.15; head.add(ear); }
+  if (kind === 'giraffe') {
+    for (const sd of [-1, 1]) { const h = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.2, 6), BLACK); h.position.set(-0.02, hr * 1.1, sd * hr * 0.35); head.add(h); const k = new THREE.Mesh(new THREE.SphereGeometry(0.05, 8, 6), BLACK); k.position.set(-0.02, hr * 1.1 + 0.12, sd * hr * 0.35); head.add(k); }
+    const R = rng(7); for (let i = 0; i < 9; i++) for (const sd of [-1, 1]) { const sp = outlined(new THREE.SphereGeometry(0.1 + R() * 0.05, 8, 6), toon(0xa8652a), 1.0); sp.scale.z = 0.25; sp.position.set((R() - 0.5) * P.len * 1.1, by + (R() - 0.4) * P.r * 0.9, sd * P.r * 0.92); bg.add(sp); } }
+  return { root, bg, legs, head, tail, hr, by, walk(phase, amt = 1) { const s = Math.sin(phase) * 0.5 * amt; legs[0].rotation.z = s; legs[3].rotation.z = s; legs[1].rotation.z = -s; legs[2].rotation.z = -s; bg.position.y = Math.abs(Math.cos(phase)) * 0.04 * amt; } };
+}
+// makeBird(color): flies along +x. bird.flap(t) beats the wings.
+export function makeBird(color = 0x3d7ea6) {
+  const root = new THREE.Group();
+  const body = outlined(new THREE.SphereGeometry(0.22, 14, 10), toon(color), 1.07); body.scale.set(1.5, 0.9, 0.9); root.add(body);
+  const head = outlined(new THREE.SphereGeometry(0.14, 14, 10), toon(0xffffff), 1.08); head.position.set(0.34, 0.1, 0); root.add(head);
+  const beak = new THREE.Mesh(new THREE.ConeGeometry(0.05, 0.16, 8), toon(0xf29f05)); beak.rotation.z = -Math.PI / 2; beak.position.set(0.52, 0.08, 0); root.add(beak);
+  for (const sd of [-1, 1]) { const e = new THREE.Mesh(new THREE.SphereGeometry(0.03, 8, 6), BLACK); e.position.set(0.42, 0.14, sd * 0.09); root.add(e); }
+  const tail = outlined(new THREE.BoxGeometry(0.28, 0.04, 0.16), toon(color), 1.1); tail.position.set(-0.42, 0.02, 0); root.add(tail);
+  const wings = [];
+  for (const sd of [-1, 1]) { const piv = new THREE.Group(); piv.position.set(0, 0.06, sd * 0.12); root.add(piv); const w = outlined(new THREE.SphereGeometry(0.2, 12, 8), toon(color), 1.06); w.scale.set(0.8, 0.08, 1.5); w.position.z = sd * 0.3; piv.add(w); wings.push({ piv, sd }); }
+  return { root, flap(t) { for (const { piv, sd } of wings) piv.rotation.x = -sd * Math.sin(t) * 0.75; } };
+}
+// makeFish(color): swims along +x.
+export function makeFish(color = 0xf29f05) {
+  const root = new THREE.Group();
+  const body = outlined(new THREE.SphereGeometry(0.3, 16, 12), toon(color), 1.07); body.scale.set(1.4, 0.8, 0.5); root.add(body);
+  const tail = outlined(new THREE.ConeGeometry(0.22, 0.34, 3), toon(color), 1.08); tail.rotation.z = Math.PI / 2; tail.scale.z = 0.4; tail.position.x = -0.5; root.add(tail);
+  const fin = outlined(new THREE.ConeGeometry(0.1, 0.22, 3), toon(0xd9731a), 1.08); fin.position.set(0, 0.28, 0); fin.scale.z = 0.4; root.add(fin);
+  for (const sd of [-1, 1]) { const e = outlined(new THREE.SphereGeometry(0.06, 10, 8), toon(0xffffff), 1.2); e.position.set(0.28, 0.08, sd * 0.13); root.add(e); const pu = new THREE.Mesh(new THREE.SphereGeometry(0.03, 8, 6), BLACK); pu.position.set(0.04, 0, 0); e.add(pu); }
+  return { root, tail };
+}
