@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>SOC-001</title>
+<title>Stickman Story Universe</title>
 <style>
   html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
   #stage { position: relative; width: 1080px; height: 1920px; }
@@ -25,17 +25,17 @@
   #endcard .btn { display: inline-block; margin-top: 46px; padding: 26px 64px; border-radius: 70px; background: #ff3b5c;
     color: #fff; font-weight: 900; font-size: 58px; letter-spacing: 3px; border: 8px solid #111; box-shadow: 0 10px 0 #111; }
 </style>
-<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js" } }</script>
+<script type="importmap">{ "imports": { "three": "../node_modules/three/build/three.module.js" } }</script>
 </head>
 <body>
 <div id="stage">
   <canvas id="c" width="1080" height="1920"></canvas>
-  <div id="badge" class="ui"><span>SOCRATES &amp; THE WISE ONES · <b>EP 1</b></span></div>
-  <div id="title" class="ui">The Oracle Says<br>No One Is Wiser</div>
+  <div id="badge" class="ui"><span></span></div>
+  <div id="title" class="ui"></div>
   <div id="caption" class="ui"></div>
-  <div id="endcard"><div class="next">NEXT TIME</div><div class="ep">Testing the Politicians</div><div class="btn">FOLLOW</div></div>
+  <div id="endcard"><div class="next">NEXT TIME</div><div class="ep"></div><div class="btn">FOLLOW</div></div>
   <div id="fade"></div>
 </div>
-<script type="module" src="./main.js"></script>
+<script type="module" src="./runtime.js"></script>
 </body>
 </html>

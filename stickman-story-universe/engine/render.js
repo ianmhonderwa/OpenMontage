@@ -1,15 +1,16 @@
 // Renders index.html frame by frame in headless Chromium and pipes JPEGs into ffmpeg.
-// Usage: node render.js stills 1,9,17 | node render.js video [fps]
+// Usage: node engine/render.js <EP> stills 2,10,17 | node engine/render.js <EP> video [fps]
 const { chromium } = require('playwright');
 const { spawn } = require('child_process');
 const http = require('http'), fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
-const mode = process.argv[2] || 'stills';
+const EP = process.argv[2]; const mode = process.argv[3] || 'stills';
+const OUT = path.join(ROOT, 'out', EP);
 
 const server = http.createServer((req, res) => {
   const p = path.join(ROOT, decodeURIComponent(req.url.split('?')[0]));
   if (!p.startsWith(ROOT) || !fs.existsSync(p)) { res.writeHead(404); return res.end(); }
-  const ext = path.extname(p); const types = { '.js': 'text/javascript', '.html': 'text/html', '.json': 'application/json' };
+  const ext = path.extname(p); const types = { '.js': 'text/javascript', '.html': 'text/html', '.json': 'application/json', '.wasm': 'application/wasm' };
   res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' }); fs.createReadStream(p).pipe(res);
 });
 
@@ -19,16 +20,16 @@ const server = http.createServer((req, res) => {
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   page.on('console', m => { if (m.type() === 'error') console.error('PAGE:', m.text()); });
   page.on('pageerror', e => console.error('PAGEERR:', e.message));
-  await page.goto('http://localhost:8765/work/index.html');
+  await page.goto(`http://localhost:8765/engine/index.html?ep=${EP}`);
   await page.waitForFunction('window.ready === true', null, { timeout: 120000 });
   const dur = await page.evaluate('window.DURATION');
   if (mode === 'stills') {
-    const times = (process.argv[3] || '2,10,17,22,29,34,41,48').split(',').map(Number);
-    fs.mkdirSync(path.join(ROOT, 'work/stills'), { recursive: true });
-    for (const t of times) { await page.evaluate(t => window.renderAt(t), t); await page.screenshot({ path: path.join(ROOT, `work/stills/t${t}.jpg`), type: 'jpeg', quality: 85 }); console.log('still', t); }
+    const times = (process.argv[4] || '2,10,17,22,29,34,41,48').split(',').map(Number);
+    fs.mkdirSync(path.join(OUT, 'stills'), { recursive: true });
+    for (const t of times) { await page.evaluate(t => window.renderAt(t), t); await page.screenshot({ path: path.join(OUT, `stills/t${t}.jpg`), type: 'jpeg', quality: 85 }); console.log('still', t); }
   } else {
-    const fps = Number(process.argv[3] || 30); const n = Math.ceil(dur * fps);
-    const out = path.join(ROOT, 'renders/video_only.mp4');
+    const fps = Number(process.argv[4] || 30); const n = Math.ceil(dur * fps);
+    const out = path.join(OUT, 'video_only.mp4');
     const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', out]);
     const t0 = Date.now();
     for (let f = 0; f < n; f++) {

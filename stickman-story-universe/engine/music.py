@@ -1,10 +1,13 @@
-"""Synthesise a soft Greek-lyre style music bed (Karplus-Strong plucks) for SOC-001. No external assets."""
+"""Synthesised Karplus-Strong plucked music bed (no external assets). Usage: python3 engine/music.py SOC-002 [seed]"""
 import numpy as np, soundfile as sf, json, sys
 
 SR = 44100
-P = "/home/user/OpenMontage/projects/soc-001-oracle/"
-dur = json.load(open(P + "artifacts/narration_timing.json"))["duration"]
-rng = np.random.default_rng(7)
+import pathlib
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+EP = sys.argv[1]
+P = str(ROOT / "out" / EP) + "/"
+dur = json.load(open(P + "timing.json"))["duration"]
+rng = np.random.default_rng(int(sys.argv[2]) if len(sys.argv) > 2 else 7)
 
 def pluck(freq, length=2.4, decay=0.996, bright=0.5):
     n = int(SR * length); period = int(SR / freq)
@@ -44,5 +47,5 @@ track = track[: int(SR * dur)]
 fade = int(SR * 2.5); track[-fade:] *= np.linspace(1, 0, fade)
 track[: int(SR * 0.5)] *= np.linspace(0, 1, int(SR * 0.5))
 track /= np.max(np.abs(track)) + 1e-9
-sf.write(P + "assets/music/lyre_bed.wav", (track * 0.9).astype(np.float32), SR)
+sf.write(P + "music.wav", (track * 0.9).astype(np.float32), SR)
 print("music", round(dur, 2), "s")
