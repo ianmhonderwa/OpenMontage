@@ -101,6 +101,9 @@ export function makeStick(o = {}) {
   if (o.leaf) { const lf = outlined(new THREE.CylinderGeometry(0.17, 0.32, 0.42, 14, 1, true), toon(o.leaf, { side: THREE.DoubleSide }), 1.05); lf.position.y = 1.0; body.add(lf);
     for (let i = 0; i < 7; i++) { const a = i / 7 * Math.PI * 2; const tip = outlined(new THREE.ConeGeometry(0.06, 0.16, 6), toon(o.leaf), 1.1); tip.position.set(Math.cos(a) * 0.3, 0.74, Math.sin(a) * 0.3); tip.rotation.x = Math.PI; body.add(tip); } }
   if (o.longHair) { const lh = outlined(new THREE.CapsuleGeometry(0.3, 0.55, 6, 14), toon(o.hair), 1.05); lh.position.set(0, -0.28, -0.3); headG.add(lh); }
+  if (o.crown) { const cs = o.crownSize ?? 1; const cg = new THREE.Group(); cg.position.set(0, 0.52, 0); cg.scale.setScalar(cs); headG.add(cg);
+    const band = outlined(new THREE.CylinderGeometry(0.27, 0.3, 0.14, 14, 1, true), toon(o.crown, { side: THREE.DoubleSide }), 1.08); cg.add(band);
+    for (let i = 0; i < 6; i++) { const a = i / 6 * Math.PI * 2; const sp = outlined(new THREE.ConeGeometry(0.06, 0.16, 6), toon(o.crown), 1.1); sp.position.set(Math.cos(a) * 0.28, 0.14, Math.sin(a) * 0.28); cg.add(sp); } }
   if (o.turban) { const tb = outlined(new THREE.SphereGeometry(0.62, 28, 18), toon(o.turban), 1.04); tb.scale.set(1.05, 0.62, 1.05); tb.position.y = 0.42; headG.add(tb); }
   if (o.bun) { const cap = outlined(new THREE.SphereGeometry(0.585, 32, 16, 0, Math.PI * 2, 0, Math.PI * 0.36), toon(o.hair), 1.04); cap.rotation.x = -0.35; headG.add(cap); const bn = outlined(new THREE.SphereGeometry(0.2, 14, 10), toon(o.hair), 1.08); bn.position.set(0, 0.45, -0.42); headG.add(bn); }
   if (o.hat) { const h = outlined(new THREE.CylinderGeometry(0.3, 0.42, 0.3, 20), toon(o.hat)); h.position.y = 0.55; headG.add(h); }
@@ -145,6 +148,7 @@ export function makeStick(o = {}) {
 export const STORYTELLER = { glasses: true, scarf: 0xc8323c, book: 0x8a3b2e, seed: 21 }; // host: BIB, AES, ANA, GRM
 export const ADAM = { leaf: 0x3f8a3a, hair: 0x2a1a10, seed: 22 };
 export const EVE = { leaf: 0x3f8a3a, hair: 0x2a1a10, longHair: true, seed: 23 };
+export const NYANKUPON = { robe: 0xe0a52a, robeLong: true, robeWide: 0.7, stripes: 0x2a8a3a, trim: 0xc8323c, crown: 0xffd23f, crownSize: 1.35, seed: 41 };
 export const CRITO = { robe: 0x2f5fa8, hair: 0x6b4423, curls: true, beard: 0x6b4423, seed: 12 };
 export const XANTHIPPE = { robe: 0xc8623e, robeLong: true, hair: 0x2a1a10, bun: true, seed: 13 };
 export const NASREDDIN = { robe: 0x3f8a4a, stripes: 0x2a6234, sash: 0x9fd09a, beard: 0x9a9a9a, turban: 0xffffff, slippers: 0xd9a441, seed: 14 };
@@ -205,7 +209,7 @@ export function drop() { const d = outlined(new THREE.SphereGeometry(0.09, 12, 1
 
 
 // ---------- animals: simple stick-legged animals with round white heads (Guide: AES / BIB / ANA) ----------
-// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse' | 'donkey'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
+// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse' | 'donkey' | 'horse' | 'tiger'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
 export function makeAnimal(kind) {
   const P = {
     elephant: { c: 0x9aa3ad, r: 0.72, len: 1.2, leg: 0.85, hr: 0.5, neck: 0 },
@@ -214,6 +218,8 @@ export function makeAnimal(kind) {
     rabbit: { c: 0xece6dc, r: 0.2, len: 0.32, leg: 0.16, hr: 0.19, neck: 0 },
     mouse: { c: 0xb9b3ad, r: 0.13, len: 0.22, leg: 0.1, hr: 0.14, neck: 0 },
     donkey: { c: 0x9aa0a8, r: 0.36, len: 0.85, leg: 0.62, hr: 0.3, neck: 0 },
+    tiger: { c: 0xf29a2e, r: 0.42, len: 0.95, leg: 0.58, hr: 0.38, neck: 0 },
+    horse: { c: 0xf4f0e8, r: 0.4, len: 1.0, leg: 0.95, hr: 0.27, neck: 0.62 },
   }[kind];
   const root = new THREE.Group(); const bg = new THREE.Group(); root.add(bg);
   const by = P.leg + P.r * 0.5;
@@ -248,6 +254,11 @@ export function makeAnimal(kind) {
     head.add(outlined(new THREE.TubeGeometry(curve, 14, 0.1, 8), toon(0x9aa3ad), 1.08)); }
   if (kind === 'donkey') for (const sd of [-1, 1]) { const ear = outlined(new THREE.CapsuleGeometry(0.075, 0.42, 4, 8), toon(0x9aa0a8), 1.08); ear.position.set(-0.04, hr * 1.45, sd * hr * 0.34); ear.rotation.x = -sd * 0.42; head.add(ear);
     const br = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.035, hr * 0.5), BLACK); br.position.set(hr * 0.74, hr * 0.2 + hr * 0.36, sd * hr * 0.48); br.rotation.x = -sd * 0.5; head.add(br); }
+  if (kind === 'tiger') { for (let k = 0; k < 6; k++) { const ring = new THREE.Mesh(new THREE.TorusGeometry(P.r * 1.01, 0.035, 6, 18), BLACK); ring.rotation.y = Math.PI / 2; ring.position.set(-P.len / 2 + 0.12 + k * (P.len - 0.1) / 5, by, 0); bg.add(ring); }
+    for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.3, 10, 8), toon(0xf29a2e), 1.1); ear.position.set(-0.05, hr * 0.92, sd * hr * 0.6); head.add(ear); for (let k = 0; k < 3; k++) { const st = new THREE.Mesh(new THREE.BoxGeometry(0.03, 0.14, 0.05), BLACK); st.position.set(0.0, hr * 0.78 + 0.0, sd * (0.06 + k * 0.07)); st.rotation.z = 0.2; head.add(st); } } }
+  if (kind === 'horse') { for (const sd of [-1, 1]) { const ear = outlined(new THREE.ConeGeometry(0.05, 0.16, 6), toon(0xf4f0e8), 1.1); ear.position.set(-0.04, hr * 1.05, sd * hr * 0.28); head.add(ear); }
+    const plume = outlined(new THREE.SphereGeometry(0.1, 10, 8), toon(0xe8667a), 1.1); plume.scale.set(0.5, 1.6, 0.5); plume.position.set(-0.02, hr * 1.35, 0); head.add(plume);
+    for (let i = 0; i < 4; i++) { const m = outlined(new THREE.SphereGeometry(0.1, 8, 6), toon(0xc9bda8), 1.1); m.position.set(-0.12 - i * 0.05, hr * 0.55 - i * 0.2, 0); head.add(m); } }
   if (kind === 'mouse') for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.75, 14, 10), toon(0xf2b8c0), 1.08); ear.scale.set(0.22, 1, 1); ear.position.set(-hr * 0.15, hr * 0.8, sd * hr * 0.8); head.add(ear); }
   if (kind === 'rabbit') for (const sd of [-1, 1]) { const ear = outlined(new THREE.CapsuleGeometry(0.06, 0.32, 4, 8), toon(0xf6c8d0), 1.1); ear.position.set(-0.02, hr * 1.5, sd * hr * 0.42); ear.rotation.x = sd * 0.15; head.add(ear); }
   if (kind === 'giraffe') {
@@ -282,3 +293,60 @@ export function makeTree(h = 3, seed = 1) { const g = new THREE.Group(); const R
   const tr = outlined(new THREE.CylinderGeometry(0.17, 0.26, h, 8), toon(0x8a5a36), 1.06); tr.position.y = h / 2; g.add(tr);
   for (let i = 0; i < 3; i++) { const c = outlined(new THREE.SphereGeometry(0.75 + R() * 0.25, 14, 10), toon(i % 2 ? 0x5aa84a : 0x6bb85a), 1.05); c.position.set((R() - 0.5) * 0.8, h + 0.2 + i * 0.25, (R() - 0.5) * 0.8); g.add(c); }
   return g; }
+
+// makeFrog(): bright-green stick-figure frog with a round white head and bulging eyes (Guide: GRM-001). Faces +z.
+export function makeFrog() {
+  const root = new THREE.Group(); const body = new THREE.Group(); root.add(body); const green = toon(0x4fbf4a);
+  const torso = outlined(new THREE.SphereGeometry(0.34, 18, 14), green, 1.06); torso.scale.set(1, 1.15, 0.9); torso.position.y = 0.62; body.add(torso);
+  const head = new THREE.Group(); head.position.y = 1.12; body.add(head);
+  head.add(outlined(new THREE.SphereGeometry(0.42, 24, 18), toon(0xffffff), 1.06));
+  const eyes = []; for (const sd of [-1, 1]) { const ey = outlined(new THREE.SphereGeometry(0.15, 14, 10), toon(0xffffff), 1.14); ey.position.set(sd * 0.23, 0.3, 0.22); head.add(ey);
+    const pu = new THREE.Mesh(new THREE.SphereGeometry(0.075, 10, 8), BLACK); pu.position.set(0, 0, 0.12); ey.add(pu); eyes.push(ey); }
+  const grin = new THREE.Mesh(new THREE.TorusGeometry(0.25, 0.026, 8, 26, Math.PI), BLACK); grin.rotation.z = Math.PI; grin.position.set(0, -0.06, 0.37); head.add(grin);
+  const open = new THREE.Mesh(new THREE.SphereGeometry(0.2, 14, 10), BLACK); open.scale.set(1.2, 0.7, 0.3); open.position.set(0, -0.14, 0.39); open.visible = false; head.add(open);
+  const arms = []; for (const sd of [-1, 1]) { const sh = new THREE.Group(); sh.position.set(sd * 0.3, 0.82, 0); body.add(sh);
+    const g = new THREE.CylinderGeometry(0.04, 0.04, 0.5, 8); g.translate(0, -0.25, 0); sh.add(new THREE.Mesh(g, BLACK)); const h = new THREE.Mesh(new THREE.SphereGeometry(0.08, 10, 8), BLACK); h.position.y = -0.52; sh.add(h); sh.rotation.z = sd * 0.35; arms.push({ sh, side: sd }); }
+  const legs = []; for (const sd of [-1, 1]) { const hp = new THREE.Group(); hp.position.set(sd * 0.2, 0.4, 0); body.add(hp);
+    const g = new THREE.CylinderGeometry(0.05, 0.05, 0.4, 8); g.translate(0, -0.2, 0); hp.add(new THREE.Mesh(g, green)); const ft = outlined(new THREE.SphereGeometry(0.14, 12, 8), green, 1.1); ft.scale.set(1, 0.35, 1.7); ft.position.set(0, -0.4, 0.12); hp.add(ft); hp.rotation.z = sd * 0.25; legs.push({ hp, side: sd }); }
+  return { root, body, head, eyes, grin, open, arms, legs, hop(u) { body.position.y = Math.max(0, Math.sin(u * Math.PI)) * 0.35; } };
+}
+
+// makeSpider(): Anansi – round white head, eight thin black legs, tiny straw hat, sly grin. Faces +z.
+export function makeSpider() {
+  const root = new THREE.Group(); const body = new THREE.Group(); root.add(body);
+  const abd = outlined(new THREE.SphereGeometry(0.34, 18, 14), toon(0x222222), 1.06); abd.scale.set(1, 0.95, 1.1); abd.position.set(0, 0.8, 0); body.add(abd);
+  const head = new THREE.Group(); head.position.y = 1.4; body.add(head);
+  head.add(outlined(new THREE.SphereGeometry(0.46, 28, 20), toon(0xffffff), 1.06));
+  const eyes = [], brows = []; for (const sd of [-1, 1]) { const e = outlined(new THREE.SphereGeometry(0.13, 14, 10), toon(0xffffff), 1.18); e.scale.z = 0.55; e.position.set(sd * 0.18, 0.08, 0.4); head.add(e);
+    const pu = new THREE.Mesh(new THREE.SphereGeometry(0.065, 10, 8), BLACK); pu.position.set(0, 0, 0.1); e.add(pu); eyes.push(e);
+    const b = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.05, 0.05), BLACK); b.position.set(sd * 0.18, 0.28 + (sd > 0 ? 0.04 : 0), 0.4); b.rotation.z = sd * -0.35; head.add(b); brows.push(b); }
+  const grin = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.026, 8, 24, Math.PI), BLACK); grin.rotation.z = Math.PI + 0.18; grin.position.set(0.03, -0.12, 0.42); head.add(grin);
+  const open = new THREE.Mesh(new THREE.SphereGeometry(0.15, 12, 10), BLACK); open.scale.set(1.1, 0.8, 0.3); open.position.set(0, -0.2, 0.43); open.visible = false; head.add(open);
+  const hatG = new THREE.Group(); hatG.position.set(0, 0.42, 0); hatG.rotation.z = -0.12; head.add(hatG);
+  const brim = outlined(new THREE.CylinderGeometry(0.4, 0.4, 0.04, 18), toon(0xe3c470), 1.06); hatG.add(brim);
+  const crn = outlined(new THREE.CylinderGeometry(0.2, 0.24, 0.2, 14), toon(0xe3c470), 1.06); crn.position.y = 0.11; hatG.add(crn);
+  const band = new THREE.Mesh(new THREE.CylinderGeometry(0.245, 0.245, 0.05, 14), toon(0xb03030)); band.position.y = 0.04; hatG.add(band);
+  const legs = []; for (const sd of [-1, 1]) for (let i = 0; i < 4; i++) { const g = new THREE.Group(); g.position.set(sd * 0.18, 0.82, 0); g.rotation.y = (i - 1.5) * 0.5 * sd; body.add(g);
+    const up = new THREE.Group(); up.rotation.z = sd * 1.75; g.add(up); const ug = new THREE.CylinderGeometry(0.03, 0.03, 0.5, 6); ug.translate(0, -0.25, 0); up.add(new THREE.Mesh(ug, BLACK));
+    const kn = new THREE.Group(); kn.position.y = -0.5; kn.rotation.z = -sd * 1.5; up.add(kn); const lg = new THREE.CylinderGeometry(0.025, 0.025, 0.7, 6); lg.translate(0, -0.35, 0); kn.add(new THREE.Mesh(lg, BLACK)); legs.push({ g, up, kn, i, sd }); }
+  return { root, body, head, eyes, brows, grin, open, hatG, legs,
+    walk(ph, amt = 1) { legs.forEach(l => { const a = Math.sin(ph + (l.i % 2 ? Math.PI : 0) + (l.sd > 0 ? 0 : Math.PI)) * 0.3 * amt; l.g.rotation.y = (l.i - 1.5) * 0.5 * l.sd + a; l.kn.rotation.z = -l.sd * (1.5 - Math.max(0, a) * 0.8); }); body.position.y = Math.abs(Math.cos(ph)) * 0.04 * amt; },
+    wave(t) { legs.forEach(l => { const a = Math.sin(t * 7 + l.i * 0.9 + (l.sd > 0 ? 0 : 1.6)); l.up.rotation.z = l.sd * (1.75 + a * 0.5); }); } };
+}
+// makeBee(): tiny yellow-and-black bee with a round white head. Faces +x. bee.flap(t).
+export function makeBee() {
+  const root = new THREE.Group(); const body = outlined(new THREE.SphereGeometry(0.14, 12, 8), toon(0xffd23f), 1.08); body.scale.set(1.3, 1, 1); root.add(body);
+  for (const x of [-0.06, 0.05]) { const r = new THREE.Mesh(new THREE.TorusGeometry(0.13, 0.025, 6, 14), BLACK); r.rotation.y = Math.PI / 2; r.position.x = x; root.add(r); }
+  const h = outlined(new THREE.SphereGeometry(0.095, 12, 8), toon(0xffffff), 1.1); h.position.set(0.2, 0.03, 0); root.add(h);
+  for (const sd of [-1, 1]) { const e = new THREE.Mesh(new THREE.SphereGeometry(0.02, 6, 4), BLACK); e.position.set(0.28, 0.06, sd * 0.05); root.add(e); }
+  const wings = []; for (const sd of [-1, 1]) { const piv = new THREE.Group(); piv.position.set(0, 0.12, sd * 0.06); root.add(piv); const w = new THREE.Mesh(new THREE.SphereGeometry(0.1, 8, 6), new THREE.MeshBasicMaterial({ color: 0xeaf6ff, transparent: true, opacity: 0.8 })); w.scale.set(1, 0.1, 1.4); w.position.z = sd * 0.1; piv.add(w); wings.push({ piv, sd }); }
+  return { root, flap(t) { for (const { piv, sd } of wings) piv.rotation.x = -sd * Math.sin(t) * 0.9; } };
+}
+// makeSnake(color, n): a chain of spheres; call snake.pose(fn) with fn(s in [0,1]) => Vector3 (head at s=0). White round head.
+export function makeSnake(color = 0x4fae4a, n = 20) {
+  const root = new THREE.Group(); const segs = [];
+  for (let i = 0; i < n; i++) { const r = i === 0 ? 0.3 : 0.26 * (1 - 0.55 * (i / n)); const m = outlined(new THREE.SphereGeometry(r, 14, 10), toon(i === 0 ? 0xffffff : (i % 2 ? color : 0x3f8f3c)), 1.07); root.add(m); segs.push(m); }
+  for (const sd of [-1, 1]) { const e = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), BLACK); e.position.set(0.2, 0.1, sd * 0.14); segs[0].add(e); }
+  const sm = new THREE.Mesh(new THREE.TorusGeometry(0.12, 0.02, 6, 14, Math.PI), BLACK); sm.rotation.z = Math.PI; sm.position.set(0.24, -0.06, 0); segs[0].add(sm);
+  return { root, segs, pose(fn) { segs.forEach((m, i) => m.position.copy(fn(i / (segs.length - 1)))); } };
+}

@@ -53,3 +53,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Nasreddin's Three-Week Speech Trick | Funniest Wise Man Ep 1 #Shorts
 - **YouTube description:** A classic Nasreddin anecdote from The Turkish Jester (tr. George Borrow, 1884). Knowledge grows when we share it with each other. Next episode: Thank God Camels Can't Fly.
 - **YouTube tags:** nasreddin, nasreddin hoja, folk tales, wisdom stories, turkish folklore, funny stories, stickman, shorts
+
+### GRM-001 – The Frog-King, or Iron Henry
+- **TikTok title:** In the original story, the princess NEVER kisses the frog 🐸👑 Grimm Ep 1 #grimmfairytales #fairytales #storytime #stickman
+- **TikTok description:** The real Frog Prince: a golden ball, a very long list of terms and conditions, and a promise a princess didn't want to keep. "What you have promised, you must perform." Next: Cat and Mouse in Partnership. Follow @reian.creative.art #grimmfairytales #fairytales #brothersgrimm #frogprince #storytime #bedtimestory #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** The Real Frog Prince (She Never Kisses Him!) | Grimm Ep 1 #Shorts
+- **YouTube description:** The original Grimm tale, retold in 50 seconds. Keep your promises, even the inconvenient ones. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 1. Next episode: Cat and Mouse in Partnership.
+- **YouTube tags:** grimm fairy tales, frog prince, frog king, iron henry, fairy tales, storytime, bedtime story, stickman, shorts

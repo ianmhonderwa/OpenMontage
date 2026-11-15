@@ -1,0 +1,34 @@
+{
+  "id": "ANA-001",
+  "series": "ANA",
+  "series_badge": "ANANSI &amp; AFRICAN TALES",
+  "ep_number": 1,
+  "title": "How We Got the Name 'Spider Tales'",
+  "title_html": "How We Got<br>the Name<br>'Spider Tales'",
+  "next_title": "How Wisdom Came to People",
+  "source": "Barker & Sinclair, West African Folk-Tales (1917), tale I",
+  "lesson": "Cleverness can win what strength cannot.",
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Why are so many African stories called Anansi stories? Because of one clever spider. Every story belonged to Nyankupon, the sky chief.",
+    "Anansi wanted them. Fine, said Nyankupon. Bring me a jar of live bees, a boa constrictor, and a tiger.",
+    "Anansi took a jar to the bees, and argued with himself. They can't fill it. Yes, they can! The bees buzzed out. We can! In they flew. Lid on!",
+    "Next, a long stick for the boa. He's not as long as this. Yes, he is! The proud boa stretched out to be measured, and Anansi tied him to the stick.",
+    "Then Anansi tied a cloth over one eye, and sang about wonders.",
+    "The tiger begged: Do mine too!",
+    "Nyankupon was amazed, and from then on, the old tales were Anansi tales. Cleverness can win what strength cannot.",
+    "Next time: Anansi tries to keep all the world's wisdom in one pot. Follow so you don't miss it!"
+  ],
+  "gaps": [
+    0.5,
+    0.5,
+    0.55,
+    0.55,
+    0.5,
+    0.45,
+    0.65,
+    0.0
+  ]
+}
