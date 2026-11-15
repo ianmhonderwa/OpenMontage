@@ -60,3 +60,17 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Real Frog Prince (She Never Kisses Him!) | Grimm Ep 1 #Shorts
 - **YouTube description:** The original Grimm tale, retold in 50 seconds. Keep your promises, even the inconvenient ones. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 1. Next episode: Cat and Mouse in Partnership.
 - **YouTube tags:** grimm fairy tales, frog prince, frog king, iron henry, fairy tales, storytime, bedtime story, stickman, shorts
+
+### ANA-001 – How We Got the Name 'Spider Tales'
+- **TikTok title:** Why every African story is an ANANSI story 🕷️ Ep 1 #anansi #africanfolktales #storytime #stickman
+- **TikTok description:** Anansi wanted all the world's stories from Nyankupon, the sky chief. His price: a jar of live bees, a boa constrictor and a tiger. Cleverness can win what strength cannot. Next: How Wisdom Came to People. Follow @reian.creative.art #anansi #africanfolktales #africanstories #storytelling #folktales #africantiktok #spiderstories #kidsstories #reiancreativeart
+- **YouTube title:** How Anansi Won All the World's Stories | African Folktale Ep 1 #Shorts
+- **YouTube description:** Anansi the spider outwits bees, a boa and a tiger to win the sky chief's stories. Source: West African Folk-Tales, W. H. Barker & C. Sinclair (1917), tale I. Next episode: How Wisdom Came to People.
+- **YouTube tags:** anansi, anansi the spider, african folktales, west african stories, folk tales, storytelling, kids stories, stickman, shorts
+
+### SOC-003 – How Many Things I Do Not Need
+- **TikTok title:** Socrates went shopping and bought NOTHING 🛍️ Ep 3 #socrates #philosophy #wisdom #stickman
+- **TikTok description:** "I come to see how many things there are that I don't need." The richest person isn't the one who has the most, it's the one who needs the least. Next: After Thunder Comes Rain. Follow @reian.creative.art #socrates #philosophy #wisdom #minimalism #stoic #lifelessons #greekphilosophy #stickman #reiancreativeart
+- **YouTube title:** Why Socrates Shopped and Bought Nothing | Ep 3 #Shorts
+- **YouTube description:** A short story from Diogenes Laertius, Lives of the Philosophers II.25 (Yonge tr.). Real wealth is needing less. Next episode: After Thunder Comes Rain.
+- **YouTube tags:** socrates, philosophy, minimalism, wisdom, diogenes laertius, greek philosophy, life lessons, stickman, shorts
