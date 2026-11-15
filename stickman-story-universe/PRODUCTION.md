@@ -66,7 +66,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 2 | BIB-001 | Creation, Day by Day | Genesis 1:1-2:3 | Written – Batch 01 | – | [x] 2026-11-14, 131 words, 49.4 s, Drive: https://drive.google.com/file/d/1ASQsm2qir_4Ko6vuRsxwcFZjzcQwcuKh/view |
 | 3 | AES-001 | The Lion and the Mouse | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 122 words (min 130) | [x] 2026-11-14, 140 words, 45.5 s, Drive: https://drive.google.com/file/d/1uIM-PkIhhbLdsEeazwdRhU9jq4Es7X-q/view |
 | 4 | NAS-001 | Do You Know What I'm Going to Say? | The Turkish Jester, tr. George Borrow | Written – Batch 01 | – | [x] 2026-11-14, 130 words, 46.6 s, Drive: https://drive.google.com/file/d/1-5QgnfnFxet0Ms2SizcgzYzaQ88dh32Q/view |
-| 5 | BIB-002 | The Garden of Eden | Genesis 2:4-25 | Written – Batch 01 | – | [ ] |
+| 5 | BIB-002 | The Garden of Eden | Genesis 2:4-25 | Written – Batch 01 | – | [x] 2026-11-14 video made by the scheduled run and sent to the owner; source NOT saved (push failed, no repo access). Re-make only if the source is needed. |
 | 6 | GRM-001 | The Frog-King, or Iron Henry | Hunt tale 1, 'The Frog-King, or Iron Henry' | Written – Batch 02 | – | [ ] |
 | 7 | ANA-001 | How We Got the Name 'Spider Tales' | Barker & Sinclair, tale I, 'How We Got the Name "Spider Tales"' | Written – Batch 02 | – | [ ] |
 | 8 | SOC-003 | How Many Things I Do Not Need | Diogenes Laertius, Lives of the Philosophers II.25 | Written – Batch 01 | Lengthen: 107 words (min 130) | [ ] |
