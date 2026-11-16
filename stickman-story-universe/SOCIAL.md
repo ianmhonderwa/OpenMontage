@@ -74,3 +74,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Why Socrates Shopped and Bought Nothing | Ep 3 #Shorts
 - **YouTube description:** A short story from Diogenes Laertius, Lives of the Philosophers II.25 (Yonge tr.). Real wealth is needing less. Next episode: After Thunder Comes Rain.
 - **YouTube tags:** socrates, philosophy, minimalism, wisdom, diogenes laertius, greek philosophy, life lessons, stickman, shorts
+
+### BIB-003 – The Serpent's Trick
+- **TikTok title:** The Serpent's Trick 🐍 Genesis 3 in 47 seconds #bibletok #biblestories #genesis #stickmanbible
+- **TikTok description:** One question changed everything: "Did God really say…?" Eve, Adam, the forbidden fruit, and the world's first game of hide-and-seek. The oldest trick is making you doubt what God said. Genesis 3:1-13 (KJV). Next: Cain and Abel. Follow @reian.creative.art #bibletok #biblestories #christiantiktok #genesis #faith #scripture #stickman #reiancreativeart
+- **YouTube title:** The Serpent's Trick | Genesis 3 in 47 Seconds | Stickman Bible Ep 3 #Shorts
+- **YouTube description:** The serpent's question, the forbidden fruit, and hiding from God behind a bush he made. Genesis 3:1-13 (KJV). Next episode: Cain and Abel.
+- **YouTube tags:** bible stories, genesis, adam and eve, serpent, garden of eden, stickman bible, christian, faith, shorts, bible for kids

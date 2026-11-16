@@ -70,7 +70,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 6 | GRM-001 | The Frog-King, or Iron Henry | Hunt tale 1, 'The Frog-King, or Iron Henry' | Written – Batch 02 | – | [x] 2026-11-15, 158 words, 51.4 s, Drive: https://drive.google.com/file/d/1NV5kQgLgg2UBKIflai13Y4hItXhOe9sU/view |
 | 7 | ANA-001 | How We Got the Name 'Spider Tales' | Barker & Sinclair, tale I, 'How We Got the Name "Spider Tales"' | Written – Batch 02 | – | [x] 2026-11-15, 157 words, 51.8 s, Drive: https://drive.google.com/file/d/1Dc2shnMtqDPN1Puv63DZy9hXxciUL-RK/view |
 | 8 | SOC-003 | How Many Things I Do Not Need | Diogenes Laertius, Lives of the Philosophers II.25 | Written – Batch 01 | Lengthen: 107 words (min 130) | [x] 2026-11-15, 130 words, 52.3 s, Drive: https://drive.google.com/file/d/1vVTwBIpD2JsfPqB9_yVDyUXkj-ufkvkh/view |
-| 9 | BIB-003 | The Serpent's Trick | Genesis 3:1-13 | Written – Batch 01 | – | [ ] |
+| 9 | BIB-003 | The Serpent's Trick | Genesis 3:1-13 | Written – Batch 01 | – | [x] |
 | 10 | AES-002 | The Wolf and the Lamb | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 114 words (min 130) | [ ] |
 | 11 | NAS-002 | Thank God Camels Can't Fly | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 108 words (min 130) | [ ] |
 | 12 | BIB-004 | Cain and Abel | Genesis 4:1-16 | Written – Batch 01 | – | [ ] |

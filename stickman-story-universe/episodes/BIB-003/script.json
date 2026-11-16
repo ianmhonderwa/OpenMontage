@@ -1,0 +1,25 @@
+{
+  "id": "BIB-003",
+  "series": "BIB",
+  "series_badge": "STICKMAN BIBLE",
+  "ep_number": 3,
+  "title": "The Serpent's Trick",
+  "title_html": "The Serpent's<br>Trick<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 3:1-13</span>",
+  "next_title": "Cain and Abel",
+  "source": "Genesis 3:1-13 (KJV)",
+  "lesson": "The oldest trick is making you doubt what God said.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "The serpent was the most cunning creature in the garden. And he had a question.",
+    "Did God really say you can't eat from any tree? he hissed to Eve.",
+    "Only that one, said Eve. Oh, you won't die, said the serpent. You'll be like God!",
+    "She looked. She wanted. She took a bite. And gave some to Adam too.",
+    "Suddenly their eyes were opened. They felt ashamed, and stitched clothes out of fig leaves.",
+    "When God came walking in the garden, they hid behind a bush. From God. Who made the bush.",
+    "Adam blamed Eve. Eve blamed the serpent. The serpent had no legs to stand on. The oldest trick in the book? Making you doubt what God said.",
+    "Next time: two brothers, two offerings, and a jealous heart. Follow so you don't miss it!"
+  ],
+  "gaps": [0.4, 0.35, 0.4, 0.4, 0.4, 0.45, 0.6, 0.0]
+}
