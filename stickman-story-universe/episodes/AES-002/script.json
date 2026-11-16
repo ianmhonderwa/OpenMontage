@@ -1,0 +1,25 @@
+{
+  "id": "AES-002",
+  "series": "AES",
+  "series_badge": "AESOP IN 60 SECONDS",
+  "ep_number": 2,
+  "title": "The Wolf and the Lamb",
+  "title_html": "The Wolf<br>and the Lamb",
+  "next_title": "The Bundle of Sticks",
+  "source": "Aesop's Fables, tr. G. F. Townsend (1867), 'The Wolf and the Lamb'",
+  "lesson": "A bully will always find a reason.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "A wolf spotted a lamb drinking at a stream. He wanted lunch, but first he wanted an excuse.",
+    "You're muddying my water! growled the wolf, stomping up with a very serious face and a very silly excuse.",
+    "But sir, said the lamb, I'm downstream from you. The water flows from you to me.",
+    "Well, you insulted me last year! I wasn't even born last year.",
+    "Then it was your father! The wolf was running out of excuses, fast. He even checked his notes.",
+    "He gave up arguing, and pounced anyway. Which, honestly, is what he planned all along.",
+    "A bully will always find a reason. Don't waste your time arguing with someone who has already decided. Stay away from them, and stay safe.",
+    "Next episode: quarrelling brothers and a bundle of sticks. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

@@ -81,3 +81,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Serpent's Trick | Genesis 3 in 47 Seconds | Stickman Bible Ep 3 #Shorts
 - **YouTube description:** The serpent's question, the forbidden fruit, and hiding from God behind a bush he made. Genesis 3:1-13 (KJV). Next episode: Cain and Abel.
 - **YouTube tags:** bible stories, genesis, adam and eve, serpent, garden of eden, stickman bible, christian, faith, shorts, bible for kids
+
+### AES-002 – The Wolf and the Lamb
+- **TikTok title:** The Wolf and the Lamb 🐺🐑 Aesop in 60 Seconds #aesopsfables #storytime #moralstories #stickman
+- **TikTok description:** A wolf wanted lunch, but first he wanted an excuse. The lamb had an answer for every one. A bully will always find a reason, so don't waste time arguing with someone who has already decided. Next: The Bundle of Sticks. Follow @reian.creative.art #aesopsfables #fables #moralstories #kidsstories #lifelessons #bullying #animatedstory #reiancreativeart
+- **YouTube title:** The Wolf and the Lamb | Aesop's Fable in 48 Seconds #Shorts
+- **YouTube description:** Aesop's classic fable, retold with stick figures: a wolf looks for an excuse to eat a lamb. Source: Aesop's Fables, tr. G. F. Townsend (1867). Next episode: The Bundle of Sticks.
+- **YouTube tags:** aesop, aesops fables, wolf and the lamb, fables, moral stories, kids stories, bedtime story, bullying, shorts
