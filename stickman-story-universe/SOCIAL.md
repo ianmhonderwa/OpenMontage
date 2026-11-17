@@ -88,3 +88,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Wolf and the Lamb | Aesop's Fable in 48 Seconds #Shorts
 - **YouTube description:** Aesop's classic fable, retold with stick figures: a wolf looks for an excuse to eat a lamb. Source: Aesop's Fables, tr. G. F. Townsend (1867). Next episode: The Bundle of Sticks.
 - **YouTube tags:** aesop, aesops fables, wolf and the lamb, fables, moral stories, kids stories, bedtime story, bullying, shorts
+
+### NAS-002 – Thank God Camels Can't Fly
+- **TikTok title:** Thank God Camels Can't Fly 🐪 Nasreddin Hodja #nasreddin #folktales #storytime #stickman
+- **TikTok description:** Nasreddin asked the whole town to give thanks that camels do not have wings. Silly? Yes. But we rarely thank God for the disasters that never happened. Be grateful for the problems you don't have. Next: The Stars over Belgrade. Follow @reian.creative.art #nasreddin #nasreddinhodja #folktales #wisdom #gratitude #stickmanstories #animatedstory #reiancreativeart
+- **YouTube title:** Thank God Camels Can't Fly | Nasreddin Hodja | Stickman Tales #Shorts
+- **YouTube description:** A classic Nasreddin Hodja anecdote retold with stick figures: why we should be grateful for the problems we don't have. Source: The Turkish Jester, tr. George Borrow (1884). Next episode: The Stars over Belgrade.
+- **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, wisdom stories, gratitude, funny stories, shorts
