@@ -1,0 +1,25 @@
+{
+  "id": "BIB-004",
+  "series": "BIB",
+  "series_badge": "STICKMAN BIBLE",
+  "ep_number": 4,
+  "title": "Cain and Abel",
+  "title_html": "Cain and Abel<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 4:1-16</span>",
+  "next_title": "Noah and the Ark",
+  "source": "Genesis 4:1-16 (KJV)",
+  "lesson": "Jealousy left unchecked grows into something terrible. Master it early.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Adam and Eve had two sons, Cain and Abel. Cain grew crops. Abel kept sheep.",
+    "Both brought offerings to God. Abel gave the very best of his flock, with all his heart.",
+    "Cain brought some of his crops. God looked kindly on Abel's offering, but not on Cain's.",
+    "Cain was furious. God warned him: Sin is crouching at your door. You must master it.",
+    "But Cain didn't listen. He led Abel into the field. And Abel never came home.",
+    "God asked, Where is your brother? Cain said, Am I my brother's keeper? Worst. Alibi. Ever.",
+    "Jealousy started small, as a feeling. Left alone, it became a tragedy. Master it while it's small, before it masters you.",
+    "Next time: a man builds a giant boat, in the middle of dry land. Follow so you don't miss it!"
+  ],
+  "gaps": [0.4, 0.4, 0.4, 0.45, 0.6, 0.5, 0.7, 0.0]
+}

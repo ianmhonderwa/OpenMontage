@@ -95,3 +95,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Thank God Camels Can't Fly | Nasreddin Hodja | Stickman Tales #Shorts
 - **YouTube description:** A classic Nasreddin Hodja anecdote retold with stick figures: why we should be grateful for the problems we don't have. Source: The Turkish Jester, tr. George Borrow (1884). Next episode: The Stars over Belgrade.
 - **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, wisdom stories, gratitude, funny stories, shorts
+
+### BIB-004 – Cain and Abel
+- **TikTok title:** Cain and Abel: Jealousy Starts Small Genesis 4 #bibletok #biblestories #genesis #stickmanbible
+- **TikTok description:** Two brothers, two offerings, and a jealous heart. God warned Cain: "Sin is crouching at your door. You must master it." Jealousy starts as a feeling, so master it while it's small. Genesis 4:1-16 (KJV). Next: Noah and the Ark. Follow @reian.creative.art #bibletok #biblestories #christiantiktok #genesis #faith #scripture #stickman #reiancreativeart
+- **YouTube title:** Cain and Abel in 48 Seconds | Genesis 4 | Stickman Bible Ep 4 #Shorts
+- **YouTube description:** The story of Cain and Abel: two offerings, a jealous heart, and God's warning to master sin before it masters us. Genesis 4:1-16 (KJV). Next episode: Noah and the Ark.
+- **YouTube tags:** bible stories, cain and abel, genesis, jealousy, stickman bible, christian, faith, shorts, bible for kids

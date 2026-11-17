@@ -73,7 +73,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 9 | BIB-003 | The Serpent's Trick | Genesis 3:1-13 | Written – Batch 01 | – | [x] |
 | 10 | AES-002 | The Wolf and the Lamb | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 114 words (min 130) | [x] |
 | 11 | NAS-002 | Thank God Camels Can't Fly | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 108 words (min 130) | [x] |
-| 12 | BIB-004 | Cain and Abel | Genesis 4:1-16 | Written – Batch 01 | – | [ ] |
+| 12 | BIB-004 | Cain and Abel | Genesis 4:1-16 | Written – Batch 01 | – | [x] |
 | 13 | GRM-002 | Cat and Mouse in Partnership | Hunt tale 2, 'Cat and Mouse in Partnership' | Written – Batch 02 | Trim: 165 words (max 160) | [ ] |
 | 14 | ANA-002 | How Wisdom Became the Property of the Human Race | Barker & Sinclair, tale II, 'How Wisdom Became the Property of the Human Race' | Written – Batch 03 | – | [ ] |
 | 15 | SOC-004 | After Thunder Comes Rain | Diogenes Laertius, Lives II.36 | Written – Batch 01 | Lengthen: 108 words (min 130) | [ ] |
