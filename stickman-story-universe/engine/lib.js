@@ -209,7 +209,7 @@ export function drop() { const d = outlined(new THREE.SphereGeometry(0.09, 12, 1
 
 
 // ---------- animals: simple stick-legged animals with round white heads (Guide: AES / BIB / ANA) ----------
-// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse' | 'donkey' | 'horse' | 'tiger' | 'wolf' | 'lamb' | 'camel'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
+// makeAnimal(kind): 'elephant' | 'lion' | 'giraffe' | 'rabbit' | 'mouse' | 'donkey' | 'horse' | 'tiger' | 'wolf' | 'lamb' | 'camel' | 'cat'. .mouth (visible toggle), .eyes[], .lie(k) lying pose. Faces +x. Returns { root, legs, head, tail, walk(phase, amt), hr }.
 export function makeAnimal(kind) {
   const P = {
     elephant: { c: 0x9aa3ad, r: 0.72, len: 1.2, leg: 0.85, hr: 0.5, neck: 0 },
@@ -221,6 +221,7 @@ export function makeAnimal(kind) {
     tiger: { c: 0xf29a2e, r: 0.42, len: 0.95, leg: 0.58, hr: 0.38, neck: 0 },
     horse: { c: 0xf4f0e8, r: 0.4, len: 1.0, leg: 0.95, hr: 0.27, neck: 0.62 },
     camel: { c: 0xd9b27a, r: 0.45, len: 1.1, leg: 1.0, hr: 0.26, neck: 0.7 },
+    cat: { c: 0xe0a458, r: 0.3, len: 0.6, leg: 0.42, hr: 0.27, neck: 0 },
     wolf: { c: 0x6f7480, r: 0.4, len: 0.95, leg: 0.6, hr: 0.34, neck: 0 },
     lamb: { c: 0xf6f1e6, r: 0.27, len: 0.5, leg: 0.3, hr: 0.23, neck: 0 },
   }[kind];
@@ -262,6 +263,9 @@ export function makeAnimal(kind) {
   if (kind === 'horse') { for (const sd of [-1, 1]) { const ear = outlined(new THREE.ConeGeometry(0.05, 0.16, 6), toon(0xf4f0e8), 1.1); ear.position.set(-0.04, hr * 1.05, sd * hr * 0.28); head.add(ear); }
     const plume = outlined(new THREE.SphereGeometry(0.1, 10, 8), toon(0xe8667a), 1.1); plume.scale.set(0.5, 1.6, 0.5); plume.position.set(-0.02, hr * 1.35, 0); head.add(plume);
     for (let i = 0; i < 4; i++) { const m = outlined(new THREE.SphereGeometry(0.1, 8, 6), toon(0xc9bda8), 1.1); m.position.set(-0.12 - i * 0.05, hr * 0.55 - i * 0.2, 0); head.add(m); } }
+  if (kind === 'cat') { for (const sd of [-1, 1]) { const ear = outlined(new THREE.ConeGeometry(hr * 0.28, hr * 0.6, 6), toon(0xe0a458), 1.1); ear.position.set(-0.02, hr * 0.98, sd * hr * 0.5); ear.rotation.x = -sd * 0.2; head.add(ear);
+    for (const k of [-1, 0, 1]) { const w = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.008, hr * 1.1, 4), BLACK); w.rotation.x = Math.PI / 2; w.rotation.z = k * 0.25; w.position.set(hr * 0.85, -hr * 0.18 + k * 0.03, sd * hr * 0.55); head.add(w); } }
+    for (let k = 0; k < 4; k++) { const st = new THREE.Mesh(new THREE.BoxGeometry(0.05, P.r * 0.5, 0.02), toon(0xb87a30)); st.position.set(-P.len / 2 + 0.1 + k * 0.17, by + P.r * 0.78, 0); bg.add(st); } }
   if (kind === 'camel') { for (const x of [-0.32, 0.3]) { const hp = outlined(new THREE.SphereGeometry(0.34, 14, 10), toon(0xd9b27a), 1.05); hp.scale.set(0.9, 1.05, 0.9); hp.position.set(x, by + P.r * 1.0, 0); bg.add(hp); }
     for (const sd of [-1, 1]) { const ear = outlined(new THREE.SphereGeometry(hr * 0.3, 8, 6), toon(0xd9b27a), 1.1); ear.position.set(-0.04, hr * 0.85, sd * hr * 0.5); head.add(ear); } }
   if (kind === 'wolf') { for (const sd of [-1, 1]) { const ear = outlined(new THREE.ConeGeometry(hr * 0.3, hr * 0.8, 8), toon(0x6f7480), 1.1); ear.position.set(-0.04, hr * 1.05, sd * hr * 0.45); ear.rotation.x = -sd * 0.25; head.add(ear); }

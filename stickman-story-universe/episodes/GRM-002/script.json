@@ -1,0 +1,25 @@
+{
+  "id": "GRM-002",
+  "series": "GRM",
+  "series_badge": "GRIMM STICKMAN TALES",
+  "ep_number": 2,
+  "title": "Cat and Mouse in Partnership",
+  "title_html": "Cat and Mouse<br>in Partnership",
+  "next_title": "The Youth Who Learned to Shudder",
+  "source": "Grimm, Household Tales, tr. Margaret Hunt (1884), tale 2",
+  "lesson": "Watch who you share your pot with.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Never let a cat babysit your butter. A Cat persuaded a Mouse to set up house together.",
+    "For winter, they bought a pot of fat and hid it under the church altar.",
+    "Soon the Cat said, My cousin's asked me to be godmother to her baby. Back tonight. She went straight to the church and licked the top off the fat.",
+    "What's the baby called? asked the Mouse. Top-Off.",
+    "A week later: another christening. Half the pot gone. This one's called Half-Done. Then a third. All-Gone. The Mouse shook her head.",
+    "Winter came. They went to the church. The pot was empty. Now I see! Top-Off, Half-Done… One more word and I'll eat you! …All-Gone!",
+    "And that was the end of the Mouse. Watch who you share your pot with.",
+    "Next time: a boy who has never been scared goes looking for fear. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.55, 0.5, 0.55, 0.6, 0.8, 0.0]
+}

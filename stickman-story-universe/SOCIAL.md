@@ -102,3 +102,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Cain and Abel in 48 Seconds | Genesis 4 | Stickman Bible Ep 4 #Shorts
 - **YouTube description:** The story of Cain and Abel: two offerings, a jealous heart, and God's warning to master sin before it masters us. Genesis 4:1-16 (KJV). Next episode: Noah and the Ark.
 - **YouTube tags:** bible stories, cain and abel, genesis, jealousy, stickman bible, christian, faith, shorts, bible for kids
+
+### GRM-002 – Cat and Mouse in Partnership
+- **TikTok title:** Never Let a Cat Babysit Your Butter 🐱🐭 Grimm Fairy Tale #grimmstories #fairytale #storytime #stickman
+- **TikTok description:** A Cat and a Mouse share a pot of fat, and the Cat keeps "going to christenings": Top-Off, Half-Done… All-Gone! Watch who you share your pot with. Grimm's Household Tales (tr. Margaret Hunt, 1884). Next: a boy who has never been scared. Follow @reian.creative.art #grimmstories #fairytales #grimmbrothers #folktales #classicstories #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** Cat and Mouse in Partnership | Grimm Fairy Tale in 50 Seconds #Shorts
+- **YouTube description:** The Brothers Grimm tale of a Cat, a Mouse and a pot of fat, with a very suspicious series of christenings. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 2. Next episode: The Youth Who Went Forth to Learn What Fear Was.
+- **YouTube tags:** grimm fairy tales, brothers grimm, cat and mouse in partnership, fairy tales, folktales, moral stories, kids stories, shorts
