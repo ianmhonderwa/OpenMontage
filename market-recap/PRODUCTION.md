@@ -2,7 +2,7 @@
 
 Five vertical (1080×1920) videos per week, about **1:30** each, one per exchange:
 **ZSE** (Zimbabwe Stock Exchange), **VFEX** (Victoria Falls Stock Exchange), **JSE** (Johannesburg),
-**LSE** (London, FTSE 100) and **NYSE** (New York, NYSE Composite). Branding: @reian.creative.art
+**LSE** (London, FTSE 100) and **NYSE** (New York, NYSE Composite). Branding: @reian.creative.finance
 (logo in the header, follow card at the end). Style: dark kinetic typography (chapter labels, big
 numbers, bars, cards), our own design – never copy another creator's branding or layout assets.
 
