@@ -1,0 +1,25 @@
+{
+  "id": "ANA-002",
+  "series": "ANA",
+  "series_badge": "ANANSI &amp; AFRICAN TALES",
+  "ep_number": 2,
+  "title": "How Wisdom Became the Property of the Human Race",
+  "title_html": "How Wisdom<br>Spread Through<br>the World",
+  "next_title": "Anansi and Nothing",
+  "source": "Barker & Sinclair, West African Folk-Tales (1917), tale II",
+  "lesson": "Sometimes the smallest voice is the wisest.",
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Why is wisdom spread all over the world? Because Anansi dropped a pot. Father Anansi had all the wisdom in the world, and everyone came for advice.",
+    "But one day the people offended him. I'll take it all back!",
+    "He gathered every bit of wisdom into one great pot, sealed it, and set off to hide it at the top of the tallest tree.",
+    "But his son, Kweku Tsin, followed him.",
+    "Anansi hung the pot round his neck, in front, and began to climb. The pot swung. He slipped. The pot bumped his knees.",
+    "At last Kweku Tsin called, Father, why not hang the pot on your back? Anansi froze. I thought I had all the wisdom… but my son has more.",
+    "In a temper, he flung the pot down. It smashed on a rock, and wisdom spread throughout the world. Sometimes the smallest voice is the wisest.",
+    "Next time: Anansi and Nothing. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.5, 0.45, 0.55, 0.55, 0.7, 0.0]
+}

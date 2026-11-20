@@ -75,7 +75,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 11 | NAS-002 | Thank God Camels Can't Fly | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 108 words (min 130) | [x] |
 | 12 | BIB-004 | Cain and Abel | Genesis 4:1-16 | Written – Batch 01 | – | [x] |
 | 13 | GRM-002 | Cat and Mouse in Partnership | Hunt tale 2, 'Cat and Mouse in Partnership' | Written – Batch 02 | Trim: 165 words (max 160) | [x] |
-| 14 | ANA-002 | How Wisdom Became the Property of the Human Race | Barker & Sinclair, tale II, 'How Wisdom Became the Property of the Human Race' | Written – Batch 03 | – | [ ] |
+| 14 | ANA-002 | How Wisdom Became the Property of the Human Race | Barker & Sinclair, tale II, 'How Wisdom Became the Property of the Human Race' | Written – Batch 03 | – | [x] |
 | 15 | SOC-004 | After Thunder Comes Rain | Diogenes Laertius, Lives II.36 | Written – Batch 01 | Lengthen: 108 words (min 130) | [ ] |
 | 16 | BIB-005 | Noah Builds the Ark | Genesis 6 | Written – Batch 01 | Lengthen: 120 words (min 130) | [ ] |
 | 17 | AES-003 | The Father and His Sons | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 97 words (min 130) | [ ] |

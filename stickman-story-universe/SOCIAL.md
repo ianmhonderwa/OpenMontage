@@ -109,3 +109,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Cat and Mouse in Partnership | Grimm Fairy Tale in 50 Seconds #Shorts
 - **YouTube description:** The Brothers Grimm tale of a Cat, a Mouse and a pot of fat, with a very suspicious series of christenings. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 2. Next episode: The Youth Who Went Forth to Learn What Fear Was.
 - **YouTube tags:** grimm fairy tales, brothers grimm, cat and mouse in partnership, fairy tales, folktales, moral stories, kids stories, shorts
+
+### ANA-002 – How Wisdom Became the Property of the Human Race
+- **TikTok title:** Why Wisdom Is Everywhere 🕷️🏺 Anansi Tales #anansi #africanfolktales #storytime #stickman
+- **TikTok description:** Anansi tried to hide all the world's wisdom in a pot at the top of the tallest tree, until his little son Kweku Tsin asked one simple question. Sometimes the smallest voice is the wisest. West African Folk-Tales (Barker & Sinclair, 1917). Next: Anansi and Nothing. AI voice (creator's own voice). Follow @reian.creative.art #anansi #africanstories #folktales #ghana #wisdom #storytelling #animatedstory #reiancreativeart
+- **YouTube title:** How Wisdom Spread Through the World | Anansi Tale in 50 Seconds #Shorts
+- **YouTube description:** A West African Anansi tale retold with stick figures: the pot of wisdom, the tallest tree and the son who knew better. Source: Barker & Sinclair, West African Folk-Tales (1917), tale II. Narration: AI voice (creator's own voice). Next episode: Anansi and Nothing.
+- **YouTube tags:** anansi, anansi the spider, african folktales, west african stories, folktales, kids stories, moral stories, shorts
