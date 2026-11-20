@@ -116,3 +116,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** How Wisdom Spread Through the World | Anansi Tale in 50 Seconds #Shorts
 - **YouTube description:** A West African Anansi tale retold with stick figures: the pot of wisdom, the tallest tree and the son who knew better. Source: Barker & Sinclair, West African Folk-Tales (1917), tale II. Narration: AI voice (creator's own voice). Next episode: Anansi and Nothing.
 - **YouTube tags:** anansi, anansi the spider, african folktales, west african stories, folktales, kids stories, moral stories, shorts
+
+### SOC-004 – After Thunder Comes Rain
+- **TikTok title:** Socrates got a bucket of water over his head… his reply was legendary ⛈️ #socrates #philosophy #stoic #stickman
+- **TikTok description:** Xanthippe shouted at him for an hour, then poured a bucket of water over his head. Socrates: "I knew that after thunder, there would be rain." You can't control other people's storms, only how you respond. Diogenes Laertius, Lives II.36. AI voice (creator's own voice). Follow @reian.creative.art #socrates #philosophy #wisdom #stoicism #ancientgreece #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** After Thunder Comes Rain | Socrates & Xanthippe in 50 Seconds #Shorts
+- **YouTube description:** The famous story of Socrates, his fiery wife Xanthippe and a bucket of water. Source: Diogenes Laertius, Lives of the Philosophers II.36 (Yonge tr.). Narration: AI voice (creator's own voice). Next episode: The Kick.
+- **YouTube tags:** socrates, xanthippe, philosophy, stoicism, ancient greece, wisdom, life lessons, shorts
