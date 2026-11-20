@@ -96,6 +96,35 @@ S.hbars = (s, lt, d, t) => { bg(t, 540, 0.4); wrapLines(s.title, 20).forEach((ln
     const w = 520 * Math.abs(it.value) / mx * k; g.save(); glow(true, 16); g.fillStyle = it.value < 0 ? '#ef5050' : '#f0f0f0'; rr(80, y + 62, Math.max(w, 4), 34, 10); g.fill(); g.restore();
     text(`${it.value > 0 ? '+' : '−'}${(Math.abs(it.value) * k).toFixed(it.dp ?? 1)}${it.unit ?? '%'}`, 1000, y + 78, 52, { font: 'Anton', weight: 400, align: 'right', color: it.value < 0 ? '#ff7a7a' : '#ffffff' }); });
   note(s.note); };
+// two seated figures at a desk: left = seller (gestures), right = buyer (writes). eyes: 'dots'|'flat'|'happy'
+function eyes(x, y, mode, s = 1) { g.save(); g.fillStyle = '#0a0a0b'; g.strokeStyle = '#0a0a0b'; g.lineWidth = 5 * s; g.shadowBlur = 0;
+  for (const dx of [-16, 16]) { if (mode === 'happy') { g.beginPath(); g.arc(x + dx * s, y + 4 * s, 9 * s, Math.PI, 0); g.stroke(); }
+    else if (mode === 'flat') { g.beginPath(); g.ellipse(x + dx * s, y + 3 * s, 9 * s, 6 * s, 0, 0, Math.PI); g.fill(); }
+    else { g.beginPath(); g.ellipse(x + dx * s, y, 7 * s, 10 * s, 0, 0, Math.PI * 2); g.fill(); } } g.restore(); }
+function seated(x, t, o = {}) { const s = o.scale || 1, dir = o.dir || 1; g.save(); g.translate(x, FLOOR); g.scale(s * dir, s); glow(true, 30); g.fillStyle = '#f4f4f4'; g.strokeStyle = '#f4f4f4';
+  g.lineCap = 'round'; g.lineWidth = 16; g.beginPath(); g.moveTo(-70, -330); g.lineTo(-90, -520); g.stroke(); g.beginPath(); g.moveTo(-90, -230); g.lineTo(-90, 0); g.moveTo(40, -230); g.lineTo(40, 0); g.stroke();
+  rr(-95, -250, 170, 26, 10); g.fill(); rr(-80, -500, 140, 270, 60); g.fill(); g.lineWidth = 40; g.beginPath(); g.moveTo(40, -240); g.lineTo(150, -235); g.lineTo(150, -40); g.stroke();
+  const bob = Math.sin(t * 2.4 + dir) * 3; g.beginPath(); g.arc(-10, -575 + bob, 66, 0, Math.PI * 2); g.fill();
+  g.lineWidth = 34; g.beginPath(); g.moveTo(30, -440); if (o.gesture) g.lineTo(170, -470 + Math.sin(t * 5) * 10); else g.lineTo(160, -330); g.stroke();
+  g.restore(); eyes(x + (-10 + 22) * s * dir, FLOOR - (575 - 6) * s, o.eyes || 'dots', s); }
+function cup(x, y, label, a = 1) { g.save(); g.globalAlpha = a; glow(true, 14); g.fillStyle = '#e9e9ee'; g.beginPath(); g.moveTo(x - 140, y - 110); g.lineTo(x + 140, y - 110); g.lineTo(x + 110, y + 110); g.lineTo(x - 110, y + 110); g.closePath(); g.fill();
+  g.fillStyle = '#c9c9cf'; g.beginPath(); g.ellipse(x, y - 110, 140, 26, 0, 0, Math.PI * 2); g.fill(); g.restore();
+  text('YOGURT', x, y - 40, 26, { color: '#6b6d75', alpha: a }); label.split('\n').forEach((ln, i, arr) => text(ln, x, y + 25 + (i - (arr.length - 1) / 2) * 52, 50, { color: '#0a0a0b', alpha: a })); }
+function offer(x, y, head, l1, l2, green, a = 1) { g.save(); g.globalAlpha = a; glow(true, 14); g.fillStyle = '#f2f2f5'; rr(x - 220, y - 150, 440, 300, 26); g.fill(); g.restore();
+  text(head, x, y - 105, 28, { color: '#7a7c84', alpha: a }); g.save(); g.globalAlpha = a; g.fillStyle = '#0a0a0b'; g.strokeStyle = '#0a0a0b'; g.lineWidth = 9; rr(x - 140, y - 60, 120, 80, 16); g.fill(); g.beginPath(); g.arc(x - 80, y - 60, 30, Math.PI, 0); g.stroke(); g.fillRect(x + 75, y - 85, 30, 130); g.fillStyle = '#fff'; g.beginPath(); g.arc(x + 90, y - 20, 42, 0, Math.PI * 2); g.fill(); g.stroke(); g.beginPath(); g.moveTo(x + 90, y - 20); g.lineTo(x + 90, y - 45); g.moveTo(x + 90, y - 20); g.lineTo(x + 108, y - 12); g.stroke(); g.restore(); text('+', x + 5, y - 20, 50, { color: '#0a0a0b', alpha: a }); text(l1, x, y + 55, 40, { color: '#0a0a0b', alpha: a }); text(l2, x, y + 105, 40, { color: green ? '#16a34a' : '#0a0a0b', alpha: a }); }
+function buyCard(x, y, scarce, a = 1) { g.save(); g.globalAlpha = a; glow(true, 14); g.fillStyle = '#f2f2f5'; rr(x - 230, y - 140, 460, 280, 24); g.fill(); g.shadowBlur = 0; g.fillStyle = '#d9d9de'; rr(x - 180, y - 100, 360, 80, 12); g.fill();
+  g.fillStyle = '#0a0a0b'; rr(x - 140, y + 20, 280, 70, 35); g.fill(); if (scarce) { g.fillStyle = '#dc2626'; rr(x + 70, y - 165, 170, 52, 14); g.fill(); } g.restore();
+  text('$100', x, y - 60, 50, { color: '#0a0a0b', alpha: a }); text('buy now', x, y + 55, 34, { alpha: a }); if (scarce) text('only 3 left', x + 155, y - 139, 26, { alpha: a }); }
+S.dialogue = (s, lt, d, t) => { bg(t, 540, 0.75); const ca = ease(lt / 0.4);
+  wrapLines(s.caption, 26).forEach((ln, i, arr) => text(ln, 540, 330 + (i - (arr.length - 1) / 2) * 70, 58, { font: 'Anton', weight: 400, glow: true, alpha: ca }));
+  const pa = ease((lt - 0.3) / 0.5);
+  if (s.prop === 'cups') { cup(330, 720, '20% fat', pa); cup(750, 720, '80%\nfat free', pa); if (s.pick) { g.save(); g.globalAlpha = pa; g.strokeStyle = '#5ee28a'; g.lineWidth = 10; glow(true, 20, 'rgba(94,226,138,.9)'); g.beginPath(); g.arc(s.pick === 'left' ? 330 : 750, 720, 175, 0, Math.PI * 2); g.stroke(); g.restore(); } }
+  if (s.prop === 'offers') { offer(300, 720, 'offer A', 'bag + watch', '$49', false, pa); offer(780, 720, 'offer B', 'bag $49', '+ watch FREE', true, pa); }
+  if (s.prop === 'buy') buyCard(540, 720, false, pa); if (s.prop === 'scarce') buyCard(540, 720, true, pa);
+  // desk + two people
+  g.save(); glow(true, 16); g.fillStyle = '#9a9ca3'; g.fillRect(410, FLOOR - 270, 260, 22); g.fillStyle = '#6d6f76'; g.fillRect(430, FLOOR - 248, 220, 248); g.restore();
+  seated(250, t, { dir: 1, gesture: true, eyes: s.left || 'dots', scale: 0.82 }); seated(830, t, { dir: -1, eyes: s.right || 'dots', scale: 0.82 });
+  note(s.note); };
 const segs = E.segments.map((s, i) => ({ s, start: i ? T.segments[i].start - 0.2 : 0 })); segs.forEach((x, i) => x.end = i < segs.length - 1 ? segs[i + 1].start : T.duration);
 window.DURATION = T.duration;
 window.renderAt = (t) => { const cur = segs.find(x => t >= x.start && t < x.end) || segs[segs.length - 1]; const lt = t - cur.start, d = cur.end - cur.start;

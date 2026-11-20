@@ -55,3 +55,11 @@ Before reading engine files, query the local code graph instead (free, no LLM): 
 this folder after code changes, then `graphify explain "<name>"`, `graphify query "<question>"`,
 `graphify path "A" "B"`. Install once per container: `pip install /home/user/ianmhonderwa/graphify`
 (the owner's fork; clone it with git if missing). Output lives in `graphify-out/` (gitignored).
+
+## Posting schedule (from 21 Nov 2026)
+- Stickman: 3 episodes a day (08:49, 14:49, 20:49 CAT), rotating series as before.
+- Finance (@reian.creative.finance), ONE video per slot to avoid flooding the page:
+  - Monday ~23:41 CAT: week-opening recap (all five markets in one video).
+  - Friday ~23:41 CAT: week-closing recap (all five markets in one video).
+  - Saturday 10:17 CAT: evergreen money education (spotlight style, `EDU-*`), skipped if an EDU episode with `for_date` = that Saturday already exists.
+- Specials (IPOs, budgets, big sell-offs) only when the owner asks.

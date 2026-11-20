@@ -35,3 +35,10 @@ Always end descriptions with: "Not financial advice."
 - **YouTube title:** Bilboes Gold Mine & the VFEX Explained in 90 Seconds #Shorts
 - **YouTube description:** Caledonia Mining's Bilboes gold project by the numbers, who financed it, what it could pay Zimbabwe, and how the Victoria Falls Stock Exchange works. Sources: Proactive Investors (5 Nov 2026), Caledonia CEO interview, Mining Zimbabwe, AfricanFinancials. Projections are not guarantees. Narration: AI voice (creator's own voice). Not financial advice.
 - **YouTube tags:** bilboes, caledonia mining, vfex, victoria falls stock exchange, zimbabwe gold, mining, investing, shorts
+
+### EDU-002 – Same Yogurt, Different Words (framing, bundles, scarcity)
+- **TikTok title:** You didn't buy the yogurt. You bought the words 🥛🧠 #marketingpsychology #moneytips #framing #finance
+- **TikTok description:** "20% fat" vs "80% fat free". "Bag + watch $49" vs "watch FREE". "Only 3 left." Same product, different words. Learn the tricks so you spend on purpose. Examples are illustrations. Financial education, not personal advice. AI voice (creator's own voice). Follow @reian.creative.finance #psychology #sales #spending #budgeting #zimbabwe #reiancreativefinance
+- **YouTube title:** The Framing Trick That Makes You Spend More #Shorts
+- **YouTube description:** Framing, bundle pricing and scarcity explained with one simple office scene, plus four ways to protect your money. Illustrative examples. Financial education, not personal advice. Narration: AI voice (creator's own voice).
+- **YouTube tags:** framing effect, marketing psychology, scarcity, bundle pricing, money tips, personal finance, shorts
