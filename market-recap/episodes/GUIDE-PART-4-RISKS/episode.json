@@ -113,18 +113,6 @@
     },
     {
       "scene": "outro",
-      "title": "THE BOTTOM LINE",
-      "lines": [
-        "LEARN FIRST",
-        "START SMALL",
-        "STAY PATIENT"
-      ],
-      "disclaimer": "Not financial advice. Educational only. Some details are as found and may change; confirm with a licensed broker.",
-      "say": "This is not financial advice. It's education, so you can engage with confidence. Some details are as I found them and can change, so always confirm with a licensed broker. Follow for more, and share this with someone who wants to start investing.",
-      "type": "outro"
-    },
-    {
-      "scene": "outro",
       "type": "outro",
       "title": "PART 4 OF 4",
       "lines": [
