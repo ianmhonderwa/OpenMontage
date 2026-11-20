@@ -36,7 +36,7 @@ const B = {};   // segment builders: return render(lt, d, t)
 const fitTitle = (e) => { const n = e.textContent.length; if (n > 15) e.style.fontSize = n > 22 ? '78px' : '92px'; };
 B.cover = (s, root) => {
   const kick = el('div', 'pill', s.kicker, root); css(kick, { position: 'absolute', top: '330px', left: '50%', marginLeft: '0', background: '#1c1f27', border: '2px solid #333744', color: '#d6d9e2', fontSize: '34px', transformOrigin: 'center' });
-  const t = el('div', 'title', s.title, root); css(t, { top: '440px', fontSize: '150px' });
+  const t = el('div', 'title', s.title, root); css(t, { top: '440px', fontSize: s.titleSize || '150px' });
   const w = el('div', 'sub', s.week, root); css(w, { top: '790px', fontSize: '40px' });
   const v = el('div', 'big', '', root); css(v, { position: 'absolute', top: '930px', left: 0, right: 0, textAlign: 'center', fontSize: s.bigSize || '300px' }); v.className = 'big ' + tone(s.delta);
   const l = el('div', 'sub', s.deltaLabel, root); css(l, { top: '1270px', fontSize: '38px', letterSpacing: '.12em', color: '#c9ccd6' });

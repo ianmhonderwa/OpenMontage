@@ -21,7 +21,8 @@
       "delta": 1,
       "big": "0%",
       "deltaLabel": "PROPOSED DUTY ON IMPORTED CELLPHONES (NOW 25%)",
-      "say": "Zimbabwe's 2027 budget is out. Here's what it means for your pocket."
+      "say": "Zimbabwe's 2027 budget is out. Here's what it means for your pocket.",
+      "titleSize": "112px"
     },
     {
       "type": "compare",
