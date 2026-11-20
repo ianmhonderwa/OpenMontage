@@ -1,0 +1,196 @@
+{
+  "id": "SPECIAL-BILBOES-VFEX",
+  "name": "Bilboes and the VFEX",
+  "series": "VFEX SPECIAL",
+  "week": "Ground broken \u00b7 November 2026",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "Proactive Investors, 'Caledonia Mining lands $150m interim bank financing for Bilboes gold project' (5 Nov 2026)",
+    "Caledonia CEO interview via Yahoo Finance/Proactive (5 Nov 2026): US convertible raise, four-step funding plan",
+    "Mining Zimbabwe (Facebook), 'About the Bilboes Gold Project' (Nov 2026) \u2013 project figures as announced",
+    "AfricanFinancials VFEX prices, 19 Nov 2026; EFE Securities VFEX All Share 258.42"
+  ],
+  "ticker": [
+    {
+      "sym": "SIM",
+      "chg": 12.51
+    },
+    {
+      "sym": "INN",
+      "chg": 6.71
+    },
+    {
+      "sym": "CMC",
+      "chg": -0.21
+    },
+    {
+      "sym": "PHL",
+      "chg": -4.9
+    },
+    {
+      "sym": "INFR",
+      "chg": -4.94
+    },
+    {
+      "sym": "SCIL",
+      "chg": -3.58
+    }
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "VFEX SPECIAL",
+      "title": "Bilboes<br>gold project",
+      "titleSize": "130px",
+      "week": "Caledonia Mining \u00b7 ground broken Nov 2026",
+      "delta": 1,
+      "big": "US$600M",
+      "bigSize": "220px",
+      "deltaLabel": "TOTAL INVESTMENT, AS ANNOUNCED",
+      "say": "A 600 million dollar gold mine is being built in Zimbabwe, and the Victoria Falls Stock Exchange helped pay for it. Here's the breakdown."
+    },
+    {
+      "type": "cards",
+      "chapter": "01 / The mine",
+      "title": "The mine",
+      "cards": [
+        {
+          "big": "1.55Moz",
+          "text": "Gold over the mine's life",
+          "sub": "about 48 tonnes, 11 years"
+        },
+        {
+          "big": "Oct 2028",
+          "text": "First gold targeted",
+          "sub": "full production in 2029"
+        },
+        {
+          "big": "500",
+          "text": "Permanent jobs",
+          "sub": "plus 1,200 in construction"
+        }
+      ],
+      "source": "Project figures as announced (Mining Zimbabwe) \u00b7 first-gold date confirmed by Proactive Investors",
+      "say": "Caledonia Mining's Bilboes project plans to produce about 1.55 million ounces of gold over eleven years. First gold is targeted for October 2028, with 500 permanent jobs."
+    },
+    {
+      "type": "cards",
+      "chapter": "02 / The money",
+      "title": "Who paid for it",
+      "cards": [
+        {
+          "big": "US$150M",
+          "text": "Zimbabwean banks",
+          "sub": "8 lenders led by Stanbic & CBZ"
+        },
+        {
+          "big": "US$150M",
+          "text": "New York",
+          "sub": "convertible note raise"
+        },
+        {
+          "big": "VFEX",
+          "text": "Equity raised in Zimbabwe",
+          "sub": "Caledonia lists as CMC"
+        }
+      ],
+      "source": "Proactive Investors (5 Nov 2026) \u00b7 Caledonia CEO interview",
+      "say": "The money: 150 million dollars from eight Zimbabwean banks, led by Stanbic and CBZ, and 150 million raised in New York. Caledonia also raised equity on the VFEX."
+    },
+    {
+      "type": "cards",
+      "chapter": "03 / For Zimbabwe",
+      "title": "What it could pay",
+      "cards": [
+        {
+          "big": "US$6B+",
+          "text": "Foreign exchange",
+          "sub": "over the mine's life"
+        },
+        {
+          "big": "US$975M",
+          "text": "Corporate taxes"
+        },
+        {
+          "big": "US$300M",
+          "text": "Royalties"
+        }
+      ],
+      "source": "Project projections as announced, assuming US$4,000/oz gold (Mining Zimbabwe)",
+      "say": "At a gold price of 4,000 dollars an ounce, the project says it could bring in over 6 billion dollars of foreign currency, 975 million in corporate tax and 300 million in royalties. These are projections, not guarantees."
+    },
+    {
+      "type": "but",
+      "text": "BUT\u2026",
+      "say": "But what is the VFEX, anyway?"
+    },
+    {
+      "type": "cards",
+      "chapter": "04 / The VFEX",
+      "title": "The VFEX in brief",
+      "cards": [
+        {
+          "big": "US$",
+          "text": "Trades in US dollars",
+          "sub": "not ZiG"
+        },
+        {
+          "big": "0%",
+          "text": "Capital gains tax",
+          "sub": "on listed securities"
+        },
+        {
+          "big": "15",
+          "text": "Counters on the price list",
+          "sub": "AfricanFinancials, 19 Nov 2026"
+        }
+      ],
+      "source": "VFEX website \u00b7 AfricanFinancials",
+      "say": "The Victoria Falls Stock Exchange trades in US dollars, not ZiG, and charges no capital gains tax on listed shares. Fifteen counters are on its price list."
+    },
+    {
+      "type": "bars",
+      "chapter": "05 / 2026 so far",
+      "title": "VFEX this year",
+      "sub": "Year-to-date share price change to 19 Nov",
+      "items": [
+        {
+          "label": "ZIMPLOW",
+          "value": 132.56
+        },
+        {
+          "label": "PADENGA",
+          "value": 124.89
+        },
+        {
+          "label": "FIRST CAPITAL",
+          "value": 77.38
+        },
+        {
+          "label": "CALEDONIA",
+          "value": -22.45
+        },
+        {
+          "label": "INVICTUS",
+          "value": -35.86
+        }
+      ],
+      "source": "AfricanFinancials, VFEX prices, 19 Nov 2026",
+      "say": "This year, Zimplow and Padenga have more than doubled. Caledonia itself is down about 22 percent year to date, while it spends heavily on Bilboes."
+    },
+    {
+      "type": "outro",
+      "chapter": "06 / What to watch",
+      "title": "What to watch",
+      "follow": "FOLLOW FOR MORE",
+      "lines": [
+        "Long-term project finance: the final funding step",
+        "Gold price: the projections assume US$4,000/oz"
+      ],
+      "disclaimer": "Not financial advice. Project figures are company projections as reported; prices from AfricanFinancials.",
+      "say": "Watch for the final long-term funding deal, and the gold price, because every projection depends on it. Not financial advice. Follow for more."
+    }
+  ]
+}

@@ -28,3 +28,10 @@ Always end descriptions with: "Not financial advice."
 - **YouTube title:** The Compounding Trap: Why People Quit Too Early #Shorts
 - **YouTube description:** A minimalist explainer on compounding: what US$50 a month could become over 5, 20 and 30 years at an assumed 8% average yearly return (compounded monthly). Illustration only, not a forecast; returns are not guaranteed. Financial education, not personal advice. Narration: AI voice (creator's own voice).
 - **YouTube tags:** compound interest, investing for beginners, saving money, personal finance, compounding, long term investing, shorts
+
+### SPECIAL-BILBOES-VFEX – Bilboes gold project and the VFEX
+- **TikTok title:** A US$600M gold mine, funded partly on the VFEX 🇿🇼⛏️ #bilboes #caledonia #vfex #zimbabwe
+- **TikTok description:** Caledonia Mining broke ground on Bilboes: first gold targeted Oct 2028, US$150m from 8 Zimbabwean banks, US$150m raised in New York. Plus a quick guide to the Victoria Falls Stock Exchange (US$-traded, no capital gains tax). Project figures are company projections as reported. AI voice (creator's own voice). Not financial advice. Follow @reian.creative.finance #mining #gold #VFEX #zimbabwe #investing #africanmarkets #reiancreativefinance
+- **YouTube title:** Bilboes Gold Mine & the VFEX Explained in 90 Seconds #Shorts
+- **YouTube description:** Caledonia Mining's Bilboes gold project by the numbers, who financed it, what it could pay Zimbabwe, and how the Victoria Falls Stock Exchange works. Sources: Proactive Investors (5 Nov 2026), Caledonia CEO interview, Mining Zimbabwe, AfricanFinancials. Projections are not guarantees. Narration: AI voice (creator's own voice). Not financial advice.
+- **YouTube tags:** bilboes, caledonia mining, vfex, victoria falls stock exchange, zimbabwe gold, mining, investing, shorts
