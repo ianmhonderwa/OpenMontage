@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-20",
+  "sources": {
+    "yahoo": [
+      "https://finance.yahoo.com/quote/%5ENYA/history/",
+      "https://finance.yahoo.com/quote/%5EFTSE/history/",
+      "https://finance.yahoo.com/quote/%5EJ203.JO/history/",
+      "https://finance.yahoo.com/quote/%5EGSPC/history/"
+    ],
+    "af": [
+      "https://africanfinancials.com/zimbabwe-stock-exchange-share-prices/",
+      "https://africanfinancials.com/victoria-falls-stock-exchange-share-prices/"
+    ],
+    "efe": "https://www.efesecurities.com/research/details/market-comment-13112026"
+  },
+  "closes": {
+    "NYA": {
+      "13Nov": 24520.82,
+      "20Nov": 22657.818
+    },
+    "FTSE": {
+      "13Nov": 10902.6,
+      "20Nov": 10346.34
+    },
+    "J203": {
+      "13Nov": 112387.9,
+      "20Nov": 104638.77
+    },
+    "GSPC": {
+      "13Nov": 7561.67,
+      "20Nov": 6949.88
+    },
+    "ZSE_ASI": {
+      "13Nov": 499.4,
+      "19Nov": 491.81,
+      "20Nov": "not yet updated on AfricanFinancials when fetched"
+    }
+  },
+  "zse_fri_movers": {
+    "NMBZ": 14.7,
+    "Rainbow": 14.12,
+    "Hippo": 13.82,
+    "starafrica": -1.16
+  },
+  "vfex_fri_movers": {
+    "Seed Co": 16.18,
+    "Invictus": 7.23,
+    "Zimplow": -12.1,
+    "Simbisa": -9.01
+  }
+}
