@@ -1,0 +1,126 @@
+{
+  "id": "EDU-001-STAY-IN-THE-GAME",
+  "name": "Stay in the Game",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "Own calculation: future value of US$50/month at an assumed 8% a year, compounded monthly (FV = 50 \u00d7 ((1+r)^n \u2212 1)/r, r = 0.08/12)."
+  ],
+  "segments": [
+    {
+      "scene": "desk",
+      "type": "desk",
+      "monLabel": "SAVED",
+      "monValue": "$0",
+      "headline": "MOST PEOPLE QUIT",
+      "sub": "right before it starts to work",
+      "say": "Most people quit investing right before it starts to work. Here's why."
+    },
+    {
+      "scene": "grid",
+      "type": "grid",
+      "cells": 60,
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "Say you put away 50 US dollars a month, and earn an average 8 percent a year. After one year, you'd have about 622 dollars. After five years, about 3,674. It barely feels like anything is happening.",
+      "hold": 1.5
+    },
+    {
+      "scene": "slump",
+      "type": "slump",
+      "monLabel": "5-YEAR GROWTH",
+      "monValue": "+$674",
+      "tag": "NO MOTIVATION",
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "Five years of effort, and only 674 dollars of that is growth. That's exactly where most people give up."
+    },
+    {
+      "scene": "coins",
+      "type": "coins",
+      "label": "COMPOUNDING",
+      "sub": "returns that earn their own returns",
+      "gens": 5,
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "But your returns start earning returns of their own. That's compounding, and it speeds up the longer you stay in.",
+      "hold": 0.8
+    },
+    {
+      "scene": "compare",
+      "type": "compare",
+      "title": "AFTER 20 YEARS",
+      "aLabel": "YOU PUT IN",
+      "a": 12000,
+      "bLabel": "COULD BE WORTH",
+      "b": 29451,
+      "max": 29451,
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "After twenty years, your deposits add up to 12,000 dollars. The account could be worth around 29,000."
+    },
+    {
+      "scene": "compare",
+      "type": "compare",
+      "title": "AFTER 30 YEARS",
+      "aLabel": "YOU PUT IN",
+      "a": 18000,
+      "bLabel": "COULD BE WORTH",
+      "b": 74518,
+      "max": 74518,
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "After thirty years, 18,000 dollars of deposits could become about 74,000."
+    },
+    {
+      "scene": "curve",
+      "type": "curve",
+      "data": [
+        0,
+        622,
+        1297,
+        2027,
+        2817,
+        3674,
+        4601,
+        5606,
+        6693,
+        7871,
+        9147,
+        10529,
+        12025,
+        13646,
+        15401,
+        17302,
+        19360,
+        21590,
+        24004,
+        26619,
+        29451,
+        32518,
+        35839,
+        39437,
+        43332,
+        47551,
+        52121,
+        57069,
+        62428,
+        68232,
+        74518
+      ],
+      "tag": "STAY IN THE GAME",
+      "note": "Illustration: US$50/month, assumed 8% average yearly return, compounded monthly. Not guaranteed.",
+      "say": "Look at the line. It's flat for years, then it bends upward. About sixty percent of the final balance arrives in the last ten years.",
+      "hold": 2.0
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "THE LESSON",
+      "lines": [
+        "START SMALL",
+        "STAY CONSISTENT",
+        "BE PATIENT"
+      ],
+      "disclaimer": "Financial education, not personal advice. Returns are not guaranteed; markets can fall.",
+      "say": "Start small, stay consistent, be patient. Returns are never guaranteed, and markets fall too. This is financial education, not personal advice. Follow for more."
+    }
+  ]
+}

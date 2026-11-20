@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   page.on('console', m => { if (m.type() === 'error') console.error('PAGE:', m.text()); });
   page.on('pageerror', e => console.error('PAGEERR:', e.message));
-  await page.goto(`http://localhost:${PORT}/engine/index.html?ep=${EP}`);
+  await page.goto(`http://localhost:${PORT}/engine/${process.env.PAGE || 'index.html'}?ep=${EP}`);
   await page.waitForFunction('window.ready === true', null, { timeout: 120000 });
   const dur = await page.evaluate('window.DURATION');
   if (mode === 'stills') {

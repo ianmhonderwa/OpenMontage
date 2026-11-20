@@ -21,3 +21,10 @@ Always end descriptions with: "Not financial advice."
 - **YouTube title:** Zimbabwe 2027 Budget Explained: What It Means For You #Shorts
 - **YouTube description:** The 2027 National Budget in 90 seconds: duty-free cellphones, higher tax-free threshold, IMTT cuts, and how the ZiG 358.3 billion is divided between ministries. Sources: ZBC News, Zimbabwe Independent, NewZimbabwe (19–20 Nov 2026). Narration: AI voice (creator's own voice). Not financial advice.
 - **YouTube tags:** zimbabwe budget 2027, mthuli ncube, zimbabwe, zig, imtt, tax free threshold, cellphone duty, shorts
+
+### EDU-001 – Stay in the Game (compounding explainer)
+- **TikTok title:** Why most people quit investing right before it works 📈 #investing #compoundinterest #moneytips #finance
+- **TikTok description:** US$50 a month at an assumed 8% a year: about $3,674 after 5 years, $29,451 after 20, $74,518 after 30. About 60% of the final balance arrives in the last ten years. Illustration only; returns are not guaranteed and markets can fall. Financial education, not personal advice. AI voice (creator's own voice). Follow @reian.creative.finance #compounding #saving #personalfinance #zimbabwe #wealth #longterm #reiancreativefinance
+- **YouTube title:** The Compounding Trap: Why People Quit Too Early #Shorts
+- **YouTube description:** A minimalist explainer on compounding: what US$50 a month could become over 5, 20 and 30 years at an assumed 8% average yearly return (compounded monthly). Illustration only, not a forecast; returns are not guaranteed. Financial education, not personal advice. Narration: AI voice (creator's own voice).
+- **YouTube tags:** compound interest, investing for beginners, saving money, personal finance, compounding, long term investing, shorts

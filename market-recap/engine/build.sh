@@ -11,6 +11,7 @@ for f in kokoro-v1.0.int8.onnx voices-v1.0.bin; do
   [ -s $M/$f ] || curl -sSL --max-time 600 -o $M/$f $REL/$f
 done
 python3 -c "import kokoro_onnx, soundfile" 2>/dev/null || pip install -q kokoro-onnx soundfile
+export PAGE=$(python3 -c "import json;print(json.load(open('episodes/$EP/episode.json')).get('page','index.html'))")
 python3 engine/tts.py "$EP"
 bash ../stickman-story-universe/engine/apply_owner_voice.sh "$OUT/narration.wav"
 python3 engine/music.py "$EP"
