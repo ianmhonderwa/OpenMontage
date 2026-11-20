@@ -181,3 +181,13 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 117 | AES-020 | The Herdsman and the Lost Bull | Townsend, 'The Herdsman and the Lost Bull' | Written – Batch 04 | Trim: 161 words (max 160) | [ ] |
 | 118 | BIB-040 | You Meant It for Evil | Genesis 50:15–21 (KJV) | To write | Season finale: closes the Genesis arc. | [ ] |
 | 119 | GRM-021 | Cinderella (Aschenputtel) | Hunt tale 21 | To write | Season finale. Omit the stepsisters' foot-cutting and the pigeons pecking out eyes. | [ ] |
+
+## Owner's voice (from 2026-11-20 10:00 CAT)
+Narration is written with Kokoro, then re-voiced with the owner's own voice (FreeVC, MIT) by
+`engine/apply_owner_voice.sh`, called from both build scripts (stickman and market-recap).
+Settings: `engine/owner_voice.json`. The reference recording is private and is NOT in git (public repo):
+it lives at `out/_models/owner_voice/reference.wav`; if missing, download the Drive backup
+(file id in owner_voice.json), convert to 24 kHz mono WAV, and save it there. One-time setup on a fresh
+container: `pip install torch torchaudio torchcodec coqui-tts-trainer aiohttp requests librosa && pip install --no-deps coqui-tts`,
+then download FreeVC + WavLM from the Coqui GitHub release v0.13.0_models into out/_models/freevc and link
+WavLM-Large.pt into ~/.local/share/tts/wavlm/. Posting copy should note "AI voice (creator's own voice)".

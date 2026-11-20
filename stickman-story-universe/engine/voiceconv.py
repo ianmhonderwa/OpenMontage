@@ -26,7 +26,8 @@ with torch.inference_mode():
         seg = torch.from_numpy(s[a:b]).float().unsqueeze(0)
         c = m.extract_wavlm_features(seg)
         y = m.inference(c, g=g)[0][0].cpu().float().numpy()
+        n = int(round((b - a) * 24000 / 16000)); y = np.pad(y, (0, max(0, n - len(y))))[:n]   # keep exact timing
         out.append(y.astype(np.float32)); prev = b
     if len(s) > prev: out.append(np.zeros(int((len(s) - prev) * 24000 / 16000), np.float32))
-y = np.concatenate(out); y = y / (np.max(np.abs(y)) + 1e-9) * 0.9
+y = np.concatenate(out); n0 = int(round(len(s) * 24000 / 16000)); y = np.pad(y, (0, max(0, n0 - len(y))))[:n0]; y = y / (np.max(np.abs(y)) + 1e-9) * 0.9
 sf.write(dst, y, 24000); print(f"converted {len(s)/16000:.1f}s -> {len(y)/24000:.1f}s at 24 kHz")

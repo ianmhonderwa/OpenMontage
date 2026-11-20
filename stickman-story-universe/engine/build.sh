@@ -15,6 +15,7 @@ node -e "require('playwright')" 2>/dev/null || { echo "playwright missing"; exit
 
 # --- narration, music ---
 python3 engine/tts.py "$EP"
+bash engine/apply_owner_voice.sh "$OUT/narration.wav"
 python3 engine/music.py "$EP" "${MUSIC_SEED:-7}"
 
 # --- test stills: one per scene (mid-point) + contact sheet ---
