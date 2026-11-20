@@ -191,3 +191,9 @@ it lives at `out/_models/owner_voice/reference.wav`; if missing, download the Dr
 container: `pip install torch torchaudio torchcodec coqui-tts-trainer aiohttp requests librosa && pip install --no-deps coqui-tts`,
 then download FreeVC + WavLM from the Coqui GitHub release v0.13.0_models into out/_models/freevc and link
 WavLM-Large.pt into ~/.local/share/tts/wavlm/. Posting copy should note "AI voice (creator's own voice)".
+
+## Saving tokens: graphify code graph
+Before reading engine files, query the local code graph instead (free, no LLM): `graphify update .` in
+this folder after code changes, then `graphify explain "<name>"`, `graphify query "<question>"`,
+`graphify path "A" "B"`. Install once per container: `pip install /home/user/ianmhonderwa/graphify`
+(the owner's fork; clone it with git if missing). Output lives in `graphify-out/` (gitignored).

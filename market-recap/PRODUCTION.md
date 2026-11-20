@@ -49,3 +49,9 @@ disclaimer, follow). Target **165–185 words** at voice `bm_george`, speed 1.05
 ## Build
 `bash engine/build.sh <ID> stills|full` – Kokoro TTS narration, synthesised music bed, Playwright
 frame capture at 30 fps, ffmpeg mix (−14 LUFS), 720p preview for Drive.
+
+## Saving tokens: graphify code graph
+Before reading engine files, query the local code graph instead (free, no LLM): `graphify update .` in
+this folder after code changes, then `graphify explain "<name>"`, `graphify query "<question>"`,
+`graphify path "A" "B"`. Install once per container: `pip install /home/user/ianmhonderwa/graphify`
+(the owner's fork; clone it with git if missing). Output lives in `graphify-out/` (gitignored).
