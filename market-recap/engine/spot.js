@@ -77,6 +77,25 @@ S.outro = (s, lt, d, t) => { bg(t, 540, 0.5); text(s.title, 540, 330, 96, { font
   text('FOLLOW FOR MORE', 540, 1240, 64, { font: 'Anton', weight: 400, alpha: fa, glow: true }); text(E.handle || '@reian.creative.finance', 540, 1310, 38, { color: '#c9ccd6', alpha: fa });
   note(s.disclaimer, fa); };
 
+S.chapter = (s, lt, d, t) => { bg(t, 540, 0.9); figure(540, t, { arm: s.pose || 'up', bob: true, scale: 0.9 });
+  text(s.num, 540, 380, 230, { font: 'Anton', weight: 400, glow: true, blur: 40, alpha: ease(lt / 0.5) });
+  wrapLines(s.title, 18).forEach((ln, i) => text(ln, 540, 640 + i * 105, 96, { font: 'Anton', weight: 400, glow: true, alpha: ease((lt - 0.3 - i * 0.2) / 0.5) }));
+  if (s.sub) text(s.sub, 540, 880, 36, { color: '#a9abb2', alpha: ease((lt - 0.9) / 0.5) }); note(s.note); };
+S.list = (s, lt, d, t) => { bg(t, 220, 0.6); figure(190, t, { arm: 'out', scale: 0.55, bob: true });
+  wrapLines(s.title, 20).forEach((ln, i) => text(ln, 540, 300 + i * 95, 86, { font: 'Anton', weight: 400, glow: true }));
+  const n = s.items.length, top = s.title.length > 20 ? 470 : 420, hh = Math.min(200, 820 / n);
+  s.items.forEach((it, i) => { const a = ease((lt - 0.5 - i * (s.stagger ?? 0.9)) / 0.5); if (a <= 0) return; const y = top + i * hh;
+    g.save(); g.globalAlpha = a; g.translate(0, (1 - a) * 30); g.fillStyle = 'rgba(255,255,255,0.06)'; g.strokeStyle = 'rgba(255,255,255,0.28)'; g.lineWidth = 2; rr(70, y, 940, hh - 26, 22); g.fill(); g.stroke(); g.restore();
+    const big = it.big ?? String(i + 1); text(big, 175, y + (hh - 26) / 2, big.length > 4 ? 46 : 64, { font: 'Anton', weight: 400, glow: true, alpha: a, color: it.tone === 'down' ? '#ff6b6b' : it.tone === 'up' ? '#5ee28a' : '#f2f2f2' });
+    const lines = wrapLines(it.text, 34); lines.forEach((ln, k) => text(ln, 300, y + (hh - 26) / 2 + (k - (lines.length - 1) / 2) * 44 - (it.sub ? 16 : 0), 36, { align: 'left', alpha: a }));
+    if (it.sub) text(it.sub, 300, y + (hh - 26) / 2 + (lines.length - 1) * 22 + 30, 26, { align: 'left', color: '#9a9ca3', weight: 600, alpha: a }); });
+  note(s.note); };
+S.hbars = (s, lt, d, t) => { bg(t, 540, 0.4); wrapLines(s.title, 20).forEach((ln, i) => text(ln, 540, 300 + i * 95, 86, { font: 'Anton', weight: 400, glow: true })); if (s.sub) text(s.sub, 540, 420, 32, { color: '#9a9ca3' });
+  const mx = Math.max(...s.items.map(x => Math.abs(x.value))), n = s.items.length, hh = Math.min(150, 900 / n);
+  s.items.forEach((it, i) => { const k = ease((lt - 0.5 - i * 0.35) / 0.9); const y = 520 + i * hh; text(it.label, 80, y + 30, 40, { font: 'Anton', weight: 400, align: 'left' });
+    const w = 520 * Math.abs(it.value) / mx * k; g.save(); glow(true, 16); g.fillStyle = it.value < 0 ? '#ef5050' : '#f0f0f0'; rr(80, y + 62, Math.max(w, 4), 34, 10); g.fill(); g.restore();
+    text(`${it.value > 0 ? '+' : '−'}${(Math.abs(it.value) * k).toFixed(it.dp ?? 1)}${it.unit ?? '%'}`, 1000, y + 78, 52, { font: 'Anton', weight: 400, align: 'right', color: it.value < 0 ? '#ff7a7a' : '#ffffff' }); });
+  note(s.note); };
 const segs = E.segments.map((s, i) => ({ s, start: i ? T.segments[i].start - 0.2 : 0 })); segs.forEach((x, i) => x.end = i < segs.length - 1 ? segs[i + 1].start : T.duration);
 window.DURATION = T.duration;
 window.renderAt = (t) => { const cur = segs.find(x => t >= x.start && t < x.end) || segs[segs.length - 1]; const lt = t - cur.start, d = cur.end - cur.start;

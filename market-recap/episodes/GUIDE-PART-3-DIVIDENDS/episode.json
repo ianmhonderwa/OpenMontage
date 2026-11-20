@@ -1,0 +1,114 @@
+{
+  "id": "GUIDE-PART-3-DIVIDENDS",
+  "name": "Zim Stocks Part 3: How You Get Paid",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "AfricanFinancials ZSE and VFEX price lists and CBZ dividend table (19 Nov 2026)",
+    "SECZiM, 'Capital Markets In Zimbabwe' (CSD, C-Trade, transaction-cost table)",
+    "ctrade.co.zw and C-Trade blog (requirements)",
+    "ZSE Direct minimums (ZSE Facebook post)",
+    "VFEX website (no capital gains tax)"
+  ],
+  "segments": [
+    {
+      "scene": "chapter",
+      "num": "03",
+      "title": "HOW YOU GET PAID",
+      "sub": "price growth + dividends",
+      "pose": "up",
+      "say": "Zim stocks, part three of four. There are two ways shares pay you. Let's break them down. How you actually make money. There are two ways: the share price going up, and dividends.",
+      "type": "chapter"
+    },
+    {
+      "scene": "list",
+      "type": "list",
+      "title": "WAY 1: PRICE GROWTH",
+      "note": "AfricanFinancials YTD to 19 Nov 2026. Before trading costs. Past gains don't repeat on schedule.",
+      "items": [
+        {
+          "big": "US$100",
+          "text": "Put into Padenga on the VFEX in January"
+        },
+        {
+          "big": "\u2248US$225",
+          "text": "Worth by 19 November",
+          "sub": "+124.89% year to date, before costs",
+          "tone": "up"
+        },
+        {
+          "big": "\u2248US$78",
+          "text": "The same US$100 in Caledonia",
+          "sub": "\u221222.45% year to date",
+          "tone": "down"
+        }
+      ],
+      "say": "Way one is price growth. Say you put 100 US dollars into Padenga on the VFEX in January. By the 19th of November, it would be worth about 225 dollars, before costs. The same 100 dollars in Caledonia Mining would be worth about 78. Same market, same year, very different results. That's why research matters."
+    },
+    {
+      "scene": "list",
+      "title": "WAY 2: DIVIDENDS",
+      "note": "Example: CBZ Holdings final dividend, AfricanFinancials dividend table.",
+      "items": [
+        {
+          "big": "DECLARE",
+          "text": "The board announces a dividend",
+          "sub": "CBZ: 17 Apr 2026, 1.61 US cents a share"
+        },
+        {
+          "big": "EX-DATE",
+          "text": "Own the shares BEFORE this date",
+          "sub": "CBZ: 7 May 2026"
+        },
+        {
+          "big": "RECORD",
+          "text": "Shareholder list is taken",
+          "sub": "CBZ: 8 May 2026"
+        },
+        {
+          "big": "PAY",
+          "text": "Cash lands in your account",
+          "sub": "CBZ: 15 May 2026"
+        }
+      ],
+      "say": "A dividend is a share of the company's profit, paid in cash. Here's a real example. CBZ declared a final dividend of 1.61 US cents a share in April. To get it, you had to own the shares before the ex-dividend date, the 7th of May. The money was paid on the 15th. Buy on or after the ex-date, and you miss it.",
+      "type": "list"
+    },
+    {
+      "scene": "list",
+      "title": "THE DIVIDEND TRAP",
+      "items": [
+        {
+          "big": "!",
+          "text": "A very high yield can be a warning sign",
+          "tone": "down"
+        },
+        {
+          "big": "WHY",
+          "text": "The price may have crashed",
+          "sub": "so the same payout looks bigger"
+        },
+        {
+          "big": "CHECK",
+          "text": "Can profits keep paying it?",
+          "sub": "look at earnings, not just the yield"
+        }
+      ],
+      "say": "Now, the dividend trap. A very high dividend yield can look amazing, but often it's high because the share price has crashed. Always ask: can the company's profits keep paying this? A dividend can be cut at any time. Dividends are also taxed before you receive them, so ask your broker what rate applies to you.",
+      "type": "list"
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "PART 3 OF 4",
+      "lines": [
+        "NEXT: PART 4",
+        "THE RISKS NOBODY TELLS YOU"
+      ],
+      "disclaimer": "Not financial advice. Educational only. Some details are as found and may change; confirm with a licensed broker.",
+      "say": "Next, in part 4: the risks nobody tells you. This is not financial advice, just education. Follow so you don't miss it."
+    }
+  ]
+}

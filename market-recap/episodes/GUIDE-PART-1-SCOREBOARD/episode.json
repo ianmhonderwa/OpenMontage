@@ -1,0 +1,127 @@
+{
+  "id": "GUIDE-PART-1-SCOREBOARD",
+  "name": "Zim Stocks Part 1: The 2026 Scoreboard",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "AfricanFinancials ZSE and VFEX price lists and CBZ dividend table (19 Nov 2026)",
+    "SECZiM, 'Capital Markets In Zimbabwe' (CSD, C-Trade, transaction-cost table)",
+    "ctrade.co.zw and C-Trade blog (requirements)",
+    "ZSE Direct minimums (ZSE Facebook post)",
+    "VFEX website (no capital gains tax)"
+  ],
+  "segments": [
+    {
+      "scene": "chapter",
+      "num": "01",
+      "title": "THE 2026 SCOREBOARD",
+      "sub": "how the market did this year",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms.",
+      "say": "Zim stocks, part one of four. Before you invest a single dollar, here's how the market actually did this year. The scoreboard. Before you put in a single dollar, it helps to know what this market has been doing.",
+      "type": "chapter"
+    },
+    {
+      "scene": "hbars",
+      "title": "ZSE: 2026 SO FAR",
+      "sub": "Year-to-date share price change, to 19 Nov",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms.",
+      "items": [
+        {
+          "label": "TANGANDA",
+          "value": 640.63
+        },
+        {
+          "label": "TN CYBERTECH",
+          "value": 623.16
+        },
+        {
+          "label": "ARISTON",
+          "value": 263.92
+        },
+        {
+          "label": "CBZ",
+          "value": 197.87
+        },
+        {
+          "label": "ZIMRE",
+          "value": -34.99
+        },
+        {
+          "label": "RAINBOW",
+          "value": -40.97
+        }
+      ],
+      "say": "On the ZSE, the winners were huge. Tanganda is up more than 640 percent this year, and TN CyberTech more than 620. Ariston and CBZ have roughly tripled. But Rainbow Tourism is down 41 percent, and ZimRe 35. Remember, these moves are in ZiG, and the ZiG itself moves against the dollar.",
+      "type": "hbars"
+    },
+    {
+      "scene": "hbars",
+      "title": "VFEX: 2026 SO FAR",
+      "sub": "Year-to-date change in US dollars, to 19 Nov",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms.",
+      "items": [
+        {
+          "label": "ZIMPLOW",
+          "value": 132.56
+        },
+        {
+          "label": "PADENGA",
+          "value": 124.89
+        },
+        {
+          "label": "FIRST CAPITAL",
+          "value": 77.38
+        },
+        {
+          "label": "CALEDONIA",
+          "value": -22.45
+        },
+        {
+          "label": "INVICTUS",
+          "value": -35.86
+        }
+      ],
+      "say": "The VFEX trades in US dollars. Zimplow and Padenga have more than doubled this year. First Capital Bank is up 77 percent. Caledonia Mining is down 22, and Invictus Energy 36.",
+      "type": "hbars"
+    },
+    {
+      "scene": "list",
+      "title": "WINNERS VS LOSERS",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms.",
+      "items": [
+        {
+          "big": "28/34",
+          "text": "ZSE counters up this year",
+          "sub": "5 down, 1 flat",
+          "tone": "up"
+        },
+        {
+          "big": "9/15",
+          "text": "VFEX counters up this year",
+          "sub": "6 down",
+          "tone": "up"
+        },
+        {
+          "big": "+128%",
+          "text": "ZSE All Share, past 12 months",
+          "sub": "in ZWG terms"
+        }
+      ],
+      "say": "Overall, 28 of the 34 ZSE counters on the price list are up this year, and 9 of the 15 on the VFEX. The ZSE All Share index is up 128 percent over twelve months. The lesson: picking the right companies matters, and spreading your money across several matters even more.",
+      "type": "list"
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "PART 1 OF 4",
+      "lines": [
+        "NEXT: PART 2",
+        "HOW TO BUY YOUR FIRST SHARES"
+      ],
+      "disclaimer": "Not financial advice. Educational only. Some details are as found and may change; confirm with a licensed broker.",
+      "say": "Next, in part 2: how to buy your first shares. This is not financial advice, just education. Follow so you don't miss it."
+    }
+  ]
+}
