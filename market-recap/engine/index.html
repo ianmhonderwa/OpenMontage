@@ -1,0 +1,43 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Anton; src: url(fonts/anton.woff2) format('woff2'); }
+@font-face { font-family: Inter; font-weight: 400; src: url(fonts/inter-400.woff2) format('woff2'); }
+@font-face { font-family: Inter; font-weight: 600; src: url(fonts/inter-600.woff2) format('woff2'); }
+@font-face { font-family: Inter; font-weight: 800; src: url(fonts/inter-800.woff2) format('woff2'); }
+:root { --bg:#0b0c10; --card:#15171d; --line:#2a2d36; --ink:#f4f5f7; --mute:#8b90a0; --up:#22c55e; --down:#ef4444; --hi:#ffd23f; --acc:#38bdf8; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); color: var(--ink); font-family: Inter, sans-serif; }
+#stage { position: absolute; inset: 0; overflow: hidden; }
+#bg { position: absolute; inset: 0; }
+#grid { position: absolute; inset: -200px; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 90px 90px; }
+#glow { position: absolute; width: 1200px; height: 1200px; border-radius: 50%; filter: blur(60px); opacity: .12; }
+#bgchart { position: absolute; left: 0; bottom: 330px; width: 1080px; height: 520px; opacity: .14; }
+#vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, transparent 45%, rgba(0,0,0,.75) 100%); }
+#progress { position: absolute; top: 70px; left: 60px; right: 60px; height: 6px; background: #22252d; border-radius: 3px; overflow: hidden; }
+#progress i { display: block; height: 100%; width: 0; background: var(--ink); }
+#hdr { position: absolute; top: 100px; left: 60px; right: 60px; display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 30px; color: #c9ccd6; }
+#hdr .brand { display: flex; align-items: center; gap: 16px; }
+#hdr img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid #3a3d46; }
+#hdr .ch { font-family: Inter; font-weight: 800; letter-spacing: .14em; font-size: 26px; color: var(--mute); text-transform: uppercase; }
+.seg { position: absolute; inset: 0; display: none; }
+.title { position: absolute; top: 190px; left: 50px; right: 50px; text-align: center; font-family: Anton; font-size: 108px; line-height: 1.02; text-transform: uppercase; letter-spacing: .01em; }
+.sub { position: absolute; top: 420px; left: 70px; right: 70px; text-align: center; font-size: 36px; color: var(--mute); font-weight: 600; }
+.big { font-family: Anton; line-height: .95; }
+.up { color: var(--up); } .down { color: var(--down); } .hi { color: var(--hi); }
+.pill { white-space: nowrap; display: inline-block; padding: 10px 26px; border-radius: 999px; font-weight: 800; font-size: 38px; letter-spacing: .04em; }
+.card { background: var(--card); border: 2px solid var(--line); border-radius: 26px; }
+.src { position: absolute; bottom: 210px; left: 70px; right: 70px; text-align: center; font-size: 25px; color: #6b7080; font-weight: 600; letter-spacing: .02em; }
+.tick { position: absolute; left: 0; bottom: 120px; height: 64px; white-space: nowrap; font-family: Inter; font-weight: 800; font-size: 30px; display: flex; align-items: center; gap: 46px; color: #9aa0ae; border-top: 2px solid #1d2028; border-bottom: 2px solid #1d2028; width: max-content; padding: 0 30px; }
+.sweep { position: absolute; top: 0; bottom: 0; width: 260px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.18), transparent); transform: skewX(-18deg); pointer-events: none; }
+</style></head>
+<body>
+<div id="stage">
+  <div id="bg"><div id="glow"></div><div id="grid"></div><svg id="bgchart" viewBox="0 0 1080 520" preserveAspectRatio="none"><path id="bgpath" fill="none" stroke-width="5"/></svg><div id="vignette"></div></div>
+  <div id="segs"></div>
+  <div id="tickwrap"></div>
+  <div id="progress"><i></i></div>
+  <div id="hdr"><div class="brand"><img src="logo.jpg"><span id="handle">@reian.creative.finance</span></div><div class="ch" id="chap"></div></div>
+</div>
+<script type="module" src="recap.js"></script>
+</body></html>

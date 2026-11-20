@@ -1,0 +1,34 @@
+{
+  "id": "NAS-002",
+  "series": "NAS",
+  "series_badge": "NASREDDIN",
+  "ep_number": 2,
+  "title": "Thank God Camels Can't Fly",
+  "title_html": "Thank God<br>Camels Can't Fly",
+  "next_title": "The Stars over Belgrade",
+  "source": "The Turkish Jester, tr. George Borrow (1884)",
+  "lesson": "Be grateful for the problems you don't have.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "One day, Nasreddin stood up in the town square with a very serious face. Everyone leaned in, expecting great wisdom.",
+    "My friends, today let us give thanks for something truly very important.",
+    "Let us give thanks that camels do not have wings! The crowd blinked. Nobody had been thinking about wings.",
+    "Imagine if they did. They would perch on your roofs, all day long, burping.",
+    "Your chimneys would collapse. Your houses would fall on your heads! Your tea would spill!",
+    "The crowd looked up at the sky nervously. Then back at their roofs. Then, very quickly, they gave thanks.",
+    "Silly? Yes. But we rarely thank God for the disasters that never happened. Be grateful for the problems you don't have.",
+    "Next episode: the stars over Belgrade. Follow so you don't miss it!"
+  ],
+  "gaps": [
+    0.55,
+    0.5,
+    0.55,
+    0.55,
+    0.55,
+    0.6,
+    0.8,
+    0.0
+  ]
+}

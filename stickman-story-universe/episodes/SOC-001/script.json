@@ -1,0 +1,25 @@
+{
+  "id": "SOC-001",
+  "series": "SOC",
+  "series_badge": "SOCRATES &amp; THE WISE ONES",
+  "ep_number": 1,
+  "title": "The Oracle Says No One Is Wiser",
+  "title_html": "The Oracle Says<br>No One Is Wiser",
+  "next_title": "Testing the Politicians",
+  "source": "Plato, Apology 20e-23b (Jowett tr.)",
+  "lesson": "Wisdom begins when you admit what you don't know.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Athens, twenty-four hundred years ago. Meet Socrates. No money, no shoes, and the most annoying questions in history.",
+    "One day, his friend went to the famous Oracle at Delphi, and asked: Is anyone wiser than Socrates?",
+    "The answer came back: No one is wiser than Socrates.",
+    "Socrates was shocked. Me? I don't know anything! It was like googling yourself, and finding out you're a genius.",
+    "So he went looking for someone wiser, to prove the Oracle wrong.",
+    "He questioned the smartest people in Athens. They all thought they knew everything. They didn't.",
+    "Then he understood. He was wiser only because he knew that he didn't know. Wisdom starts with admitting what you don't know.",
+    "Next time: Socrates tests the politicians. It does not go well. Follow so you don't miss it!"
+  ],
+  "gaps": [0.45, 0.35, 0.5, 0.4, 0.3, 0.45, 0.6, 0.0]
+}

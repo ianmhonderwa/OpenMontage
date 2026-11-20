@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "from": "2026-11-20T10:00:00+02:00",
+  "reference": "out/_models/owner_voice/reference.wav",
+  "drive_backup_file_id": "1Q6TiiL-ya_Y0kJbqpS_GdZ1TGMXc_E_j",
+  "note": "Owner's own voice (consented). Kokoro narration is re-voiced with FreeVC from the 'from' time on. The reference recording is NOT in git (public repo): restore it from the Drive backup if missing."
+}

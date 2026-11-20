@@ -1,0 +1,25 @@
+{
+  "id": "GRM-001",
+  "series": "GRM",
+  "series_badge": "GRIMM STICKMAN TALES",
+  "ep_number": 1,
+  "title": "The Frog-King, or Iron Henry",
+  "title_html": "The Frog-King,<br>or Iron Henry",
+  "next_title": "Cat and Mouse in Partnership",
+  "source": "Grimm, Household Tales, tr. Margaret Hunt (1884), tale 1",
+  "lesson": "Keep your promises, even the inconvenient ones.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "In the original story, the princess never kisses the frog. A princess was playing by a forest well, when her golden ball fell in.",
+    "A frog popped up. I'll fetch it, if I may be your friend, eat from your golden plate, and sleep in your little bed.",
+    "Yes, anything! she said. He fetched it. She ran off.",
+    "Next evening, at dinner: knock, knock. Princess, youngest princess, open the door for me! The King frowned. What you have promised, you must perform.",
+    "So the frog ate from her plate, then demanded to be carried upstairs. At last she lost her temper, and flung him at the wall.",
+    "Flash! A handsome prince stood there, freed from a witch's spell.",
+    "His servant, Faithful Henry, was so happy that the iron bands round his heart snapped. Keep your promises, even the inconvenient ones.",
+    "Next time: a cat and a mouse share a pot of fat. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.55, 0.6, 0.55, 0.5, 0.7, 0.0]
+}

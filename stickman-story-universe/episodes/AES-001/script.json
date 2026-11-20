@@ -1,0 +1,34 @@
+{
+  "id": "AES-001",
+  "series": "AES",
+  "series_badge": "AESOP IN 60 SECONDS",
+  "ep_number": 1,
+  "title": "The Lion and the Mouse",
+  "title_html": "The Lion<br>and the Mouse",
+  "next_title": "The Wolf and the Lamb",
+  "source": "Aesop's Fables, tr. G. F. Townsend (1867), 'The Lion and the Mouse'",
+  "lesson": "No act of kindness is ever wasted, and no one is too small to help.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "A mighty lion was napping under a tree, when a tiny mouse ran right across his nose.",
+    "The lion woke up and slammed his paw down. Gotcha!",
+    "Please let me go! squeaked the mouse. One day, I'll repay you! Cross my tiny heart!",
+    "The lion laughed so hard he rolled over. You? Help me? But he let the mouse go.",
+    "Weeks later, the lion got caught in a hunter's net. He roared and roared, but he could not get free.",
+    "The mouse heard him, ran over, and chewed through the ropes. Nibble, nibble, snap!",
+    "You laughed at me, said the mouse. Now you know: even a mouse can help a lion. No act of kindness is ever wasted, and no one is too small to help.",
+    "Next episode: a wolf who needs an excuse. Follow so you don't miss it!"
+  ],
+  "gaps": [
+    0.6,
+    0.55,
+    0.6,
+    0.6,
+    0.65,
+    0.6,
+    0.8,
+    0.0
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "SOC-004",
+  "series": "SOC",
+  "series_badge": "SOCRATES &amp; THE WISE ONES",
+  "ep_number": 4,
+  "title": "After Thunder Comes Rain",
+  "title_html": "After Thunder<br>Comes Rain",
+  "next_title": "The Kick",
+  "source": "Diogenes Laertius, Lives of the Philosophers II.36 (Yonge tr.)",
+  "lesson": "You can't control others' anger, only your response.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Socrates had a wife named Xanthippe. She was famous in Athens for one thing: her temper.",
+    "Socrates spent all day asking people questions instead of earning money. Xanthippe was not impressed. Not even a little.",
+    "One day she shouted at him for an hour. A whole hour. The neighbours closed their windows. Socrates just sat there, calm as a mountain.",
+    "So she grabbed a bucket of water, and poured it right over his head!",
+    "Dripping wet, Socrates said: Well, I knew that after thunder, there would be rain.",
+    "Even Xanthippe almost laughed. Almost.",
+    "You can't control other people's storms. But you can always choose how you respond to them. That's real strength.",
+    "Next time: Socrates gets kicked, and his reply is legendary. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.55, 0.45, 0.55, 0.55, 0.7, 0.0]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "SPECIAL-ANT-IPO",
+  "exchange": "NASDAQ",
+  "name": "Anthropic IPO",
+  "series": "IPO BREAKDOWN",
+  "week": "Nasdaq: ANT · Thursday 19 Nov 2026",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "Anthropic press release 'Anthropic prices initial public offering' (18 Nov 2026)",
+    "CNBC, Anthropic IPO guide (16 Nov 2026) – $70–78 range",
+    "Yahoo Finance: ANT daily bar 19 Nov 2026 (open 111.50, high 115.10, low 92.72, close 97.17); live coverage ('record $81B raise', '$1.5T valuation')",
+    "Leverage Shares (citing Anthropic): Series H, May 2026, $965B post-money",
+    "Aswath Damodaran on the prospectus: lock-ups unlock in tranches over 180 days"
+  ],
+  "ticker": [
+    {
+      "sym": "ANT OPEN",
+      "chg": 34.34
+    },
+    {
+      "sym": "ANT HIGH",
+      "chg": 38.67
+    },
+    {
+      "sym": "ANT LOW",
+      "chg": 11.71
+    },
+    {
+      "sym": "ANT CLOSE",
+      "chg": 17.07
+    }
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "IPO BREAKDOWN",
+      "title": "Anthropic<br>goes public",
+      "week": "Nasdaq: ANT · Thursday 19 Nov 2026",
+      "delta": 17.07,
+      "deltaLabel": "DAY-ONE CLOSE vs $83 IPO PRICE",
+      "say": "Anthropic, the company behind the AI assistant Claude, is now a public company. Here's what actually happened on day one."
+    },
+    {
+      "type": "compare",
+      "chapter": "01 / The price",
+      "title": "The IPO price",
+      "from": {
+        "value": "$70–78",
+        "label": "first price range (10 Nov)"
+      },
+      "to": {
+        "value": "$83.00",
+        "label": "final IPO price (18 Nov)"
+      },
+      "delta": 1,
+      "deltaText": "PRICED ABOVE THE RANGE",
+      "source": "CNBC (10 Nov) · Anthropic (18 Nov)",
+      "say": "Anthropic first marketed its shares at seventy to seventy-eight dollars. Demand pushed the final price to eighty-three dollars, above the range."
+    },
+    {
+      "type": "cards",
+      "chapter": "02 / The deal",
+      "title": "The deal",
+      "cards": [
+        {
+          "big": "980M",
+          "text": "Shares sold",
+          "sub": "956.4M new + 23.6M from existing holders"
+        },
+        {
+          "big": "$81.3B",
+          "text": "Raised at $83",
+          "sub": "980M × $83, before fees"
+        },
+        {
+          "big": "$79.4B",
+          "text": "Goes to Anthropic",
+          "sub": "from the new shares only"
+        },
+        {
+          "big": "147M",
+          "text": "Extra shares",
+          "sub": "banks' 30-day option"
+        }
+      ],
+      "source": "Anthropic press release, 18 Nov 2026 (totals calculated)",
+      "say": "It sold 980 million shares. At eighty-three dollars, that's about 81 billion dollars raised, which Yahoo Finance calls a record. About 79 billion of that goes to Anthropic itself."
+    },
+    {
+      "type": "bars",
+      "chapter": "03 / Day one",
+      "title": "Day one on Nasdaq",
+      "sub": "Thursday 19 Nov · vs the $83 IPO price",
+      "items": [
+        {
+          "label": "OPEN",
+          "value": 34.34,
+          "note": "$111.50"
+        },
+        {
+          "label": "HIGH",
+          "value": 38.67,
+          "note": "$115.10"
+        },
+        {
+          "label": "LOW",
+          "value": 11.71,
+          "note": "$92.72"
+        },
+        {
+          "label": "CLOSE",
+          "value": 17.07,
+          "note": "$97.17"
+        }
+      ],
+      "source": "Yahoo Finance, ANT daily bar, 19 Nov 2026",
+      "say": "On Thursday the stock opened at a hundred and eleven fifty, up 34 percent on the IPO price. It touched a hundred and fifteen, then slid to close at ninety-seven seventeen. Still up 17 percent."
+    },
+    {
+      "type": "but",
+      "text": "BUT…",
+      "say": "But here's the catch."
+    },
+    {
+      "type": "compare",
+      "chapter": "04 / Who made money?",
+      "title": "Bought at the open?",
+      "from": {
+        "value": "$111.50",
+        "label": "Thursday's opening price"
+      },
+      "to": {
+        "value": "$97.17",
+        "label": "Thursday's close"
+      },
+      "delta": -12.85,
+      "deltaText": "−12.85% ON DAY ONE",
+      "source": "Yahoo Finance, ANT daily bar, 19 Nov 2026",
+      "say": "Most people could only buy once trading began. Anyone who bought at the open was down almost 13 percent by the close. The eighty-three dollar price went mainly to the investors in the offering."
+    },
+    {
+      "type": "cards",
+      "chapter": "05 / The big picture",
+      "title": "The big picture",
+      "cards": [
+        {
+          "big": "$965B",
+          "text": "Private valuation",
+          "sub": "Series H round, May 2026"
+        },
+        {
+          "big": "≈$1.5T",
+          "text": "Valuation at the IPO price",
+          "sub": "per Yahoo Finance"
+        },
+        {
+          "big": "180 days",
+          "text": "Insider shares unlock in stages",
+          "sub": "per the prospectus"
+        }
+      ],
+      "source": "Leverage Shares (citing Anthropic) · Yahoo Finance · Damodaran on the prospectus",
+      "say": "Six months ago, private investors valued Anthropic at 965 billion dollars. At the IPO price, Yahoo Finance puts it around one and a half trillion. And insider shares unlock in stages over the next six months."
+    },
+    {
+      "type": "outro",
+      "chapter": "06 / Full disclosure",
+      "title": "Full disclosure",
+      "follow": "FOLLOW FOR MORE",
+      "lines": [
+        "These videos are scripted with help from Claude, an Anthropic AI",
+        "Figures: Anthropic, CNBC, Yahoo Finance"
+      ],
+      "disclaimer": "Not financial advice. Prices from Yahoo Finance (19 Nov 2026 daily bar).",
+      "say": "Full disclosure: these videos are made with help from Claude, Anthropic's own AI, so we stick to the published numbers. This is not financial advice. Follow for more breakdowns."
+    }
+  ]
+}

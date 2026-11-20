@@ -1,0 +1,225 @@
+{
+  "id": "ZSE-PILOT",
+  "exchange": "ZSE",
+  "name": "Zimbabwe Stock Exchange",
+  "series": "ZSE WEEKLY",
+  "week": "Week to date · Mon 16 – Thu 19 Nov 2026",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "EFE Securities, Market Comment 13.11.2026 (All Share 499.40, Mid Cap 559.56 at 13 Nov close)",
+    "AfricanFinancials, ZSE share prices and ZSE indices, end of day 19 Nov 2026"
+  ],
+  "ticker": [
+    {
+      "sym": "CBZ",
+      "chg": 14.18
+    },
+    {
+      "sym": "AFDS",
+      "chg": 5.25
+    },
+    {
+      "sym": "MASH",
+      "chg": 0.17
+    },
+    {
+      "sym": "DLTA",
+      "chg": -4.12
+    },
+    {
+      "sym": "ZIMR",
+      "chg": -4.41
+    },
+    {
+      "sym": "RTG",
+      "chg": -10.53
+    },
+    {
+      "sym": "ZSEH",
+      "chg": -10.76
+    },
+    {
+      "sym": "RIOZ",
+      "chg": -14.63
+    }
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "ZSE WEEKLY · PILOT",
+      "title": "Zimbabwe<br>Stock Exchange",
+      "week": "Week to date · Mon 16 – Thu 19 Nov 2026",
+      "delta": -1.52,
+      "deltaLabel": "ALL SHARE INDEX · WEEK TO DATE",
+      "say": "Your Zimbabwe Stock Exchange weekly breakdown. Four sessions in, and the market is in the red."
+    },
+    {
+      "type": "compare",
+      "chapter": "01 / The score",
+      "title": "All Share Index",
+      "from": {
+        "value": "499.40",
+        "label": "Fri 13 Nov close"
+      },
+      "to": {
+        "value": "491.81",
+        "label": "Thu 19 Nov close"
+      },
+      "delta": -1.52,
+      "deltaText": "−7.59 PTS · −1.52%",
+      "source": "EFE Securities (13 Nov) · AfricanFinancials (19 Nov)",
+      "say": "The All Share Index ended last week at 499.40 points. By Thursday's close it was at 491.81. That's down 1.52 percent in just four sessions."
+    },
+    {
+      "type": "bars",
+      "chapter": "02 / Thursday's movers",
+      "title": "Biggest gainers",
+      "sub": "Thursday 19 Nov session · price in ZWG",
+      "items": [
+        {
+          "label": "CBZ",
+          "value": 14.18,
+          "note": "ZWG 34.25"
+        },
+        {
+          "label": "AFDIS",
+          "value": 5.25,
+          "note": "ZWG 20.00"
+        },
+        {
+          "label": "MASHONALAND",
+          "value": 0.17,
+          "note": "ZWG 1.70"
+        }
+      ],
+      "source": "AfricanFinancials, end of day 19 Nov 2026",
+      "say": "Thursday's top gainer was CBZ Holdings, up 14.18 percent. African Distillers added 5.25 percent."
+    },
+    {
+      "type": "bars",
+      "chapter": "02 / Thursday's movers",
+      "title": "Biggest fallers",
+      "sub": "Thursday 19 Nov session · price in ZWG",
+      "items": [
+        {
+          "label": "RIOZIM",
+          "value": -14.63,
+          "note": "ZWG 0.82"
+        },
+        {
+          "label": "ZSE HOLDINGS",
+          "value": -10.76,
+          "note": "ZWG 4.01"
+        },
+        {
+          "label": "RAINBOW",
+          "value": -10.53,
+          "note": "ZWG 0.85"
+        },
+        {
+          "label": "DELTA",
+          "value": -4.12,
+          "note": "ZWG 34.00"
+        }
+      ],
+      "source": "AfricanFinancials, end of day 19 Nov 2026",
+      "say": "RioZim fell 14.63 percent, ZSE Holdings 10.76, and Rainbow Tourism 10.53. Heavyweight Delta slipped 4.12 percent."
+    },
+    {
+      "type": "cards",
+      "chapter": "02 / Thursday's movers",
+      "title": "Where the money went",
+      "tone": "",
+      "cards": [
+        {
+          "big": "7.37M",
+          "text": "ZSE Holdings",
+          "sub": "ZWG traded · 1.84M shares"
+        },
+        {
+          "big": "3.18M",
+          "text": "Delta",
+          "sub": "ZWG traded · 93,400 shares"
+        },
+        {
+          "big": "1.70M",
+          "text": "RioZim",
+          "sub": "ZWG traded · 2.07M shares"
+        },
+        {
+          "big": "1.49M",
+          "text": "CBZ",
+          "sub": "ZWG traded · 43,600 shares"
+        }
+      ],
+      "source": "AfricanFinancials, value traded 19 Nov 2026",
+      "say": "Follow the money: ZSE Holdings was the most traded counter, with about 7.4 million Zimbabwe gold changing hands, more than double Delta."
+    },
+    {
+      "type": "but",
+      "text": "BUT…",
+      "tone": "",
+      "say": "But zoom out."
+    },
+    {
+      "type": "bignum",
+      "chapter": "03 / The big picture",
+      "title": "One-year change",
+      "label": "ALL SHARE INDEX",
+      "value": 128.2,
+      "decimals": 2,
+      "prefix": "+",
+      "suffix": "%",
+      "delta": 1,
+      "deltaText": "OVER 12 MONTHS",
+      "notes": [
+        "52-week range: 215.52 – 502.38",
+        "Thursday's close is 2.1% below the 52-week high"
+      ],
+      "source": "AfricanFinancials, ZSE All Share Index, 19 Nov 2026",
+      "say": "Over twelve months, the All Share Index is up 128 percent, and it sits just 2 percent below its 52-week high."
+    },
+    {
+      "type": "bars",
+      "chapter": "03 / The big picture",
+      "title": "2026 so far",
+      "sub": "Year-to-date share price change",
+      "items": [
+        {
+          "label": "TANGANDA",
+          "value": 640.63
+        },
+        {
+          "label": "TN CYBERTECH",
+          "value": 623.16
+        },
+        {
+          "label": "ARISTON",
+          "value": 263.92
+        },
+        {
+          "label": "CBZ",
+          "value": 197.87
+        },
+        {
+          "label": "RAINBOW",
+          "value": -40.97
+        }
+      ],
+      "source": "AfricanFinancials, YTD % to 19 Nov 2026",
+      "say": "This year's stars: Tanganda, up over 640 percent, and TN CyberTech, up over 620. Rainbow Tourism is down 41 percent."
+    },
+    {
+      "type": "outro",
+      "chapter": "04 / What to watch",
+      "title": "What to watch",
+      "lines": [
+        "Friday decides the week: the index needs about +1.5% to finish flat",
+        "Q3 updates out from RioZim, Rainbow Tourism and Zeco"
+      ],
+      "disclaimer": "Not financial advice. Data: EFE Securities, AfricanFinancials. Prices in ZWG (ZWG 26.57 = US$1, 19 Nov).",
+      "say": "Friday decides the week: the index needs about 1.5 percent just to finish flat. Watch the third-quarter updates from RioZim, Rainbow and Zeco. Not financial advice. Follow for the breakdown, every week."
+    }
+  ]
+}

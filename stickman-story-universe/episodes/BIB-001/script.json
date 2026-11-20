@@ -1,0 +1,25 @@
+{
+  "id": "BIB-001",
+  "series": "BIB",
+  "series_badge": "STICKMAN BIBLE",
+  "ep_number": 1,
+  "title": "Creation, Day by Day",
+  "title_html": "Creation,<br>Day by Day<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 1:1 – 2:3</span>",
+  "next_title": "The Garden of Eden",
+  "source": "Genesis 1:1-2:3 (KJV)",
+  "lesson": "God made everything good, and that includes you.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Before anything existed, there was nothing. No sun, no stars, no Wi-Fi. Just darkness. And God.",
+    "Day one: God said, Let there be light. And there was light!",
+    "Day two, the sky. Day three, land, seas and plants. Trees popped up like popcorn.",
+    "Day four: sun, moon and stars. Day five: fish in the sea, and birds in the air.",
+    "Day six: animals of every kind. And then people, made in God's own image.",
+    "God looked at everything He had made, and said: it is very good.",
+    "And on day seven, God rested. Every parent watching just nodded and said, Yes. I understand that. Remember: you were made on purpose, and you are very good.",
+    "Next time: the most beautiful garden ever, and one rule. Follow so you don't miss it!"
+  ],
+  "gaps": [0.45, 0.35, 0.4, 0.4, 0.4, 0.45, 0.6, 0.0]
+}

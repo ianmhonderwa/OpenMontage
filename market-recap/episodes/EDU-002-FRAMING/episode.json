@@ -1,0 +1,116 @@
+{
+  "id": "EDU-002-FRAMING",
+  "name": "Same Yogurt, Different Words",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "for_date": "2026-11-21",
+  "sources": [
+    "Concepts: framing effect, bundle pricing, scarcity (standard behavioural-economics ideas). All prices and labels are illustrations."
+  ],
+  "segments": [
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "Imagine you're selling yogurt\u2026 and nobody's buying.",
+      "right": "flat",
+      "say": "Imagine you're selling yogurt, and nobody is buying."
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "One cup says 20% fat. The other says 80% fat free.",
+      "prop": "cups",
+      "say": "Here's a test. One cup says 20 percent fat. The other says 80 percent fat free. Which one sells?"
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "80% fat free.",
+      "prop": "cups",
+      "pick": "right",
+      "right": "dots",
+      "say": "Most people grab the 80 percent fat free. It just sounds healthier."
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "It's the exact same yogurt.",
+      "prop": "cups",
+      "left": "happy",
+      "right": "dots",
+      "say": "But it's the exact same yogurt. People bought the words, not the yogurt. That's the framing effect: how something is said changes how we judge it."
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "A bag + watch for $49\u2026 or a bag for $49 and the watch is FREE?",
+      "prop": "offers",
+      "say": "Next. A bag and a watch for 49 dollars. Or a bag for 49 dollars, and the watch is free. Which feels better?"
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "Same price. Same stuff.",
+      "prop": "offers",
+      "left": "happy",
+      "right": "flat",
+      "say": "The free watch, obviously. Same price, same stuff. But free feels like a win. That's bundle pricing."
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "Now it says only 3 left.",
+      "prop": "scarce",
+      "right": "dots",
+      "say": "Last one. A button says buy now, for 100 dollars. Most people think, I'll get it later. Now it says: only 3 left. Suddenly, you want it right now."
+    },
+    {
+      "scene": "dialogue",
+      "type": "dialogue",
+      "caption": "Scarcity. Fear of missing out makes people act fast.",
+      "prop": "scarce",
+      "left": "happy",
+      "say": "That's scarcity. Fear of missing out makes people act fast, before they've really thought."
+    },
+    {
+      "scene": "list",
+      "type": "list",
+      "title": "PROTECT YOUR MONEY",
+      "items": [
+        {
+          "big": "1",
+          "text": "Flip the label",
+          "sub": "80% fat free = 20% fat"
+        },
+        {
+          "big": "2",
+          "text": "Price each item",
+          "sub": "'free' is usually built into the price"
+        },
+        {
+          "big": "3",
+          "text": "Pause on 'only 3 left'",
+          "sub": "sleep on it if you can"
+        },
+        {
+          "big": "4",
+          "text": "Ask: would I buy it at full price?"
+        }
+      ],
+      "say": "So, protect your money. Flip the label: 80 percent fat free means 20 percent fat. Check what each item really costs, because free is usually built into the price. When you see only 3 left, pause. And ask yourself: would I buy this at full price?"
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "SAME PRODUCT",
+      "lines": [
+        "DIFFERENT WORDS",
+        "SMARTER YOU"
+      ],
+      "disclaimer": "Financial education, not personal advice. Examples are illustrations.",
+      "say": "The product never changed. Only how it was said. Know the tricks, and spend on purpose. Financial education, not personal advice. Follow for more."
+    }
+  ]
+}
