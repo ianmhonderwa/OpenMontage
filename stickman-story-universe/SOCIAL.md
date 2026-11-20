@@ -123,3 +123,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** After Thunder Comes Rain | Socrates & Xanthippe in 50 Seconds #Shorts
 - **YouTube description:** The famous story of Socrates, his fiery wife Xanthippe and a bucket of water. Source: Diogenes Laertius, Lives of the Philosophers II.36 (Yonge tr.). Narration: AI voice (creator's own voice). Next episode: The Kick.
 - **YouTube tags:** socrates, xanthippe, philosophy, stoicism, ancient greece, wisdom, life lessons, shorts
+
+### BIB-005 – Noah Builds the Ark
+- **TikTok title:** They laughed at Noah… until 🌧️ Genesis 6 #bibletok #noahsark #biblestories #stickmanbible
+- **TikTok description:** God told Noah to build a huge boat on dry land. The neighbours laughed. Noah kept hammering, year after year. Obey God even when everyone laughs. Genesis 6 (KJV). Next: Two by Two. AI voice (creator's own voice). Follow @reian.creative.art #bibletok #christiantiktok #genesis #faith #scripture #stickman #reiancreativeart
+- **YouTube title:** Noah Builds the Ark | Genesis 6 | Stickman Bible Ep 5 #Shorts
+- **YouTube description:** Noah obeys God and builds the ark while everyone laughs. Genesis 6 (KJV). Narration: AI voice (creator's own voice). Next episode: Two by Two.
+- **YouTube tags:** noah's ark, noah, genesis, bible stories, stickman bible, christian, faith, shorts
