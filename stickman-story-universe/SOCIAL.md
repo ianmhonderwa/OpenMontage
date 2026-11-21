@@ -144,3 +144,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Same Stars | Nasreddin Hodja | Stickman Tales #Shorts
 - **YouTube description:** A Nasreddin Hodja anecdote retold with stick figures: counting the stars to prove two cities are alike. Source: The Turkish Jester, tr. George Borrow (1884). Narration: AI voice (creator's own voice). Next episode: The Dream of Nine Coins.
 - **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, wisdom stories, stars, unity, funny stories, shorts
+
+### BIB-006 – The Animals Arrive
+- **TikTok title:** Two by Two: The Animals Arrive 🐘🦁 Genesis 7 #bibletok #biblestories #noahsark #stickmanbible
+- **TikTok description:** The ark was finished. Then they came, two by two: elephants, lions, giraffes. Seven of every clean kind. Noah didn't chase a single one. Then "the LORD shut him in." When God shuts the door, you are safe inside. Genesis 7:1-16 (KJV). Next: The Flood. Follow @reian.creative.art · AI voice (creator's own voice) #bibletok #biblestories #christiantiktok #genesis #noahsark #faith #stickman #reiancreativeart
+- **YouTube title:** Two by Two: The Animals Arrive | Genesis 7 | Stickman Bible Ep 6 #Shorts
+- **YouTube description:** The animals come to Noah's ark two by two, and the Lord shuts the door. Genesis 7:1-16 (KJV). Narration: AI voice (creator's own voice). Next episode: The Flood.
+- **YouTube tags:** bible stories, noahs ark, two by two, genesis 7, stickman bible, christian, faith, animals, shorts, bible for kids
