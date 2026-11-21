@@ -1,0 +1,25 @@
+{
+  "id": "NAS-003",
+  "series": "NAS",
+  "series_badge": "NASREDDIN",
+  "ep_number": 3,
+  "title": "The Same Stars",
+  "title_html": "The Same<br>Stars",
+  "next_title": "The Dream of Nine Coins",
+  "source": "The Turkish Jester, tr. George Borrow (1884)",
+  "lesson": "People are more alike than different, wherever they live.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Nasreddin visited a new city. The people there were very proud of it. Our towers! Our fountains! Nothing in the world compares!",
+    "He stood up in the square and announced: The air in this city is exactly like the air in my home town.",
+    "How can you possibly know that? they demanded, arms folded. A few of them were quite offended.",
+    "Simple, said Nasreddin. Last night I climbed onto a roof, and I counted the stars over this city.",
+    "And there were exactly as many as over my home town! Not one more, not one less.",
+    "The crowd tried to argue. But nobody had counted the stars themselves. So they just looked up, and said nothing.",
+    "Funny logic, true lesson. Wherever we go, we live under the same sky. People are more alike than different.",
+    "Next episode: the dream of nine coins. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

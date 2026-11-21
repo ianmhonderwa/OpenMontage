@@ -137,3 +137,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Father and His Sons (Bundle of Sticks) | Aesop's Fable in 51 Seconds #Shorts
 - **YouTube description:** Aesop's fable retold with stick figures: quarrelling sons learn from a bundle of sticks that unity is strength. Source: Aesop's Fables, tr. G. F. Townsend (1867). Narration: AI voice (creator's own voice). Next episode: The Crow and the Pitcher.
 - **YouTube tags:** aesop, aesops fables, bundle of sticks, father and his sons, unity, family, moral stories, kids stories, shorts
+
+### NAS-003 – The Same Stars
+- **TikTok title:** He Counted the Stars to Prove It 🌟 Nasreddin Hodja #nasreddin #folktales #storytime #stickman
+- **TikTok description:** A proud city, a cheeky claim: "The air here is exactly like my home town. I counted the stars!" Nobody could argue. Wherever we go, we live under the same sky. People are more alike than different. Next: The Dream of Nine Coins. Follow @reian.creative.art · AI voice (creator's own voice) #nasreddin #nasreddinhodja #folktales #wisdom #unity #stickmanstories #animatedstory #reiancreativeart
+- **YouTube title:** The Same Stars | Nasreddin Hodja | Stickman Tales #Shorts
+- **YouTube description:** A Nasreddin Hodja anecdote retold with stick figures: counting the stars to prove two cities are alike. Source: The Turkish Jester, tr. George Borrow (1884). Narration: AI voice (creator's own voice). Next episode: The Dream of Nine Coins.
+- **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, wisdom stories, stars, unity, funny stories, shorts
