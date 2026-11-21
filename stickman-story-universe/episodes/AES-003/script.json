@@ -1,0 +1,25 @@
+{
+  "id": "AES-003",
+  "series": "AES",
+  "series_badge": "AESOP IN 60 SECONDS",
+  "ep_number": 3,
+  "title": "The Father and His Sons",
+  "title_html": "The Father<br>and His Sons",
+  "next_title": "The Crow and the Pitcher",
+  "source": "Aesop's Fables, tr. G. F. Townsend (1867), 'The Father and His Sons'",
+  "lesson": "Together you are strong; divided, you break.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "A father had three sons who argued all day long. About chores, about food, about absolutely everything.",
+    "He told them to stop. He begged them to stop. Nothing worked. So he tried something different.",
+    "He tied a bundle of sticks together, and said: break this. The first son pushed. The second son pulled. The third son sat on it.",
+    "Not one of them could break the bundle. Then the father untied it, and handed each son a single stick.",
+    "Snap, snap, snap. Each stick broke as easily as a breadstick.",
+    "My sons, said the father, if you stand together, no enemy can break you. But if you fight each other, you will snap, one by one, just like these sticks.",
+    "Together you are strong; divided, you break. So the next time you argue with your family, remember the bundle.",
+    "Next episode: a thirsty crow and a very clever plan. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

@@ -130,3 +130,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Noah Builds the Ark | Genesis 6 | Stickman Bible Ep 5 #Shorts
 - **YouTube description:** Noah obeys God and builds the ark while everyone laughs. Genesis 6 (KJV). Narration: AI voice (creator's own voice). Next episode: Two by Two.
 - **YouTube tags:** noah's ark, noah, genesis, bible stories, stickman bible, christian, faith, shorts
+
+### AES-003 – The Father and His Sons
+- **TikTok title:** Three Brothers, One Bundle of Sticks 🪵 Aesop in 60 Seconds #aesopsfables #storytime #moralstories #stickman
+- **TikTok description:** Three brothers argued about everything, so their father handed them a bundle of sticks. Nobody could break it, but one stick at a time snapped easily. Together you are strong; divided, you break. Next: The Crow and the Pitcher. Follow @reian.creative.art · AI voice (creator's own voice) #aesopsfables #fables #moralstories #family #brothers #unity #animatedstory #reiancreativeart
+- **YouTube title:** The Father and His Sons (Bundle of Sticks) | Aesop's Fable in 51 Seconds #Shorts
+- **YouTube description:** Aesop's fable retold with stick figures: quarrelling sons learn from a bundle of sticks that unity is strength. Source: Aesop's Fables, tr. G. F. Townsend (1867). Narration: AI voice (creator's own voice). Next episode: The Crow and the Pitcher.
+- **YouTube tags:** aesop, aesops fables, bundle of sticks, father and his sons, unity, family, moral stories, kids stories, shorts

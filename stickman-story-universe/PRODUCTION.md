@@ -78,7 +78,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 14 | ANA-002 | How Wisdom Became the Property of the Human Race | Barker & Sinclair, tale II, 'How Wisdom Became the Property of the Human Race' | Written – Batch 03 | – | [x] |
 | 15 | SOC-004 | After Thunder Comes Rain | Diogenes Laertius, Lives II.36 | Written – Batch 01 | Lengthen: 108 words (min 130) | [x] |
 | 16 | BIB-005 | Noah Builds the Ark | Genesis 6 | Written – Batch 01 | Lengthen: 120 words (min 130) | [x] |
-| 17 | AES-003 | The Father and His Sons | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 97 words (min 130) | [ ] |
+| 17 | AES-003 | The Father and His Sons | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 97 words (min 130) | [x] |
 | 18 | NAS-003 | The Same Stars | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 112 words (min 130) | [ ] |
 | 19 | BIB-006 | The Animals Arrive | Genesis 7:1-16 | Written – Batch 01 | Lengthen: 93 words (min 130) | [ ] |
 | 20 | GRM-004 | The Youth Who Went Forth to Learn What Fear Was | Hunt tale 4, 'The Story of the Youth Who Went Forth to Learn What Fear Was' | Written – Batch 02 | Trim: 162 words (max 160) | [ ] |
