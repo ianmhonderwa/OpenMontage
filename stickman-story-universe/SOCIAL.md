@@ -165,3 +165,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Anansi and Nothing | West African Folk Tale | Stickman Tales #Shorts
 - **YouTube description:** An Anansi tale retold with stick figures: why children are said to cry for nothing. Source: Barker & Sinclair, West African Folk-Tales (1917), tale III. Narration: AI voice (creator's own voice). Next episode: Anansi and the Magic Pot.
 - **YouTube tags:** anansi, anansi stories, african folktales, west african folk tales, envy, moral stories, kids stories, shorts
+
+### SOC-005 – Socrates and the Kick
+- **TikTok title:** He Kicked Socrates. Socrates' Reply Was Legendary 🫏 #socrates #philosophy #storytime #stickman
+- **TikTok description:** A man lost an argument and kicked Socrates. "Take him to court!" shouted the crowd. Socrates: "If a donkey kicked me, would I take the donkey to court?" When someone acts like a donkey, you don't have to become one too. Next: The Ring of Invisibility. Follow @reian.creative.art · AI voice (creator's own voice) #socrates #stoic #wisdom #selfcontrol #anger #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** Socrates and the Kick | Ancient Wisdom in 60 Seconds #Shorts
+- **YouTube description:** An anecdote about Socrates retold with stick figures: how he answered a man who kicked him. Source: Diogenes Laertius, Lives of the Philosophers II.21. Narration: AI voice (creator's own voice). Next episode: The Ring of Invisibility.
+- **YouTube tags:** socrates, philosophy, ancient greece, wisdom, anger management, self control, stoicism, shorts
