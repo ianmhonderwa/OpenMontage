@@ -1,0 +1,242 @@
+{
+ "rail": {
+  "volume_cm3": 662.25,
+  "steel_mass_kg_if_steel": 5.199,
+  "triangles": 2504,
+  "bbox_m": [
+   1.5,
+   0.04,
+   0.04
+  ]
+ },
+ "rail_raw": {
+  "volume_cm3": 666.0,
+  "steel_mass_kg_if_steel": 5.228,
+  "triangles": 10,
+  "bbox_m": [
+   1.5,
+   0.04,
+   0.04
+  ]
+ },
+ "cross": {
+  "volume_cm3": 221.32,
+  "steel_mass_kg_if_steel": 1.737,
+  "triangles": 464,
+  "bbox_m": [
+   0.5,
+   0.04,
+   0.04
+  ]
+ },
+ "bearer": {
+  "volume_cm3": 487.38,
+  "steel_mass_kg_if_steel": 3.826,
+  "triangles": 690,
+  "bbox_m": [
+   1.1,
+   0.04,
+   0.04
+  ]
+ },
+ "post": {
+  "volume_cm3": 172.28,
+  "steel_mass_kg_if_steel": 1.352,
+  "triangles": 690,
+  "bbox_m": [
+   0.94,
+   0.025,
+   0.025
+  ]
+ },
+ "crossbar": {
+  "volume_cm3": 109.95,
+  "steel_mass_kg_if_steel": 0.863,
+  "triangles": 464,
+  "bbox_m": [
+   0.6,
+   0.025,
+   0.025
+  ]
+ },
+ "plate": {
+  "volume_cm3": 76.45,
+  "steel_mass_kg_if_steel": 0.6,
+  "triangles": 793,
+  "bbox_m": [
+   0.1,
+   0.13,
+   0.006
+  ]
+ },
+ "pillow": {
+  "volume_cm3": 86.64,
+  "steel_mass_kg_if_steel": 0.68,
+  "triangles": 720,
+  "bbox_m": [
+   0.127,
+   0.0653,
+   0.038
+  ]
+ },
+ "insert": {
+  "volume_cm3": 46.58,
+  "steel_mass_kg_if_steel": 0.366,
+  "triangles": 672,
+  "bbox_m": [
+   0.047,
+   0.047,
+   0.044
+  ]
+ },
+ "nipple": {
+  "volume_cm3": 0.41,
+  "steel_mass_kg_if_steel": 0.003,
+  "triangles": 334,
+  "bbox_m": [
+   0.008,
+   0.012,
+   0.008
+  ]
+ },
+ "drum": {
+  "volume_cm3": 197.9,
+  "steel_mass_kg_if_steel": 1.554,
+  "triangles": 389,
+  "bbox_m": [
+   0.0483,
+   0.0483,
+   0.4
+  ]
+ },
+ "shaft": {
+  "volume_cm3": 163.36,
+  "steel_mass_kg_if_steel": 1.282,
+  "triangles": 166,
+  "bbox_m": [
+   0.02,
+   0.02,
+   0.52
+  ]
+ },
+ "deck": {
+  "volume_cm3": 9935.86,
+  "steel_mass_kg_if_steel": 77.997,
+  "triangles": 116,
+  "bbox_m": [
+   1.2,
+   0.018,
+   0.46
+  ]
+ },
+ "pad": {
+  "volume_cm3": 753.14,
+  "steel_mass_kg_if_steel": 5.912,
+  "triangles": 228,
+  "bbox_m": [
+   0.06,
+   0.02,
+   0.65
+  ]
+ },
+ "grip": {
+  "volume_cm3": 37.73,
+  "steel_mass_kg_if_steel": 0.296,
+  "triangles": 5040,
+  "bbox_m": [
+   0.11,
+   0.033,
+   0.033
+  ]
+ },
+ "console": {
+  "volume_cm3": 356.87,
+  "steel_mass_kg_if_steel": 2.801,
+  "triangles": 121,
+  "bbox_m": [
+   0.12,
+   0.045,
+   0.07
+  ]
+ },
+ "screen": {
+  "volume_cm3": 5.26,
+  "steel_mass_kg_if_steel": 0.041,
+  "triangles": 4,
+  "bbox_m": [
+   0.094,
+   0.028,
+   0.002
+  ]
+ },
+ "bolt45": {
+  "volume_cm3": 2.95,
+  "steel_mass_kg_if_steel": 0.023,
+  "triangles": 2446,
+  "bbox_m": [
+   0.015,
+   0.0503,
+   0.013
+  ]
+ },
+ "bolt60": {
+  "volume_cm3": 3.71,
+  "steel_mass_kg_if_steel": 0.029,
+  "triangles": 2446,
+  "bbox_m": [
+   0.015,
+   0.0653,
+   0.013
+  ]
+ },
+ "bolt75": {
+  "volume_cm3": 4.46,
+  "steel_mass_kg_if_steel": 0.035,
+  "triangles": 2446,
+  "bbox_m": [
+   0.015,
+   0.0803,
+   0.013
+  ]
+ },
+ "bolt100": {
+  "volume_cm3": 5.72,
+  "steel_mass_kg_if_steel": 0.045,
+  "triangles": 2446,
+  "bbox_m": [
+   0.015,
+   0.1053,
+   0.013
+  ]
+ },
+ "nut": {
+  "volume_cm3": 0.6,
+  "steel_mass_kg_if_steel": 0.005,
+  "triangles": 296,
+  "bbox_m": [
+   0.015,
+   0.0065,
+   0.013
+  ]
+ },
+ "washer": {
+  "volume_cm3": 0.23,
+  "steel_mass_kg_if_steel": 0.002,
+  "triangles": 336,
+  "bbox_m": [
+   0.016,
+   0.0016,
+   0.016
+  ]
+ },
+ "spanner": {
+  "volume_cm3": 18.95,
+  "steel_mass_kg_if_steel": 0.149,
+  "triangles": 284,
+  "bbox_m": [
+   0.1792,
+   0.01,
+   0.026
+  ]
+ }
+}
