@@ -1,0 +1,25 @@
+{
+  "id": "ANA-003",
+  "series": "ANA",
+  "series_badge": "ANANSI &amp; AFRICAN TALES",
+  "ep_number": 3,
+  "title": "Anansi and Nothing",
+  "title_html": "Anansi<br>and Nothing",
+  "next_title": "Anansi and the Magic Pot",
+  "source": "Barker & Sinclair, West African Folk-Tales (1917), tale III",
+  "lesson": "Envy digs pits that only bring grief.",
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Why do people say a crying child is crying for nothing? Blame Anansi. His neighbour was a rich man called Nothing.",
+    "Together they set off to find wives. Nothing wore fine velvet. Anansi wore ragged cotton. Let's swap clothes for a while, said Anansi.",
+    "He kept forgetting to swap back. Not yet, the road is dusty. Not yet, the sun is too hot.",
+    "Anansi, in velvet, found many wives. Ragged Nothing was laughed at, until a kind mother gave him her daughter.",
+    "But at the crossroads, Nothing's road led to a palace. Anansi's led to a hut. And Anansi's wives all moved to Nothing's palace.",
+    "Anansi was furious. He set a slippery trap at Nothing's door. Nothing fell, and did not get up again.",
+    "His widow gave every child she met some mashed yam, to help her cry. And children still cry for Nothing. Envy digs pits that only bring grief.",
+    "Next time: Anansi and the magic pot. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

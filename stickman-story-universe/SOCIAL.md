@@ -158,3 +158,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Youth Who Learned to Shudder | Grimm Fairy Tale | Stickman Tales #Shorts
 - **YouTube description:** Grimm's tale of a boy who went forth to learn what fear was, retold with stick figures. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 4. Narration: AI voice (creator's own voice). Next episode: The Wolf and the Seven Little Kids.
 - **YouTube tags:** grimm, brothers grimm, fairy tales, learn what fear was, haunted castle, bravery, kids stories, shorts
+
+### ANA-003 – Anansi and Nothing
+- **TikTok title:** Why Children "Cry for Nothing" 🕷️ Anansi Tale #anansi #africanfolktales #storytime #stickman
+- **TikTok description:** Anansi borrowed rich Nothing's velvet clothes and "forgot" to give them back. But Nothing still ended up with the palace, and Anansi's envy turned into a trap. Envy digs pits that only bring grief. Next: Anansi and the Magic Pot. Follow @reian.creative.art · AI voice (creator's own voice) #anansi #africanstories #folktales #westafrica #envy #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** Anansi and Nothing | West African Folk Tale | Stickman Tales #Shorts
+- **YouTube description:** An Anansi tale retold with stick figures: why children are said to cry for nothing. Source: Barker & Sinclair, West African Folk-Tales (1917), tale III. Narration: AI voice (creator's own voice). Next episode: Anansi and the Magic Pot.
+- **YouTube tags:** anansi, anansi stories, african folktales, west african folk tales, envy, moral stories, kids stories, shorts
