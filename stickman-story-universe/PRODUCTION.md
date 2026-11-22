@@ -81,7 +81,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 17 | AES-003 | The Father and His Sons | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 97 words (min 130) | [x] |
 | 18 | NAS-003 | The Same Stars | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 112 words (min 130) | [x] |
 | 19 | BIB-006 | The Animals Arrive | Genesis 7:1-16 | Written – Batch 01 | Lengthen: 93 words (min 130) | [x] |
-| 20 | GRM-004 | The Youth Who Went Forth to Learn What Fear Was | Hunt tale 4, 'The Story of the Youth Who Went Forth to Learn What Fear Was' | Written – Batch 02 | Trim: 162 words (max 160) | [ ] |
+| 20 | GRM-004 | The Youth Who Went Forth to Learn What Fear Was | Hunt tale 4, 'The Story of the Youth Who Went Forth to Learn What Fear Was' | Written – Batch 02 | Trim: 162 words (max 160) | [x] |
 | 21 | ANA-003 | Anansi and Nothing | Barker & Sinclair, tale III, 'Anansi and Nothing' | Written – Batch 04 | – | [ ] |
 | 22 | SOC-005 | Socrates and the Kick | Diogenes Laertius, Lives II.21 | Written – Batch 01 | Lengthen: 86 words (min 130) | [ ] |
 | 23 | BIB-007 | The Great Flood | Genesis 7:17-8:12 | Written – Batch 01 | Lengthen: 121 words (min 130) | [ ] |

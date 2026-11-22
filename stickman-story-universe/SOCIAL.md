@@ -151,3 +151,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Two by Two: The Animals Arrive | Genesis 7 | Stickman Bible Ep 6 #Shorts
 - **YouTube description:** The animals come to Noah's ark two by two, and the Lord shuts the door. Genesis 7:1-16 (KJV). Narration: AI voice (creator's own voice). Next episode: The Flood.
 - **YouTube tags:** bible stories, noahs ark, two by two, genesis 7, stickman bible, christian, faith, animals, shorts, bible for kids
+
+### GRM-004 – The Youth Who Learned to Shudder
+- **TikTok title:** The Boy Who Couldn't Be Scared 👻 Grimm Fairy Tale #grimmstories #fairytale #storytime #stickman
+- **TikTok description:** Ghosts, fiery-eyed cats, a giant, a haunted castle: nothing scared him. Then his wife tipped a bucket of cold water and wriggling fish into his bed. Finally, a shudder! Being brave doesn't mean feeling nothing. Next: The Wolf and the Seven Little Kids. Follow @reian.creative.art · AI voice (creator's own voice) #grimm #brothersgrimm #fairytales #bravery #spookystories #animatedstory #reiancreativeart
+- **YouTube title:** The Youth Who Learned to Shudder | Grimm Fairy Tale | Stickman Tales #Shorts
+- **YouTube description:** Grimm's tale of a boy who went forth to learn what fear was, retold with stick figures. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 4. Narration: AI voice (creator's own voice). Next episode: The Wolf and the Seven Little Kids.
+- **YouTube tags:** grimm, brothers grimm, fairy tales, learn what fear was, haunted castle, bravery, kids stories, shorts
