@@ -200,3 +200,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Rainbow Promise | Genesis 8–9 | Stickman Bible Ep 8 #Shorts
 - **YouTube description:** Noah leaves the ark, gives thanks, and God sets the rainbow as the sign of His covenant. Genesis 8:13-9:17 (KJV). Narration: AI voice (creator's own voice). Next episode: The Tower of Babel.
 - **YouTube tags:** bible stories, noahs ark, rainbow promise, genesis 9, covenant, christian, faith, bible for kids, shorts
+
+### GRM-005 – The Wolf and the Seven Young Kids
+- **TikTok title:** The Wolf Ate Chalk to Trick Them 🐺🐐 Grimm Fairy Tale #grimmstories #fairytale #storytime #animation
+- **TikTok description:** "Don't open the door to the wolf: rough voice, black feet." So the wolf ate chalk and floured his paws. The kids opened up, but the youngest hid in the clock, and Mother Goat came to the rescue. Trust is good. Checking is better. Next: Faithful John. Follow @reian.creative.art · AI voice (creator's own voice) #grimm #brothersgrimm #fairytales #kidsstories #safety #animatedstory #reiancreativeart
+- **YouTube title:** The Wolf and the Seven Young Kids | Grimm Fairy Tale | Story Shorts #Shorts
+- **YouTube description:** Grimm's classic tale retold in 3D animation: the wolf's tricks, the kid in the clock, and a splash in the well. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 5. Narration: AI voice (creator's own voice). Next episode: Faithful John.
+- **YouTube tags:** grimm, brothers grimm, fairy tales, wolf and the seven kids, bedtime story, kids stories, stranger danger, shorts
