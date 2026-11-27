@@ -36,7 +36,7 @@ Two scheduled runs a day each produce **one** finished episode. To pause product
    faces hidden, objects off-set). At most two fix rounds. Then `bash engine/build.sh <ID> full`
    (about 10 min render).
 6. Deliver: send the full MP4 to the user (SendUserFile, status proactive), and upload
-   `out/<ID>/<name>_preview720.mp4` to Google Drive folder `1VCVWgT_O83g2ty4uX69U3SyH9PTlezbk` with
+   `out/<ID>/<name>_preview720.mp4` to Google Drive folder `1mp7JNNDP33jtECMsOF4h6vxoXf_1FL9V` with
    `create_file` (contentMimeType video/mp4, disableConversionToGoogleType true, base64Content as a
    `sha256:<hash>:<absolute path>` file reference), title `<ID> <Title> (720p preview).mp4`.
 6b. Add the episode's posting copy (TikTok title/description, YouTube title/description/tags, hashtags from the series set) to `SOCIAL.md`.
