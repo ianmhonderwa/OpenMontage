@@ -1,0 +1,13 @@
+name: Feature or integration request
+description: Suggest an improvement or a new platform
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes: { label: Problem, description: What are you trying to do? }
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Official API support
+      description: Link the platform's official documentation showing the operation is supported for third-party apps.
+  - type: textarea
+    attributes: { label: Proposed solution }

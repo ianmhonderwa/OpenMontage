@@ -1,0 +1,19 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Security problems must NOT be reported here.** See SECURITY.md. Never paste tokens or keys."
+  - type: input
+    attributes: { label: Version, description: "Output of `opensocial version`" }
+    validations: { required: true }
+  - type: dropdown
+    attributes:
+      label: Integration
+      options: [core, youtube, tiktok, facebook, instagram, whatsapp, kindle, dashboard, other]
+  - type: textarea
+    attributes: { label: What happened, description: Steps to reproduce, expected and actual result }
+    validations: { required: true }
+  - type: dropdown
+    attributes: { label: Demo mode?, options: ["yes (simulated APIs)", "no (live APIs)"] }
