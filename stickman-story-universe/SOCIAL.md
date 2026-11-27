@@ -193,3 +193,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Dream of Nine Coins | Nasreddin Hodja | Story Shorts #Shorts
 - **YouTube description:** A Nasreddin Hodja anecdote retold in 3D animation: greed in a dream costs him even what he was offered. Source: The Turkish Jester, tr. George Borrow (1884). Narration: AI voice (creator's own voice). Next episode: Hiding from the Horsemen.
 - **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, greed, gratitude, wisdom stories, shorts
+
+### BIB-008 – The Rainbow Promise
+- **TikTok title:** Why God Put a Rainbow in the Sky 🌈 Genesis 9 #bibletok #biblestories #noahsark #rainbow
+- **TikTok description:** The ground was dry. Noah's first act was to build an altar and give thanks. Then God promised: never again a flood, and "I do set my bow in the cloud." Every rainbow is a reminder: God keeps His promises. Genesis 8:13-9:17 (KJV). Next: The Tower of Babel. Follow @reian.creative.art · AI voice (creator's own voice) #bibletok #christiantiktok #genesis #faith #godspromises #animatedstory #reiancreativeart
+- **YouTube title:** The Rainbow Promise | Genesis 8–9 | Stickman Bible Ep 8 #Shorts
+- **YouTube description:** Noah leaves the ark, gives thanks, and God sets the rainbow as the sign of His covenant. Genesis 8:13-9:17 (KJV). Narration: AI voice (creator's own voice). Next episode: The Tower of Babel.
+- **YouTube tags:** bible stories, noahs ark, rainbow promise, genesis 9, covenant, christian, faith, bible for kids, shorts

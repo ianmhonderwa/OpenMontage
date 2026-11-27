@@ -1,0 +1,18 @@
+{
+  "id": "BIB-008", "style": "v2", "series": "BIB", "series_badge": "STICKMAN BIBLE", "ep_number": 8,
+  "title": "The Rainbow Promise",
+  "title_html": "The Rainbow<br>Promise<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 8–9</span>",
+  "next_title": "The Tower of Babel", "source": "Genesis 8:13-9:17 (KJV)", "lesson": "God keeps His promises.",
+  "voice": "bm_george", "speed": 1.05, "music": "lyre",
+  "lines": [
+    "Noah removed the covering of the ark, and looked out. The ground was dry at last.",
+    "God said: Go forth of the ark, thou, and thy wife, and thy sons, and every living thing. And out they came, into a brand new world.",
+    "The first thing Noah did was build an altar, and give thanks to the Lord.",
+    "And God made a promise: While the earth remaineth, seedtime and harvest, cold and heat, summer and winter, day and night shall not cease.",
+    "Never again would a flood destroy the earth. And God gave a sign, so they would never forget.",
+    "I do set my bow in the cloud. Every time the rain falls and the rainbow appears, God remembers His promise.",
+    "So the next time you see a rainbow, remember: God keeps His promises. Every single one.",
+    "Next time: the tower of Babel. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.5, 0.55, 0.5, 0.55, 0.7, 0.0]
+}
