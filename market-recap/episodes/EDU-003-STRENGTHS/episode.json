@@ -1,0 +1,38 @@
+{
+  "id": "EDU-003-STRENGTHS",
+  "name": "Build on Your Strength",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "for_date": "2026-11-28",
+  "sources": [
+    "Concept: building on strengths and becoming rare/specialised (general career-economics idea; comparative advantage). Story inspired by a reference short the owner shared; script, visuals and numbers are our own. All names, ages and incomes are illustrations, not data."
+  ],
+  "segments": [
+    { "scene": "dialogue", "type": "dialogue", "caption": "Two friends. Same school. Same start.", "left": "happy", "right": "happy",
+      "say": "Two friends. Same school, same start, same chances. Twenty years later, one earns three times more than the other. Here's why." },
+    { "scene": "dialogue", "type": "dialogue", "caption": "Tendai: \"I must fix my weak points.\"", "left": "flat", "right": "dots",
+      "say": "Tendai was good with numbers, but weak at drawing, music and public speaking. So he spent his evenings fixing every weakness." },
+    { "scene": "dialogue", "type": "dialogue", "caption": "Years later: okay at everything. Great at nothing.", "left": "flat", "right": "dots",
+      "say": "Years later, he was okay at everything. But okay is everywhere. Hundreds of people can do okay, so okay gets paid like everyone else." },
+    { "scene": "dialogue", "type": "dialogue", "caption": "Farai: \"I'll go deep on what I'm already good at.\"", "left": "dots", "right": "happy",
+      "say": "Farai had the same weak spots. But he left them alone, and went deep on the one thing he was already good at: solving problems with computers." },
+    { "scene": "dialogue", "type": "dialogue", "caption": "Average is common. Excellent is rare.", "left": "dots", "right": "happy",
+      "say": "Year after year, his skill stacked up, until it became something rare. And rare things get paid more, because few people can do them." },
+    { "scene": "compare", "type": "compare", "title": "20 YEARS LATER", "aLabel": "TENDAI", "a": 600, "bLabel": "FARAI", "b": 1800, "max": 1800,
+      "note": "Illustration only: made-up monthly incomes in US$ to show the idea. Not real data and not a prediction.",
+      "say": "Same effort, same hours. One spread himself thin, the other built on his strength. In this example, Farai ends up earning three times more." },
+    { "scene": "list", "type": "list", "title": "BUILD ON YOUR STRENGTH",
+      "items": [
+        { "big": "1", "text": "Find what people already ask you for", "sub": "that's usually your strength" },
+        { "big": "2", "text": "Spend most of your learning time there" },
+        { "big": "3", "text": "Fix weaknesses only until they stop blocking you" },
+        { "big": "4", "text": "Get paid for the rare skill, then invest the extra" }
+      ],
+      "say": "So here's the plan. Find what people already ask you for. Spend most of your learning time there. Fix your weaknesses only until they stop blocking you. Then get paid for the rare skill, and invest the extra." },
+    { "scene": "outro", "type": "outro", "title": "BUILD ON", "lines": ["YOUR STRENGTH", "NOT YOUR WEAKNESS"],
+      "disclaimer": "Financial education, not personal advice. Examples are illustrations.",
+      "say": "Your income follows your rarest skill. Build on your strength. Financial education, not personal advice. Follow for more." }
+  ]
+}

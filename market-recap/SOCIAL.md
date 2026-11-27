@@ -42,3 +42,10 @@ Always end descriptions with: "Not financial advice."
 - **YouTube title:** The Framing Trick That Makes You Spend More #Shorts
 - **YouTube description:** Framing, bundle pricing and scarcity explained with one simple office scene, plus four ways to protect your money. Illustrative examples. Financial education, not personal advice. Narration: AI voice (creator's own voice).
 - **YouTube tags:** framing effect, marketing psychology, scarcity, bundle pricing, money tips, personal finance, shorts
+
+### EDU-003 – Build on Your Strength (Saturday money lesson, for 2026-11-28)
+- **TikTok title:** Same start. 3x the income. Here's why 💡 #moneytips #careeradvice #personalfinance #zimbabwe
+- **TikTok description:** Tendai fixed every weakness and became okay at everything. Farai went deep on his one strength until it was rare, and rare gets paid. Build on your strength, not your weakness. Incomes shown are illustrations. Financial education, not personal advice. AI voice (creator's own voice). Follow @reian.creative.finance #career #skills #income #financialliteracy #reiancreativefinance
+- **YouTube title:** Why "Okay at Everything" Keeps You Broke #Shorts
+- **YouTube description:** Two friends, same start: one fixes weaknesses, one builds on a strength. Why rare skills earn more, and a 4-step plan. All names and incomes are illustrations. Financial education, not personal advice.
+- **YouTube tags:** personal finance, career advice, build on your strengths, skills, income, money mindset, zimbabwe, shorts
