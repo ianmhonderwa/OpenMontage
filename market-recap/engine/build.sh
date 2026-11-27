@@ -12,9 +12,12 @@ for f in kokoro-v1.0.int8.onnx voices-v1.0.bin; do
 done
 python3 -c "import kokoro_onnx, soundfile" 2>/dev/null || pip install -q kokoro-onnx soundfile
 export PAGE=$(python3 -c "import json;print(json.load(open('episodes/$EP/episode.json')).get('page','index.html'))")
+# cache: skip narration/music when they are newer than the episode script (resume after a timeout)
+if [ -s "$OUT/narration.wav" ] && [ -s "$OUT/timing.json" ] && [ "$OUT/timing.json" -nt "episodes/$EP/episode.json" ] && [ -z "${FORCE_TTS:-}" ]; then echo "narration cached"; else
 python3 engine/tts.py "$EP"
 bash ../stickman-story-universe/engine/apply_owner_voice.sh "$OUT/narration.wav"
-python3 engine/music.py "$EP"
+fi
+[ -s "$OUT/music.wav" ] && [ "$OUT/music.wav" -nt "$OUT/timing.json" ] || python3 engine/music.py "$EP"
 TIMES=$(python3 -c "
 import json; t=json.load(open('$OUT/timing.json')); s=t['segments']
 print(','.join(str(round(min(x['start']+3.2, (x['start']+x['end'])/2+1.5),2)) for x in s))")

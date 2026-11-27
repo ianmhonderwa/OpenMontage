@@ -1,0 +1,171 @@
+{
+ "id": "RCF-06-LIFE-AFTER-LISTING",
+ "name": "Life After Listing",
+ "page": "journal.html",
+ "handle": "@reian.creative.finance",
+ "series": "ROAD TO THE EXCHANGE · 4/4",
+ "voice": "bm_george",
+ "speed": 1.05,
+ "sources": [
+  "REIAN_CREATIVE_FINANCE/01_RESEARCH/zimbabwe_listing_research/listing_fact_sheet.md"
+ ],
+ "segments": [
+  {
+   "scene": "open",
+   "kicker": "The Road to the Stock Exchange · Part 4",
+   "title": "Life after listing",
+   "say": "Listing day gets the headlines. But the real commitment starts the day after. Here's what life looks like as a listed company in Zimbabwe. This is Reian Creative Finance. Understanding markets. Following capital.",
+   "type": "open"
+  },
+  {
+   "scene": "story",
+   "kicker": "New owners",
+   "title": "Shareholders and their rights",
+   "points": [
+    "Each ordinary share usually carries a vote at general meetings",
+    "Shareholders elect directors and approve major decisions",
+    "Dividends are paid only when the board declares them, out of profits",
+    "No dividend is guaranteed"
+   ],
+   "note": "General principles; exact rights are set by the company's constitution and the Companies Act.",
+   "say": "First, you have new owners. Ordinary shares usually carry votes at general meetings, where shareholders elect directors and approve major decisions. Dividends are paid only when the board declares them out of profits. Nothing is guaranteed.",
+   "type": "story"
+  },
+  {
+   "scene": "timeline",
+   "kicker": "The reporting calendar",
+   "title": "Deadlines that never stop",
+   "events": [
+    {
+     "date": "Half-year",
+     "text": "Interim results within 3 months of the end of the first six months"
+    },
+    {
+     "date": "Year end",
+     "text": "Audited annual financial statements published within 3 months"
+    },
+    {
+     "date": "6 months",
+     "text": "Annual report distributed to shareholders, at least 21 days before the AGM"
+    },
+    {
+     "date": "Always",
+     "text": "Price-sensitive news disclosed promptly"
+    }
+   ],
+   "note": "Sources: ZSE SI 134/2019 ss.35, 36, 39; VFEX SI 62/2026 rr.37, 40 (same deadlines).",
+   "say": "Then the reporting calendar. On both the Z S E and the V F E X, interim results are due within three months of the half year end. Audited annual results must be published within three months of year end, and the annual report sent to shareholders within six months, and at least 21 days before the annual general meeting. And price sensitive news must be disclosed promptly.",
+   "type": "timeline"
+  },
+  {
+   "scene": "story",
+   "kicker": "Price and value",
+   "title": "Share price and market capitalisation",
+   "points": [
+    "Market cap = shares in issue × share price",
+    "It changes every trading day",
+    "Example: 40 million shares at US$0.50 = US$20m; at US$0.60 = US$24m",
+    "A low share price can make future fundraising harder"
+   ],
+   "note": "Illustration uses the hypothetical company from Part 3.",
+   "say": "Now your share price and market capitalisation. Market cap is simply shares in issue times the share price, and it changes every trading day. Our example company from part three has 40 million shares. At 50 cents it's worth 20 million dollars. At 60 cents, 24 million. A weak share price can make it harder to raise money later.",
+   "type": "story"
+  },
+  {
+   "scene": "flow",
+   "kicker": "Corporate governance",
+   "title": "Running a listed company properly",
+   "steps": [
+    "A board that challenges management, including independent directors",
+    "Audit and remuneration committees",
+    "Clear related-party and conflict-of-interest rules",
+    "An AGM every year where shareholders can question the board"
+   ],
+   "note": "General good practice expected of listed companies; specific requirements are set by the exchange rules and the Companies Act.",
+   "say": "Governance matters even more after listing. Investors expect a board that challenges management, including independent directors, audit and remuneration committees, clear rules on conflicts of interest and related party deals, and an annual general meeting where shareholders can question the board face to face. Remember Nvidia from our global markets episode: when governance fails, the share price feels it.",
+   "type": "flow"
+  },
+  {
+   "scene": "story",
+   "kicker": "Using the listing",
+   "title": "What a listing lets you do",
+   "points": [
+    "Rights issues: offer new shares to existing shareholders",
+    "Use shares to pay for acquisitions",
+    "Employee share ownership schemes",
+    "Visibility with lenders, customers and partners"
+   ],
+   "note": "General corporate-finance uses; each requires the relevant approvals.",
+   "say": "A listing also opens doors. A company can do a rights issue, offering new shares to existing shareholders first. It can use its shares to pay for acquisitions, reward staff through employee share schemes, and it gains visibility with lenders and partners.",
+   "type": "story"
+  },
+  {
+   "scene": "split",
+   "kicker": "The trade-off",
+   "title": "Advantages vs disadvantages",
+   "left": {
+    "head": "ADVANTAGES",
+    "points": [
+     "Access to capital",
+     "Liquidity for owners",
+     "Transparency and credibility",
+     "Shares as a currency"
+    ]
+   },
+   "right": {
+    "head": "DISADVANTAGES",
+    "points": [
+     "Ongoing compliance costs",
+     "Public scrutiny of every result",
+     "Loss of some control",
+     "Short-term market pressure"
+    ]
+   },
+   "note": "General comparison. Fee and cost levels vary; the ZSE's 2019 fee schedule may have changed.",
+   "say": "So it's a trade off. On one side: access to capital, liquidity for owners, credibility and shares you can use as a currency. On the other: ongoing compliance costs, public scrutiny of every result, some loss of control, and pressure from the market every single day.",
+   "type": "split"
+  },
+  {
+   "scene": "story",
+   "kicker": "Oversight",
+   "title": "Who is watching",
+   "points": [
+    "The exchange enforces its listing rules",
+    "The Securities and Exchange Commission of Zimbabwe (SECZ) oversees the market",
+    "The RBZ: foreign holdings and offshore listings (FX Guidelines, Mar 2026)",
+    "Breaches can lead to suspension of trading"
+   ],
+   "note": "Sources: SI 134/2019; SI 62/2026; RBZ FX Guidelines March 2026 ss.4.2.8, 4.2.18.",
+   "say": "And you're always being watched. The exchange enforces its rules, the Securities and Exchange Commission oversees the market, and the Reserve Bank's foreign exchange rules cover foreign shareholdings and any listing abroad, which needs its prior approval. Serious breaches can lead to your shares being suspended.",
+   "type": "story"
+  },
+  {
+   "scene": "story",
+   "kicker": "The exit doors",
+   "title": "Suspension and delisting",
+   "points": [
+    "Suspension: trading halted, often for late results or unclear information",
+    "Delisting: the company leaves the exchange",
+    "Can be voluntary (e.g. moving to another exchange) or forced",
+    "Example: TSL was reported to end its ZSE listing in June 2026 and move to the VFEX"
+   ],
+   "note": "Example: The Herald (pre-event report). Process details depend on the exchange's rules.",
+   "say": "Finally, the exit doors. A suspension halts trading, often because results are late or information is unclear. Delisting means the company leaves the exchange, either voluntarily, for example to move to another exchange, or because it no longer meets the rules. TSL, for example, was reported to end its Z S E listing in June 2026 and move to the V F E X.",
+   "type": "story"
+  },
+  {
+   "scene": "outro",
+   "kicker": "Series takeaway",
+   "title": "Listing is a marriage, not a wedding",
+   "lines": [
+    "Prepare for years",
+    "Report on time, every time",
+    "Treat shareholders as partners"
+   ],
+   "next": "More from Reian Creative Finance",
+   "disclaimer": "Educational content only. Not legal or investment advice: speak to a registered legal practitioner and a licensed sponsoring broker before acting. Rules as read on 27 Nov 2026.",
+   "say": "Listing is a marriage, not a wedding. Prepare for years, report on time every time, and treat your shareholders as partners. That's the end of our road to the stock exchange series. This is educational content, not legal or investment advice. Follow Reian Creative Finance for more.",
+   "type": "outro"
+  }
+ ]
+}

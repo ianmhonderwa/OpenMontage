@@ -1,0 +1,239 @@
+{
+ "id": "RCF-01-USA-EUROPE",
+ "name": "America and Europe Week Review",
+ "page": "journal.html",
+ "handle": "@reian.creative.finance",
+ "series": "GLOBAL MARKETS · 1/2",
+ "voice": "bm_george",
+ "speed": 1.05,
+ "for_date": "2026-11-27",
+ "sources": [
+  "See REIAN_CREATIVE_FINANCE/01_RESEARCH/global_markets/notes_week_2026-11-27.md and indices_2026-11-27.json"
+ ],
+ "segments": [
+  {
+   "scene": "open",
+   "kicker": "Global markets · week of 23 November 2026",
+   "title": "Wall Street, London and the 11 days that shook Nvidia",
+   "say": "An A I selloff, a C E O who left and came back in eleven days, and London's best week in about eight months. This is Reian Creative Finance. Understanding markets. Following capital.",
+   "type": "open"
+  },
+  {
+   "scene": "headline",
+   "kicker": "First, a timing note",
+   "title": "Thanksgiving week",
+   "sub": "US markets were shut on Thursday 26 November and close early on Friday. So our US figures use the last completed full session: Wednesday 25 November.",
+   "say": "A quick timing note. American markets were closed on Thursday for Thanksgiving, and Friday is a half day that was still trading when we checked. So for America, we use the last completed session: Wednesday, the twenty fifth of November.",
+   "type": "headline"
+  },
+  {
+   "scene": "index",
+   "market": "New York",
+   "name": "S&P 500",
+   "where": "500 large US companies",
+   "date_label": "25 NOV 2026",
+   "close": 7182.78,
+   "prev_close": 7201.09,
+   "prev_label": "24 Nov",
+   "change_pts": -18.31,
+   "change_pct": -0.25,
+   "unit": "index points",
+   "facts": [
+    "Fell to about 6,970 during the day",
+    "Recovered most of the drop by the close"
+   ],
+   "note": "Source: Reuters, 25 Nov 2026; Yahoo Finance daily data.",
+   "say": "The S and P 500 closed at 7,182.78. That's down 18 points, or a quarter of one percent. But the close hides the drama: during the day it fell as low as about 6,970, before buyers stepped in and pulled it back.",
+   "type": "index"
+  },
+  {
+   "scene": "board",
+   "kicker": "New York · close 25 Nov 2026",
+   "title": "How the big US indices finished",
+   "rows": [
+    {
+     "name": "Dow Jones Industrial",
+     "sub": "30 blue chips",
+     "value": "50,182.95",
+     "pct": 0.33
+    },
+    {
+     "name": "Nasdaq Composite",
+     "sub": "tech-heavy",
+     "value": "23,585.80",
+     "pct": -0.62
+    },
+    {
+     "name": "NYSE Composite",
+     "sub": "all NYSE common stocks",
+     "value": "23,496.08",
+     "pct": 0.61
+    },
+    {
+     "name": "S&P 500",
+     "sub": "500 large companies",
+     "value": "7,182.78",
+     "pct": -0.25
+    }
+   ],
+   "note": "Closes, 25 Nov 2026. Sources: Reuters (Dow, S&P, Nasdaq); Yahoo Finance (all four).",
+   "say": "The Dow Jones actually rose, up a third of a percent to 50,182. Fox Business and the Motley Fool reported it had been down about 1,100 points during the day. The tech heavy Nasdaq lost 0.62 percent, while the broader N Y S E Composite gained 0.61 percent. So money moved out of A I and big tech, and into the rest of the market.",
+   "type": "board"
+  },
+  {
+   "scene": "story",
+   "kicker": "What moved markets",
+   "title": "An AI-related selloff",
+   "points": [
+    "Nvidia fell 3.9% on 25 November",
+    "Amazon −3.1%, Alphabet −2.0%, Microsoft −1.3%",
+    "Meta bucked the trend, +3.4%",
+    "Bargain hunters cut the losses before the holiday"
+   ],
+   "note": "Source: Reuters and Motley Fool market wrap, 25 Nov 2026. Single-day moves, not recommendations.",
+   "say": "Reuters described it as an A I related selloff. According to the Motley Fool's market wrap, Nvidia dropped 3.9 percent, Amazon 3.1, Alphabet 2, and Microsoft 1.3. Meta went the other way, up 3.4 percent. Then bargain hunters arrived before the holiday.",
+   "type": "story"
+  },
+  {
+   "scene": "timeline",
+   "kicker": "Corporate story of the month",
+   "title": "Nvidia: 11 days without Jensen Huang",
+   "events": [
+    {
+     "date": "12 Nov",
+     "text": "Board accepts CEO Jensen Huang's resignation; CFO Colette Kress becomes interim CEO"
+    },
+    {
+     "date": "17 Nov",
+     "text": "On the earnings call, the chair says the board does not intend to reinstate him"
+    },
+    {
+     "date": "23 Nov",
+     "text": "Board votes unanimously to reinstate Huang, citing input from senior levels of the US government"
+    },
+    {
+     "date": "After",
+     "text": "Shares jump about 30%; the board's own investigation is still open"
+    }
+   ],
+   "note": "Sources: Nvidia press releases filed with the US SEC (12 and 23 Nov 2026); Fortune, 27 Nov 2026; SCMP.",
+   "say": "Now, the corporate story of the month. On the twelfth of November, Nvidia's board accepted Jensen Huang's resignation, after reports about his private life. Finance chief Colette Kress became interim C E O. Five days later, the chair told analysts the board did not intend to bring him back. Then, on the twenty third, the board voted unanimously to reinstate him, saying it had received input from senior levels of the US government. The shares jumped about 30 percent.",
+   "type": "timeline"
+  },
+  {
+   "scene": "story",
+   "kicker": "Why it matters",
+   "title": "A governance lesson",
+   "points": [
+    "The board reinstated Huang before its own investigation finished",
+    "It has created a national security committee and is hiring a chief compliance officer",
+    "Lawmakers in Washington are asking questions",
+    "Lesson: a company that depends on one person carries 'key person risk'"
+   ],
+   "note": "Sources: Fortune, Wall Street Journal, Al Jazeera (24–27 Nov 2026). Interpretation is ours.",
+   "say": "For investors, this is a governance lesson. The board reversed itself before its own investigation was finished. It has since set up a national security committee and is hiring a chief compliance officer, and lawmakers in Washington are demanding answers. Our view: when a company's value depends on one person, investors carry what's called key person risk.",
+   "type": "story"
+  },
+  {
+   "scene": "story",
+   "kicker": "The AI money machine",
+   "title": "Anthropic, now listed as ANT",
+   "points": [
+    "Run-rate revenue about $81bn at 31 Oct 2026 (an annualised snapshot, not a year's sales)",
+    "Actual recognised revenue in Q3 2026: about $17.0bn",
+    "Still made an operating loss in Q3, of around half a billion dollars",
+    "Last private valuation: $965bn (Series H, May 2026)"
+   ],
+   "note": "Sources: Anthropic amended S-1 (via Dealroom, Trading 212); anthropic.com Series H announcement. Run rate ≠ revenue ≠ profit.",
+   "say": "Staying with A I: Anthropic, the maker of Claude, is now a listed company under the ticker A N T. Its latest filing puts its revenue run rate at about 81 billion dollars at the end of October. Be careful: a run rate is a snapshot multiplied up to a year, not a year of actual sales. Actual revenue in the third quarter was about 17 billion dollars, and it still made an operating loss of around half a billion. Its last private valuation, in May, was 965 billion dollars.",
+   "type": "story"
+  },
+  {
+   "scene": "headline",
+   "kicker": "Interest rates and inflation",
+   "title": "US inflation: 3.8%",
+   "sub": "The Fed's preferred gauge (PCE) rose to 3.8% a year in October; core PCE 3.3%. Markets fully price a quarter-point rate hike at the 8–9 December meeting.",
+   "note": "Sources: US Bureau of Economic Analysis; CNBC; ABC News (25 Nov 2026).",
+   "say": "Now rates. The Federal Reserve's preferred inflation gauge rose to 3.8 percent a year in October, almost double its 2 percent target. Core inflation was 3.3 percent. Markets are fully pricing in a quarter point interest rate rise when the Fed meets on the eighth and ninth of December. Higher US rates tend to strengthen the dollar, which matters for every African economy that borrows or trades in dollars.",
+   "type": "headline"
+  },
+  {
+   "scene": "board",
+   "kicker": "London · close 27 Nov 2026",
+   "title": "Europe: London's strong week",
+   "rows": [
+    {
+     "name": "FTSE 100",
+     "sub": "UK's 100 largest listed companies",
+     "value": "10,698.81",
+     "pct": 0.84
+    },
+    {
+     "name": "FTSE 250",
+     "sub": "UK mid-sized companies",
+     "value": "24,314.72",
+     "pct": 0.92
+    }
+   ],
+   "note": "Closes 27 Nov 2026 vs 26 Nov. Sources: Yahoo Finance (FTSE Russell data); Reuters, 27 Nov 2026.",
+   "say": "To London. The Footsie 100 closed on Friday at 10,698.81, up 0.84 percent, and the Footsie 250 of mid sized companies rose 0.92 percent. Reuters reported the Footsie 100 was heading for its best week in about eight months, led by miners and big banks, in a week marked by US tariff announcements.",
+   "type": "board"
+  },
+  {
+   "scene": "board",
+   "kicker": "Commodities · Friday afternoon",
+   "title": "Metals Africa cares about",
+   "rows": [
+    {
+     "name": "Gold",
+     "sub": "US$ per ounce, COMEX futures",
+     "value": "$3,658",
+     "pct": 3.46
+    },
+    {
+     "name": "Platinum",
+     "sub": "US$ per ounce, NYMEX futures",
+     "value": "$1,307",
+     "pct": 5.24
+    },
+    {
+     "name": "Copper",
+     "sub": "US$ per pound, COMEX futures",
+     "value": "$5.60",
+     "pct": 5.04
+    }
+   ],
+   "note": "Futures prices during trading on 27 Nov 2026 (~17:10 UTC), change vs 25 Nov. Not settlement prices. Source: Yahoo Finance.",
+   "say": "And metals, the ones that matter most for southern Africa. During Friday's trading, gold futures were around 3,658 dollars an ounce, about 3.5 percent higher than Wednesday. Platinum was up about 5 percent, near 1,307 dollars, and copper also about 5 percent higher. These were live prices, not final settlements.",
+   "type": "board"
+  },
+  {
+   "scene": "story",
+   "kicker": "The African perspective",
+   "title": "What this means for us",
+   "points": [
+    "Gold, platinum and copper up: good for Zimbabwe's and Zambia's export earnings",
+    "A US rate hike can mean a stronger dollar and dearer borrowing for African governments and firms",
+    "AI swings move global funds that also invest in Johannesburg",
+    "Key person risk exists in African firms too: ask who runs it if the founder leaves"
+   ],
+   "note": "Interpretation by Reian Creative Finance, based on the data shown. Not investment advice.",
+   "say": "So what does this mean for Africa? Higher gold, platinum and copper prices support export earnings in countries like Zimbabwe and Zambia. A US rate rise can mean a stronger dollar and more expensive borrowing for African governments and businesses. And the Nvidia story applies here too: before you invest in any company, ask who runs it if the founder walks away.",
+   "type": "story"
+  },
+  {
+   "scene": "outro",
+   "kicker": "Key takeaway",
+   "title": "Read the close, not the panic",
+   "lines": [
+    "Intraday swings are not closing prices",
+    "Run rate is not revenue",
+    "Watch the Fed on 8–9 December"
+   ],
+   "next": "African markets: JSE, ZSE and VFEX",
+   "disclaimer": "Educational content only, not personalised investment advice. Figures as at the dates shown; prices change. Sources in description.",
+   "say": "The lesson this week: read the close, not the panic. Intraday swings are not closing prices, and a run rate is not revenue. Next, we go home to African markets: Johannesburg, the Z S E and the V F E X. This is educational content, not personal investment advice. Follow Reian Creative Finance for more.",
+   "type": "outro"
+  }
+ ]
+}
