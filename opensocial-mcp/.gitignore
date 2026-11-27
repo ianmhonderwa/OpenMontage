@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local data and secrets — never commit
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+media/
+secrets/
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+
+# Dashboard
+dashboard/node_modules/
+dashboard/dist/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,109 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opensocial-mcp"
+version = "1.0.0"
+description = "Open-source Python MCP servers for managing authorised YouTube, TikTok, Facebook, Instagram, WhatsApp Business and Amazon Kindle publishing workflows through AI agents."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+authors = [{ name = "OpenSocial MCP contributors" }]
+keywords = ["mcp", "model-context-protocol", "claude", "youtube", "tiktok", "instagram", "facebook", "whatsapp", "kindle"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Framework :: FastAPI",
+]
+dependencies = [
+  "mcp>=2.3,<3",
+  "fastapi>=0.165,<1",
+  "uvicorn[standard]>=0.54,<1",
+  "pydantic>=2.14,<3",
+  "pydantic-settings>=2.16,<3",
+  "sqlalchemy>=2.1,<2.2",
+  "httpx>=0.29,<0.30",
+  "cryptography>=50,<51",
+  "apscheduler>=3.11,<4",
+  "pyyaml>=6.0.4,<7",
+  "pillow>=13,<14",
+  "typer>=0.29,<1",
+  "defusedxml>=0.7.1,<0.8",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2,<4"]
+dev = [
+  "pytest>=9.2,<10",
+  "pytest-asyncio>=1.5,<2",
+  "pytest-cov>=7.1,<8",
+  "respx>=0.23,<0.24",
+  "ruff>=0.17,<0.18",
+  "mypy>=2.4,<3",
+  "types-PyYAML",
+  "pip-audit>=2.10,<3",
+  "bandit>=1.9,<2",
+]
+
+[project.scripts]
+opensocial = "opensocial.cli.main:app"
+opensocial-youtube = "opensocial.servers.youtube:main"
+opensocial-tiktok = "opensocial.servers.tiktok:main"
+opensocial-facebook = "opensocial.servers.facebook:main"
+opensocial-instagram = "opensocial.servers.instagram:main"
+opensocial-whatsapp = "opensocial.servers.whatsapp:main"
+opensocial-kindle = "opensocial.servers.kindle:main"
+opensocial-core = "opensocial.servers.core:main"
+
+[project.urls]
+Documentation = "https://github.com/OWNER/opensocial-mcp/tree/main/docs"
+Issues = "https://github.com/OWNER/opensocial-mcp/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/opensocial"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning:apscheduler.*"]
+
+[tool.coverage.run]
+source = ["opensocial"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF", "N"]
+ignore = ["S101", "RUF012", "B008", "N818", "RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S105", "S106", "S108", "S311", "N802"]
+"scripts/**" = ["S603", "S607"]
+# Setting names and endpoint URLs, not secrets.
+"src/opensocial/integrations/registry.py" = ["S106"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+warn_unused_ignores = true
+warn_return_any = false
+ignore_missing_imports = true
+check_untyped_defs = true
+plugins = ["pydantic.mypy"]
+files = ["src/opensocial"]
