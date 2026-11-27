@@ -186,3 +186,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Crow and the Pitcher | Aesop's Fable in 60 Seconds #Shorts
 - **YouTube description:** Aesop's classic fable, retold in 3D animation: a thirsty crow raises the water one stone at a time. Source: Aesop's Fables, tr. G. F. Townsend (1867). Narration: AI voice (creator's own voice). Next episode: The Ass and the Grasshopper.
 - **YouTube tags:** aesop, aesops fables, crow and the pitcher, fables, moral stories, kids stories, patience, problem solving, shorts
+
+### NAS-004 – The Dream of Nine Coins
+- **TikTok title:** He Argued in His Dream and Lost Everything 🪙 Nasreddin Hodja #nasreddin #folktales #storytime #animation
+- **TikTok description:** In a dream, a stranger offers Nasreddin nine silver coins. "Make it ten! No, eleven!" Then he wakes up empty-handed, shuts his eyes and says, "Fine, I'll take the nine!" Too late. Be thankful for the nine before you fight for the eleven. Next: Hiding from the Horsemen. Follow @reian.creative.art · AI voice (creator's own voice) #nasreddinhodja #wisdom #greed #gratitude #lifelessons #animatedstory #reiancreativeart
+- **YouTube title:** The Dream of Nine Coins | Nasreddin Hodja | Story Shorts #Shorts
+- **YouTube description:** A Nasreddin Hodja anecdote retold in 3D animation: greed in a dream costs him even what he was offered. Source: The Turkish Jester, tr. George Borrow (1884). Narration: AI voice (creator's own voice). Next episode: Hiding from the Horsemen.
+- **YouTube tags:** nasreddin, nasreddin hodja, folktales, turkish folktales, greed, gratitude, wisdom stories, shorts

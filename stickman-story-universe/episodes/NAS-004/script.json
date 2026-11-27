@@ -1,0 +1,26 @@
+{
+  "id": "NAS-004",
+  "style": "v2",
+  "series": "NAS",
+  "series_badge": "NASREDDIN",
+  "ep_number": 4,
+  "title": "The Dream of Nine Coins",
+  "title_html": "The Dream of<br>Nine Coins",
+  "next_title": "Hiding from the Horsemen",
+  "source": "The Turkish Jester, tr. George Borrow (1884)",
+  "lesson": "Be thankful for the nine before you fight for the eleven.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "One night, Nasreddin fell asleep and had a wonderful dream. A stranger walked up and offered him nine silver coins.",
+    "Nine? said Nasreddin in the dream. Come on, make it ten!",
+    "Ten? Why not eleven! The stranger frowned. Nasreddin folded his arms. They argued, and argued, and argued.",
+    "Then the rooster crowed. Nasreddin woke up, and looked at his hand. Empty. Not one coin.",
+    "So he quickly shut his eyes, stuck out his hand, and said: Fine, fine! I'll take the nine!",
+    "He waited. And waited. Nothing. The dream was gone, and so were the coins.",
+    "Greed made him lose even what he was offered. Be thankful for the nine, before you fight for the eleven.",
+    "Next episode: Nasreddin hides from horsemen in the strangest place. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}
