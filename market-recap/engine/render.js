@@ -28,17 +28,25 @@ const server = http.createServer((req, res) => {
     fs.mkdirSync(path.join(OUT, 'stills'), { recursive: true });
     for (const t of times) { await page.evaluate(t => window.renderAt(t), t); await page.screenshot({ path: path.join(OUT, `stills/t${t}.jpg`), type: 'jpeg', quality: 85 }); console.log('still', t); }
   } else {
-    const fps = Number(process.argv[4] || 30); const n = Math.ceil(dur * fps);
-    const out = path.join(OUT, 'video_only.mp4');
-    const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', out]);
-    const t0 = Date.now();
-    for (let f = 0; f < n; f++) {
-      await page.evaluate(t => window.renderAt(t), f / fps);
-      const buf = await page.screenshot({ type: 'jpeg', quality: 92 });
-      if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r));
-      if (f % 60 === 0) console.log(`frame ${f}/${n} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+    // Resumable: render in 300-frame chunks (10 s at 30 fps) to out/<EP>/chunks/, skipping finished chunks, then concat.
+    const fps = Number(process.argv[4] || 30); const n = Math.ceil(dur * fps); const CH = 300;
+    const out = path.join(OUT, 'video_only.mp4'); const cdir = path.join(OUT, 'chunks'); fs.mkdirSync(cdir, { recursive: true });
+    const t0 = Date.now(); const parts = [];
+    for (let c = 0; c * CH < n; c++) {
+      const file = path.join(cdir, `c${String(c).padStart(4, '0')}.mp4`); parts.push(file);
+      if (fs.existsSync(file + '.ok')) continue;
+      const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', file]);
+      for (let f = c * CH; f < Math.min(n, (c + 1) * CH); f++) {
+        await page.evaluate(t => window.renderAt(t), f / fps);
+        const buf = await page.screenshot({ type: 'jpeg', quality: 92 });
+        if (!ff.stdin.write(buf)) await new Promise(r => ff.stdin.once('drain', r));
+      }
+      ff.stdin.end(); await new Promise(r => ff.on('close', r)); fs.writeFileSync(file + '.ok', '');
+      console.log(`frame ${Math.min(n, (c + 1) * CH)}/${n} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
     }
-    ff.stdin.end(); await new Promise(r => ff.on('close', r)); console.log('done', out);
+    fs.writeFileSync(path.join(cdir, 'list.txt'), parts.map(p => `file '${p}'`).join('\n'));
+    await new Promise(r => spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', path.join(cdir, 'list.txt'), '-c', 'copy', out]).on('close', r));
+    console.log('done', out);
   }
   await browser.close(); server.close();
 })().catch(e => { console.error(e); process.exit(1); });
