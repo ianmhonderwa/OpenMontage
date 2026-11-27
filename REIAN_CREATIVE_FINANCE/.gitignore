@@ -1,0 +1,4 @@
+# large media and live logs: delivered separately, not committed
+06_FINAL_VIDEOS/
+*.mp4
+09_QUALITY_CONTROL/*.log
