@@ -6,11 +6,13 @@ has a default value.
 
 from __future__ import annotations
 
+import os
 from functools import lru_cache
 from pathlib import Path
+from typing import Annotated
 
 from pydantic import Field, SecretStr, field_validator
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, NoDecode, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -33,8 +35,8 @@ class Settings(BaseSettings):
         None, description="Agent API key used by MCP servers to identify the acting user."
     )
     public_base_url: str = "http://127.0.0.1:8080"
-    allowed_origins: list[str] = ["http://127.0.0.1:8080", "http://localhost:5173"]
-    media_roots: list[Path] = Field(
+    allowed_origins: Annotated[list[str], NoDecode] = ["http://127.0.0.1:8080", "http://localhost:5173"]
+    media_roots: Annotated[list[Path], NoDecode] = Field(
         default_factory=lambda: [Path("./media")],
         description="Only files inside these directories may be read by MCP tools.",
     )
@@ -75,7 +77,9 @@ class Settings(BaseSettings):
 
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
-    return Settings()
+    """OPENSOCIAL_ENV_FILE lets MCP clients point at an absolute .env path, because
+    clients such as Claude Desktop start servers from an unpredictable working directory."""
+    return Settings(_env_file=os.environ.get("OPENSOCIAL_ENV_FILE", ".env"))
 
 
 def reset_settings_cache() -> None:

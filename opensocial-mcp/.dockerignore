@@ -1,0 +1,12 @@
+.venv
+**/__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+*.db
+.env
+media
+dashboard/node_modules
+dashboard/dist
+.git
