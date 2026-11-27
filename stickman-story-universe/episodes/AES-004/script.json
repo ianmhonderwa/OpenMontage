@@ -1,0 +1,26 @@
+{
+  "id": "AES-004",
+  "style": "v2",
+  "series": "AES",
+  "series_badge": "AESOP IN 60 SECONDS",
+  "ep_number": 4,
+  "title": "The Crow and the Pitcher",
+  "title_html": "The Crow<br>and the Pitcher",
+  "next_title": "The Ass and the Grasshopper",
+  "source": "Aesop's Fables, tr. G. F. Townsend (1867), 'The Crow and the Pitcher'",
+  "lesson": "Little by little does the trick.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "It was the hottest day of the year. The streams had dried up, and a crow was dying of thirst.",
+    "Then he spotted a pitcher! He flew down with delight, and peeked inside. There was water, but only a little, right at the bottom.",
+    "He pushed his beak in as far as it would go. Too short. He tried to tip the pitcher over. Too heavy.",
+    "Then he had an idea. He picked up a small stone, and dropped it in. Plop.",
+    "Then another. And another. Plop. Plop. Plop. Slowly, very slowly, the water began to rise.",
+    "Stone by stone, it came up, until at last it reached his beak. He drank, and drank, and saved his life.",
+    "Little by little does the trick. When a problem looks too big, don't give up. Drop one small stone at a time.",
+    "Next episode: a donkey who wanted to sing like a grasshopper. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

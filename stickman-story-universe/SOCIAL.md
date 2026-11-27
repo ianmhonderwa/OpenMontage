@@ -179,3 +179,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Great Flood: "God Remembered Noah" | Genesis 7–8 | Stickman Bible Ep 7 #Shorts
 - **YouTube description:** The flood, the ark on Ararat, the raven and the dove with the olive leaf. Genesis 7:17-8:12 (KJV). Narration: AI voice (creator's own voice). Next episode: The Rainbow Promise.
 - **YouTube tags:** bible stories, noahs ark, great flood, genesis 8, dove olive leaf, stickman bible, christian, hope, shorts
+
+### AES-004 – The Crow and the Pitcher
+- **TikTok title:** One Stone at a Time 🐦‍⬛🏺 Aesop in 60 Seconds #aesopsfables #storytime #moralstories #animation
+- **TikTok description:** A thirsty crow, a pitcher with only a little water at the bottom, and a very clever idea: drop one stone at a time until the water rises. Little by little does the trick. Next: The Ass and the Grasshopper. Follow @reian.creative.art · AI voice (creator's own voice) #aesopsfables #fables #moralstories #kidsstories #patience #problemsolving #animatedstory #reiancreativeart
+- **YouTube title:** The Crow and the Pitcher | Aesop's Fable in 60 Seconds #Shorts
+- **YouTube description:** Aesop's classic fable, retold in 3D animation: a thirsty crow raises the water one stone at a time. Source: Aesop's Fables, tr. G. F. Townsend (1867). Narration: AI voice (creator's own voice). Next episode: The Ass and the Grasshopper.
+- **YouTube tags:** aesop, aesops fables, crow and the pitcher, fables, moral stories, kids stories, patience, problem solving, shorts

@@ -85,7 +85,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 21 | ANA-003 | Anansi and Nothing | Barker & Sinclair, tale III, 'Anansi and Nothing' | Written – Batch 04 | – | [x] |
 | 22 | SOC-005 | Socrates and the Kick | Diogenes Laertius, Lives II.21 | Written – Batch 01 | Lengthen: 86 words (min 130) | [x] |
 | 23 | BIB-007 | The Great Flood | Genesis 7:17-8:12 | Written – Batch 01 | Lengthen: 121 words (min 130) | [x] |
-| 24 | AES-004 | The Crow and the Pitcher | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 108 words (min 130) | [ ] |
+| 24 | AES-004 | The Crow and the Pitcher | Aesop's Fables, tr. G. F. Townsend | Written – Batch 01 | Lengthen: 108 words (min 130) | [x] |
 | 25 | NAS-004 | The Dream of Nine Coins | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 103 words (min 130) | [ ] |
 | 26 | BIB-008 | The Rainbow Promise | Genesis 8:13-9:17 | Written – Batch 01 | Lengthen: 108 words (min 130) | [ ] |
 | 27 | GRM-005 | The Wolf and the Seven Young Kids | Hunt tale 5, 'The Wolf and the Seven Young Kids' | Written – Batch 02 | – | [ ] |
