@@ -197,3 +197,10 @@ Before reading engine files, query the local code graph instead (free, no LLM): 
 this folder after code changes, then `graphify explain "<name>"`, `graphify query "<question>"`,
 `graphify path "A" "B"`. Install once per container: `pip install /home/user/ianmhonderwa/graphify`
 (the owner's fork; clone it with git if missing). Output lives in `graphify-out/` (gitignored).
+
+
+## Week 2 look (from 2026-11-27): style v2 — mandatory for every new episode
+- Every new episode's script.json must contain `"style": "v2"`. This switches the engine to the owner's chosen reference look: proportioned low-poly people (engine/v2.js `makePerson`, same rig API as `makeStick`), soft-lit faceted materials with grain and no black outlines, warm sun, distance haze, ACES tone mapping.
+- Characters: pass `skin` (hex) for a fixed skin tone, otherwise it is picked from the seed. Turbans, crowns, beards, veils, robes, sashes, glasses, scarves and props all carry over from the existing presets.
+- Framing: v2 people are life-proportioned (head ~0.5 units, not the big stick heads), so frame closer: mid shots about 3–5 units from the subject, close-ups about 2.5–3.5 units.
+- Episodes made before this date stay in the stick style (no `style` field) and must not be re-rendered unless the owner asks.

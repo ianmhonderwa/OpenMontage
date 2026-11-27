@@ -1,1 +1,18 @@
-{"id":"_PRESETS","series":"TEST","series_badge":"PRESET CHECK","ep_number":0,"title":"Presets","title_html":"","next_title":"","voice":"bm_george","speed":1.05,"lines":["Character line-up test."],"gaps":[0]}
+{
+  "style": "v2",
+  "id": "_PRESETS",
+  "series": "TEST",
+  "series_badge": "PRESET CHECK",
+  "ep_number": 0,
+  "title": "Presets",
+  "title_html": "",
+  "next_title": "",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "lines": [
+    "Character line-up test."
+  ],
+  "gaps": [
+    0
+  ]
+}

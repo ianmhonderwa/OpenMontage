@@ -6,6 +6,8 @@ const { THREE, clamp, skyTexture } = L;
 const EP = new URLSearchParams(location.search).get('ep');
 const SCRIPT = await (await fetch(`../episodes/${EP}/script.json`)).json();
 const TIMING = await (await fetch(`../out/${EP}/timing.json`)).json();
+const V2 = SCRIPT.style === 'v2'; L.STYLE.v2 = V2;
+const V2MOD = V2 ? await import('./v2.js') : null;
 const DUR = TIMING.duration, SEG = TIMING.segments;
 // Scene i runs from the start of its narration line (scene 1 from 0) to the start of the next.
 const SCENES = SEG.map((s, i) => ({ start: i === 0 ? 0 : SEG[i].start - 0.2, end: i < SEG.length - 1 ? SEG[i + 1].start - 0.2 : DUR }));
@@ -22,6 +24,7 @@ renderer.setPixelRatio(1); renderer.setSize(1080, 1920, false);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 const scene = new THREE.Scene();
+if (V2) { renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.15; scene.fog = new THREE.Fog(0xd9c7a6, 40, 170); }
 const camera = new THREE.PerspectiveCamera(42, 1080 / 1920, 0.1, 400);
 const hemi = new THREE.HemisphereLight(0xfff3dd, 0x8a6a4a, 1.5); scene.add(hemi);
 const sunL = new THREE.DirectionalLight(0xfff0d0, 2.4); sunL.castShadow = true; sunL.shadow.mapSize.set(2048, 2048);
@@ -38,7 +41,7 @@ const SKIES = {
 
 // episode
 const mod = await import(`../episodes/${EP}/scenes.js`);
-const scenesFn = mod.build({ ...L, L, scene, camera, renderer, hemi, sunL, aimSun, SKIES, skyTexture, SCRIPT, TIMING, SCENES });
+const scenesFn = mod.build({ ...L, ...(V2 ? { makeStick: V2MOD.makePerson, makePerson: V2MOD.makePerson } : {}), L, scene, camera, renderer, hemi, sunL, aimSun, SKIES, skyTexture, SCRIPT, TIMING, SCENES });
 if (scenesFn.length !== SCENES.length) console.error(`scenes.js returned ${scenesFn.length} scenes but script has ${SCENES.length} lines`);
 
 // captions: word-highlighted chunks, timing proportional to word length within each narration line

@@ -11,11 +11,21 @@ export const lerp = (a, b, x) => a + (b - a) * x;
 
 export const grad = (() => { const d = new Uint8Array([90, 170, 255]); const t = new THREE.DataTexture(d, 3, 1, THREE.RedFormat); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
 export const matCache = {};
-export function toon(color, opts = {}) { const k = color + JSON.stringify(opts); if (!matCache[k]) matCache[k] = new THREE.MeshToonMaterial({ color, gradientMap: grad, ...opts }); return matCache[k]; }
+// STYLE.v2 = true switches the whole engine to the week-2 look: soft-lit low-poly (flat-shaded standard
+// materials with a subtle grain), no black outlines, proportioned people (engine/v2.js). Set by runtime.js
+// from script.json "style": "v2" before an episode builds; older episodes render exactly as before.
+export const STYLE = { v2: false };
+const grainTex = (() => { if (typeof document === 'undefined') return null; const c = document.createElement('canvas'); c.width = c.height = 128; const g = c.getContext('2d'); const R = rng(99);
+  for (let y = 0; y < 128; y += 2) for (let x = 0; x < 128; x += 2) { const v = 225 + Math.floor(R() * 30); g.fillStyle = `rgb(${v},${v},${v})`; g.fillRect(x, y, 2, 2); }
+  const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(4, 4); t.colorSpace = THREE.SRGBColorSpace; return t; })();
+export function toon(color, opts = {}) { const k = (STYLE.v2 ? 'v2|' : '') + color + JSON.stringify(opts);
+  if (!matCache[k]) matCache[k] = STYLE.v2 ? new THREE.MeshStandardMaterial({ color, roughness: 0.88, metalness: 0.0, flatShading: true, map: grainTex, ...opts })
+    : new THREE.MeshToonMaterial({ color, gradientMap: grad, ...opts }); return matCache[k]; }
 export const BLACK = new THREE.MeshBasicMaterial({ color: 0x111111 });
 export const OUTLINE = new THREE.MeshBasicMaterial({ color: 0x111111, side: THREE.BackSide });
 export function outlined(geo, mat, s = 1.06) {
   const m = new THREE.Mesh(geo, mat); m.castShadow = true;
+  if (STYLE.v2) { m.receiveShadow = true; return m; }
   const o = new THREE.Mesh(geo, OUTLINE); o.scale.setScalar(s); m.add(o); return m;
 }
 export function skyTexture(top, mid, bottom) {
