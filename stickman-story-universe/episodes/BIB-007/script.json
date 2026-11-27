@@ -1,0 +1,18 @@
+{
+  "id": "BIB-007", "series": "BIB", "series_badge": "STICKMAN BIBLE", "ep_number": 7,
+  "title": "The Great Flood",
+  "title_html": "The Great<br>Flood<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 7–8</span>",
+  "next_title": "The Rainbow Promise", "source": "Genesis 7:17-8:12 (KJV)", "lesson": "God has not forgotten you. Keep waiting.",
+  "voice": "bm_george", "speed": 1.05, "music": "lyre",
+  "lines": [
+    "The rain came. Forty days and forty nights. The waters rose, and the ark lifted off the ground.",
+    "Higher and higher. Even the tallest mountains disappeared under the water. And the waters stayed for a hundred and fifty days.",
+    "Then the Bible says something beautiful: And God remembered Noah. He sent a wind, and slowly the waters began to go down.",
+    "The ark came to rest on the mountains of Ararat. Months later, the mountain tops appeared.",
+    "Noah opened the window and sent out a raven. Then a dove. But the dove found nowhere to land, and came back.",
+    "Seven days later, he sent the dove again. That evening it returned, with a fresh olive leaf in its beak! The earth was coming back to life.",
+    "When the waters feel endless, remember: God has not forgotten you. Keep waiting. The olive leaf is coming.",
+    "Next time: the rainbow promise. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.5, 0.55, 0.5, 0.55, 0.7, 0.0]
+}

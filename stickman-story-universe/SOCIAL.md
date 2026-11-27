@@ -172,3 +172,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** Socrates and the Kick | Ancient Wisdom in 60 Seconds #Shorts
 - **YouTube description:** An anecdote about Socrates retold with stick figures: how he answered a man who kicked him. Source: Diogenes Laertius, Lives of the Philosophers II.21. Narration: AI voice (creator's own voice). Next episode: The Ring of Invisibility.
 - **YouTube tags:** socrates, philosophy, ancient greece, wisdom, anger management, self control, stoicism, shorts
+
+### BIB-007 – The Great Flood
+- **TikTok title:** "And God Remembered Noah" 🕊️ The Great Flood, Genesis 8 #bibletok #biblestories #noahsark #stickmanbible
+- **TikTok description:** Forty days of rain. Even the mountains disappeared. Then: "And God remembered Noah." The ark rested on Ararat, and the dove came back with an olive leaf. When the waters feel endless, God has not forgotten you. Genesis 7:17-8:12 (KJV). Next: The Rainbow Promise. Follow @reian.creative.art · AI voice (creator's own voice) #bibletok #christiantiktok #genesis #noahsark #hope #faith #stickman #reiancreativeart
+- **YouTube title:** The Great Flood: "God Remembered Noah" | Genesis 7–8 | Stickman Bible Ep 7 #Shorts
+- **YouTube description:** The flood, the ark on Ararat, the raven and the dove with the olive leaf. Genesis 7:17-8:12 (KJV). Narration: AI voice (creator's own voice). Next episode: The Rainbow Promise.
+- **YouTube tags:** bible stories, noahs ark, great flood, genesis 8, dove olive leaf, stickman bible, christian, hope, shorts
