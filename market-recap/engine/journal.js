@@ -30,11 +30,14 @@ function chrome(t) {
   if (E.series) text(E.series, W - 60, 124, 22, { align: 'right', color: C.mute, weight: 600, spacing: '2px' });
 }
 function note(s, a = 1) { if (!s) return; para(s, W / 2, 1488, 940, 23, { weight: 600, color: C.mute, alpha: a, lh: 1.3 }); }
-function kicker(s, y, a = 1) { if (!s) return; g.save(); g.font = '800 26px Inter'; const w = g.measureText(s.toUpperCase()).width + 40; g.restore(); g.save(); g.globalAlpha = a; g.fillStyle = C.gold; rr(W / 2 - w / 2, y - 24, w, 48, 8); g.fill(); g.restore(); text(s.toUpperCase(), W / 2, y + 1, 26, { color: C.navy, alpha: a, spacing: '2px' }); }
+function kicker(s, y, a = 1) { if (!s) return; const up = s.toUpperCase(); let fs = 26, w; for (;;) { g.save(); g.font = `800 ${fs}px Inter`; g.letterSpacing = '2px'; w = g.measureText(up).width + 44; g.restore(); if (w <= W - 120 || fs <= 16) break; fs -= 1; } g.save(); g.globalAlpha = a; g.fillStyle = C.gold; rr(W / 2 - w / 2, y - 24, w, 48, 8); g.fill(); g.restore(); text(up, W / 2, y + 1, fs, { color: C.navy, alpha: a, spacing: '2px' }); }
+// spoken spellings -> written forms for captions
+export const WRITTEN = [[/\bV F E X\b/g, 'VFEX'], [/\bZ S E\b/g, 'ZSE'], [/\bJ S E\b/g, 'JSE'], [/\bN Y S E\b/g, 'NYSE'], [/\bC E O\b/g, 'CEO'], [/\bI P Os\b/g, 'IPOs'], [/\bI P O\b/g, 'IPO'], [/\bA I\b/g, 'AI'], [/\bA N T\b/g, 'ANT'], [/\bC B Z\b/g, 'CBZ'], [/\bN M B Z\b/g, 'NMBZ'], [/\bS and P\b/g, 'S&P'], [/\bFootsie\b/g, 'FTSE']];
+const written = s => WRITTEN.reduce((x, [r, v]) => x.replace(r, v), s);
 function card(x, y, w, h, a = 1, fill = 'rgba(18,40,77,0.92)') { g.save(); g.globalAlpha = a; g.fillStyle = fill; rr(x, y, w, h, 22); g.fill(); g.strokeStyle = 'rgba(212,167,58,0.55)'; g.lineWidth = 2; g.stroke(); g.restore(); }
 function arrow(x, y, up, s = 1, a = 1) { g.save(); g.globalAlpha = a; g.fillStyle = up ? C.up : C.down; g.beginPath(); if (up) { g.moveTo(x, y - 18 * s); g.lineTo(x + 16 * s, y + 10 * s); g.lineTo(x - 16 * s, y + 10 * s); } else { g.moveTo(x, y + 18 * s); g.lineTo(x + 16 * s, y - 10 * s); g.lineTo(x - 16 * s, y - 10 * s); } g.fill(); g.restore(); }
 // ---------- captions (word-highlighted chunks spread over the segment) ----------
-const CAPS = []; E.segments.forEach((s, i) => { const seg = T.segments[i]; if (!seg || !s.say) return; const words = s.say.replace(/\s+/g, ' ').trim().split(' ');
+const CAPS = []; E.segments.forEach((s, i) => { const seg = T.segments[i]; if (!seg || !s.say) return; const words = written(s.say).replace(/\s+/g, ' ').trim().split(' ');
   const chunks = []; let cur = []; for (const w of words) { cur.push(w); if (cur.length >= 5 || (/[.!?:;,]$/.test(w) && cur.length >= 3)) { chunks.push(cur); cur = []; } } if (cur.length) chunks.push(cur);
   const wt = w => w.replace(/[^a-z0-9]/gi, '').length + 2; const tot = words.reduce((a, w) => a + wt(w), 0); let t = seg.start; const span = seg.end - seg.start;
   for (const c of chunks) { const ws = c.map(w => { const d = wt(w) / tot * span; const o = { w, a: t, b: t + d }; t += d; return o; }); CAPS.push({ a: ws[0].a, b: ws[ws.length - 1].b, ws }); } });

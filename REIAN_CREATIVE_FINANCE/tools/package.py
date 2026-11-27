@@ -9,10 +9,14 @@ MR = pathlib.Path('/home/user/OpenMontage/market-recap'); R = pathlib.Path('/hom
 E = json.load(open(MR / f'episodes/{EP}/episode.json')); T = json.load(open(MR / f'out/{EP}/timing.json'))
 final = next(p for p in (MR / f'out/{EP}').glob(f'{EP}_*.mp4') if 'preview' not in p.name)
 def ts(x): h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h:02}:{m:02}:{int(s):02},{int(round((s - int(s)) * 1000)):03}"
+WRITTEN = [(r'\bV F E X\b','VFEX'),(r'\bZ S E\b','ZSE'),(r'\bJ S E\b','JSE'),(r'\bN Y S E\b','NYSE'),(r'\bC E O\b','CEO'),(r'\bI P Os\b','IPOs'),(r'\bI P O\b','IPO'),(r'\bA I\b','AI'),(r'\bA N T\b','ANT'),(r'\bC B Z\b','CBZ'),(r'\bN M B Z\b','NMBZ'),(r'\bS and P\b','S&P'),(r'\bFootsie\b','FTSE')]
+def written(x):
+    for a, b in WRITTEN: x = re.sub(a, b, x)
+    return x
 # SRT: same chunking as the burned-in captions (journal.js)
 cues = []
 for i, s in enumerate(E['segments']):
-    seg = T['segments'][i]; words = s['say'].split(); chunks, cur = [], []
+    seg = T['segments'][i]; words = written(s['say']).split(); chunks, cur = [], []
     for w in words:
         cur.append(w)
         if len(cur) >= 5 or (re.search(r'[.!?:;,]$', w) and len(cur) >= 3): chunks.append(cur); cur = []
