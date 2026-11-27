@@ -1,8 +1,8 @@
 #!/bin/bash
 # Render the composition in chunks with HyperFrames (CRF 18, 30 fps).
 cd "$(dirname "$0")"
-B=(0 52 126 175 262 311 403)
-for i in 0 1 2 3 4 5; do
+B=(0 52 126 175 220 262 311 357 403)
+for i in 0 1 2 3 4 5 6 7; do
   out=renders/chunks/c$i.mp4
   [ -s "$out" ] && continue
   s=${B[$i]}; e=${B[$((i+1))]}
