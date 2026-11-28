@@ -14,9 +14,11 @@ python3 -c "import kokoro_onnx, soundfile" 2>/dev/null || pip install -q kokoro-
 node -e "require('playwright')" 2>/dev/null || { echo "playwright missing"; exit 1; }
 
 # --- narration, music ---
+if [ -s "$OUT/narration.wav" ] && [ -s "$OUT/timing.json" ] && [ "$OUT/timing.json" -nt "episodes/$EP/script.json" ] && [ -z "${FORCE_TTS:-}" ]; then echo "narration cached"; else
 python3 engine/tts.py "$EP"
 bash engine/apply_owner_voice.sh "$OUT/narration.wav"
-python3 engine/music.py "$EP" "${MUSIC_SEED:-7}"
+fi
+[ -s "$OUT/music.wav" ] && [ "$OUT/music.wav" -nt "$OUT/timing.json" ] || python3 engine/music.py "$EP" "${MUSIC_SEED:-7}"
 
 # --- test stills: one per scene (mid-point) + contact sheet ---
 TIMES=$(python3 -c "
