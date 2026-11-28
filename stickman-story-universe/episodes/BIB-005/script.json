@@ -1,0 +1,18 @@
+{
+  "id": "BIB-005", "series": "BIB", "series_badge": "STICKMAN BIBLE", "ep_number": 5,
+  "title": "Noah Builds the Ark",
+  "title_html": "Noah Builds<br>the Ark<br><span style=\"font-size:44px;color:#ffd23f;-webkit-text-stroke:9px #111\">GENESIS 6</span>",
+  "next_title": "Two by Two", "source": "Genesis 6 (KJV)", "lesson": "Obey God even when everyone laughs.",
+  "voice": "bm_george", "speed": 1.05, "music": "lyre",
+  "lines": [
+    "The world had become violent and wicked. But one man still walked with God: Noah.",
+    "God told Noah: Build an ark. A huge boat. A flood is coming.",
+    "It had to be 300 cubits long. That's longer than a football pitch. In the middle of dry land.",
+    "The neighbours laughed. Hey Noah! Expecting rain? It hasn't rained in forever!",
+    "Noah kept hammering. Day after day. Month after month. Year after year.",
+    "He didn't argue. He didn't quit. He just did everything God commanded him.",
+    "When God asks you to do something, do it, even if the whole world is laughing. Because one day, nobody will be laughing.",
+    "Next time: two by two, the animals arrive. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.5, 0.5, 0.55, 0.5, 0.55, 0.7, 0.0]
+}

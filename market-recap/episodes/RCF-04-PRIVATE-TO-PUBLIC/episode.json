@@ -1,0 +1,166 @@
+{
+ "id": "RCF-04-PRIVATE-TO-PUBLIC",
+ "name": "From Private Company to Public Company",
+ "page": "journal.html",
+ "handle": "@reian.creative.finance",
+ "series": "ROAD TO THE EXCHANGE · 2/4",
+ "voice": "bm_george",
+ "speed": 1.05,
+ "sources": [
+  "REIAN_CREATIVE_FINANCE/01_RESEARCH/zimbabwe_listing_research/listing_fact_sheet.md"
+ ],
+ "segments": [
+  {
+   "scene": "open",
+   "kicker": "The Road to the Stock Exchange · Part 2",
+   "title": "From private company to public company",
+   "say": "Most Zimbabwean businesses start life as private companies. To list, you first have to become public. Here's how the law handles that change. This is Reian Creative Finance. Understanding markets. Following capital.",
+   "type": "open"
+  },
+  {
+   "scene": "story",
+   "kicker": "The law",
+   "title": "Companies and Other Business Entities Act [Chapter 24:31]",
+   "points": [
+    "Section 85 defines a private company by three restrictions",
+    "Section 86 sets out how a private company becomes public",
+    "Sections 104 to 114 cover prospectuses",
+    "Securities law and exchange rules sit on top of this"
+   ],
+   "note": "Source: COBE Act [Ch. 24:31], ss.85, 86, 104–114.",
+   "say": "The starting point is the Companies and Other Business Entities Act, chapter 24 31. Section 85 defines a private company, section 86 deals with becoming public, and sections 104 to 114 cover prospectuses. Securities law and the exchange's own rules then sit on top of this.",
+   "type": "story"
+  },
+  {
+   "scene": "split",
+   "kicker": "What has to change",
+   "title": "The three private-company limits",
+   "left": {
+    "head": "PRIVATE (s.85)",
+    "points": [
+     "Share transfers restricted",
+     "Maximum 50 members",
+     "No invitations to the public"
+    ]
+   },
+   "right": {
+    "head": "WHY IT MATTERS",
+    "points": [
+     "A listed share must trade freely",
+     "A listing needs hundreds of shareholders (300 on the ZSE main board)",
+     "An IPO is an invitation to the public"
+    ]
+   },
+   "note": "Sources: COBE Act s.85; ZSE SI 134/2019 s.87.",
+   "say": "Why can't a private company list? Look at its three limits. Its shares can't move freely, but listed shares must trade freely. It can't have more than 50 members, but the Z S E main board needs at least 300 public shareholders. And it can't invite the public to buy shares, which is exactly what an I P O does.",
+   "type": "split"
+  },
+  {
+   "scene": "flow",
+   "kicker": "Section 86",
+   "title": "The conversion, step by step",
+   "steps": [
+    "Board recommends the change; shareholders pass the resolution to alter the articles",
+    "Articles amended to remove the section 85 restrictions",
+    "Company stops being private from that date",
+    "Within one month: drop '(Private)' from the name",
+    "Within one month: lodge a statement in lieu of prospectus with the Registrar (unless a prospectus is registered)"
+   ],
+   "note": "Source: COBE Act s.86. Exact resolution type: confirm with your legal practitioner.",
+   "say": "Here's the conversion under section 86. The board recommends the change and the shareholders resolve to alter the company's articles, removing the section 85 restrictions. From that date the company is no longer private. Within one month, it must drop the word private from its name, and lodge a statement in lieu of prospectus with the Registrar, unless it registers a full prospectus. Your lawyer will confirm the exact type of resolution required.",
+   "type": "flow"
+  },
+  {
+   "scene": "story",
+   "kicker": "Board and officers",
+   "title": "A public company is held to a higher standard",
+   "points": [
+    "Directors' duties and appointments: COBE Act s.195",
+    "Company secretary: functions and qualifications, COBE Act s.198",
+    "Listing rules add independent directors, committees and disclosure duties",
+    "Check the exact minimum numbers with your legal adviser"
+   ],
+   "note": "Source: COBE Act ss.195, 198 (section locations). Specific minimums not quoted here because we could not verify them from the official text.",
+   "say": "A public company is held to a higher standard. Section 195 of the Act deals with directors and section 198 with the company secretary and their qualifications. Exchange rules then add expectations like independent directors, board committees and disclosure duties. We haven't quoted exact minimum numbers, because we couldn't verify them from the official text, so confirm them with your legal adviser.",
+   "type": "story"
+  },
+  {
+   "scene": "flow",
+   "kicker": "Your advisers",
+   "title": "Who does what",
+   "steps": [
+    "Legal practitioners: resolutions, new articles, Registrar filings",
+    "Sponsoring broker: readiness for the exchange",
+    "Company secretary: records, filings, board processes",
+    "Auditors: financial statements for the prospectus"
+   ],
+   "note": "Practical roles; sponsoring broker requirements per SI 134/2019 ss.16–19.",
+   "say": "Who does the work? Your lawyers draft the resolutions and new articles and handle the Registrar filings. Your sponsoring broker prepares you for the exchange. The company secretary keeps the records and board processes in order. And the auditors prepare the financial statements the prospectus will rely on.",
+   "type": "flow"
+  },
+  {
+   "scene": "story",
+   "kicker": "A Zimbabwean reality check",
+   "title": "Why many firms stay private",
+   "points": [
+    "Founders lose some control and privacy",
+    "Every result becomes public",
+    "Compliance costs money every year",
+    "But a public company can raise capital from thousands of investors"
+   ],
+   "note": "General considerations (interpretation by Reian Creative Finance).",
+   "say": "A reality check. Many Zimbabwean family businesses choose to stay private, and that can be the right choice. Going public means founders give up some control and privacy, every result becomes public, and compliance costs money every year. The reward is access to capital from thousands of investors, instead of a handful.",
+   "type": "story"
+  },
+  {
+   "scene": "split",
+   "kicker": "Do not confuse them",
+   "title": "Public company vs listed company",
+   "left": {
+    "head": "PUBLIC COMPANY",
+    "points": [
+     "A legal status under the Companies Act",
+     "Set by your articles and Registrar filings",
+     "Can exist without any listing"
+    ]
+   },
+   "right": {
+    "head": "LISTED COMPANY",
+    "points": [
+     "Admitted by an exchange (ZSE, VFEX, FINSEC)",
+     "Must meet admission rules and continuing obligations",
+     "Overseen by the exchange and SECZ"
+    ]
+   },
+   "note": "Sources: COBE Act ss.85–86; ZSE SI 134/2019; VFEX SI 62/2026.",
+   "say": "And don't confuse the two. Becoming public is a legal status under the Companies Act, and you can be a public company without ever listing. Being listed means an exchange has admitted your shares, and you must keep meeting its rules, under the oversight of the exchange and the Securities and Exchange Commission.",
+   "type": "split"
+  },
+  {
+   "scene": "story",
+   "kicker": "Going the other way",
+   "title": "Public back to private",
+   "points": [
+    "Requires a special resolution",
+    "AND confirmation by the High Court",
+    "Delisting is a separate exchange process (Part 4)"
+   ],
+   "note": "Source: COBE Act s.85(3).",
+   "say": "Going back the other way is harder. Under section 85 subsection 3, turning a public company back into a private one needs a special resolution and confirmation by the High Court. Delisting is a separate exchange process, which we cover in part four.",
+   "type": "story"
+  },
+  {
+   "scene": "outro",
+   "kicker": "Part 2 takeaway",
+   "title": "Public is a status. Listed is an admission.",
+   "lines": [
+    "Section 86 converts you",
+    "The exchange admits you"
+   ],
+   "next": "Part 3: IPO, valuation and raising capital",
+   "disclaimer": "Educational content only. Not legal or investment advice: speak to a registered legal practitioner and a licensed sponsoring broker before acting. Rules as read on 27 Nov 2026.",
+   "say": "Public is a status. Listed is an admission. In part three, the exciting part: the I P O, valuation, and how a company actually raises money. This is educational content, not legal or investment advice. Follow Reian Creative Finance for more.",
+   "type": "outro"
+  }
+ ]
+}

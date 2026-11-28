@@ -1,0 +1,204 @@
+{
+  "id": "SPECIAL-ZIM-BUDGET-2027",
+  "exchange": "ZW",
+  "name": "Zimbabwe 2027 Budget",
+  "series": "ZIM BUDGET 2027",
+  "week": "Presented in Parliament · Thursday 19 Nov 2026",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "ZBC News, '2027 National Budget prioritises education, health and economic resilience' (19 Nov 2026) – Minister's quotes on revenue/expenditure",
+    "Zimbabwe Independent, '2027 National Budget: Key highlights' (19 Nov 2026) – tax measures and allocations",
+    "NewZimbabwe, '2027 Budget: Mthuli Ncube raises tax-free threshold to US$150…' (20 Nov 2026) – cellphone duty quote"
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "ZIM BUDGET 2027",
+      "title": "What the budget<br>means for you",
+      "week": "Presented in Parliament · Thursday 19 Nov 2026",
+      "delta": 1,
+      "big": "0%",
+      "deltaLabel": "PROPOSED DUTY ON IMPORTED CELLPHONES (NOW 25%)",
+      "say": "Zimbabwe's 2027 budget is out. Here's what it means for your pocket.",
+      "titleSize": "112px"
+    },
+    {
+      "type": "compare",
+      "chapter": "01 / Your phone",
+      "title": "Cellphone import duty",
+      "from": {
+        "value": "25%",
+        "label": "customs duty today"
+      },
+      "to": {
+        "value": "0%",
+        "label": "proposed for 2027"
+      },
+      "delta": 1,
+      "deltaText": "DUTY SCRAPPED",
+      "source": "Finance Minister, 2027 Budget Statement (via NewZimbabwe, Zimbabwe Independent)",
+      "say": "Customs duty on imported cellphones drops from 25 percent to zero. On a 200 dollar phone at the border, that's 50 dollars of duty gone, though VAT can still apply."
+    },
+    {
+      "type": "cards",
+      "chapter": "02 / Your pay",
+      "title": "More in your pocket",
+      "cards": [
+        {
+          "big": "US$150",
+          "text": "Tax-free income a month",
+          "sub": "up from US$100",
+          "tone": "up"
+        },
+        {
+          "big": "1.75%",
+          "text": "Tax on US$ transfers (IMTT)",
+          "sub": "down from 2%",
+          "tone": "up"
+        },
+        {
+          "big": "1.25%",
+          "text": "Tax on ZiG transfers (IMTT)",
+          "sub": "down from 1.5%",
+          "tone": "up"
+        },
+        {
+          "big": "0",
+          "text": "New taxes",
+          "sub": "and no rate increases"
+        }
+      ],
+      "source": "Zimbabwe Independent, key highlights, 19 Nov 2026",
+      "say": "Earn up to 150 US dollars a month and you pay no income tax, up from 100. The tax on US dollar transfers drops from 2 percent to 1.75. And the minister says there are no new taxes."
+    },
+    {
+      "type": "cards",
+      "chapter": "03 / Also cheaper",
+      "title": "Also cheaper",
+      "cards": [
+        {
+          "big": "10%",
+          "text": "Duty on electric vehicles",
+          "sub": "down from 25%",
+          "tone": "up"
+        },
+        {
+          "big": "0%",
+          "text": "Duty on wheelchairs, hearing aids, glasses",
+          "tone": "up"
+        },
+        {
+          "big": "0%",
+          "text": "VAT on freshwater fish",
+          "tone": "up"
+        }
+      ],
+      "source": "Zimbabwe Independent, key highlights, 19 Nov 2026",
+      "say": "Duty on electric vehicles falls to 10 percent. Duty is removed on wheelchairs, hearing aids and glasses, and VAT on freshwater fish goes too."
+    },
+    {
+      "type": "bignum",
+      "chapter": "04 / The whole budget",
+      "title": "The whole budget",
+      "label": "TOTAL SPENDING · 2027",
+      "value": 358.3,
+      "decimals": 1,
+      "prefix": "ZiG ",
+      "suffix": "bn",
+      "size": "200px",
+      "delta": 0,
+      "deltaText": "≈ US$12.8 BILLION",
+      "notes": [
+        "Revenue: ZiG 349.5bn (≈ US$12.5bn)",
+        "Deficit: ZiG 8.8bn · 0.5% of GDP"
+      ],
+      "source": "Finance Minister via ZBC News · Zimbabwe Independent",
+      "say": "Total spending: 358.3 billion ZiG, about 12.8 billion US dollars, against revenue of 349.5 billion."
+    },
+    {
+      "type": "bars",
+      "chapter": "05 / Where it goes",
+      "title": "Where the money goes",
+      "sub": "Allocations, ZiG billion",
+      "plain": true,
+      "prefix": "",
+      "unit": "bn",
+      "decimals": 1,
+      "color": "#38bdf8",
+      "items": [
+        {
+          "label": "EDUCATION",
+          "value": 47.7,
+          "note": "Primary & Secondary"
+        },
+        {
+          "label": "HEALTH",
+          "value": 35.46
+        },
+        {
+          "label": "DEBT",
+          "value": 31.23,
+          "note": "Debt servicing"
+        },
+        {
+          "label": "AGRICULTURE",
+          "value": 27.56
+        },
+        {
+          "label": "PUBLIC SERVICE",
+          "value": 21.45,
+          "note": "incl. social welfare"
+        },
+        {
+          "label": "HIGHER ED",
+          "value": 15.04
+        },
+        {
+          "label": "TRANSPORT",
+          "value": 10.84,
+          "note": "& infrastructure"
+        }
+      ],
+      "source": "Zimbabwe Independent, key highlights, 19 Nov 2026",
+      "say": "Where it goes: schools get the most, 47.7 billion. Then health, 35.5. Debt, 31.2. Agriculture, 27.6. Public service, 21.5. Higher education, 15. Transport, 10.8."
+    },
+    {
+      "type": "cards",
+      "chapter": "06 / Every ZiG 100",
+      "title": "Out of every ZiG 100",
+      "cards": [
+        {
+          "big": "13",
+          "text": "go to schools",
+          "sub": "47.7 of 358.3 bn"
+        },
+        {
+          "big": "10",
+          "text": "go to health",
+          "sub": "35.5 of 358.3 bn"
+        },
+        {
+          "big": "9",
+          "text": "go to paying debts",
+          "sub": "31.2 of 358.3 bn"
+        }
+      ],
+      "source": "Calculated from the allocations above",
+      "say": "Put simply: out of every 100 ZiG the government spends, about 13 go to schools, 10 to health, and 9 to paying debts."
+    },
+    {
+      "type": "outro",
+      "chapter": "07 / What to watch",
+      "title": "What to watch",
+      "follow": "FOLLOW FOR MORE",
+      "lines": [
+        "These are proposals: Parliament still has to pass the budget",
+        "Growth forecast for 2027: 3.5% (down from 5% for 2026)"
+      ],
+      "disclaimer": "Not financial advice. Sources: Finance Minister via ZBC News, Zimbabwe Independent, NewZimbabwe.",
+      "say": "Remember, these are proposals until Parliament passes them. Treasury expects growth of 3.5 percent in 2027. Not financial advice. Follow for more."
+    }
+  ]
+}

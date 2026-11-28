@@ -1,0 +1,378 @@
+PROGRESS: last done → BIB-029, AES-025 (last fable: The Farmer and the Snake), GRM-013 (Hunt tale 13), SOC-017, NAS-010 (anecdote position 10), ANA-003
+
+  
+
+STYLE (paste after every image prompt that ends with + STYLE): Style: 2D cartoon stick-figure animation still. Every character has a big, perfectly round, pure-white head with a thick, clean black outline and a simple, expressive cartoon face (large white eyes, solid black pupils, bold black eyebrows, clear mouth shape). Bodies, arms and legs are thin solid-black stick lines with round black hands and small oval black feet. Clothes, hair and hats are simple flat-colour shapes with black outlines. Detailed flat-colour, cel-shaded cartoon background with soft gradients and warm, motivated lighting. Vertical 9:16 frame. No text, no letters, no logo, no watermark.
+
+  
+
+NEGATIVE PROMPT: photorealistic, photo, 3D render, CGI, realistic skin, skin-coloured head, human anatomy, anime, manga, chibi, missing outline, extra limbs, extra fingers, extra heads, deformed face, crossed eyes, blurry, low resolution, text, letters, words, numbers, captions, speech-bubble text, logo, watermark, signature, frame border, split panels
+
+  
+
+MOTION SUFFIX (for image-to-video): Smooth, simple 2D cartoon animation. Keep every face, outline, colour and proportion exactly as in the image. No morphing, no new characters, no text.
+
+  
+
+PART 1 OF 2 contains: BIB-023 to BIB-029 and AES-019 to AES-025. Part 2 contains GRM-010 to GRM-013, SOC-015 to SOC-017, NAS-009 to NAS-010 and ANA-003.
+
+  
+
+NEW FIXED CHARACTER DESCRIPTIONS INTRODUCED IN THIS PART (reuse word for word):
+
+  
+
+  - Isaac (old): an elderly stickman with short curly white hair, a long white beard, cloudy pale eyes and a faded sky-blue robe
+  - Rebekah (older): a stickwoman with long dark wavy hair streaked with grey, a rose-coloured head-scarf and a teal robe
+  - Rachel: a young stickwoman with long straight black hair, a sky-blue head-scarf, a lilac robe and a shepherd's crook
+  - Leah: a young stickwoman with soft brown hair in a long plait, gentle eyes, a moss-green robe and a cream head-veil
+  - Laban (first sketched in BIB-021, now fixed): a stickman with a black curly beard and an orange robe
+  - Bilhah and Zilpah, the handmaids: two stickwomen in plain sand-coloured robes and head-scarves
+  - baby Joseph: a tiny round white head wrapped in a yellow blanket
+  - little Joseph: a small stick-boy with short wavy black hair and a little yellow tunic
+  - Joseph (teen): a slim teenage stick-boy with short wavy black hair, bright eager eyes and a long-sleeved coat of many colours striped red, yellow, green and blue
+  - Jacob (old): an elderly stickman with grey hair, a long grey beard, a plain brown robe and a walking staff
+  - Joseph's older brothers: ten bearded stickmen of different heights in plain brown, grey and olive-green shepherd's robes
+  - the mysterious stranger (Genesis 32): a tall, strong stick figure in a deep-indigo hooded travelling cloak, his face in calm shadow, with a faint golden outline
+
+  
+
+-----
+
+# BIB – STICKMAN BIBLE (King James Version)
+
+Voice: George (alt Daniel), Stability 45%, Clarity 75%, Style 20%. Warm, reverent, lively.
+
+## BIB-023 – Ep 23: Jacob's Hairy Disguise
+
+**Source:** Genesis 27 (KJV) **Joke:** "Jacob wore a goat": goatskin gloves, and a blind father sniffing for the smell of a field | **Lesson:** A lie can win you a moment, but it can cost you years.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** To steal his brother's blessing, Jacob wore a goat. Old Isaac was blind. He told Esau, "Hunt me some venison, and I will bless thee before I die." Rebekah overheard. "Quick, Jacob, fetch two kids of the goats. I'll cook his favourite." Jacob panicked. "Esau my brother is a hairy man, and I am a smooth man\!" So she covered his hands and neck with goatskins. Jacob went in. Isaac felt his hands. "The voice is Jacob's voice, but the hands are the hands of Esau." He sniffed the borrowed clothes, smelled the fields, and blessed him. Then the real Esau arrived. Isaac trembled. Esau cried, "Bless me, even me also, O my father\!" Now Esau wanted Jacob dead, and Jacob had to run. A lie can win you a moment, but it can cost you years. Next time: Jacob sleeps on a stone and dreams of a stairway to heaven. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "To steal his brother's blessing, Jacob wore a goat. Old Isaac was blind." IMAGE PROMPT: Comic medium shot: Jacob standing stiffly with fluffy white goatskins tied over his hands and round his neck, arms held out awkwardly, while a small real goat beside him stares up in disbelief; through the tent opening behind them, old Isaac lies on a bed of rugs. Characters – Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe; Isaac (old): an elderly stickman with short curly white hair, a long white beard, cloudy pale eyes and a faded sky-blue robe. Setting: Ancient Near East, Isaac's tent camp at Beersheba, afternoon. + STYLE
+2.  \[0:06–0:13\] VO: "He told Esau, 'Hunt me some venison, and I will bless thee before I die.' Rebekah overheard." IMAGE PROMPT: Inside the tent: Isaac propped on cushions speaking to an eager Esau, who clutches his bow; behind a hanging curtain, Rebekah leans in with a hand cupped to her ear. Characters – Isaac (old) as above; Esau: a big hairy stickman with wild red-orange hair, a shaggy red beard, an animal-skin tunic and a hunting bow; Rebekah (older): a stickwoman with long dark wavy hair streaked with grey, a rose-coloured head-scarf and a teal robe. Setting: Ancient Near East, inside Isaac's tent, warm lamp light. + STYLE
+3.  \[0:13–0:20\] VO: "'Quick, Jacob, fetch two kids of the goats. I'll cook his favourite.' Jacob panicked." IMAGE PROMPT: Rebekah whispering urgently to Jacob beside a cooking fire and pointing toward the goat pen; Jacob's eyes huge with alarm, both hands raised. Characters – Rebekah (older) and Jacob as above. Setting: Ancient Near East, the cooking area outside the tents. + STYLE
+4.  \[0:20–0:28\] VO: "'Esau my brother is a hairy man, and I am a smooth man\!' So she covered his hands and neck with goatskins." IMAGE PROMPT: Jacob holding up his bare, smooth arms in protest while Rebekah briskly ties fluffy goatskin pieces round his wrists and neck and drapes Esau's fine red robe over his shoulders. Characters – Jacob and Rebekah (older) as above. Setting: Ancient Near East, inside Rebekah's tent. + STYLE
+5.  \[0:28–0:37\] VO: "Jacob went in. Isaac felt his hands. 'The voice is Jacob's voice, but the hands are the hands of Esau.'" IMAGE PROMPT: Close two-shot: Isaac's hands patting the fluffy goatskin on Jacob's hands, Isaac's face puzzled; Jacob kneeling, sweating, holding out a steaming bowl of savoury stew. Characters – Isaac (old) and Jacob as above. Setting: Ancient Near East, inside Isaac's tent. + STYLE
+6.  \[0:37–0:44\] VO: "He sniffed the borrowed clothes, smelled the fields, and blessed him. Then the real Esau arrived. Isaac trembled." IMAGE PROMPT: Isaac with one hand resting on kneeling Jacob's head in blessing, while in the tent doorway behind them Esau appears holding a steaming dish of venison and freezes; Isaac begins to tremble. Characters – Isaac (old), Jacob and Esau as above. Setting: Ancient Near East, Isaac's tent, sunset light at the doorway. + STYLE
+7.  \[0:44–0:53\] VO: "Esau cried, 'Bless me, even me also, O my father\!' Now Esau wanted Jacob dead, and Jacob had to run. A lie can win you a moment, but it can cost you years." IMAGE PROMPT: Dusk outside the camp: Jacob hurrying away with a bundle on a staff, looking back guiltily; Rebekah waves sadly from the tent, and through the lit doorway Esau's silhouette weeps beside his father. Characters – Jacob, Rebekah (older) and Esau as above. Setting: Ancient Near East, the Beersheba camp at dusk, a road leading north. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Jacob sleeps on a stone and dreams of a stairway to heaven. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-024 – Ep 24: Jacob's Ladder
+
+**Source:** Genesis 28:10-22 (KJV) **Joke:** a stone for a pillow: "Not exactly memory foam." | **Lesson:** God is closer than you think, even in your loneliest place.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Jacob was running for his life, and his pillow was a rock. He fled toward Haran. When the sun set, he took a stone for his pillow. Not exactly memory foam. He fell asleep, and dreamed. A ladder stood on the earth, its top reaching to heaven, and the angels of God were going up and down on it. Above it stood the Lord. "I am the Lord God of Abraham thy father, and the God of Isaac. I am with thee, and will keep thee in all places whither thou goest." Jacob woke. "Surely the Lord is in this place; and I knew it not." He set up his stone pillow as a pillar, poured oil on it, and named the place Bethel: the house of God. God is closer than you think, even in your loneliest place. Next time: Jacob works seven years for a bride, and gets the wrong one. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "Jacob was running for his life, and his pillow was a rock. He fled toward Haran." IMAGE PROMPT: Wide shot: Jacob hurrying alone along a stony desert track at sunset, a bundle on his staff, glancing nervously over his shoulder. Characters – Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe. Setting: Ancient Near East, the rocky hill country on the road to Haran, orange sunset. + STYLE
+2.  \[0:06–0:12\] VO: "When the sun set, he took a stone for his pillow. Not exactly memory foam." IMAGE PROMPT: Comic close-up: Jacob lying on the bare ground with his head on a lumpy rock, wincing, trying to plump the stone like a cushion. Characters – Jacob as above. Setting: Ancient Near East, a stony hillside at dusk, first stars. + STYLE
+3.  \[0:12–0:18\] VO: "He fell asleep, and dreamed. A ladder stood on the earth, its top reaching to heaven," IMAGE PROMPT: Dreamy vertical wide shot: a vast glowing ladder-stairway rising from beside the sleeping Jacob up through a sky full of stars, its top vanishing into golden clouds. Characters – Jacob as above, asleep. Setting: Ancient Near East, the hillside at Luz under a starry sky. + STYLE
+4.  \[0:18–0:22\] VO: "and the angels of God were going up and down on it." IMAGE PROMPT: Angels climbing and descending the shining ladder in calm, graceful lines, soft light around them. Characters – the angels: tall stick figures with calm kind faces, long white travelling robes and a soft golden outline (no wings). Setting: the dream sky above the hillside. + STYLE
+5.  \[0:22–0:34\] VO: "Above it stood the Lord. 'I am the Lord God of Abraham thy father, and the God of Isaac. I am with thee, and will keep thee in all places whither thou goest.'" IMAGE PROMPT: The top of the ladder bathed in brilliant, warm golden light (no figure shown), gentle rays falling all the way down onto the sleeping Jacob far below. Characters – Jacob as above. Setting: the dream sky above the hillside. + STYLE
+6.  \[0:34–0:39\] VO: "Jacob woke. 'Surely the Lord is in this place; and I knew it not.'" IMAGE PROMPT: Jacob sitting bolt upright at dawn, eyes wide with awe, one hand over his mouth, staring at the ordinary stony hillside around him. Characters – Jacob as above. Setting: Ancient Near East, the hillside at first light. + STYLE
+7.  \[0:39–0:51\] VO: "He set up his stone pillow as a pillar, poured oil on it, and named the place Bethel: the house of God. God is closer than you think, even in your loneliest place." IMAGE PROMPT: Jacob standing his stone pillow upright and pouring oil over it from a small horn flask, the sunrise blazing behind him, his face peaceful. Characters – Jacob as above. Setting: Ancient Near East, Bethel at sunrise. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Jacob works seven years for a bride, and gets the wrong one. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-025 – Ep 25: The Wrong Bride
+
+**Source:** Genesis 29:1-30 (KJV) (the wedding night is not shown; only the veil lifted next morning) **Joke:** the trickster gets tricked: "Somewhere, Esau was laughing." | **Lesson:** The tricks we play have a way of coming back to us.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** The great trickster was about to be tricked, at his own wedding. At a well near Haran, Jacob met his cousin Rachel, with her father's sheep. He rolled the heavy stone off the well, watered her flock, and wept for joy. Her father, Laban, welcomed him. "What shall thy wages be?" "I will serve thee seven years for Rachel." Seven years. And they seemed unto him but a few days, for the love he had to her. Then came the wedding feast. The bride was heavily veiled. In the morning, behold, it was Leah, her older sister. "What is this thou hast done unto me?" Laban shrugged. "In our country we don't marry the younger before the firstborn. Work another seven years." The deceiver had been deceived. Somewhere, Esau was laughing. The tricks we play have a way of coming back to us. Next time: spotted goats and a very slippery father-in-law. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:08\] VO: "The great trickster was about to be tricked, at his own wedding. At a well near Haran, Jacob met his cousin Rachel, with her father's sheep." IMAGE PROMPT: A stone well in open pasture: Rachel leading a flock of sheep toward it while lazy shepherds lounge nearby; Jacob, dusty from travel, looks up and is instantly smitten. Characters – Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe; Rachel: a young stickwoman with long straight black hair, a sky-blue head-scarf, a lilac robe and a shepherd's crook. Setting: Ancient Near East, a well in the fields outside Haran, bright morning. + STYLE
+2.  \[0:08–0:14\] VO: "He rolled the heavy stone off the well, watered her flock, and wept for joy." IMAGE PROMPT: Jacob heaving a huge round stone off the well's mouth by himself, while the lazy shepherds' jaws drop; Rachel's sheep crowd in to drink, and happy tears fly from Jacob's eyes. Characters – Jacob and Rachel as above; shepherds in plain tunics. Setting: the well outside Haran. + STYLE
+3.  \[0:14–0:21\] VO: "Her father, Laban, welcomed him. 'What shall thy wages be?' 'I will serve thee seven years for Rachel.'" IMAGE PROMPT: Laban with his arms flung wide in welcome, then rubbing his hands thoughtfully; Jacob holding up seven fingers while glancing at Rachel. Characters – Laban: a stickman with a black curly beard and an orange robe; Jacob and Rachel as above. Setting: Ancient Near East, Laban's house and courtyard in Haran. + STYLE
+4.  \[0:21–0:29\] VO: "Seven years. And they seemed unto him but a few days, for the love he had to her." IMAGE PROMPT: A single dreamy frame showing time flying: Jacob tending flocks while the sun and moon swing across the sky above him and seasons blur from green to gold, his eyes always smiling toward Rachel by the tents. Characters – Jacob and Rachel as above. Setting: Ancient Near East, Laban's pastures. + STYLE
+5.  \[0:29–0:37\] VO: "Then came the wedding feast. The bride was heavily veiled. In the morning, behold, it was Leah, her older sister." IMAGE PROMPT: Comic morning shot in a tent doorway: Jacob lifting a thick embroidered veil and recoiling in a cartoon double-take, eyes popping; Leah smiles back shyly and kindly. Characters – Jacob as above; Leah: a young stickwoman with soft brown hair in a long plait, gentle eyes, a moss-green robe and a cream head-veil. Setting: Ancient Near East, a wedding tent hung with lanterns, morning light. + STYLE
+6.  \[0:37–0:47\] VO: "'What is this thou hast done unto me?' Laban shrugged. 'In our country we don't marry the younger before the firstborn. Work another seven years.'" IMAGE PROMPT: Jacob pointing back at the tent in outrage; Laban shrugging with palms up and a bland smile, already holding up seven fingers of his own. Characters – Jacob and Laban as above. Setting: Laban's courtyard, morning. + STYLE
+7.  \[0:47–0:55\] VO: "The deceiver had been deceived. Somewhere, Esau was laughing. The tricks we play have a way of coming back to us." IMAGE PROMPT: Comic split-feeling single frame: Jacob sitting on a step with his head in his hands; far away across the desert, on a hilltop, Esau slapping his knee with laughter. Characters – Jacob as above; Esau: a big hairy stickman with wild red-orange hair, a shaggy red beard, an animal-skin tunic and a hunting bow. Setting: Ancient Near East, Haran and distant hills at sunset. + STYLE
+8.  \[end, 3 s\] VO: "Next time: spotted goats and a very slippery father-in-law. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-026 – Ep 26: Jacob and the Spotted Goats
+
+**Source:** Genesis 30:25-43; 31 (KJV) (condensed) **Joke:** wages changed ten times: "Even today's worst bosses would blush." | **Lesson:** You can be cheated by people, but you are never hidden from God.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** His father-in-law changed his wages ten times, and Jacob still got rich on the goats nobody wanted. After fourteen years, Jacob said, "Send me away, that I may go home." Laban said, "Appoint me thy wages." "Give me every speckled and spotted goat, and every brown sheep." Laban agreed, then that same day secretly took all the spotted ones away. Classic Laban. So Jacob peeled white stripes into green branches and set them by the water troughs. And the strong flocks brought forth young that were speckled and spotted. Jacob grew rich. He told his wives, "Your father hath changed my wages ten times; but God suffered him not to hurt me." Ten times. Even today's worst bosses would blush. So Jacob packed his family and his flocks and slipped away. You can be cheated by people, but you are never hidden from God. Next time: Jacob wrestles a mysterious stranger all night long. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "His father-in-law changed his wages ten times, and Jacob still got rich on the goats nobody wanted." IMAGE PROMPT: Jacob standing proudly among a huge flock of speckled and spotted goats and brown sheep, while Laban peers over a stone wall with a sour face. Characters – Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe; Laban: a stickman with a black curly beard and an orange robe. Setting: Ancient Near East, Laban's pastures near Haran, golden afternoon. + STYLE
+2.  \[0:06–0:14\] VO: "After fourteen years, Jacob said, 'Send me away, that I may go home.' Laban said, 'Appoint me thy wages.'" IMAGE PROMPT: Jacob speaking politely to Laban, who sits on a rug counting coins with a false smile; behind Jacob stand Rachel holding baby Joseph, and Leah with a group of small children. Characters – Jacob and Laban as above; Rachel: a young stickwoman with long straight black hair, a sky-blue head-scarf, a lilac robe and a shepherd's crook; Leah: a young stickwoman with soft brown hair in a long plait, gentle eyes, a moss-green robe and a cream head-veil; baby Joseph: a tiny round white head wrapped in a yellow blanket. Setting: Ancient Near East, Laban's courtyard. + STYLE
+3.  \[0:14–0:23\] VO: "'Give me every speckled and spotted goat, and every brown sheep.' Laban agreed, then that same day secretly took all the spotted ones away. Classic Laban." IMAGE PROMPT: Comic moonlit scene: Laban tiptoeing off with an armful of spotted goats while his sons herd more spotted goats away over the hills; one goat looks back at the viewer with a deadpan face. Characters – Laban as above; Laban's sons: young stickmen with curly black hair and orange tunics. Setting: Ancient Near East, the pastures at night. + STYLE
+4.  \[0:23–0:30\] VO: "So Jacob peeled white stripes into green branches and set them by the water troughs." IMAGE PROMPT: Jacob sitting beside stone water troughs, peeling pale stripes into fresh poplar and hazel rods with a small knife, the striped rods standing upright by the water while plain white goats drink. Characters – Jacob as above. Setting: Ancient Near East, the watering troughs at midday. + STYLE
+5.  \[0:30–0:37\] VO: "And the strong flocks brought forth young that were speckled and spotted. Jacob grew rich." IMAGE PROMPT: A spring meadow full of bouncing speckled and spotted baby goats, Jacob laughing in astonishment with his arms wide. Characters – Jacob as above. Setting: Ancient Near East, green spring pastures. + STYLE
+6.  \[0:37–0:47\] VO: "He told his wives, 'Your father hath changed my wages ten times; but God suffered him not to hurt me.' Ten times. Even today's worst bosses would blush." IMAGE PROMPT: In a field, Jacob counting on all ten fingers to Rachel and Leah, who nod knowingly with folded arms; a sheep beside them rolls its eyes. Characters – Jacob, Rachel and Leah as above. Setting: Ancient Near East, an open field away from the tents. + STYLE
+7.  \[0:47–0:55\] VO: "So Jacob packed his family and his flocks and slipped away. You can be cheated by people, but you are never hidden from God." IMAGE PROMPT: Night: a quiet caravan of camels, family and flocks slipping over the hills under a huge starry sky, Jacob leading with his staff. Characters – Jacob, Rachel and Leah as above, children on camels. Setting: Ancient Near East, the hills west of Haran by starlight. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Jacob wrestles a mysterious stranger all night long. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-027 – Ep 27: Wrestling Till Dawn
+
+**Source:** Genesis 32 (KJV) **Joke:** Jacob's gift parade of over five hundred animals: "Plan A: drown Esau in livestock." | **Lesson:** Hold on to God until He blesses you.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Jacob wrestled all night with a stranger, and refused to let go. Heading home, he heard Esau was coming, with four hundred men. Jacob was greatly afraid. He prayed, "Deliver me, I pray thee, from the hand of my brother." Then he sent presents ahead: goats, sheep, camels, cattle and donkeys, over five hundred animals, in wave after wave. Plan A: drown Esau in livestock. That night, at the ford of Jabbok, Jacob was left alone, and there wrestled a man with him until the breaking of the day. The man touched Jacob's hip, and it was put out of joint. "Let me go, for the day breaketh." "I will not let thee go, except thou bless me." "Thy name shall be called no more Jacob, but Israel." Jacob limped into the sunrise: "I have seen God face to face." Hold on to God until He blesses you. Next time: Jacob finally meets Esau. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "Jacob wrestled all night with a stranger, and refused to let go." IMAGE PROMPT: Moonlit riverbank: Jacob and the mysterious stranger locked in a wrestling hold, neither giving way, silver light on the water (a struggle only, no blows). Characters – Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe; the mysterious stranger: a tall, strong stick figure in a deep-indigo hooded travelling cloak, his face in calm shadow, with a faint golden outline. Setting: Ancient Near East, the ford of the Jabbok river at night. + STYLE
+2.  \[0:05–0:12\] VO: "Heading home, he heard Esau was coming, with four hundred men. Jacob was greatly afraid." IMAGE PROMPT: A breathless messenger pointing back over the hills where a huge dust cloud rises; Jacob's knees knocking together, eyes enormous. Characters – Jacob as above; the messenger: a young stickman in a dusty short tunic. Setting: Ancient Near East, Jacob's camp in the hills of Gilead. + STYLE
+3.  \[0:12–0:18\] VO: "He prayed, 'Deliver me, I pray thee, from the hand of my brother.'" IMAGE PROMPT: Jacob kneeling alone on a rock at dusk, hands lifted to the sky, the camp's tents below him. Characters – Jacob as above. Setting: Ancient Near East, a rocky hilltop at dusk. + STYLE
+4.  \[0:18–0:28\] VO: "Then he sent presents ahead: goats, sheep, camels, cattle and donkeys, over five hundred animals, in wave after wave. Plan A: drown Esau in livestock." IMAGE PROMPT: Comic wide shot: a long parade of separate herds (goats, sheep, camels, cows, donkeys) marching over the hills in waves, each led by a servant, stretching to the horizon; Jacob watches nervously, biting his nails. Characters – Jacob as above; servants in brown tunics. Setting: Ancient Near East, rolling hills toward Seir. + STYLE
+5.  \[0:28–0:37\] VO: "That night, at the ford of Jabbok, Jacob was left alone, and there wrestled a man with him until the breaking of the day." IMAGE PROMPT: Jacob alone on the dark riverbank under the stars, turning as the mysterious stranger steps out of the shadows toward him. Characters – Jacob and the mysterious stranger as above. Setting: the ford of the Jabbok at night. + STYLE
+6.  \[0:37–0:46\] VO: "The man touched Jacob's hip, and it was put out of joint. 'Let me go, for the day breaketh.' 'I will not let thee go, except thou bless me.'" IMAGE PROMPT: First light on the horizon: Jacob wincing, down on one knee, clinging with both arms to the stranger's cloak with fierce determination. Characters – Jacob and the mysterious stranger as above. Setting: the Jabbok riverbank at dawn. + STYLE
+7.  \[0:46–0:55\] VO: "'Thy name shall be called no more Jacob, but Israel.' Jacob limped into the sunrise: 'I have seen God face to face.' Hold on to God until He blesses you." IMAGE PROMPT: Sunrise over the river: Jacob limping forward with his staff, his face shining with awe; the stranger is gone, leaving only soft golden light. Characters – Jacob as above. Setting: Ancient Near East, Peniel at sunrise. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Jacob finally meets Esau. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-028 – Ep 28: Jacob Meets Esau
+
+**Source:** Genesis 33 (KJV) **Joke:** Jacob bowing seven times while inching closer; "So… about all those goats." | **Lesson:** Forgiveness can melt twenty years of fear in a single hug.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Twenty years of fear. Four hundred men. And then Esau did something nobody expected. Jacob looked up and saw his brother coming. He lined up his family: the maids and their children first, then Leah and hers, and Rachel and little Joseph at the back. Then Jacob went ahead and bowed to the ground seven times, inching closer each time. And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept. "Who are those with thee?" "The children which God hath graciously given thy servant." Esau raised an eyebrow. "And what meanest thou by all this drove which I met?" So… about all those goats. "I have enough, my brother." But Jacob insisted. "Seeing your face is like seeing the face of God." Forgiveness can melt twenty years of fear in a single hug. Next time: a coat of many colours, and ten jealous brothers. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "Twenty years of fear. Four hundred men. And then Esau did something nobody expected." IMAGE PROMPT: On a ridge, Esau rides at the head of a long line of four hundred riders with spears held upright, dust rising; in the foreground Jacob gulps. Characters – Esau: a big hairy stickman with wild red-orange hair, a shaggy red beard, an animal-skin tunic and a hunting bow; Esau's men: rows of riders on camels and donkeys in rough brown cloaks, spears pointed upward; Jacob: a slim stickman with neat dark hair, a short dark beard and a plain brown robe. Setting: Ancient Near East, the hills near the Jabbok, morning. + STYLE
+2.  \[0:06–0:15\] VO: "Jacob looked up and saw his brother coming. He lined up his family: the maids and their children first, then Leah and hers, and Rachel and little Joseph at the back." IMAGE PROMPT: Jacob hurriedly arranging his family in three nervous groups, with Rachel holding little Joseph's hand at the very back. Characters – Jacob as above; Bilhah and Zilpah, the handmaids: two stickwomen in plain sand-coloured robes and head-scarves; Leah: a young stickwoman with soft brown hair in a long plait, gentle eyes, a moss-green robe and a cream head-veil; Rachel: a young stickwoman with long straight black hair, a sky-blue head-scarf, a lilac robe and a shepherd's crook; little Joseph: a small stick-boy with short wavy black hair and a little yellow tunic; assorted children. Setting: Ancient Near East, an open plain by the Jabbok. + STYLE
+3.  \[0:15–0:22\] VO: "Then Jacob went ahead and bowed to the ground seven times, inching closer each time." IMAGE PROMPT: Comic shot: Jacob bowing low to the ground, popping up, shuffling forward and bowing again, getting closer and closer to Esau, sweat drops flying off his forehead. Characters – Jacob and Esau as above. Setting: the open plain. + STYLE
+4.  \[0:22–0:30\] VO: "And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept." IMAGE PROMPT: Esau running with arms flung wide and wrapping Jacob in a huge bear hug, both brothers weeping, Jacob's feet lifted off the ground. Characters – Jacob and Esau as above. Setting: the open plain, warm sunlight. + STYLE
+5.  \[0:30–0:37\] VO: "'Who are those with thee?' 'The children which God hath graciously given thy servant.'" IMAGE PROMPT: Esau wiping his tears and smiling at the row of mothers and children bowing shyly; little Joseph peeks out from behind Rachel. Characters – Esau, Rachel, Leah, Bilhah and Zilpah, and little Joseph as above. Setting: the open plain. + STYLE
+6.  \[0:37–0:45\] VO: "Esau raised an eyebrow. 'And what meanest thou by all this drove which I met?' So… about all those goats." IMAGE PROMPT: Esau with one bushy eyebrow raised, thumb pointing behind him at a huge crowd of goats, sheep and camels milling around his riders; Jacob grinning sheepishly. Characters – Esau and Jacob as above. Setting: the open plain crowded with animals. + STYLE
+7.  \[0:45–0:55\] VO: "'I have enough, my brother.' But Jacob insisted. 'Seeing your face is like seeing the face of God.' Forgiveness can melt twenty years of fear in a single hug." IMAGE PROMPT: The two brothers sitting side by side on a rock at sunset, laughing together, Esau finally accepting a goat that nuzzles his beard. Characters – Esau and Jacob as above. Setting: Ancient Near East, the plain by the Jabbok at sunset. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a coat of many colours, and ten jealous brothers. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-029 – Ep 29: Joseph's Coat of Many Colours
+
+**Source:** Genesis 37:1-11 (KJV) **Joke:** "If you dream your whole family bows down to you, maybe don't tell them at breakfast." | **Lesson:** Favouritism and boasting both feed envy.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** If you dream that your whole family bows down to you, maybe don't tell them at breakfast. Joseph was seventeen, a shepherd with his older brothers. Now Jacob loved Joseph more than all his children, because he was the son of his old age, and he made him a coat of many colours. His brothers saw it, and hated him, and could not speak peaceably unto him. Joseph had a dream. "Our sheaves of grain were in the field. My sheaf stood upright, and your sheaves bowed down to my sheaf\!" "Shalt thou indeed reign over us?" Then a second dream: the sun, the moon and eleven stars bowed to him. Even his father rebuked him. "Shall I and thy mother and thy brethren bow down to thee?" His brothers envied him, but his father kept the saying in mind. Favouritism and boasting both feed envy. Next time: Joseph's brothers make a terrible plan. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "If you dream that your whole family bows down to you, maybe don't tell them at breakfast." IMAGE PROMPT: Comic breakfast scene in a big tent: Joseph in his bright coat chattering cheerfully with his hands spread wide, while his ten older brothers around a low table freeze mid-bite with flat, unamused stares. Characters – Joseph (teen): a slim teenage stick-boy with short wavy black hair, bright eager eyes and a long-sleeved coat of many colours striped red, yellow, green and blue; Joseph's older brothers: ten bearded stickmen of different heights in plain brown, grey and olive-green shepherd's robes. Setting: Ancient Near East, Jacob's tent in the vale of Hebron, morning. + STYLE
+2.  \[0:06–0:11\] VO: "Joseph was seventeen, a shepherd with his older brothers." IMAGE PROMPT: Joseph herding sheep on a green hillside alongside his older brothers, all carrying crooks. Characters – Joseph (teen) and Joseph's older brothers as above. Setting: Ancient Near East, the hills of Canaan. + STYLE
+3.  \[0:11–0:20\] VO: "Now Jacob loved Joseph more than all his children, because he was the son of his old age, and he made him a coat of many colours." IMAGE PROMPT: Old Jacob proudly draping the brilliant striped coat over Joseph's shoulders, Joseph spinning round to show it off. Characters – Jacob (old): an elderly stickman with grey hair, a long grey beard, a plain brown robe and a walking staff; Joseph (teen) as above. Setting: Ancient Near East, outside Jacob's tent, sunny. + STYLE
+4.  \[0:20–0:26\] VO: "His brothers saw it, and hated him, and could not speak peaceably unto him." IMAGE PROMPT: The brothers glaring from beside a sheepfold with arms folded, two of them muttering to each other, as Joseph walks past happily in his coat. Characters – Joseph (teen) and Joseph's older brothers as above. Setting: Ancient Near East, the sheepfold. + STYLE
+5.  \[0:26–0:36\] VO: "Joseph had a dream. 'Our sheaves of grain were in the field. My sheaf stood upright, and your sheaves bowed down to my sheaf\!' 'Shalt thou indeed reign over us?'" IMAGE PROMPT: A soft-edged dream picture above Joseph's head: a golden wheat field where one tall sheaf stands upright and a ring of sheaves bow toward it; below, the brothers look outraged. Characters – Joseph (teen) and Joseph's older brothers as above. Setting: Ancient Near East, the harvest field. + STYLE
+6.  \[0:36–0:46\] VO: "Then a second dream: the sun, the moon and eleven stars bowed to him. Even his father rebuked him. 'Shall I and thy mother and thy brethren bow down to thee?'" IMAGE PROMPT: A night-sky dream: a smiling sun, a crescent moon and eleven bright stars dipping toward a small Joseph; in the foreground old Jacob wags a finger at Joseph, who looks surprised. Characters – Jacob (old) and Joseph (teen) as above. Setting: Ancient Near East, starry sky over the tents. + STYLE
+7.  \[0:46–0:54\] VO: "His brothers envied him, but his father kept the saying in mind. Favouritism and boasting both feed envy." IMAGE PROMPT: At dusk the brothers whisper darkly together by the fold, while in the tent doorway old Jacob gazes thoughtfully at the sky and Joseph smooths his bright coat, unaware. Characters – Joseph (teen), Joseph's older brothers and Jacob (old) as above. Setting: Ancient Near East, Jacob's camp at dusk. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Joseph's brothers make a terrible plan. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+  
+
+-----
+
+# AES – AESOP IN 60 SECONDS
+
+Source for all: 'Three Hundred Aesop's Fables', tr. G. F. Townsend (1867), Project Gutenberg \#21. Voice: Lily (alt Charlotte), Stability 45%, Clarity 75%, Style 30%. Bright, playful.
+
+## AES-019 – Ep 19: The Mole and His Mother
+
+**Source:** Townsend, 'The Mole and His Mother' (fable 18) **Joke:** sniffing a pile of frankincense and announcing, "It's a pebble." | **Lesson:** Boasting about what you can do often reveals what you can't.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A baby Mole insisted he could see. His mother had a test. Moles live underground, and this little Mole had been blind from birth. But one day he announced, "Mother, I'm sure I can see\!" His mother smiled. "Really? Let's find out." She placed a few grains of frankincense in front of him, a sweet-smelling resin you can smell from across the room. "What is it?" The little Mole leaned in, squinted his tiny eyes, sniffed the air… and said confidently, "It's a pebble." His mother sighed. "My son, I'm afraid you're not only blind, but you've lost your sense of smell too." The little Mole thought about it, then went quietly back to his tunnel, a little less sure of himself. Boasting about what you can do often reveals what you can't. Next time: a Herdsman loses his calf, and very much regrets finding the thief. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "A baby Mole insisted he could see. His mother had a test." IMAGE PROMPT: The little Mole standing proudly at the mouth of his burrow with his chest puffed out, while his mother watches with a knowing smile. Characters – the little Mole: a small velvety dark-grey cartoon stick-figure mole with a round white head, tiny squinting eyes, a pink nose and big digging paws; Mother Mole: a larger dark-grey cartoon stick-figure mole with a round white head, tiny eyes, a pink nose and a little flowered apron. Setting: Ancient Greek countryside, a meadow dotted with molehills beside an olive grove. + STYLE
+2.  \[0:05–0:11\] VO: "Moles live underground, and this little Mole had been blind from birth." IMAGE PROMPT: A cosy cutaway of an underground burrow with winding tunnels, dangling roots and glowing worms, the little Mole feeling his way happily along with his paws. Characters – the little Mole as above. Setting: underground beneath the meadow. + STYLE
+3.  \[0:11–0:18\] VO: "But one day he announced, 'Mother, I'm sure I can see\!' His mother smiled. 'Really? Let's find out.'" IMAGE PROMPT: The little Mole pointing confidently in completely the wrong direction while his mother hides a smile behind her paw. Characters – the little Mole and Mother Mole as above. Setting: the burrow's cosy main room. + STYLE
+4.  \[0:18–0:26\] VO: "She placed a few grains of frankincense in front of him, a sweet-smelling resin you can smell from across the room. 'What is it?'" IMAGE PROMPT: Mother Mole setting a few glowing amber grains of frankincense on a flat stone, visible wavy scent lines curling up from them. Characters – Mother Mole as above. Setting: the burrow, warm light. + STYLE
+5.  \[0:26–0:34\] VO: "The little Mole leaned in, squinted his tiny eyes, sniffed the air… and said confidently, 'It's a pebble.'" IMAGE PROMPT: Comic close-up: the little Mole's nose almost touching the grains, wavy scent lines drifting straight up his nostrils, as he declares his answer with total confidence. Characters – the little Mole as above. Setting: the burrow. + STYLE
+6.  \[0:34–0:42\] VO: "His mother sighed. 'My son, I'm afraid you're not only blind, but you've lost your sense of smell too.'" IMAGE PROMPT: Mother Mole with one paw on her forehead, gently patting her son's head with the other, half amused and half exasperated. Characters – the little Mole and Mother Mole as above. Setting: the burrow. + STYLE
+7.  \[0:42–0:51\] VO: "The little Mole thought about it, then went quietly back to his tunnel, a little less sure of himself. Boasting about what you can do often reveals what you can't." IMAGE PROMPT: The little Mole walking slowly into a side tunnel, looking thoughtful, his mother following lovingly behind. Characters – the little Mole and Mother Mole as above. Setting: the burrow tunnels, soft glow. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Herdsman loses his calf, and very much regrets finding the thief. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-020 – Ep 20: The Herdsman and the Lost Bull
+
+**Source:** Townsend, 'The Herdsman and the Lost Bull' (fable 19) (the Lion's meal is never shown) **Joke:** his offer inflates from a lamb to catch the thief to a whole bull to get away from him | **Lesson:** Be careful what you wish for; you might get it.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Herdsman prayed to find the thief who stole his calf. His prayer was answered. He was tending his herd in a forest when a young Bull-calf went missing. He searched everywhere. Nothing. So he made a vow: "If I can only find the thief, I'll offer a lamb to Hermes, to Pan, and to all the guardian gods of the forest\!" Not long after, he climbed a little hill… and looked down. There, at the bottom, was the thief. A Lion. Finishing lunch. The Herdsman went pale. He lifted his eyes and his hands to the sky. "Just now I promised a lamb if I could find the thief. Now that I've found him, I'll gladly add a full-grown Bull, if I can just get away from him safely\!" Be careful what you wish for; you might get it. Next time: a little Fawn asks his mother why she's scared of dogs. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "A Herdsman prayed to find the thief who stole his calf. His prayer was answered." IMAGE PROMPT: The Herdsman peeking over the top of a grassy hill, eyes popping and hair standing on end at something below (not shown). Characters – the Herdsman: a stickman with a shaggy brown beard, a floppy green shepherd's hat, a sheepskin vest and a long crook. Setting: Ancient Greek countryside, a forest pasture with a small grassy hill. + STYLE
+2.  \[0:05–0:11\] VO: "He was tending his herd in a forest when a young Bull-calf went missing." IMAGE PROMPT: The Herdsman counting his cattle in a forest clearing, frowning at an empty gap in the line where a calf should be. Characters – the Herdsman as above; the cattle: cartoon stick-figure cows with round white heads. Setting: a sunny forest clearing. + STYLE
+3.  \[0:11–0:15\] VO: "He searched everywhere. Nothing." IMAGE PROMPT: Comic frame: the Herdsman looking under a bush, behind a tree, inside a hollow log and even under his own hat. Characters – the Herdsman as above. Setting: the forest. + STYLE
+4.  \[0:15–0:25\] VO: "So he made a vow: 'If I can only find the thief, I'll offer a lamb to Hermes, to Pan, and to all the guardian gods of the forest\!'" IMAGE PROMPT: The Herdsman kneeling in the forest with his hands raised to the sky, a little white lamb beside him looking extremely alarmed. Characters – the Herdsman as above; the lamb: a fluffy cartoon lamb with a round white head. Setting: a forest glade with sunbeams. + STYLE
+5.  \[0:25–0:33\] VO: "Not long after, he climbed a little hill… and looked down. There, at the bottom, was the thief. A Lion. Finishing lunch." IMAGE PROMPT: View from behind the Herdsman on the hilltop: at the foot of the hill a big contented Lion sits under a tree, licking his lips and patting his round tummy (no calf or remains shown). Characters – the Herdsman as above; the Lion: a big golden cartoon stick-figure lion with a round white head and a huge shaggy orange mane. Setting: the small hill and the forest edge. + STYLE
+6.  \[0:33–0:42\] VO: "The Herdsman went pale. He lifted his eyes and his hands to the sky. 'Just now I promised a lamb if I could find the thief.'" IMAGE PROMPT: The Herdsman crouched behind a rock, face as white as chalk, hands lifted to the sky, sweat drops flying. Characters – the Herdsman as above. Setting: the hilltop. + STYLE
+7.  \[0:42–0:53\] VO: "'Now that I've found him, I'll gladly add a full-grown Bull, if I can just get away from him safely\!' Be careful what you wish for; you might get it." IMAGE PROMPT: The Herdsman tiptoeing backwards down the far side of the hill in exaggerated slow motion, pointing at a big bull in his herd as an offering, while the Lion yawns lazily below, unaware. Characters – the Herdsman and the Lion as above; a big brown bull. Setting: the hill and forest pasture, late afternoon. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a little Fawn asks his mother why she's scared of dogs. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-021 – Ep 21: The Fawn and His Mother
+
+**Source:** Townsend, 'The Fawn and His Mother' (fable 20) **Joke:** after a whole speech about her strengths, one tiny "Yip" and she's gone in a cloud of dust | **Lesson:** No argument can give courage to a fearful heart.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** She was bigger than a dog, faster than a dog, and had horns. One bark, and she ran. A young Fawn looked up at his mother. "Mother, you're bigger than a dog. You're faster than a dog. You're used to running. And you've got horns to defend yourself\!" "Then why," said the Fawn, "are you so afraid of the hounds?" His mother smiled sadly. "My son, I know everything you say is true. I have all those advantages." Just then, from far away, came the tiniest sound. Yip. One small dog. One single bark. And in a flash, his mother was gone, leaving a cloud of dust and one very surprised Fawn. From somewhere over the hill, her voice drifted back: "I feel ready to faint whenever I hear a dog\!" No argument can give courage to a fearful heart. Next time: a Fox and an Ass go into business together. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "She was bigger than a dog, faster than a dog, and had horns. One bark, and she ran." IMAGE PROMPT: The Mother Deer in mid-leap, fleeing across a meadow with legs outstretched, while far away a tiny fluffy puppy sits with its mouth open in a small yip. Characters – Mother Deer: a tall, graceful light-brown cartoon stick-figure deer with a round white head, small curved horns, long legs and big nervous eyes; the puppy: a tiny fluffy cartoon dog with a round white head. Setting: Ancient Greek countryside, a sunny forest glade. + STYLE
+2.  \[0:06–0:12\] VO: "A young Fawn looked up at his mother. 'Mother, you're bigger than a dog. You're faster than a dog.'" IMAGE PROMPT: The Fawn gazing up at his tall mother in a sunny glade, counting on his little hooves. Characters – Mother Deer as above; the Fawn: a small spotted cartoon stick-figure fawn with a round white head, white spots, big curious eyes and wobbly legs. Setting: the forest glade. + STYLE
+3.  \[0:12–0:18\] VO: "'You're used to running. And you've got horns to defend yourself\!'" IMAGE PROMPT: The Fawn pointing excitedly at his mother's horns and long legs, little glowing outlines around them like a hero's powers. Characters – the Fawn and Mother Deer as above. Setting: the glade. + STYLE
+4.  \[0:18–0:23\] VO: "'Then why,' said the Fawn, 'are you so afraid of the hounds?'" IMAGE PROMPT: Close-up of the Fawn's puzzled face, head tilted to one side, ears up. Characters – the Fawn as above. Setting: the glade. + STYLE
+5.  \[0:23–0:30\] VO: "His mother smiled sadly. 'My son, I know everything you say is true. I have all those advantages.'" IMAGE PROMPT: Mother Deer lowering her head tenderly to her son with a small, embarrassed smile. Characters – Mother Deer and the Fawn as above. Setting: the glade, dappled light. + STYLE
+6.  \[0:30–0:41\] VO: "Just then, from far away, came the tiniest sound. Yip. One small dog. One single bark. And in a flash, his mother was gone, leaving a cloud of dust and one very surprised Fawn." IMAGE PROMPT: Comic shot: a deer-shaped cloud of dust where the mother stood a moment ago, the Fawn's ears blown back, blinking; far away on a hill, the tiny puppy wags its tail. Characters – the Fawn and the puppy as above. Setting: the glade. + STYLE
+7.  \[0:41–0:50\] VO: "From somewhere over the hill, her voice drifted back: 'I feel ready to faint whenever I hear a dog\!' No argument can give courage to a fearful heart." IMAGE PROMPT: Mother Deer peeking out from behind a distant bush, trembling all over; the Fawn shaking his head with a small, understanding smile. Characters – Mother Deer and the Fawn as above. Setting: the edge of the forest. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Fox and an Ass go into business together. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-022 – Ep 22: The Ass, the Fox and the Lion
+
+**Source:** Townsend, 'The Ass, the Fox, and the Lion' (fable 21) (what the Lion does next is never shown) **Joke:** the Fox's clever deal lasts "about four seconds" | **Lesson:** Betray a friend to save yourself, and you may be next.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** The Fox made a deal with a Lion to save his own skin. It lasted about four seconds. The Ass and the Fox became partners for protection, and went hunting in the forest. They hadn't gone far when they met a Lion. He slipped up to the Lion and whispered, "Promise you won't harm me, and I'll get you the Ass." The Lion promised. He told the Ass, "Don't worry, you won't be hurt. Follow me." He led the Ass to a deep pit… and made sure he fell in. Thump. The Ass was trapped. The Fox turned to the Lion, very pleased with himself. "There you are. Deal done." The Lion looked at the Ass in the pit. No hurry. Then he looked at the Fox. And grabbed him first. Betray a friend to save yourself, and you may be next. Next time: a crowd of Flies discovers a pot of honey. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "The Fox made a deal with a Lion to save his own skin. It lasted about four seconds." IMAGE PROMPT: The Fox and the Lion shaking paws, the Fox grinning slyly while the Lion's eyes slide sideways toward him. Characters – the Fox: a red cartoon stick-figure fox with a round white head, pointed ears and a bushy white-tipped tail; the Lion: a big golden cartoon stick-figure lion with a round white head and a huge shaggy orange mane. Setting: Ancient Greek countryside, a thick oak forest. + STYLE
+2.  \[0:06–0:12\] VO: "The Ass and the Fox became partners for protection, and went hunting in the forest." IMAGE PROMPT: The Ass and the Fox strolling into the forest side by side, the Fox's arm slung round the Ass's neck like best friends. Characters – the Fox as above; the Ass: a grey cartoon stick-figure donkey with a round white head, long floppy ears and a trusting smile. Setting: a woodland path. + STYLE
+3.  \[0:12–0:16\] VO: "They hadn't gone far when they met a Lion." IMAGE PROMPT: The Lion stepping out from behind a huge oak onto the path; the Ass's ears shoot straight up, the Fox's eyes dart sideways. Characters – the Lion, the Ass and the Fox as above. Setting: the woodland path. + STYLE
+4.  \[0:16–0:24\] VO: "He slipped up to the Lion and whispered, 'Promise you won't harm me, and I'll get you the Ass.' The Lion promised." IMAGE PROMPT: The Fox whispering behind his paw into the Lion's ear and pointing back at the Ass, who is happily sniffing a flower. Characters – the Fox, the Lion and the Ass as above. Setting: the woodland path. + STYLE
+5.  \[0:24–0:33\] VO: "He told the Ass, 'Don't worry, you won't be hurt. Follow me.' He led the Ass to a deep pit… and made sure he fell in. Thump." IMAGE PROMPT: Comic shot: the Ass tumbling into a leaf-covered pit with his hooves in the air in a puff of dust, the Fox at the edge dusting off his paws. Characters – the Ass and the Fox as above. Setting: a forest clearing with a hidden pit. + STYLE
+6.  \[0:33–0:41\] VO: "The Ass was trapped. The Fox turned to the Lion, very pleased with himself. 'There you are. Deal done.'" IMAGE PROMPT: The Fox bowing with a grand flourish toward the pit; the Ass peeks up miserably from inside it. Characters – the Fox, the Ass and the Lion as above. Setting: the forest clearing. + STYLE
+7.  \[0:41–0:51\] VO: "The Lion looked at the Ass in the pit. No hurry. Then he looked at the Fox. And grabbed him first. Betray a friend to save yourself, and you may be next." IMAGE PROMPT: Close-up: the Lion's huge paw landing firmly on the Fox's bushy tail, the Fox frozen with a horrified grin; the frame cuts away before anything else happens. Characters – the Lion and the Fox as above. Setting: the forest clearing. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a crowd of Flies discovers a pot of honey. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-023 – Ep 23: The Flies and the Honey-Pot
+
+**Source:** Townsend, 'The Flies and the Honey-Pot' (fable 22) **Joke:** "One more lick. Then we'll go." | **Lesson:** Pleasure bought with pain hurts: don't let a little sweetness trap you.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** It was the best meal these Flies ever had. It was also their last. In a housekeeper's storeroom, a jar of honey tipped over. Golden. Sticky. Gorgeous. A whole crowd of Flies came buzzing in. They landed right in the honey, and started to eat. "Mmm\!" "Amazing\!" "One more lick. Then we'll go." And another. And another. When at last they were full, they tried to fly away. But their feet were stuck. They pulled. They buzzed. They flapped. Their wings were glued with honey too. They couldn't move at all. Stuck fast, they cried out, "Oh, what foolish creatures we are\! For a little pleasure, we've destroyed ourselves." Pleasure bought with pain hurts: don't let a little sweetness trap you. Next time: the animals argue about who has the most babies, and a Lioness settles it. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "It was the best meal these Flies ever had. It was also their last." IMAGE PROMPT: A happy crowd of Flies sitting in a glowing golden pool of honey as if at a banquet, tiny napkins tied round their necks, licking their lips. Characters – the Flies: tiny black cartoon stick-figure flies with round white heads, big shiny eyes and small see-through wings. Setting: an ancient Greek farmhouse storeroom with clay jars on wooden shelves. + STYLE
+2.  \[0:05–0:11\] VO: "In a housekeeper's storeroom, a jar of honey tipped over. Golden. Sticky. Gorgeous." IMAGE PROMPT: A clay jar lying on its side on a shelf, honey oozing out in a shining golden puddle, warm sunlight slanting through a small window. Setting: the storeroom. + STYLE
+3.  \[0:11–0:17\] VO: "A whole crowd of Flies came buzzing in. They landed right in the honey, and started to eat." IMAGE PROMPT: A cheerful swarm of Flies zooming in through the little window and landing feet-first in the honey. Characters – the Flies as above. Setting: the storeroom window and shelf. + STYLE
+4.  \[0:17–0:24\] VO: "'Mmm\!' 'Amazing\!' 'One more lick. Then we'll go.' And another. And another." IMAGE PROMPT: Comic close-up of Flies with honey-smeared faces and round full tummies, one holding up a finger as if saying 'just one more'. Characters – the Flies as above. Setting: the honey puddle. + STYLE
+5.  \[0:24–0:31\] VO: "When at last they were full, they tried to fly away. But their feet were stuck." IMAGE PROMPT: Flies straining upward with wings blurring, their feet stretched out in long, stringy strands of honey. Characters – the Flies as above. Setting: the honey puddle. + STYLE
+6.  \[0:31–0:38\] VO: "They pulled. They buzzed. They flapped. Their wings were glued with honey too. They couldn't move at all." IMAGE PROMPT: The Flies' wings drooping, coated in golden honey, worry dawning on their little faces. Characters – the Flies as above. Setting: the honey puddle, light fading. + STYLE
+7.  \[0:38–0:49\] VO: "Stuck fast, they cried out, 'Oh, what foolish creatures we are\! For a little pleasure, we've destroyed ourselves.' Pleasure bought with pain hurts: don't let a little sweetness trap you." IMAGE PROMPT: The storeroom at evening, quiet and still, the honey puddle glowing, the Flies' tiny regretful faces just visible at its edge; outside the window a single wise fly buzzes past without stopping. Characters – the Flies as above. Setting: the storeroom at dusk. + STYLE
+8.  \[end, 3 s\] VO: "Next time: the animals argue about who has the most babies, and a Lioness settles it. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-024 – Ep 24: The Lioness
+
+**Source:** Townsend, 'The Lioness' (fable 23) **Joke:** animal parents bragging about litter sizes "like parents at the school gates" | **Lesson:** The value is in the worth, not in the number.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** The animals had a contest: who has the most babies? The Lioness answered with one word. Every animal in the forest was arguing. "I have ten piglets at a time\!" said the Sow. "Twelve puppies\!" said the Dog. "I have so many I've lost count," said the Rabbit. It sounded like parents at the school gates. They couldn't decide, so they all rushed noisily to the Lioness. "You settle it\! How many children do you have at a birth?" The Lioness looked down at them. She didn't hurry. She didn't shout. She laughed softly. "Why, I have only one." The animals smirked. Only one? "But that one," she said, as a small cub stepped proudly out beside her, "is altogether a thoroughbred Lion." The forest went very quiet. The value is in the worth, not in the number. Next time: a kind Farmer warms a frozen Snake. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "The animals had a contest: who has the most babies? The Lioness answered with one word." IMAGE PROMPT: The Lioness sitting regally on a high flat rock above a noisy crowd of animals, calmly raising one paw. Characters – the Lioness: a sleek golden cartoon stick-figure lioness with a round white head, calm amber eyes and a proud, gentle smile. Setting: Ancient Greek countryside, a sunny forest clearing with a big flat rock. + STYLE
+2.  \[0:06–0:13\] VO: "Every animal in the forest was arguing. 'I have ten piglets at a time\!' said the Sow. 'Twelve puppies\!' said the Dog." IMAGE PROMPT: A pink Sow surrounded by a long line of piglets puffing out her chest at a Dog sitting on a heap of wriggling puppies. Characters – the Sow: a plump pink cartoon stick-figure pig with a round white head and a curly tail; the Dog: a spotted cartoon stick-figure dog with a round white head; piglets and puppies to match. Setting: the forest clearing. + STYLE
+3.  \[0:13–0:20\] VO: "'I have so many I've lost count,' said the Rabbit. It sounded like parents at the school gates." IMAGE PROMPT: A frazzled Rabbit with dozens of baby bunnies climbing all over her, while all the animal parents shout over one another in a comic hubbub. Characters – the Rabbit: a grey cartoon stick-figure rabbit with a round white head and long ears; the Sow and the Dog as above. Setting: the forest clearing. + STYLE
+4.  \[0:20–0:28\] VO: "They couldn't decide, so they all rushed noisily to the Lioness. 'You settle it\! How many children do you have at a birth?'" IMAGE PROMPT: A comic stampede of animal parents and babies arriving at the foot of the Lioness's rock, all pointing up at her. Characters – the Lioness, the Sow, the Dog and the Rabbit as above. Setting: the base of the big rock. + STYLE
+5.  \[0:28–0:36\] VO: "The Lioness looked down at them. She didn't hurry. She didn't shout. She laughed softly. 'Why, I have only one.'" IMAGE PROMPT: Close-up of the Lioness with a calm, amused smile, holding up a single paw. Characters – the Lioness as above. Setting: the rock in golden light. + STYLE
+6.  \[0:36–0:45\] VO: "The animals smirked. Only one? 'But that one,' she said, as a small cub stepped proudly out beside her, 'is altogether a thoroughbred Lion.'" IMAGE PROMPT: The cub stepping out from behind his mother into a shaft of sunlight, chin high, giving a tiny brave roar, while the smirks below begin to drop. Characters – the Lioness as above; the cub: a small fluffy golden lion cub with a round white head, a tiny tuft of mane and a brave little face. Setting: the rock, sunbeam. + STYLE
+7.  \[0:45–0:51\] VO: "The forest went very quiet. The value is in the worth, not in the number." IMAGE PROMPT: The silent crowd of animals staring up in awe, one piglet's jaw hanging open, as the Lioness nuzzles her cub. Characters – the Lioness, the cub, the Sow, the Dog and the Rabbit as above. Setting: the forest clearing. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a kind Farmer warms a frozen Snake. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-025 – Ep 25: The Farmer and the Snake
+
+**Source:** Townsend, 'The Farmer and the Snake' (fable 24) (the bite and its outcome are told, never shown) **Joke:** the Snake wakes up warm and cosy… and then remembers it's a snake | **Lesson:** Be kind, but be wise: the greatest kindness will not bind the ungrateful.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Farmer saved a Snake's life. Guess how the Snake said thank you. One winter, the Farmer was walking across his frozen fields when he found a Snake lying in the frost, stiff with cold. Most people would have walked past. Not him. "Poor thing," he said. He picked it up and tucked it inside his coat to warm it. Slowly, the Snake thawed out. It blinked. It stretched. It felt warm and cosy. And then it remembered it was a snake. It bit the Farmer who had saved it, and the bite was deadly. As he fell, the Farmer gasped, "I'm rightly served for pitying a scoundrel." And the Snake? It simply slid away across the snow, without a single backward glance. Be kind, but be wise: the greatest kindness will not bind the ungrateful. Next time: a Man and a Lion argue over a statue. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "A Farmer saved a Snake's life. Guess how the Snake said thank you." IMAGE PROMPT: Close-up of the Snake peeking out of the Farmer's coat collar with a sly, narrow-eyed smile, while the Farmer smiles kindly down at it, unaware. Characters – the Farmer: a kind stickman with a grey woolly hat, a thick brown winter coat, a red scarf and a gentle face; the Snake: a long green-and-yellow striped cartoon snake with a round white head, narrow sly eyes and a forked red tongue. Setting: Ancient Greek countryside, frozen fields in winter. + STYLE
+2.  \[0:05–0:13\] VO: "One winter, the Farmer was walking across his frozen fields when he found a Snake lying in the frost, stiff with cold." IMAGE PROMPT: A snowy field: the Farmer bending over the Snake, which lies stiff and straight as a stick in the frost with tiny icicles on it. Characters – the Farmer and the Snake as above. Setting: frozen fields with stone walls and bare trees. + STYLE
+3.  \[0:13–0:19\] VO: "Most people would have walked past. Not him. 'Poor thing,' he said." IMAGE PROMPT: The Farmer kneeling in the snow with a hand on his heart, his eyes full of sympathy. Characters – the Farmer and the Snake as above. Setting: the frozen field. + STYLE
+4.  \[0:19–0:25\] VO: "He picked it up and tucked it inside his coat to warm it." IMAGE PROMPT: The Farmer gently tucking the stiff Snake inside the front of his coat and buttoning up, his breath steaming in the cold air. Characters – the Farmer and the Snake as above. Setting: the frozen field. + STYLE
+5.  \[0:25–0:34\] VO: "Slowly, the Snake thawed out. It blinked. It stretched. It felt warm and cosy. And then it remembered it was a snake." IMAGE PROMPT: Comic close-up inside the coat: the Snake yawning and stretching contentedly, then its eyes snapping open with a wicked gleam. Characters – the Snake as above. Setting: inside the Farmer's warm coat. + STYLE
+6.  \[0:34–0:43\] VO: "It bit the Farmer who had saved it, and the bite was deadly. As he fell, the Farmer gasped, 'I'm rightly served for pitying a scoundrel.'" IMAGE PROMPT: Cut-away shot: only the Farmer's grey woolly hat tumbling into the snow and his long shadow sinking down beside it (no bite and no injury shown). Characters – the Farmer, implied by his hat and shadow. Setting: the frozen field at dusk. + STYLE
+7.  \[0:43–0:52\] VO: "And the Snake? It simply slid away across the snow, without a single backward glance. Be kind, but be wise: the greatest kindness will not bind the ungrateful." IMAGE PROMPT: The Snake's long body sliding away across the snow toward a hole in a stone wall, leaving a wavy trail, under a cold purple dusk sky. Characters – the Snake as above. Setting: the frozen field and stone wall at dusk. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Man and a Lion argue over a statue. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+  
+
+END OF PART 1 OF 2.

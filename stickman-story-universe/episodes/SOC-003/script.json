@@ -1,0 +1,25 @@
+{
+  "id": "SOC-003",
+  "series": "SOC",
+  "series_badge": "SOCRATES &amp; THE WISE ONES",
+  "ep_number": 3,
+  "title": "How Many Things I Do Not Need",
+  "title_html": "How Many Things<br>I Do Not Need",
+  "next_title": "After Thunder Comes Rain",
+  "source": "Diogenes Laertius, Lives of the Philosophers II.25 (Yonge tr.)",
+  "lesson": "Real wealth is needing less.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Socrates loved walking through the Athens market. Gold jewellery, silk robes, fancy perfume, exotic spices. Everything sparkled.",
+    "The merchants shouted, Buy this! You need this! Special price, today only!",
+    "Socrates looked at everything very carefully, even picking up a golden necklace. And bought nothing.",
+    "A friend caught up with him. Why do you come here, if you never buy anything?",
+    "Socrates smiled. I come to see how many things there are that I don't need.",
+    "His friend looked down at his twelve shopping bags. And said nothing.",
+    "The richest person isn't the one who has the most. It's the one who needs the least. Socrates walked home with empty hands, and a very full mind.",
+    "Next time: Socrates' wife, and a bucket of water. Follow so you don't miss it!"
+  ],
+  "gaps": [0.5, 0.45, 0.5, 0.45, 0.5, 0.55, 0.65, 0.0]
+}

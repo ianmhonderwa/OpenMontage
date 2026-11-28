@@ -1,0 +1,471 @@
+1
+00:00:00,400 --> 00:00:01,999
+How does a company raise
+
+2
+00:00:01,999 --> 00:00:03,704
+millions of dollars on the
+
+3
+00:00:03,704 --> 00:00:05,676
+stock exchange, and what happens
+
+4
+00:00:05,676 --> 00:00:07,275
+to the owners' stake when
+
+5
+00:00:07,275 --> 00:00:08,927
+it does? Let's work through
+
+6
+00:00:08,927 --> 00:00:10,259
+it with real numbers.
+
+7
+00:00:10,259 --> 00:00:12,178
+This is Reian Creative Finance.
+
+8
+00:00:12,178 --> 00:00:14,523
+Understanding markets. Following capital.
+
+9
+00:00:14,873 --> 00:00:16,861
+There are three main ways
+
+10
+00:00:16,861 --> 00:00:18,143
+onto an exchange.
+
+11
+00:00:18,143 --> 00:00:20,130
+An initial public offering,
+
+12
+00:00:20,130 --> 00:00:21,990
+or IPO, offers shares to
+
+13
+00:00:21,990 --> 00:00:23,913
+the public and can raise
+
+14
+00:00:23,913 --> 00:00:25,965
+new money. News reports say
+
+15
+00:00:25,965 --> 00:00:28,593
+Amalgamated Brands is raising about
+
+16
+00:00:28,593 --> 00:00:30,709
+20 million dollars this way
+
+17
+00:00:30,709 --> 00:00:31,671
+on the VFEX.
+
+18
+00:00:31,671 --> 00:00:34,107
+A listing by introduction raises
+
+19
+00:00:34,107 --> 00:00:36,030
+no money: shares that are
+
+20
+00:00:36,030 --> 00:00:38,467
+already widely held simply start
+
+21
+00:00:38,467 --> 00:00:40,583
+trading. TSL was reported to
+
+22
+00:00:40,583 --> 00:00:42,314
+move to the VFEX this
+
+23
+00:00:42,314 --> 00:00:43,275
+way in 2026.
+
+24
+00:00:43,275 --> 00:00:45,519
+And a private placement sells
+
+25
+00:00:45,519 --> 00:00:47,635
+shares to selected investors.
+
+26
+00:00:47,985 --> 00:00:49,551
+Now a crucial difference.
+
+27
+00:00:49,551 --> 00:00:51,225
+When a company issues new
+
+28
+00:00:51,225 --> 00:00:52,791
+shares, the cash goes to
+
+29
+00:00:52,791 --> 00:00:54,789
+the company, and existing owners
+
+30
+00:00:54,789 --> 00:00:56,355
+are diluted. In an offer
+
+31
+00:00:56,355 --> 00:00:58,245
+for sale, existing owners sell
+
+32
+00:00:58,245 --> 00:00:59,325
+their own shares:
+
+33
+00:00:59,325 --> 00:01:00,782
+the cash goes to them,
+
+34
+00:01:00,782 --> 00:01:02,402
+and the number of shares
+
+35
+00:01:02,402 --> 00:01:04,184
+doesn't change. Many IPOs mix
+
+36
+00:01:04,184 --> 00:01:06,290
+both. Amalgamated Brands' offer was
+
+37
+00:01:06,290 --> 00:01:08,180
+reported to include 5 million
+
+38
+00:01:08,180 --> 00:01:10,016
+dollars of new shares within
+
+39
+00:01:10,016 --> 00:01:11,366
+the 20 million total.
+
+40
+00:01:11,716 --> 00:01:13,404
+Let's work an example with
+
+41
+00:01:13,404 --> 00:01:14,603
+a made up company,
+
+42
+00:01:14,603 --> 00:01:15,692
+Zim Agro Limited.
+
+43
+00:01:15,692 --> 00:01:17,326
+It's valued at 15 million
+
+44
+00:01:17,326 --> 00:01:19,123
+US dollars before the raise.
+
+45
+00:01:19,123 --> 00:01:21,029
+That's the pre money valuation.
+
+46
+00:01:21,029 --> 00:01:22,663
+It has 30 million shares,
+
+47
+00:01:22,663 --> 00:01:24,243
+so each share is priced
+
+48
+00:01:24,243 --> 00:01:25,877
+at 15 million divided by
+
+49
+00:01:25,877 --> 00:01:27,401
+30 million: 50 US cents.
+
+50
+00:01:27,401 --> 00:01:28,763
+It wants to raise 5
+
+51
+00:01:28,763 --> 00:01:30,615
+million dollars of new money,
+
+52
+00:01:30,615 --> 00:01:32,140
+so it issues 5 million
+
+53
+00:01:32,140 --> 00:01:33,447
+divided by 50 cents:
+
+54
+00:01:33,447 --> 00:01:34,863
+10 million new shares.
+
+55
+00:01:35,213 --> 00:01:36,866
+After the IPO there are
+
+56
+00:01:36,866 --> 00:01:38,064
+40 million shares.
+
+57
+00:01:38,064 --> 00:01:38,919
+At 50 cents,
+
+58
+00:01:38,919 --> 00:01:40,572
+the post money valuation,
+
+59
+00:01:40,572 --> 00:01:42,283
+which is also the market
+
+60
+00:01:42,283 --> 00:01:44,678
+capitalisation, is 20 million dollars.
+
+61
+00:01:44,678 --> 00:01:46,616
+New investors own 10 million
+
+62
+00:01:46,616 --> 00:01:47,870
+out of 40 million:
+
+63
+00:01:47,870 --> 00:01:49,809
+25 percent. The founders drop
+
+64
+00:01:49,809 --> 00:01:51,405
+from 100 percent to 75
+
+65
+00:01:51,405 --> 00:01:52,888
+percent. That's dilution.
+
+66
+00:01:52,888 --> 00:01:54,598
+But their stake is still
+
+67
+00:01:54,598 --> 00:01:56,252
+worth 15 million dollars,
+
+68
+00:01:56,252 --> 00:01:57,905
+and the company now has
+
+69
+00:01:57,905 --> 00:01:59,730
+5 million dollars of fresh
+
+70
+00:01:59,730 --> 00:02:00,642
+cash to grow.
+
+71
+00:02:00,992 --> 00:02:02,542
+But wait. The ZSE main
+
+72
+00:02:02,542 --> 00:02:04,321
+board wants 30 percent of
+
+73
+00:02:04,321 --> 00:02:05,871
+shares in public hands,
+
+74
+00:02:05,871 --> 00:02:07,535
+and our public only has
+
+75
+00:02:07,535 --> 00:02:08,856
+25 percent. One fix:
+
+76
+00:02:08,856 --> 00:02:10,578
+the founders also sell 2
+
+77
+00:02:10,578 --> 00:02:12,759
+million of their existing shares
+
+78
+00:02:12,759 --> 00:02:14,251
+in an offer for sale.
+
+79
+00:02:14,251 --> 00:02:16,203
+That money, 1 million dollars,
+
+80
+00:02:16,203 --> 00:02:17,638
+goes to the founders,
+
+81
+00:02:17,638 --> 00:02:18,728
+not the company.
+
+82
+00:02:18,728 --> 00:02:20,393
+Now the public holds 12
+
+83
+00:02:20,393 --> 00:02:22,172
+million out of 40 million:
+
+84
+00:02:22,172 --> 00:02:23,435
+exactly 30 percent.
+
+85
+00:02:23,785 --> 00:02:25,587
+The process runs like this.
+
+86
+00:02:25,587 --> 00:02:27,333
+Advisers value the company,
+
+87
+00:02:27,333 --> 00:02:28,572
+using its earnings,
+
+88
+00:02:28,572 --> 00:02:30,712
+its assets and comparable listed
+
+89
+00:02:30,712 --> 00:02:33,078
+companies. The prospectus is prepared
+
+90
+00:02:33,078 --> 00:02:34,880
+and approved, and the offer
+
+91
+00:02:34,880 --> 00:02:36,288
+opens. Investors apply,
+
+92
+00:02:36,288 --> 00:02:37,696
+and if the offer is
+
+93
+00:02:37,696 --> 00:02:40,399
+oversubscribed, allocations get scaled back.
+
+94
+00:02:40,399 --> 00:02:42,483
+Finally the exchange grants the
+
+95
+00:02:42,483 --> 00:02:44,398
+listing, and the shares start
+
+96
+00:02:44,398 --> 00:02:44,905
+trading.
+
+97
+00:02:45,255 --> 00:02:46,800
+And what happens to the
+
+98
+00:02:46,800 --> 00:02:48,451
+money? Companies use it to
+
+99
+00:02:48,451 --> 00:02:50,582
+expand capacity, pay down expensive
+
+100
+00:02:50,582 --> 00:02:52,393
+debt, or buy other businesses.
+
+101
+00:02:52,393 --> 00:02:53,351
+As an investor,
+
+102
+00:02:53,351 --> 00:02:54,843
+always read the use of
+
+103
+00:02:54,843 --> 00:02:56,973
+proceeds section in the prospectus:
+
+104
+00:02:56,973 --> 00:02:58,625
+it tells you whether your
+
+105
+00:02:58,625 --> 00:03:00,542
+money is building the business,
+
+106
+00:03:00,542 --> 00:03:02,034
+or just buying out the
+
+107
+00:03:02,034 --> 00:03:02,513
+sellers.
+
+108
+00:03:02,863 --> 00:03:04,114
+Dilution isn't loss:
+
+109
+00:03:04,114 --> 00:03:05,649
+it can mean a smaller
+
+110
+00:03:05,649 --> 00:03:07,185
+slice of a bigger pie.
+
+111
+00:03:07,185 --> 00:03:08,777
+Know who gets the cash,
+
+112
+00:03:08,777 --> 00:03:10,597
+and check the public float
+
+113
+00:03:10,597 --> 00:03:11,848
+rule. In part four:
+
+114
+00:03:11,848 --> 00:03:13,099
+life after listing.
+
+115
+00:03:13,099 --> 00:03:14,919
+This is educational content,
+
+116
+00:03:14,919 --> 00:03:16,966
+not legal or investment advice.
+
+117
+00:03:16,966 --> 00:03:19,184
+Follow Reian Creative Finance for
+
+118
+00:03:19,184 --> 00:03:19,525
+more.

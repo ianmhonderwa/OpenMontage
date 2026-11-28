@@ -1,0 +1,203 @@
+{
+  "id": "SPECIAL-TECH-SELLOFF",
+  "name": "Tech Sell-off",
+  "series": "MARKET ALERT",
+  "week": "Friday 20 November 2026",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "Yahoo Finance daily bars via Firecrawl, 16\u201320 Nov 2026: SNDK, MU, AMD, DELL, AVGO, ANT, NVDA, ^GSPC (US closes), GC=F (COMEX Dec 26), BTC-USD (UTC day, still open when captured)"
+  ],
+  "ticker": [
+    {
+      "sym": "SNDK",
+      "chg": -16.08
+    },
+    {
+      "sym": "MU",
+      "chg": -13.98
+    },
+    {
+      "sym": "AMD",
+      "chg": -13.01
+    },
+    {
+      "sym": "NVDA",
+      "chg": -12.45
+    },
+    {
+      "sym": "AVGO",
+      "chg": -12.35
+    },
+    {
+      "sym": "DELL",
+      "chg": -11.85
+    },
+    {
+      "sym": "ANT",
+      "chg": -9.8
+    },
+    {
+      "sym": "S&P 500",
+      "chg": -3.15
+    }
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "MARKET ALERT",
+      "title": "Red Friday<br>for tech",
+      "titleSize": "130px",
+      "week": "Friday 20 November 2026",
+      "delta": -3.15,
+      "deltaLabel": "S&P 500 ON THE DAY",
+      "say": "Friday was brutal for tech stocks. The S&P 500 fell more than 3 percent, and chip makers got hit hardest. Here's what actually happened."
+    },
+    {
+      "type": "bars",
+      "chapter": "01 / The damage",
+      "title": "Chip stocks crushed",
+      "sub": "Friday's close vs Thursday's close",
+      "items": [
+        {
+          "label": "SANDISK",
+          "value": -16.08,
+          "note": "$79.22 \u00b7 after 8-for-1 split"
+        },
+        {
+          "label": "MICRON",
+          "value": -13.98,
+          "note": "$593.90"
+        },
+        {
+          "label": "AMD",
+          "value": -13.01,
+          "note": "$425.56"
+        },
+        {
+          "label": "NVIDIA",
+          "value": -12.45,
+          "note": "$127.81"
+        },
+        {
+          "label": "BROADCOM",
+          "value": -12.35,
+          "note": "$303.85"
+        }
+      ],
+      "source": "Yahoo Finance daily closes, 19\u201320 Nov 2026",
+      "say": "Sandisk fell 16 percent. Micron, 14. AMD, 13. Nvidia and Broadcom, about 12 and a half each."
+    },
+    {
+      "type": "bars",
+      "chapter": "01 / The damage",
+      "title": "Not just chips",
+      "sub": "Friday's move",
+      "items": [
+        {
+          "label": "DELL",
+          "value": -11.85,
+          "note": "$275.50"
+        },
+        {
+          "label": "ANTHROPIC",
+          "value": -9.8,
+          "note": "$87.65, day two"
+        },
+        {
+          "label": "BITCOIN",
+          "value": -5.53,
+          "note": "\u2248$58,478, day still open"
+        },
+        {
+          "label": "GOLD",
+          "value": -4.55,
+          "note": "$3,517.90 futures"
+        }
+      ],
+      "source": "Yahoo Finance: DELL, ANT, BTC-USD (UTC), GC=F",
+      "say": "Dell lost almost 12 percent. Anthropic, on only its second day of trading, fell almost 10 percent, to 87 dollars 65. That is still above its 83 dollar IPO price. Even Bitcoin and gold dropped."
+    },
+    {
+      "type": "compare",
+      "chapter": "02 / The week",
+      "title": "S&P 500 this week",
+      "from": {
+        "value": "7,416.59",
+        "label": "Monday's close"
+      },
+      "to": {
+        "value": "6,949.88",
+        "label": "Friday's close"
+      },
+      "delta": -6.29,
+      "deltaText": "\u22126.29% IN FIVE DAYS",
+      "source": "Yahoo Finance, ^GSPC, 16\u201320 Nov 2026",
+      "say": "Zoom out to the week, and the S&P 500 dropped from 7,416 on Monday to 6,949 on Friday. That's down more than 6 percent in five days."
+    },
+    {
+      "type": "but",
+      "text": "BUT\u2026",
+      "say": "But what about the headlines?"
+    },
+    {
+      "type": "cards",
+      "chapter": "03 / Check the claims",
+      "title": "What we can't confirm",
+      "cards": [
+        {
+          "big": "$2.7T",
+          "text": "\"Wiped out\" viral claim",
+          "sub": "we couldn't verify this figure"
+        },
+        {
+          "big": "WHY?",
+          "text": "The cause of the sell-off",
+          "sub": "not confirmed in our sources"
+        },
+        {
+          "big": "INTRA",
+          "text": "Viral % figures",
+          "sub": "often mid-day snapshots, not closes"
+        }
+      ],
+      "say": "As I found out, viral posts claim 2.7 trillion dollars was wiped out. I couldn't verify that number, or a confirmed reason for the drop. And many of the percentages going around were mid-day snapshots. The closing numbers were actually worse."
+    },
+    {
+      "type": "cards",
+      "chapter": "04 / What it means",
+      "title": "If you invest",
+      "cards": [
+        {
+          "big": "1",
+          "text": "Don't panic-sell on one red day",
+          "sub": "big drops happen in every market"
+        },
+        {
+          "big": "2",
+          "text": "Check closes, not screenshots",
+          "sub": "use official price data"
+        },
+        {
+          "big": "3",
+          "text": "Diversify",
+          "sub": "this hit one sector hardest"
+        }
+      ],
+      "say": "What does it mean for you? One bad day is not a trend, so don't make decisions in a panic. Check official closing prices, not screenshots. And spread your money, because this storm hit one sector the hardest."
+    },
+    {
+      "type": "outro",
+      "chapter": "05 / Watch next",
+      "title": "What to watch",
+      "follow": "FOLLOW FOR MORE",
+      "lines": [
+        "Monday's open: rebound or more selling?",
+        "Any official reason behind the sell-off"
+      ],
+      "disclaimer": "Not financial advice. Prices: Yahoo Finance closes, 20 Nov 2026. Bitcoin's day was still open when captured.",
+      "say": "Watch Monday's open, and any official explanation. This is not financial advice. Follow for the next update."
+    }
+  ]
+}

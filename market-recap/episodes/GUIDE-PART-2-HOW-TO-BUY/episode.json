@@ -1,0 +1,113 @@
+{
+  "id": "GUIDE-PART-2-HOW-TO-BUY",
+  "name": "Zim Stocks Part 2: How to Buy Shares",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "AfricanFinancials ZSE and VFEX price lists and CBZ dividend table (19 Nov 2026)",
+    "SECZiM, 'Capital Markets In Zimbabwe' (CSD, C-Trade, transaction-cost table)",
+    "ctrade.co.zw and C-Trade blog (requirements)",
+    "ZSE Direct minimums (ZSE Facebook post)",
+    "VFEX website (no capital gains tax)"
+  ],
+  "segments": [
+    {
+      "scene": "chapter",
+      "num": "02",
+      "title": "HOW TO BUY SHARES",
+      "sub": "step by step",
+      "pose": "out",
+      "say": "Zim stocks, part two of four. Here's exactly how to buy shares in Zimbabwe, step by step. How to actually buy shares. It's easier than most people think.",
+      "type": "chapter"
+    },
+    {
+      "scene": "list",
+      "title": "WHAT YOU NEED",
+      "note": "Requirements as found on C-Trade and SECZiM. Brokers may ask for more.",
+      "items": [
+        {
+          "big": "ID",
+          "text": "Your national ID or passport"
+        },
+        {
+          "big": "HOME",
+          "text": "Proof of residence"
+        },
+        {
+          "big": "BANK",
+          "text": "A Zimbabwean bank account",
+          "sub": "US$ account for the VFEX"
+        },
+        {
+          "big": "CSD",
+          "text": "A CSD account",
+          "sub": "your electronic share register"
+        }
+      ],
+      "say": "You need three things: your ID, proof of residence, and a Zimbabwean bank account. With those, you open a CSD account. That's the electronic register that records which shares you own. It's run by the Chengetedzai Depository Company, and you open it through a licensed stockbroker or custodian.",
+      "type": "list"
+    },
+    {
+      "scene": "list",
+      "title": "THREE WAYS TO BUY",
+      "note": "Platforms as found: ctrade.co.zw, ZSE Direct (ZSE). Minimums per ZSE Direct.",
+      "items": [
+        {
+          "big": "1",
+          "text": "A licensed stockbroker",
+          "sub": "check they're registered with SECZiM"
+        },
+        {
+          "big": "2",
+          "text": "The C-Trade app",
+          "sub": "buy and sell from your phone"
+        },
+        {
+          "big": "3",
+          "text": "ZSE Direct",
+          "sub": "start from a ZiG 50 deposit, ZiG 20 order"
+        }
+      ],
+      "say": "Then you choose how to buy. One: through a stockbroker. Always check they're registered with SECZiM, the Securities and Exchange Commission. Two: the C-Trade app, which lets you trade from your phone. Three: ZSE Direct. As I found out, you can start there with a deposit of just 50 ZiG, and orders from 20 ZiG.",
+      "type": "list"
+    },
+    {
+      "scene": "list",
+      "title": "WHAT IT COSTS",
+      "note": "Fees: SECZiM published transaction-cost table (as found). Check current charges with your broker.",
+      "items": [
+        {
+          "big": "1.69%",
+          "text": "Total costs when you buy",
+          "sub": "brokerage, stamp duty, levies, VAT"
+        },
+        {
+          "big": "2.44%",
+          "text": "Total costs when you sell",
+          "sub": "includes 1% capital gains withholding tax"
+        },
+        {
+          "big": "0%",
+          "text": "Capital gains tax on the VFEX",
+          "sub": "as stated by the VFEX",
+          "tone": "up"
+        }
+      ],
+      "say": "And it costs money to trade. Going by SECZiM's published table, buying costs about 1.7 percent, and selling about 2.4 percent, including a 1 percent capital gains withholding tax. So a share has to rise around 4 percent just for you to break even. On the VFEX, there's no capital gains tax.",
+      "type": "list"
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "PART 2 OF 4",
+      "lines": [
+        "NEXT: PART 3",
+        "HOW DIVIDENDS PAY YOU"
+      ],
+      "disclaimer": "Not financial advice. Educational only. Some details are as found and may change; confirm with a licensed broker.",
+      "say": "Next, in part 3: how dividends pay you. This is not financial advice, just education. Follow so you don't miss it."
+    }
+  ]
+}

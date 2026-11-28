@@ -1,0 +1,174 @@
+{
+ "id": "RCF-03-LISTING-READY",
+ "name": "Getting Your Company Listing-Ready",
+ "page": "journal.html",
+ "handle": "@reian.creative.finance",
+ "series": "ROAD TO THE EXCHANGE · 1/4",
+ "voice": "bm_george",
+ "speed": 1.05,
+ "sources": [
+  "REIAN_CREATIVE_FINANCE/01_RESEARCH/zimbabwe_listing_research/listing_fact_sheet.md"
+ ],
+ "segments": [
+  {
+   "scene": "open",
+   "kicker": "The Road to the Stock Exchange · Part 1",
+   "title": "Getting your company listing-ready",
+   "say": "What does it actually take for a Zimbabwean company to get onto the stock exchange? In this four part series we walk the whole road. Part one: getting listing ready. This is Reian Creative Finance. Understanding markets. Following capital.",
+   "type": "open"
+  },
+  {
+   "scene": "headline",
+   "kicker": "Start here",
+   "title": "What is a stock exchange?",
+   "sub": "A regulated marketplace where shares in companies are bought and sold. In Zimbabwe: the ZSE, the US-dollar VFEX, and the FINSEC alternative trading platform.",
+   "note": "FINSEC: licensed by SECZ in Dec 2016 (seczim.co.zw).",
+   "say": "First, what is a stock exchange? It's a regulated marketplace where shares in companies are bought and sold. In Zimbabwe you have three venues: the Zimbabwe Stock Exchange, the Victoria Falls Stock Exchange, which trades in US dollars, and FINSEC, an alternative trading platform licensed by the Securities and Exchange Commission in 2016.",
+   "type": "headline"
+  },
+  {
+   "scene": "split",
+   "kicker": "Three kinds of company",
+   "title": "Private, public, listed",
+   "left": {
+    "head": "PRIVATE",
+    "points": [
+     "Restricts share transfers",
+     "No more than 50 members (employees not counted)",
+     "Cannot invite the public to buy shares",
+     "COBE Act s.85"
+    ]
+   },
+   "right": {
+    "head": "PUBLIC / LISTED",
+    "points": [
+     "Public company: no s.85 restrictions; can offer shares to the public with a prospectus",
+     "Listed company: a public company whose shares are admitted to an exchange",
+     "Public is NOT the same as listed"
+    ]
+   },
+   "note": "Source: Companies and Other Business Entities Act [Ch. 24:31], s.85.",
+   "say": "Next, three kinds of company. Under section 85 of the Companies and Other Business Entities Act, a private company must restrict share transfers, have no more than 50 members, not counting employees, and cannot invite the public to buy its shares. A public company has none of those restrictions. And a listed company is a public company whose shares have been admitted to an exchange. Remember: public is not the same as listed.",
+   "type": "split"
+  },
+  {
+   "scene": "flow",
+   "kicker": "The foundations",
+   "title": "Before anyone will list you",
+   "steps": [
+    "Incorporate and register properly with the Registrar of Companies",
+    "Keep clean books: audited financial statements, year after year",
+    "Show a business with a track record and a clear growth story",
+    "Fix your shareholder register and corporate governance"
+   ],
+   "note": "Practical preparation steps (recommended commercial practice), not a single legal checklist.",
+   "say": "Before any exchange will look at you, get the foundations right. Be properly incorporated and registered. Keep clean books, with audited financial statements year after year. Have a real track record and a clear growth story. And tidy up your shareholder register and your governance. Many companies spend two or three years on this stage alone.",
+   "type": "flow"
+  },
+  {
+   "scene": "calc",
+   "kicker": "ZSE main board",
+   "title": "The admission numbers",
+   "rows": [
+    {
+     "label": "Subscribed capital",
+     "value": "US$10m",
+     "hl": true
+    },
+    {
+     "label": "Profit history, 'if applicable'",
+     "value": "5 years"
+    },
+    {
+     "label": "Shares in public hands",
+     "value": "30%"
+    },
+    {
+     "label": "Minimum public shareholders",
+     "value": "300"
+    }
+   ],
+   "note": "Source: ZSE Listings Requirements, SI 134 of 2019, s.87. Check for later amendments before applying.",
+   "say": "Now the numbers. Under section 87 of the Z S E Listings Requirements, a main board company needs subscribed capital of 10 million US dollars, a satisfactory profit history for the last five years where applicable, at least 30 percent of its shares in public hands, and at least 300 public shareholders.",
+   "type": "calc"
+  },
+  {
+   "scene": "calc",
+   "kicker": "VFEX main board",
+   "title": "The US-dollar route",
+   "rows": [
+    {
+     "label": "Subscribed capital",
+     "value": "US$3m",
+     "hl": true
+    },
+    {
+     "label": "Equity shares in issue",
+     "value": "10 million+"
+    },
+    {
+     "label": "Shares in public hands",
+     "value": "30%"
+    },
+    {
+     "label": "Minimum public shareholders",
+     "value": "50"
+    }
+   ],
+   "note": "Source: VFEX Listing and Trading Rules, SI 62 of 2026, r.88. 'Public' generally means holders of under 5%.",
+   "say": "The V F E X, which trades in US dollars, sets a lower bar under rule 88 of its 2026 rules: subscribed capital of 3 million US dollars, at least 10 million shares in issue, 30 percent public float, and at least 50 public shareholders.",
+   "type": "calc"
+  },
+  {
+   "scene": "story",
+   "kicker": "Other routes in",
+   "title": "Not every company fits the main board",
+   "points": [
+    "ZSE development-stage route: US$1.5m subscribed capital, no profit history, bold risk warning (s.341)",
+    "ZSE exploration and mining companies can skip the profit test (ss.313, 317)",
+    "VFEX specialist routes: mining, exploration, SPACs, green issuers, REITs, depositary receipts and more",
+    "FINSEC: an alternative trading platform"
+   ],
+   "note": "Sources: SI 134/2019 ss.313, 317, 341; SI 62/2026 specialist chapters. Confirm the exact rule before relying on it.",
+   "say": "Not every company fits the main board. The Z S E has a development stage route needing 1.5 million US dollars of subscribed capital and no profit history, but with a bold risk warning. Exploration and mining companies can skip the profit test. The V F E X has specialist routes for mining, special purpose acquisition companies, green issuers, property trusts and more.",
+   "type": "story"
+  },
+  {
+   "scene": "flow",
+   "kicker": "Your listing team",
+   "title": "Who you will need",
+   "steps": [
+    "Sponsoring broker: guides the application and deals with the exchange",
+    "Legal practitioners: restructuring, prospectus, compliance",
+    "Auditors and reporting accountants",
+    "Corporate finance adviser for valuation and the offer"
+   ],
+   "note": "Sponsoring broker required in the cases set out in SI 134/2019 ss.16–19.",
+   "say": "You won't do this alone. You'll need a sponsoring broker, who guides the application and deals with the exchange. The Z S E rules require one in the cases set out in sections 16 to 19. Add legal practitioners, auditors, and a corporate finance adviser for the valuation and the offer.",
+   "type": "flow"
+  },
+  {
+   "scene": "headline",
+   "kicker": "The disclosure document",
+   "title": "The prospectus",
+   "sub": "The document that tells investors everything material about the company and the offer. In the COBE Act, prospectus rules sit in sections 104 to 114, including civil liability for misstatements (s.108).",
+   "note": "Source: COBE Act [Ch. 24:31], ss.104–114.",
+   "say": "Then the prospectus: the document that tells investors everything material about the company and the offer. The Companies Act deals with prospectuses in sections 104 to 114, and section 108 makes people liable for misstatements. So every number in it must be right.",
+   "type": "headline"
+  },
+  {
+   "scene": "outro",
+   "kicker": "Part 1 takeaway",
+   "title": "Listing starts years before listing day",
+   "lines": [
+    "Clean books",
+    "Strong governance",
+    "The right advisers"
+   ],
+   "next": "Part 2: From private company to public company",
+   "disclaimer": "Educational content only. Not legal or investment advice: speak to a registered legal practitioner and a licensed sponsoring broker before acting. Rules as read on 27 Nov 2026.",
+   "say": "So, listing starts years before listing day: clean books, strong governance and the right advisers. In part two, we turn a private company into a public one. This is educational content, not legal or investment advice. Follow Reian Creative Finance for more.",
+   "type": "outro"
+  }
+ ]
+}

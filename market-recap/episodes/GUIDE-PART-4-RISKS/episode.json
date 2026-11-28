@@ -1,0 +1,127 @@
+{
+  "id": "GUIDE-PART-4-RISKS",
+  "name": "Zim Stocks Part 4: The Risks",
+  "page": "spot.html",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "AfricanFinancials ZSE and VFEX price lists and CBZ dividend table (19 Nov 2026)",
+    "SECZiM, 'Capital Markets In Zimbabwe' (CSD, C-Trade, transaction-cost table)",
+    "ctrade.co.zw and C-Trade blog (requirements)",
+    "ZSE Direct minimums (ZSE Facebook post)",
+    "VFEX website (no capital gains tax)"
+  ],
+  "segments": [
+    {
+      "scene": "chapter",
+      "num": "04",
+      "title": "THE RISKS",
+      "sub": "what to watch out for",
+      "pose": "out",
+      "say": "Zim stocks, part four of four. The risks most people skip, and the checklist to protect yourself. The risks. This is the part most people skip, and it's the most important.",
+      "type": "chapter"
+    },
+    {
+      "scene": "hbars",
+      "title": "ONE DAY'S SWINGS",
+      "sub": "Price change in a single session, 19 Nov 2026",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms.",
+      "items": [
+        {
+          "label": "CBZ",
+          "value": 14.18
+        },
+        {
+          "label": "AFDIS",
+          "value": 5.25
+        },
+        {
+          "label": "RAINBOW",
+          "value": -10.53
+        },
+        {
+          "label": "ZSE HOLDINGS",
+          "value": -10.76
+        },
+        {
+          "label": "RIOZIM",
+          "value": -14.63
+        }
+      ],
+      "say": "Risk one: volatility. In a single day, the 19th of November, CBZ jumped 14 percent, while RioZim fell almost 15 and ZSE Holdings nearly 11. Prices can swing hard, in both directions.",
+      "type": "hbars"
+    },
+    {
+      "scene": "list",
+      "title": "MORE RISKS",
+      "note": "Data: AfricanFinancials, end of day 19 Nov 2026. ZSE moves are in ZWG terms. Settlement times as found; confirm with your broker.",
+      "items": [
+        {
+          "big": "15/34",
+          "text": "ZSE counters with zero trades on 19 Nov",
+          "sub": "low liquidity: hard to sell quickly",
+          "tone": "down"
+        },
+        {
+          "big": "T+",
+          "text": "Trades take days to settle",
+          "sub": "as I found out, around 2 to 3 days"
+        },
+        {
+          "big": "ZWG",
+          "text": "Currency risk on the ZSE",
+          "sub": "ZWG 26.57 = US$1 on 19 Nov"
+        },
+        {
+          "big": "LAW",
+          "text": "Policy can change",
+          "sub": "taxes, royalties, rules"
+        }
+      ],
+      "say": "Risk two: liquidity. On that same day, 15 of the 34 ZSE counters didn't trade at all. When you want to sell, there may be no buyer. Trades also take a few days to settle. Risk three: currency. ZSE prices are in ZiG, so your dollar value can change even if the share doesn't. And risk four: policy. Taxes and rules can change with each budget.",
+      "type": "list"
+    },
+    {
+      "scene": "list",
+      "title": "YOUR CHECKLIST",
+      "items": [
+        {
+          "big": "1",
+          "text": "Only invest money you won't need soon"
+        },
+        {
+          "big": "2",
+          "text": "Spread it across several companies"
+        },
+        {
+          "big": "3",
+          "text": "Read results and announcements"
+        },
+        {
+          "big": "4",
+          "text": "Use licensed brokers, check SECZiM"
+        },
+        {
+          "big": "5",
+          "text": "Think in years, not days"
+        }
+      ],
+      "stagger": 0.6,
+      "say": "So, your checklist. Only invest money you won't need soon. Spread it across several companies. Read their results and announcements. Use licensed brokers only. And think in years, not days.",
+      "type": "list"
+    },
+    {
+      "scene": "outro",
+      "type": "outro",
+      "title": "PART 4 OF 4",
+      "lines": [
+        "LEARN FIRST",
+        "START SMALL",
+        "STAY PATIENT"
+      ],
+      "disclaimer": "Not financial advice. Educational only. Some details are as found and may change; confirm with a licensed broker.",
+      "say": "This is not financial advice. It's education, so you can engage with confidence. Some details are as I found them and can change, so always confirm with a licensed broker. Follow, and share this series with someone who wants to start investing."
+    }
+  ]
+}

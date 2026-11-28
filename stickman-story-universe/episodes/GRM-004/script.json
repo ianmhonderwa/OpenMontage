@@ -1,0 +1,25 @@
+{
+  "id": "GRM-004",
+  "series": "GRM",
+  "series_badge": "GRIMM STICKMAN TALES",
+  "ep_number": 4,
+  "title": "The Youth Who Learned to Shudder",
+  "title_html": "The Youth Who<br>Learned to Shudder",
+  "next_title": "The Wolf and the Seven Little Kids",
+  "source": "Grimm, Household Tales, tr. Margaret Hunt (1884), tale 4",
+  "lesson": "Being brave doesn't mean feeling nothing.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "This boy wasn't afraid of anything, and that was his problem. I want to learn how to shudder, he told his father.",
+    "So the sexton dressed up as a ghost in the bell tower at midnight. The boy simply shoved the ghost down the stairs.",
+    "His father sent him away. Then he heard of a haunted castle: survive three nights, and win the princess.",
+    "Night one: black cats with fiery eyes. He chased them off, then slept on a bed that rolled round the castle.",
+    "Night two: ghosts playing skittles. He asked if he could join in.",
+    "Night three: a terrible old giant. The boy trapped his beard in an anvil, and won the treasure.",
+    "He married the princess, but still couldn't shudder. So she tipped a bucket of cold water and wriggling fish over him in bed. Now I know what shuddering is!",
+    "Being brave doesn't mean feeling nothing. Next time: the wolf and the seven little kids. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

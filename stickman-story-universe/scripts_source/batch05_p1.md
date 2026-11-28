@@ -1,0 +1,383 @@
+PROGRESS: last done → BIB-036, AES-032 (last fable: The Fox and the Goat), GRM-017 (Hunt tale 17), SOC-020, NAS-012 (anecdote position 13), ANA-004
+
+  
+
+STYLE (paste after every image prompt that ends with + STYLE): Style: 2D cartoon stick-figure animation still. Every character has a big, perfectly round, pure-white head with a thick, clean black outline and a simple, expressive cartoon face (large white eyes, solid black pupils, bold black eyebrows, clear mouth shape). Bodies, arms and legs are thin solid-black stick lines with round black hands and small oval black feet. Clothes, hair and hats are simple flat-colour shapes with black outlines. Detailed flat-colour, cel-shaded cartoon background with soft gradients and warm, motivated lighting. Vertical 9:16 frame. No text, no letters, no logo, no watermark.
+
+  
+
+NEGATIVE PROMPT: photorealistic, photo, 3D render, CGI, realistic skin, skin-coloured head, human anatomy, anime, manga, chibi, missing outline, extra limbs, extra fingers, extra heads, deformed face, crossed eyes, blurry, low resolution, text, letters, words, numbers, captions, speech-bubble text, logo, watermark, signature, frame border, split panels
+
+  
+
+MOTION SUFFIX (for image-to-video): Smooth, simple 2D cartoon animation. Keep every face, outline, colour and proportion exactly as in the image. No morphing, no new characters, no text.
+
+  
+
+PART 1 OF 2 contains: BIB-030 to BIB-036 and AES-026 to AES-032. Part 2 contains GRM-014 to GRM-017, SOC-018 to SOC-020, NAS-011 to NAS-012 and ANA-004.
+
+  
+
+NOTE FOR NEXT RUN (Nasreddin): anecdote position 12 in Borrow (the Cogia steals a neighbour's heifer, slaughters it and mocks the owner's grief) was SKIPPED as cruel and unkind. NAS-012 = anecdote position 13 (the moon "neither bought nor sold"). NAS-013 starts at position 14 (the ladder over the garden wall). Position 16 (the bull and the cow) must also be skipped.
+
+  
+
+NEW FIXED CHARACTER DESCRIPTIONS INTRODUCED IN THIS PART (reuse word for word):
+
+  
+
+  - Reuben: a tall stickman with a short brown beard, a worried frown and an olive-green shepherd's robe
+  - Judah: a broad-shouldered stickman with a thick black beard and a brown shepherd's robe
+  - the Ishmeelite traders: stickmen in striped orange-and-white head-wraps and long sand-coloured robes, leading camels loaded with spice bundles
+  - Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak
+  - Potiphar: a tall, stern Egyptian stickman with a black square-cut wig, a gold collar necklace, a white pleated kilt and a captain's baton
+  - Potiphar's wife: an Egyptian stickwoman with a long black braided wig, a turquoise beaded collar and a long white linen dress
+  - the prison keeper: a stout stickman with a bald head, a short grey beard, a ring of bronze keys and a kind face
+  - the butler: a slim stickman with a neat black wig, a red-and-gold sash and a golden wine cup
+  - the baker: a round stickman with a tall white baker's cap, a flour-dusted apron and an anxious face
+  - Pharaoh: a tall stickman with a striped blue-and-gold royal headdress, a short false beard, a broad jewelled collar and a white pleated kilt
+  - Joseph (ruler of Egypt): a stickman of about thirty with short wavy black hair, wise bright eyes, a fine white linen robe, a broad gold chain and a royal signet ring
+  - Simeon: a stern stickman with a short black beard and a grey shepherd's robe
+  - Benjamin: a young stickman with short wavy black hair and a light-blue robe
+
+  
+
+-----
+
+# BIB – STICKMAN BIBLE (King James Version)
+
+Voice: George (alt Daniel), Stability 45%, Clarity 75%, Style 20%. Warm, reverent, lively.
+
+## BIB-030 – Ep 30: Sold by His Brothers
+
+**Source:** Genesis 37:12-36 (KJV) (the goat's blood is only mentioned; the coat is shown with a dark stain, nothing gory) **Joke:** "That coat could be seen from a mile away." | **Lesson:** Envy, left unchecked, will sell what it should protect.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Ten brothers, one empty pit, and twenty pieces of silver. Jacob sent Joseph to check on his brothers, far away with the flocks at Dothan. They saw him coming from a long way off. That coat could be seen from a mile away. "Behold, this dreamer cometh… and we shall see what will become of his dreams." But Reuben said, "Shed no blood, but cast him into this pit." So they stripped off his coat and threw him into a dry pit. Then a camel caravan passed, carrying spices to Egypt. Judah said, "Come, and let us sell him." Twenty pieces of silver. Reuben came back. The pit was empty. They dipped the coat in goat's blood and showed their father. Jacob wept, and refused to be comforted. Envy, left unchecked, will sell what it should protect. Next time: Joseph, a slave in the house of Potiphar. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:04\] VO: "Ten brothers, one empty pit, and twenty pieces of silver." IMAGE PROMPT: Dramatic low-angle shot from inside a dry stone pit: Joseph, without his coat, in a plain cream undertunic, looking up in shock at the ring of his brothers' faces peering over the rim, one of them dangling a small jingling pouch of silver. Characters – Joseph (teen): a slim teenage stick-boy with short wavy black hair, bright eager eyes and a long-sleeved coat of many colours striped red, yellow, green and blue (here without the coat); Joseph's older brothers: ten bearded stickmen of different heights in plain brown, grey and olive-green shepherd's robes. Setting: Ancient Near East, a dry cistern in the wilderness near Dothan, harsh midday light. + STYLE
+2.  \[0:04–0:10\] VO: "Jacob sent Joseph to check on his brothers, far away with the flocks at Dothan." IMAGE PROMPT: Outside the family tent, old Jacob resting a hand on Joseph's shoulder and pointing to the distant hills; Joseph, in his bright coat, sets off cheerfully with a small bag of bread. Characters – Jacob (old): an elderly stickman with grey hair, a long grey beard, a plain brown robe and a walking staff; Joseph (teen) as above, wearing the coat. Setting: Ancient Near East, Jacob's tents in the vale of Hebron, morning. + STYLE
+3.  \[0:10–0:21\] VO: "They saw him coming from a long way off. That coat could be seen from a mile away. 'Behold, this dreamer cometh… and we shall see what will become of his dreams.'" IMAGE PROMPT: Comic wide shot: the brothers sitting with their flocks on a hillside, shading their eyes and squinting; far away on the horizon a tiny figure in a dazzlingly bright striped coat glows like a beacon among dull brown hills. Characters – Joseph's older brothers, including Reuben: a tall stickman with a short brown beard, a worried frown and an olive-green shepherd's robe, and Judah: a broad-shouldered stickman with a thick black beard and a brown shepherd's robe; Joseph (teen) as a tiny distant figure. Setting: Ancient Near East, the pastures of Dothan, afternoon heat haze. + STYLE
+4.  \[0:21–0:30\] VO: "But Reuben said, 'Shed no blood, but cast him into this pit.' So they stripped off his coat and threw him into a dry pit." IMAGE PROMPT: Reuben holding up both hands to stop the angry brothers; behind him two brothers lower a startled Joseph into a dry pit by his arms, while another brother walks off holding the bright coat (no blows shown). Characters – Reuben, Judah, Joseph's older brothers and Joseph (teen) as above. Setting: Ancient Near East, a rocky wilderness with an empty cistern. + STYLE
+5.  \[0:30–0:40\] VO: "Then a camel caravan passed, carrying spices to Egypt. Judah said, 'Come, and let us sell him.' Twenty pieces of silver." IMAGE PROMPT: A long line of camels piled with spice bundles passing along the road; Judah counting silver pieces from a trader's hand into his own palm while Joseph, hands loosely tied, is led towards the camels, looking back sadly. Characters – Judah and Joseph (teen) as above; the Ishmeelite traders: stickmen in striped orange-and-white head-wraps and long sand-coloured robes, leading camels loaded with spice bundles. Setting: Ancient Near East, the caravan road to Egypt, late afternoon. + STYLE
+6.  \[0:40–0:49\] VO: "Reuben came back. The pit was empty. They dipped the coat in goat's blood and showed their father." IMAGE PROMPT: Dusk: Reuben kneeling at the edge of the empty pit, staring down in horror, his hands torn at his robe; in the distance the caravan disappears over the horizon. Characters – Reuben as above. Setting: Ancient Near East, the wilderness at dusk, long shadows. + STYLE
+7.  \[0:49–0:58\] VO: "Jacob wept, and refused to be comforted. Envy, left unchecked, will sell what it should protect." IMAGE PROMPT: Inside the tent by lamplight, old Jacob clutching the striped coat (with one dark stain, nothing gory) to his chest and weeping, while his sons stand back in shadow, eyes lowered. Characters – Jacob (old) and Joseph's older brothers as above. Setting: Ancient Near East, Jacob's tent at night, warm lamp glow. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Joseph, a slave in the house of Potiphar. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-031 – Ep 31: Joseph in Potiphar's House
+
+**Source:** Genesis 39:1-6 (KJV) **Joke:** Potiphar "knew not ought he had, save the bread which he did eat": he knew nothing about his own house except what was on his dinner plate | **Lesson:** Faithful work in a hard place can still be blessed.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** He arrived in Egypt as a slave. Within a few years, he was running the whole house. Joseph was sold to Potiphar, an officer of Pharaoh and captain of the guard. He had lost his coat, his home and his family. But "the LORD was with Joseph, and he was a prosperous man." Whatever Joseph did turned out well. The fields grew. The storerooms filled. Potiphar made Joseph overseer of his house, and put everything he owned into his hands. And the LORD blessed the Egyptian's house for Joseph's sake. Soon Potiphar trusted Joseph so completely that he knew nothing about his own house, except what was on his dinner plate. "Joseph, where do we keep the…?" "Already done, master." The boy from the pit now held the keys. Faithful work in a hard place can still be blessed. Next time: a lie, a cloak, and a prison cell. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "He arrived in Egypt as a slave. Within a few years, he was running the whole house." IMAGE PROMPT: A busy Egyptian courtyard: Joseph standing confidently at the centre with a scroll and a ring of keys, calmly directing servants who hurry past with jars, baskets and linen. Characters – Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak; servants: stickmen and stickwomen in white linen. Setting: Ancient Egypt, a rich officer's house with painted columns, palm trees and the Nile glinting beyond the wall. + STYLE
+2.  \[0:06–0:13\] VO: "Joseph was sold to Potiphar, an officer of Pharaoh and captain of the guard." IMAGE PROMPT: An Egyptian market square: Potiphar handing a small bag of silver to a trader while studying Joseph with a stern, measuring look; Joseph stands tired and dusty, chin up. Characters – Potiphar: a tall, stern Egyptian stickman with a black square-cut wig, a gold collar necklace, a white pleated kilt and a captain's baton; Joseph (young man in Egypt) as above; an Ishmeelite trader: a stickman in a striped orange-and-white head-wrap and a long sand-coloured robe. Setting: Ancient Egypt, a sunlit market with obelisks and stalls. + STYLE
+3.  \[0:13–0:22\] VO: "He had lost his coat, his home and his family. But 'the LORD was with Joseph, and he was a prosperous man.'" IMAGE PROMPT: Night on a flat Egyptian rooftop: Joseph kneeling alone, hands open in prayer, looking up at a sky full of stars; a soft warm glow falls gently around him. Characters – Joseph (young man in Egypt) as above. Setting: Ancient Egypt, Potiphar's rooftop under a starry sky, palm silhouettes. + STYLE
+4.  \[0:22–0:29\] VO: "Whatever Joseph did turned out well. The fields grew. The storerooms filled." IMAGE PROMPT: Joseph walking proudly through green fields bursting with wheat and through a storeroom stacked to the ceiling with grain sacks and jars, smiling servants following him. Characters – Joseph (young man in Egypt) as above; servants in white linen. Setting: Ancient Egypt, Potiphar's estate by the Nile, golden afternoon. + STYLE
+5.  \[0:29–0:38\] VO: "Potiphar made Joseph overseer of his house, and put everything he owned into his hands. And the LORD blessed the Egyptian's house for Joseph's sake." IMAGE PROMPT: Potiphar formally placing a heavy ring of keys into Joseph's hands in a grand hall, while warm golden light pours through the high windows over them. Characters – Potiphar and Joseph (young man in Egypt) as above. Setting: Ancient Egypt, Potiphar's painted hall. + STYLE
+6.  \[0:38–0:50\] VO: "Soon Potiphar trusted Joseph so completely that he knew nothing about his own house, except what was on his dinner plate. 'Joseph, where do we keep the…?' 'Already done, master.'" IMAGE PROMPT: Comic shot: Potiphar lounging at a low dining table, happily holding up a piece of bread and looking puzzled, one finger raised mid-question; Joseph already appearing at his elbow with exactly the thing he wanted, while servants grin behind them. Characters – Potiphar and Joseph (young man in Egypt) as above. Setting: Ancient Egypt, Potiphar's dining room, evening lamps. + STYLE
+7.  \[0:50–0:58\] VO: "The boy from the pit now held the keys. Faithful work in a hard place can still be blessed." IMAGE PROMPT: Close-up of Joseph standing in a doorway at sunset, the ring of keys in his hand, a quiet, thankful smile on his face. Characters – Joseph (young man in Egypt) as above. Setting: Ancient Egypt, Potiphar's house at sunset. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a lie, a cloak, and a prison cell. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-032 – Ep 32: Thrown Into Prison
+
+**Source:** Genesis 39:7-23 (KJV) (the temptation is told only as pressure to betray her husband; nothing romantic or suggestive is shown) **Joke:** "Second job in Egypt, second boss to hand him the keys." | **Lesson:** Doing right may cost you, but God never leaves you in the dark.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Joseph did the right thing, and it landed him in prison. In Potiphar's house, his master's wife kept pressuring him, day after day, to betray her husband. Joseph always refused. "How then can I do this great wickedness, and sin against God?" One day she grabbed him by his cloak. Joseph slipped out of it and ran. She kept the cloak, and used it to tell a lie, accusing him of a crime he never committed. Potiphar was furious, and Joseph was thrown into the king's prison. But even there, "the LORD was with Joseph, and shewed him mercy." The keeper of the prison liked him so much that he put Joseph in charge of all the prisoners. Second job in Egypt, second boss to hand him the keys. Doing right may cost you, but God never leaves you in the dark. Next time: two prisoners, two strange dreams. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "Joseph did the right thing, and it landed him in prison." IMAGE PROMPT: Joseph sitting calmly on a stone bench behind thick wooden bars, a single shaft of sunlight falling on his peaceful face. Characters – Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak (here without the cloak). Setting: Ancient Egypt, the king's prison, a stone cell with a high window. + STYLE
+2.  \[0:05–0:12\] VO: "In Potiphar's house, his master's wife kept pressuring him, day after day, to betray her husband." IMAGE PROMPT: A corridor in Potiphar's house: Joseph walking briskly away carrying an armful of scrolls, eyes fixed ahead, while Potiphar's wife calls after him with an outstretched hand and a scheming frown. Characters – Joseph (young man in Egypt) as above, wearing his cloak; Potiphar's wife: an Egyptian stickwoman with a long black braided wig, a turquoise beaded collar and a long white linen dress. Setting: Ancient Egypt, a painted corridor with lotus columns. + STYLE
+3.  \[0:12–0:19\] VO: "Joseph always refused. 'How then can I do this great wickedness, and sin against God?'" IMAGE PROMPT: Close-up of Joseph turning back with one hand raised firmly in refusal, his face serious and steady. Characters – Joseph (young man in Egypt) as above. Setting: Ancient Egypt, Potiphar's house, afternoon light. + STYLE
+4.  \[0:19–0:26\] VO: "One day she grabbed him by his cloak. Joseph slipped out of it and ran." IMAGE PROMPT: Joseph, fully dressed in his white linen tunic, dashing out through a doorway into the sunlit courtyard, while behind him Potiphar's wife is left holding his empty brown cloak. Characters – Joseph (young man in Egypt) and Potiphar's wife as above. Setting: Ancient Egypt, a doorway of Potiphar's house. + STYLE
+5.  \[0:26–0:37\] VO: "She kept the cloak, and used it to tell a lie, accusing him of a crime he never committed. Potiphar was furious, and Joseph was thrown into the king's prison." IMAGE PROMPT: Potiphar's wife holding up the brown cloak as false 'proof' with a fake outraged face, while Potiphar's eyes blaze and two guards lead Joseph away in the background. Characters – Potiphar's wife and Joseph (young man in Egypt) as above; Potiphar: a tall, stern Egyptian stickman with a black square-cut wig, a gold collar necklace, a white pleated kilt and a captain's baton; guards in striped headcloths with spears pointed upward. Setting: Ancient Egypt, Potiphar's hall. + STYLE
+6.  \[0:37–0:45\] VO: "But even there, 'the LORD was with Joseph, and shewed him mercy.'" IMAGE PROMPT: Inside the dark prison, a warm golden glow surrounding Joseph as he shares his bread with a frail old prisoner, other prisoners watching in wonder. Characters – Joseph (young man in Egypt) as above; prisoners in ragged grey tunics. Setting: Ancient Egypt, the king's prison. + STYLE
+7.  \[0:45–0:58\] VO: "The keeper of the prison liked him so much that he put Joseph in charge of all the prisoners. Second job in Egypt, second boss to hand him the keys. Doing right may cost you, but God never leaves you in the dark." IMAGE PROMPT: Comic shot: the prison keeper happily dropping his big ring of keys into Joseph's hands, then settling back on a stool with his feet up and his eyes closed, while Joseph shrugs with a small smile. Characters – the prison keeper: a stout stickman with a bald head, a short grey beard, a ring of bronze keys and a kind face; Joseph (young man in Egypt) as above. Setting: Ancient Egypt, the prison guardroom. + STYLE
+8.  \[end, 3 s\] VO: "Next time: two prisoners, two strange dreams. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-033 – Ep 33: The Baker and the Butler
+
+**Source:** Genesis 40 (KJV) (the baker's execution is told, never shown) **Joke:** the butler forgets Joseph for two whole years: "Not even a postcard." | **Lesson:** Even when people forget you, God does not.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Two prisoners had strange dreams on the same night. One meant good news. The other did not. Pharaoh's butler and his baker had angered the king, and landed in prison with Joseph. "We have dreamed a dream, and there is no interpreter." Joseph said, "Do not interpretations belong to God? tell me them." The butler saw a vine with three branches, and squeezed its grapes into Pharaoh's cup. "In three days, Pharaoh will give you your job back. And please, remember me." The baker went next, hopefully: three baskets of bread on his head, and birds eating from the top one. Joseph's face fell. "In three days, Pharaoh will take your life." It happened exactly so. The butler went back to the palace, and forgot all about Joseph. Two whole years. Not even a postcard. Even when people forget you, God does not. Next time: Pharaoh has a nightmare about cows. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "Two prisoners had strange dreams on the same night. One meant good news. The other did not." IMAGE PROMPT: Night in a prison cell: two men asleep on straw mats, a soft dream-cloud above one showing a fruitful green vine, and a darker dream-cloud above the other showing three bread baskets with birds circling. Characters – the butler: a slim stickman with a neat black wig, a red-and-gold sash and a golden wine cup (cup beside him); the baker: a round stickman with a tall white baker's cap, a flour-dusted apron and an anxious face. Setting: Ancient Egypt, the king's prison, moonlight through bars. + STYLE
+2.  \[0:06–0:13\] VO: "Pharaoh's butler and his baker had angered the king, and landed in prison with Joseph." IMAGE PROMPT: Guards marching the sulking butler and the nervous baker into the prison, where Joseph, holding the keys, greets them politely. Characters – the butler and the baker as above; Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak; guards in striped headcloths. Setting: Ancient Egypt, the prison entrance. + STYLE
+3.  \[0:13–0:21\] VO: "'We have dreamed a dream, and there is no interpreter.' Joseph said, 'Do not interpretations belong to God? tell me them.'" IMAGE PROMPT: Morning in the cell: the butler and baker sitting glumly with their chins in their hands; Joseph crouching beside them, one hand pointing gently upward, the other open, inviting them to speak. Characters – Joseph, the butler and the baker as above. Setting: Ancient Egypt, the prison, early morning light. + STYLE
+4.  \[0:21–0:31\] VO: "The butler saw a vine with three branches, and squeezed its grapes into Pharaoh's cup. 'In three days, Pharaoh will give you your job back. And please, remember me.'" IMAGE PROMPT: The butler acting out his dream, squeezing an imaginary bunch of grapes into his golden cup, a glowing three-branched vine behind him; Joseph smiling and holding up three fingers, then pressing a hand to his own heart. Characters – the butler and Joseph as above. Setting: the prison cell with a dreamy vine overlay. + STYLE
+5.  \[0:31–0:41\] VO: "The baker went next, hopefully: three baskets of bread on his head, and birds eating from the top one. Joseph's face fell. 'In three days, Pharaoh will take your life.'" IMAGE PROMPT: The baker leaning forward eagerly, a dream-image of three stacked bread baskets on his head with birds pecking at the top one; Joseph's face falling into gentle sadness as he lays a hand on the baker's shoulder. Characters – the baker and Joseph as above. Setting: the prison cell. + STYLE
+6.  \[0:41–0:45\] VO: "It happened exactly so." IMAGE PROMPT: Pharaoh's birthday feast in a glittering hall: the butler proudly handing Pharaoh his golden cup again; beside the banquet table, an empty baker's cap lies on a stool (no harm shown). Characters – the butler as above; Pharaoh: a tall stickman with a striped blue-and-gold royal headdress, a short false beard, a broad jewelled collar and a white pleated kilt. Setting: Ancient Egypt, Pharaoh's banqueting hall. + STYLE
+7.  \[0:45–0:58\] VO: "The butler went back to the palace, and forgot all about Joseph. Two whole years. Not even a postcard. Even when people forget you, God does not." IMAGE PROMPT: Comic contrast in one frame: the butler lounging on palace cushions, eating grapes without a care; far below, through the prison's small high window, Joseph patiently scratches yet another tally mark on a wall already covered in them, a soft light still shining around him. Characters – the butler and Joseph as above. Setting: Ancient Egypt, the palace above and the prison below. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Pharaoh has a nightmare about cows. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-034 – Ep 34: Pharaoh's Strange Dreams
+
+**Source:** Genesis 41:1-36 (KJV) **Joke:** the skinny cows eat the fat ones "and they were still skinny\!"; and the butler: "Oh. Now he remembers." | **Lesson:** Use the good years to prepare for the hard ones.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Seven skinny cows ate seven fat cows. That nightmare would save a nation. Two years later, Pharaoh dreamed he stood by the river Nile. Seven fat, healthy cows came up out of the water. Then seven thin, bony cows came up, and ate the fat ones. And they were still skinny\! Then a second dream: seven thin ears of corn swallowed seven full ones. None of Egypt's wise men could explain it. The butler cleared his throat. "I do remember my faults this day." Oh. Now he remembers. Joseph was rushed from prison, shaved and changed. "It is not in me: God shall give Pharaoh an answer of peace." Seven years of plenty are coming, then seven years of famine. Find a wise man, and store up grain in the good years. Use the good years to prepare for the hard ones. Next time: from prisoner to ruler in a single day. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "Seven skinny cows ate seven fat cows. That nightmare would save a nation." IMAGE PROMPT: Comic dream scene: seven bony cartoon cows with hungry faces chasing seven plump, alarmed cows along a riverbank, mouths wide open (no eating shown), all under a swirling dreamy purple sky. Characters – the cows: cartoon stick-figure cows with round white heads, seven plump and glossy, seven skinny and bony. Setting: Ancient Egypt, the banks of the Nile in a dream. + STYLE
+2.  \[0:05–0:11\] VO: "Two years later, Pharaoh dreamed he stood by the river Nile." IMAGE PROMPT: Pharaoh asleep in a grand golden bed, a large dream-cloud above him showing himself standing on the reedy bank of the Nile. Characters – Pharaoh: a tall stickman with a striped blue-and-gold royal headdress, a short false beard, a broad jewelled collar and a white pleated kilt. Setting: Ancient Egypt, Pharaoh's bedchamber at night. + STYLE
+3.  \[0:11–0:22\] VO: "Seven fat, healthy cows came up out of the water. Then seven thin, bony cows came up, and ate the fat ones. And they were still skinny\!" IMAGE PROMPT: Comic dream shot: seven skinny cows standing in a row on the riverbank looking innocent, still just as bony as before, while Pharaoh, in the dream, stares at them in baffled disbelief; there is no sign of the fat cows. Characters – Pharaoh and the skinny cows as above. Setting: the dream Nile bank, eerie twilight. + STYLE
+4.  \[0:22–0:30\] VO: "Then a second dream: seven thin ears of corn swallowed seven full ones. None of Egypt's wise men could explain it." IMAGE PROMPT: In the throne room, a row of Egypt's wise men shrugging helplessly, scratching their heads over blank scrolls, while a glowing dream-picture floats above them of seven thin, scorched ears of corn beside seven full golden ones. Characters – Pharaoh as above; the wise men: stickmen with shaved heads, leopard-skin sashes and scrolls. Setting: Ancient Egypt, Pharaoh's throne room, morning. + STYLE
+5.  \[0:30–0:37\] VO: "The butler cleared his throat. 'I do remember my faults this day.' Oh. Now he remembers." IMAGE PROMPT: Comic close-up: the butler stepping forward with a sheepish grin, one finger raised and a sweat drop on his forehead, as Pharaoh and the wise men all turn to stare at him. Characters – the butler: a slim stickman with a neat black wig, a red-and-gold sash and a golden wine cup; Pharaoh and the wise men as above. Setting: the throne room. + STYLE
+6.  \[0:37–0:46\] VO: "Joseph was rushed from prison, shaved and changed. 'It is not in me: God shall give Pharaoh an answer of peace.'" IMAGE PROMPT: Joseph, freshly shaved and in clean white linen, bowing before Pharaoh's throne, one hand humbly pointing upward toward heaven. Characters – Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak; Pharaoh as above. Setting: Ancient Egypt, the throne room with tall painted columns. + STYLE
+7.  \[0:46–0:58\] VO: "Seven years of plenty are coming, then seven years of famine. Find a wise man, and store up grain in the good years. Use the good years to prepare for the hard ones." IMAGE PROMPT: Joseph gesturing to a vision that fills the hall: one side shows golden fields and full granaries, the other side cracked dry earth; Pharaoh leaning forward on his throne, deeply impressed. Characters – Joseph and Pharaoh as above. Setting: the throne room with a glowing vision overlay. + STYLE
+8.  \[end, 3 s\] VO: "Next time: from prisoner to ruler in a single day. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-035 – Ep 35: From Prisoner to Ruler
+
+**Source:** Genesis 41:37-57 (KJV) (Joseph's age, thirty, is in 41:46; his wife and sons are left out for length) **Joke:** grain "as the sand of the sea… until he left numbering": the scribes simply gave up counting | **Lesson:** God can lift you from the pit to the palace, so stay faithful while you wait.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** This morning he was a prisoner. By tonight, he would be the second most powerful man in Egypt. "Can we find such a one as this is, a man in whom the Spirit of God is?" "Thou shalt be over my house… only in the throne will I be greater than thou." Pharaoh put his ring on Joseph's hand, dressed him in fine linen, and hung a gold chain round his neck. Joseph rode in the second chariot, and the crowds cried, "Bow the knee\!" For seven years the harvests were enormous. Joseph stored up grain like the sand of the sea, until the scribes gave up counting. Then the famine came. And Pharaoh told the people, "Go unto Joseph; what he saith to you, do." God can lift you from the pit to the palace, so stay faithful while you wait. Next time: ten hungry brothers come to Egypt, and bow. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "This morning he was a prisoner. By tonight, he would be the second most powerful man in Egypt." IMAGE PROMPT: One dramatic frame: Joseph stepping out of a dark prison doorway into blazing sunlight, his shadow stretching toward a gleaming palace on the horizon. Characters – Joseph (young man in Egypt): a slim young stickman with short wavy black hair, bright eager eyes, a plain white Egyptian linen tunic and a simple brown outer cloak. Setting: Ancient Egypt, the prison gate with the royal palace in the distance, morning. + STYLE
+2.  \[0:06–0:15\] VO: "'Can we find such a one as this is, a man in whom the Spirit of God is?' 'Thou shalt be over my house… only in the throne will I be greater than thou.'" IMAGE PROMPT: Pharaoh rising from his throne and pointing at Joseph, turning to his amazed courtiers, who bow; Joseph stands humbly with his head lowered. Characters – Pharaoh: a tall stickman with a striped blue-and-gold royal headdress, a short false beard, a broad jewelled collar and a white pleated kilt; Joseph as above; courtiers in white linen and gold collars. Setting: Ancient Egypt, the throne room. + STYLE
+3.  \[0:15–0:23\] VO: "Pharaoh put his ring on Joseph's hand, dressed him in fine linen, and hung a gold chain round his neck." IMAGE PROMPT: Close shot: Pharaoh sliding his royal signet ring onto Joseph's finger as servants drape a broad gold chain over his new fine linen robe; Joseph's eyes are wide with wonder. Characters – Pharaoh as above; Joseph (ruler of Egypt): a stickman of about thirty with short wavy black hair, wise bright eyes, a fine white linen robe, a broad gold chain and a royal signet ring. Setting: the throne room, golden light. + STYLE
+4.  \[0:23–0:30\] VO: "Joseph rode in the second chariot, and the crowds cried, 'Bow the knee\!'" IMAGE PROMPT: A grand parade down a palm-lined avenue: Joseph standing in a gilded chariot drawn by two white horses, while crowds on both sides kneel and a herald runs ahead with arms raised. Characters – Joseph (ruler of Egypt) as above; crowds of Egyptian stickmen and stickwomen. Setting: Ancient Egypt, a city avenue with obelisks and temples, bright day. + STYLE
+5.  \[0:30–0:39\] VO: "For seven years the harvests were enormous. Joseph stored up grain like the sand of the sea, until the scribes gave up counting." IMAGE PROMPT: Comic shot: inside an enormous granary, mountains of grain rising like sand dunes; three scribes with tally boards sit slumped on top of the heap, one throwing his reed pen in the air in surrender, as Joseph laughs. Characters – Joseph (ruler of Egypt) as above; scribes: stickmen with shaved heads and white kilts. Setting: Ancient Egypt, a vast mud-brick granary with shafts of light. + STYLE
+6.  \[0:39–0:47\] VO: "Then the famine came. And Pharaoh told the people, 'Go unto Joseph; what he saith to you, do.'" IMAGE PROMPT: Cracked, dry fields under a harsh sun; hungry people from many lands lining up at the granary doors, and Pharaoh on a balcony pointing them toward Joseph. Characters – Pharaoh and Joseph (ruler of Egypt) as above; crowds of hungry people with empty sacks. Setting: Ancient Egypt in famine, dusty and parched. + STYLE
+7.  \[0:47–0:55\] VO: "God can lift you from the pit to the palace, so stay faithful while you wait." IMAGE PROMPT: Joseph opening the great granary doors, warm golden light and grain spilling out, as grateful people step forward with their sacks. Characters – Joseph (ruler of Egypt) as above; people with sacks. Setting: the granary doors, warm golden light. + STYLE
+8.  \[end, 3 s\] VO: "Next time: ten hungry brothers come to Egypt, and bow. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+## BIB-036 – Ep 36: The Brothers Come for Grain
+
+**Source:** Genesis 42 (KJV) (condensed; the three days in custody are left out) **Joke:** the brothers confess their guilt right in front of the governor, not knowing he understands every word: "Awkward." | **Lesson:** A guilty conscience remembers what the years tried to bury.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** More than twenty years ago they laughed at his dreams. Now they were bowing to him, and had no idea who he was. The famine reached Canaan. Jacob said, "Why do ye look one upon another?" and sent ten sons to Egypt to buy grain. Young Benjamin stayed home. In Egypt, they bowed before the governor, faces to the ground. Joseph knew them at once. They did not know him. "Ye are spies\!" he said roughly. "We are true men, twelve brothers. The youngest is with our father, and one is not." Then they whispered to each other, "We are verily guilty concerning our brother." They had no idea the governor understood every single word. Awkward. Joseph turned away and wept. He kept Simeon, sent the rest home, and secretly put their money back in their sacks. A guilty conscience remembers what the years tried to bury. Next time: Joseph's silver cup goes missing. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "More than twenty years ago they laughed at his dreams. Now they were bowing to him, and had no idea who he was." IMAGE PROMPT: Ten weary shepherds bowing with their faces to the floor before a tall Egyptian governor seated on a high chair; above them a faint ghostly image of golden sheaves bowing to one upright sheaf. Characters – Joseph's older brothers: ten bearded stickmen of different heights in plain brown, grey and olive-green shepherd's robes; Joseph (ruler of Egypt): a stickman of about thirty with short wavy black hair, wise bright eyes, a fine white linen robe, a broad gold chain and a royal signet ring. Setting: Ancient Egypt, the governor's grain hall with stacked sacks and columns. + STYLE
+2.  \[0:06–0:15\] VO: "The famine reached Canaan. Jacob said, 'Why do ye look one upon another?' and sent ten sons to Egypt to buy grain. Young Benjamin stayed home." IMAGE PROMPT: Comic shot inside the tent: ten grown sons sitting in a circle, all staring blankly at each other over empty bowls, while old Jacob waves his staff at them in exasperation; young Benjamin sits safely beside his father. Characters – Jacob (old): an elderly stickman with grey hair, a long grey beard, a plain brown robe and a walking staff; Joseph's older brothers as above; Benjamin: a young stickman with short wavy black hair and a light-blue robe. Setting: Ancient Near East, Jacob's tent in famine-struck Canaan. + STYLE
+3.  \[0:15–0:22\] VO: "In Egypt, they bowed before the governor, faces to the ground. Joseph knew them at once. They did not know him." IMAGE PROMPT: Close-up of Joseph on his high seat, his eyes widening with sudden recognition and emotion as he gazes down at the bowed heads of his brothers. Characters – Joseph (ruler of Egypt) and Joseph's older brothers as above. Setting: the governor's grain hall. + STYLE
+4.  \[0:22–0:31\] VO: "'Ye are spies\!' he said roughly. 'We are true men, twelve brothers. The youngest is with our father, and one is not.'" IMAGE PROMPT: Joseph pointing sternly down at the brothers, an Egyptian interpreter standing between them relaying his words; Reuben pleads with open hands while the others look terrified. Characters – Joseph (ruler of Egypt) and Joseph's older brothers as above, including Reuben: a tall stickman with a short brown beard, a worried frown and an olive-green shepherd's robe; the interpreter: a thin stickman with a shaved head, a white kilt and a scroll. Setting: the governor's grain hall. + STYLE
+5.  \[0:31–0:42\] VO: "Then they whispered to each other, 'We are verily guilty concerning our brother.' They had no idea the governor understood every single word. Awkward." IMAGE PROMPT: Comic shot: the brothers huddled in a tight circle whispering guiltily with their hands cupped to their mouths, while just behind them Joseph leans in slightly, listening to every word, his face full of emotion; the interpreter glances between them, confused. Characters – Joseph's older brothers, Joseph (ruler of Egypt) and the interpreter as above. Setting: the governor's grain hall. + STYLE
+6.  \[0:42–0:46\] VO: "Joseph turned away and wept." IMAGE PROMPT: Joseph standing alone behind a tall column, his back to the hall, covering his face with one hand as tears fall. Characters – Joseph (ruler of Egypt) as above. Setting: a shadowy corner of the grain hall. + STYLE
+7.  \[0:46–0:58\] VO: "He kept Simeon, sent the rest home, and secretly put their money back in their sacks. A guilty conscience remembers what the years tried to bury." IMAGE PROMPT: At an inn by the road at dusk, a brother opening his grain sack and finding a pouch of silver on top, the others gasping in alarm; in the distance, Simeon waits behind in Egypt under guard. Characters – Joseph's older brothers as above; Simeon: a stern stickman with a short black beard and a grey shepherd's robe. Setting: Ancient Near East, a roadside lodging place with donkeys, dusk. + STYLE
+8.  \[end, 3 s\] VO: "Next time: Joseph's silver cup goes missing. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft starry desert sky gradient. + STYLE
+
+  
+
+-----
+
+# AES – AESOP IN 60 SECONDS
+
+Source for all: 'Three Hundred Aesop's Fables', tr. G. F. Townsend (1867), Project Gutenberg \#21. Voice: Lily (alt Charlotte), Stability 45%, Clarity 75%, Style 30%. Bright, playful.
+
+## AES-026 – Ep 26: The Man and the Lion
+
+**Source:** Townsend, 'The Man and the Lion' (fable 25) (the statue's struggle is shown as a man overpowering a lion, with no strangling) **Joke:** "And who carved this statue?" "Well… a man." | **Lesson:** One story is good, till another is told.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Man and a Lion argued about who was stronger. Then they found a statue, and the Lion had the last word. They were travelling together through the forest, boasting. "I'm the strongest\!" "No, I am\!" As they argued, they passed a stone statue of a Man overpowering a Lion. The Man pointed, delighted. "See there\! That's how strong we are. We beat even the king of beasts\!" The Lion looked at the statue. He walked slowly all the way round it. Then he said, very calmly, "And who carved this statue?" "Well… a man." "Exactly. If we Lions knew how to make statues, you'd see the Man under the Lion's paw." The Man opened his mouth. Then he closed it again. He had nothing. The Lion strolled on, tail swishing. One story is good, till another is told. Next time: a Pomegranate and an Apple-Tree argue, and a Bramble butts in. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "A Man and a Lion argued about who was stronger. Then they found a statue, and the Lion had the last word." IMAGE PROMPT: The Lion standing beside a stone statue with one eyebrow raised and a calm, knowing smile, while the Man beside him opens his mouth to argue and finds nothing to say. Characters – the Man: a stickman with a brown travelling cap, a short ginger beard, a green tunic and a walking stick; the Lion: a big golden cartoon stick-figure lion with a round white head and a huge shaggy orange mane. Setting: Ancient Greek countryside, a forest path with a mossy stone statue. + STYLE
+2.  \[0:06–0:12\] VO: "They were travelling together through the forest, boasting. 'I'm the strongest\!' 'No, I am\!'" IMAGE PROMPT: The Man flexing a skinny arm and the Lion flexing a huge paw as they walk side by side, nose to nose, both puffing out their chests. Characters – the Man and the Lion as above. Setting: a sunny oak forest path. + STYLE
+3.  \[0:12–0:17\] VO: "As they argued, they passed a stone statue of a Man overpowering a Lion." IMAGE PROMPT: A grey stone statue in a clearing showing a heroic man pinning a lion to the ground (a calm, carved pose, no injury); the travelling pair stop in front of it. Characters – the Man and the Lion as above. Setting: a forest clearing with dappled light. + STYLE
+4.  \[0:17–0:24\] VO: "The Man pointed, delighted. 'See there\! That's how strong we are. We beat even the king of beasts\!'" IMAGE PROMPT: The Man jumping up and down, pointing triumphantly at the statue, grinning from ear to ear. Characters – the Man as above, with the Lion watching unimpressed. Setting: the forest clearing. + STYLE
+5.  \[0:24–0:33\] VO: "The Lion looked at the statue. He walked slowly all the way round it. Then he said, very calmly, 'And who carved this statue?' 'Well… a man.'" IMAGE PROMPT: The Lion strolling round the statue with his paws behind his back like an art critic, peering closely; the Man's grin starting to wobble. Characters – the Lion and the Man as above. Setting: the forest clearing. + STYLE
+6.  \[0:33–0:41\] VO: "'Exactly. If we Lions knew how to make statues, you'd see the Man under the Lion's paw.'" IMAGE PROMPT: An imagined thought-picture above the Lion's mane: a stone statue of a proud lion with one paw resting on a sulking stone man. Characters – the Lion as above. Setting: the forest clearing with a dreamy thought-cloud. + STYLE
+7.  \[0:41–0:54\] VO: "The Man opened his mouth. Then he closed it again. He had nothing. The Lion strolled on, tail swishing. One story is good, till another is told." IMAGE PROMPT: The Man frozen with his finger raised and his mouth open, lost for words, while the Lion saunters away down the path, tail swishing smugly. Characters – the Man and the Lion as above. Setting: the forest path, golden afternoon. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Pomegranate and an Apple-Tree argue, and a Bramble butts in. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-027 – Ep 27: The Pomegranate, Apple-Tree and Bramble
+
+**Source:** Townsend, 'The Pomegranate, Apple-Tree, and Bramble' (fable 26) (the trees' dialogue is expanded; the Bramble's line is from Townsend) **Joke:** the scruffiest plant in the garden tries to referee a beauty contest | **Lesson:** Those with the least to offer often have the most to say.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** Two beautiful trees held a beauty contest. Then the scruffiest plant in the garden tried to referee. The Pomegranate shook her shiny red fruit. "Everyone knows I'm the most beautiful tree in this garden." The Apple-Tree rustled her rosy apples. "Oh, please. Look at these apples. Perfection." "My flowers are scarlet\!" "My blossom is pink\!" Back and forth they went, louder and louder, leaves flying everywhere. Then, from the hedge next door, came a voice. It was the Bramble. Scratchy, tangled, covered in thorns, and not one fruit worth eating. He cleared his throat importantly. "Pray, my dear friends, in my presence at least cease from such vain disputings." The two trees stopped, and stared. In his presence? The Bramble puffed up his prickles, extremely pleased with himself. Those with the least to offer often have the most to say. Next time: a Stork gets caught with a gang of thieves. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "Two beautiful trees held a beauty contest. Then the scruffiest plant in the garden tried to referee." IMAGE PROMPT: Two lovely fruit trees glaring at each other across a garden path, while a tiny tangled bramble in the hedge between them raises a twig like a referee's arm. Characters – the Pomegranate: a graceful cartoon pomegranate tree with a round white face in its trunk, glossy green leaves, scarlet flowers and shiny red pomegranates; the Apple-Tree: a round, leafy cartoon apple tree with a round white face in its trunk, pink blossom and rosy red apples; the Bramble: a scraggly, tangled cartoon bramble bush with a small round white face, thorny purple-brown stems and a pompous expression. Setting: Ancient Greek countryside, a sunny walled garden. + STYLE
+2.  \[0:06–0:12\] VO: "The Pomegranate shook her shiny red fruit. 'Everyone knows I'm the most beautiful tree in this garden.'" IMAGE PROMPT: The Pomegranate tree posing proudly, branches on 'hips', shaking her gleaming red fruit, eyelids lowered with vanity. Characters – the Pomegranate as above. Setting: the walled garden. + STYLE
+3.  \[0:12–0:18\] VO: "The Apple-Tree rustled her rosy apples. 'Oh, please. Look at these apples. Perfection.'" IMAGE PROMPT: The Apple-Tree rolling her eyes and fanning out her branches to show off rosy apples sparkling in the sun. Characters – the Apple-Tree as above. Setting: the walled garden. + STYLE
+4.  \[0:18–0:25\] VO: "'My flowers are scarlet\!' 'My blossom is pink\!' Back and forth they went, louder and louder, leaves flying everywhere." IMAGE PROMPT: Comic shot: the two trees leaning towards each other mid-argument, branches waving, a whirlwind of leaves and petals swirling between them. Characters – the Pomegranate and the Apple-Tree as above. Setting: the walled garden. + STYLE
+5.  \[0:25–0:33\] VO: "Then, from the hedge next door, came a voice. It was the Bramble. Scratchy, tangled, covered in thorns, and not one fruit worth eating." IMAGE PROMPT: Close-up of the Bramble poking his small face out of the hedge, thorny stems tangled in every direction, a single shrivelled berry dangling from him. Characters – the Bramble as above. Setting: the garden hedge. + STYLE
+6.  \[0:33–0:41\] VO: "He cleared his throat importantly. 'Pray, my dear friends, in my presence at least cease from such vain disputings.'" IMAGE PROMPT: The Bramble lifting one twig with grand dignity like a judge, his nose in the air, addressing the two trees. Characters – the Bramble as above, with the trees in the background. Setting: the garden hedge. + STYLE
+7.  \[0:41–0:53\] VO: "The two trees stopped, and stared. In his presence? The Bramble puffed up his prickles, extremely pleased with himself. Those with the least to offer often have the most to say." IMAGE PROMPT: The Pomegranate and the Apple-Tree side by side, staring down at the tiny Bramble with identical flat, unimpressed faces, while he puffs out his thorns proudly. Characters – the Pomegranate, the Apple-Tree and the Bramble as above. Setting: the walled garden, afternoon light. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Stork gets caught with a gang of thieves. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-028 – Ep 28: The Farmer and the Stork
+
+**Source:** Townsend, 'The Farmer and the Stork' (fable 27) (the birds' fate is never shown) **Joke:** the Stork's long speech about his own good character: "Honestly, a lovely CV." | **Lesson:** Birds of a feather flock together.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Stork got caught with a gang of thieves, and tried to talk his way out of it. A Farmer had just sown his field, and Cranes kept stealing the seed. So he spread nets, and caught a whole flock of them. Tangled among the Cranes was one Stork, with a hurt leg. "Please, Master, let me go\! Look at my poor leg\! Besides, I'm not a Crane. I'm a Stork, a bird of excellent character. I care for my father and mother. And look at my feathers, nothing like a Crane's\!" It was quite a speech. Honestly, a lovely CV. The Farmer laughed out loud. "It may all be as you say. I only know this: I caught you with these robbers, the Cranes, and you must share their fate." Choose your company carefully. Birds of a feather flock together. Next time: a Mountain groans and rumbles, and gives birth to… something. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "A Stork got caught with a gang of thieves, and tried to talk his way out of it." IMAGE PROMPT: A white Stork tangled in a net among a crowd of grey cranes, wings spread as he pleads with wide innocent eyes. Characters – the Stork: a tall white cartoon stork with a round white head, black wing tips, a long red beak and a bandaged leg; the Cranes: grey cartoon stick-figure cranes with round white heads, red caps and sly faces. Setting: Ancient Greek countryside, a freshly ploughed field. + STYLE
+2.  \[0:06–0:13\] VO: "A Farmer had just sown his field, and Cranes kept stealing the seed. So he spread nets, and caught a whole flock of them." IMAGE PROMPT: The Farmer scattering seed across brown furrows while cranes sneak behind him gobbling it up; at the field's edge, a big net is pegged out ready. Characters – the Farmer: a sturdy stickman with a straw hat, a short brown beard, a blue work tunic and a seed bag; the Cranes as above. Setting: the ploughed field at dawn. + STYLE
+3.  \[0:13–0:18\] VO: "Tangled among the Cranes was one Stork, with a hurt leg." IMAGE PROMPT: Close-up of the net full of squabbling cranes, and in the middle the Stork with one leg awkwardly caught, looking embarrassed. Characters – the Stork and the Cranes as above. Setting: the field. + STYLE
+4.  \[0:18–0:28\] VO: "'Please, Master, let me go\! Look at my poor leg\! Besides, I'm not a Crane. I'm a Stork, a bird of excellent character.'" IMAGE PROMPT: The Stork holding up his bandaged leg with big pleading eyes, then pointing proudly at himself, while the Farmer stands over the net with his arms folded. Characters – the Stork and the Farmer as above. Setting: the field. + STYLE
+5.  \[0:28–0:38\] VO: "'I care for my father and mother. And look at my feathers, nothing like a Crane's\!' It was quite a speech. Honestly, a lovely CV." IMAGE PROMPT: Comic shot: the Stork fanning out his white wing feathers like a model, a thought-cloud above him showing him tenderly feeding his elderly stork parents in a nest; the cranes beside him roll their eyes. Characters – the Stork and the Cranes as above. Setting: the field. + STYLE
+6.  \[0:38–0:49\] VO: "The Farmer laughed out loud. 'It may all be as you say. I only know this: I caught you with these robbers, the Cranes, and you must share their fate.'" IMAGE PROMPT: The Farmer laughing with his head thrown back, then pointing firmly at the net full of cranes with the Stork among them. Characters – the Farmer, the Stork and the Cranes as above. Setting: the field, morning sun. + STYLE
+7.  \[0:49–0:56\] VO: "Choose your company carefully. Birds of a feather flock together." IMAGE PROMPT: The Farmer walking home along the field's edge carrying the bundled net over his shoulder, the Stork's long beak poking out glumly among the cranes; a free flock of white storks flies overhead in the sunset sky (nothing else shown). Characters – the Farmer, the Stork and the Cranes as above. Setting: the field at sunset. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Mountain groans and rumbles, and gives birth to… something. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-029 – Ep 29: The Mountain in Labour
+
+**Source:** Townsend, 'The Mountain in Labor' (fable 28) (the crowd's details and laughter are added to fill the very short fable) **Joke:** all that drama, and out comes one Mouse: "Squeak." | **Lesson:** Don't make much ado about nothing.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** The whole country thought the end of the world had come. It hadn't. A great Mountain began to shake. Loud groans rolled across the valley. Rocks rattled. Smoke puffed from the top. Crowds of people came running from every direction to see what was the matter. Farmers dropped their ploughs. Shepherds left their sheep. Mothers grabbed their children. They all stood at the foot of the Mountain, trembling, waiting for some terrible disaster. An earthquake? A volcano? A giant? The Mountain gave one last enormous groan. The ground split open. Everyone held their breath. And out came… a Mouse. One small, grey Mouse. It looked at the crowd. The crowd looked at it. "Squeak," it said, and trotted away. And the whole crowd burst out laughing. Don't make much ado about nothing. Next time: a Bear boasts about how much he respects people, and a Fox isn't convinced. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "The whole country thought the end of the world had come. It hadn't." IMAGE PROMPT: A wide shot of a huge mountain trembling under a dark, dramatic sky, with tiny terrified villagers running towards it from every direction. Characters – the Mountain: a huge rocky cartoon mountain with a round white face on its slope, eyes squeezed shut and mouth groaning; villagers in simple Greek tunics. Setting: Ancient Greek countryside, a wide valley with farms and olive groves. + STYLE
+2.  \[0:05–0:11\] VO: "A great Mountain began to shake. Loud groans rolled across the valley. Rocks rattled. Smoke puffed from the top." IMAGE PROMPT: Close-up of the Mountain's face straining and groaning, pebbles bouncing down its slopes and little puffs of smoke rising from its peak. Characters – the Mountain as above. Setting: the valley under a stormy sky. + STYLE
+3.  \[0:11–0:20\] VO: "Crowds of people came running from every direction to see what was the matter. Farmers dropped their ploughs. Shepherds left their sheep. Mothers grabbed their children." IMAGE PROMPT: Comic busy scene: a farmer abandoning his plough mid-furrow, a shepherd sprinting away from his puzzled sheep, a mother scooping up two children, all racing toward the mountain. Characters – villagers: stickmen and stickwomen in tunics, straw hats and head-scarves. Setting: the fields of the valley. + STYLE
+4.  \[0:20–0:28\] VO: "They all stood at the foot of the Mountain, trembling, waiting for some terrible disaster. An earthquake? A volcano? A giant?" IMAGE PROMPT: A huge crowd huddled at the mountain's foot, knees knocking, with three imagined thought-clouds above them: a crack in the earth, a smoking volcano and a shadowy giant. Characters – the crowd of villagers as above; the Mountain as above. Setting: the foot of the mountain. + STYLE
+5.  \[0:28–0:34\] VO: "The Mountain gave one last enormous groan. The ground split open. Everyone held their breath." IMAGE PROMPT: A dramatic close shot: a crack opening at the base of the mountain with light glowing from inside, and the front row of the crowd leaning in with cheeks puffed out, holding their breath. Characters – the crowd and the Mountain as above. Setting: the foot of the mountain. + STYLE
+6.  \[0:34–0:41\] VO: "And out came… a Mouse. One small, grey Mouse." IMAGE PROMPT: A tiny grey mouse stepping out of the crack, blinking in the light, standing all alone in front of the enormous silent crowd. Characters – the Mouse: a small grey cartoon stick-figure mouse with a round white head, big round ears, pink nose and a long thin tail. Setting: the crack at the mountain's base. + STYLE
+7.  \[0:41–0:52\] VO: "It looked at the crowd. The crowd looked at it. 'Squeak,' it said, and trotted away. And the whole crowd burst out laughing. Don't make much ado about nothing." IMAGE PROMPT: The little Mouse trotting off with its tail in the air while the whole crowd doubles over with laughter, and the Mountain behind them blushes with an embarrassed smile. Characters – the Mouse, the crowd and the Mountain as above. Setting: the valley, the sky clearing to bright blue. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Bear boasts about how much he respects people, and a Fox isn't convinced. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-030 – Ep 30: The Bear and the Fox
+
+**Source:** Townsend, 'The Bear and the Fox' (fable 29) (the Rabbit is added as a listener; nothing violent is shown) **Joke:** the Bear's "kindness" turns out to be not eating people once they are dead | **Lesson:** A good name is built on how you treat the living, not on what you boast about.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Bear boasted that he was the kindest animal in the forest. A Fox had one small question. The Bear stood in the clearing, speaking to all the animals. "Of all the creatures in this forest, I am the most tender towards mankind." "Really?" said a Rabbit. "Oh yes. I respect people so much that I would never, ever touch a man once he is dead." He smiled, pleased with himself, and waited for applause. The animals nodded politely. All except the Fox, sitting on a log with a smile. "How noble of you, Bear," said the Fox. "Oh, I do wish you would eat the dead, and leave the living alone\!" The clearing went very quiet. The Bear's proud smile slipped. A good name is built on how you treat the living, not on what you boast about. Next time: a Tortoise begs an Eagle to teach her to fly. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "A Bear boasted that he was the kindest animal in the forest. A Fox had one small question." IMAGE PROMPT: A big Bear standing on a tree stump with one paw on his heart, beaming, while in the foreground the Fox raises one paw with a sly little smile. Characters – the Bear: a big brown cartoon stick-figure bear with a round white head, small round ears and a smug grin; the Fox: a red cartoon stick-figure fox with a round white head, pointed ears and a bushy white-tipped tail. Setting: Ancient Greek countryside, a forest clearing. + STYLE
+2.  \[0:06–0:14\] VO: "The Bear stood in the clearing, speaking to all the animals. 'Of all the creatures in this forest, I am the most tender towards mankind.'" IMAGE PROMPT: The Bear addressing a semicircle of forest animals (a deer, a badger, a hedgehog, a rabbit) from his stump like a grand speaker, paws spread wide. Characters – the Bear as above; forest animals drawn as simple stick-figure animals with round white heads. Setting: the forest clearing, sunbeams. + STYLE
+3.  \[0:14–0:23\] VO: "'Really?' said a Rabbit. 'Oh yes. I respect people so much that I would never, ever touch a man once he is dead.'" IMAGE PROMPT: A small Rabbit tilting its head curiously; the Bear placing a paw solemnly on his chest with eyes closed, as if he were a saint. Characters – the Rabbit: a grey cartoon stick-figure rabbit with a round white head and long ears; the Bear as above. Setting: the forest clearing. + STYLE
+4.  \[0:23–0:30\] VO: "He smiled, pleased with himself, and waited for applause. The animals nodded politely." IMAGE PROMPT: The Bear holding his arms out, waiting for clapping, while the animals give small, polite, uncertain nods. Characters – the Bear and the forest animals as above. Setting: the forest clearing. + STYLE
+5.  \[0:30–0:35\] VO: "All except the Fox, sitting on a log with a smile." IMAGE PROMPT: Close-up of the Fox lounging on a mossy log, one leg crossed over the other, a knowing smile on his face. Characters – the Fox as above. Setting: the edge of the clearing. + STYLE
+6.  \[0:35–0:44\] VO: "'How noble of you, Bear,' said the Fox. 'Oh, I do wish you would eat the dead, and leave the living alone\!'" IMAGE PROMPT: The Fox gesturing breezily toward the Bear, while the other animals' heads swivel from the Fox to the Bear with wide eyes. Characters – the Fox, the Bear and the forest animals as above. Setting: the forest clearing. + STYLE
+7.  \[0:44–0:55\] VO: "The clearing went very quiet. The Bear's proud smile slipped. A good name is built on how you treat the living, not on what you boast about." IMAGE PROMPT: The Bear's grin sliding into an awkward, guilty grimace as every animal stares at him in silence; a single leaf drifts down between them. Characters – the Bear, the Fox and the forest animals as above. Setting: the forest clearing. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Tortoise begs an Eagle to teach her to fly. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-031 – Ep 31: The Tortoise and the Eagle
+
+**Source:** Townsend, 'The Tortoise and the Eagle' (fable 30) (the fall and its outcome are told, never shown) **Joke:** she offers "all the riches of the Red Sea": she did not own the Red Sea | **Lesson:** If we all got everything we wished for, we would often be ruined.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Tortoise wanted to fly. An Eagle said yes. That was the problem. The Tortoise complained to the seabirds. "It's not fair. Nobody will teach me to fly\!" An Eagle swooped down. "What will you pay me if I take you up and float you in the air?" "I'll give you all the riches of the Red Sea\!" She did not own the Red Sea. "Deal," said the Eagle. He took her in his talons and carried her up, up, almost to the clouds. For one moment, the Tortoise was flying. Then the Eagle let go. She tumbled down onto a high mountain. And with her last breath she said, "What had I to do with wings and clouds, when I can hardly move about on the earth?" If we all got everything we wished for, we would often be ruined. Next time: a Fox stuck in a well meets a thirsty Goat. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:05\] VO: "A Tortoise wanted to fly. An Eagle said yes. That was the problem." IMAGE PROMPT: High above the clouds, a delighted Tortoise held in an Eagle's talons, her little legs paddling the air, while the Eagle glances down with a doubtful look. Characters – the Tortoise: a small green cartoon stick-figure tortoise with a round white head, a domed brown shell and big dreamy eyes; the Eagle: a large brown cartoon stick-figure eagle with a round white head, a hooked yellow beak and broad wings. Setting: Ancient Greek coast, high sky above white clouds. + STYLE
+2.  \[0:05–0:11\] VO: "The Tortoise complained to the seabirds. 'It's not fair. Nobody will teach me to fly\!'" IMAGE PROMPT: The Tortoise sulking on a warm sandy beach, flapping her stubby front legs, while gulls perched on rocks look at each other and shrug. Characters – the Tortoise as above; seabirds: white cartoon gulls with round white heads. Setting: a sunny Greek beach with blue sea and rocks. + STYLE
+3.  \[0:11–0:17\] VO: "An Eagle swooped down. 'What will you pay me if I take you up and float you in the air?'" IMAGE PROMPT: The Eagle landing on a rock beside the Tortoise with wings spread wide, leaning in like a businessman making an offer. Characters – the Eagle and the Tortoise as above. Setting: the beach. + STYLE
+4.  \[0:17–0:24\] VO: "'I'll give you all the riches of the Red Sea\!' She did not own the Red Sea. 'Deal,' said the Eagle." IMAGE PROMPT: Comic shot: the Tortoise sweeping a leg grandly toward the horizon with a confident grin, and a thought-cloud above her showing a heap of treasure, while a passing crab behind her shakes its head. Characters – the Tortoise and the Eagle as above; a small red cartoon crab. Setting: the beach. + STYLE
+5.  \[0:24–0:32\] VO: "He took her in his talons and carried her up, up, almost to the clouds. For one moment, the Tortoise was flying." IMAGE PROMPT: The Eagle soaring upward, the Tortoise in his talons with her arms spread wide and eyes shining with joy, the beach shrinking far below. Characters – the Eagle and the Tortoise as above. Setting: the bright sky above the coast. + STYLE
+6.  \[0:32–0:37\] VO: "Then the Eagle let go. She tumbled down onto a high mountain." IMAGE PROMPT: Close-up of the Eagle's open, empty talons against the clouds and his surprised face looking down (the Tortoise is not shown). Characters – the Eagle as above. Setting: the sky above rocky mountains. + STYLE
+7.  \[0:37–0:55\] VO: "And with her last breath she said, 'What had I to do with wings and clouds, when I can hardly move about on the earth?' If we all got everything we wished for, we would often be ruined." IMAGE PROMPT: A quiet, lonely mountain peak at sunset, clouds drifting past and a single feather floating down through golden light (no Tortoise shown). Setting: a high mountain top at sunset. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Fox stuck in a well meets a thirsty Goat. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+## AES-032 – Ep 32: The Fox and the Goat
+
+**Source:** Townsend, 'The Fox and the Goat' (fable 31) **Joke:** "If you had as many brains in your head as hairs in your beard…" | **Lesson:** Look before you leap.
+
+  
+
+**VOICE-OVER (paste into ElevenLabs):** A Fox was stuck at the bottom of a well. Then a thirsty Goat came along, and the Fox had an idea. The Goat peered over the edge. "Hello down there\! Is the water good?" The Fox hid his panic behind a smile. "Good? It's the best water ever\! Come down and try it\!" The Goat jumped straight in. Glug, glug, glug. Delicious. Then he looked up. "Er… how do we get out?" "Easy\! Put your front feet on the wall, bend your head, and I'll climb up your back. Then I'll help you out." Up the Fox went, using the Goat's horns as a ladder, and out. "Hey\! You promised\!" The Fox looked back. "If you had as many brains in your head as hairs in your beard, you'd have checked the way up before you jumped in." Look before you leap. Next time: a Raven tries to wash himself white. Follow so you don't miss it\!
+
+  
+
+**SCENES:**
+
+  
+
+1.  \[0:00–0:06\] VO: "A Fox was stuck at the bottom of a well. Then a thirsty Goat came along, and the Fox had an idea." IMAGE PROMPT: Looking down into a deep stone well: the Fox at the bottom, ankle-deep in water, a lightbulb-bright glint in his eye as a goat's shadow appears at the rim. Characters – the Fox: a red cartoon stick-figure fox with a round white head, pointed ears and a bushy white-tipped tail. Setting: Ancient Greek countryside, inside an old stone well, light from above. + STYLE
+2.  \[0:06–0:11\] VO: "The Goat peered over the edge. 'Hello down there\! Is the water good?'" IMAGE PROMPT: The Goat leaning over the well's rim, tongue hanging out with thirst, calling down cheerfully. Characters – the Goat: a shaggy white cartoon stick-figure goat with a round white head, curved grey horns and a long scruffy beard. Setting: a stone well in a dry, sunny farmyard. + STYLE
+3.  \[0:11–0:18\] VO: "The Fox hid his panic behind a smile. 'Good? It's the best water ever\! Come down and try it\!'" IMAGE PROMPT: The Fox grinning far too widely up at the Goat, giving a big thumbs-up, while a bead of nervous sweat runs down his forehead. Characters – the Fox as above. Setting: the bottom of the well. + STYLE
+4.  \[0:18–0:26\] VO: "The Goat jumped straight in. Glug, glug, glug. Delicious. Then he looked up. 'Er… how do we get out?'" IMAGE PROMPT: The Goat happily gulping water at the bottom of the well, then gazing up at the tiny circle of sky far above with a dawning look of worry. Characters – the Goat and the Fox as above. Setting: the bottom of the well. + STYLE
+5.  \[0:26–0:34\] VO: "'Easy\! Put your front feet on the wall, bend your head, and I'll climb up your back. Then I'll help you out.'" IMAGE PROMPT: The Goat obediently standing with his front hooves up against the well wall and his head bowed, while the Fox stretches, ready to climb. Characters – the Goat and the Fox as above. Setting: inside the well. + STYLE
+6.  \[0:34–0:41\] VO: "Up the Fox went, using the Goat's horns as a ladder, and out. 'Hey\! You promised\!'" IMAGE PROMPT: Comic action shot: the Fox springing off the Goat's horns and scrambling out of the well, while the Goat looks up indignantly with his mouth open. Characters – the Fox and the Goat as above. Setting: the well, looking up toward the bright rim. + STYLE
+7.  \[0:41–0:55\] VO: "The Fox looked back. 'If you had as many brains in your head as hairs in your beard, you'd have checked the way up before you jumped in.' Look before you leap." IMAGE PROMPT: The Fox leaning over the rim of the well, wagging a finger down at the Goat, whose long beard droops sadly in the water. Characters – the Fox and the Goat as above. Setting: the stone well in the farmyard, afternoon sun. + STYLE
+8.  \[end, 3 s\] VO: "Next time: a Raven tries to wash himself white. Follow so you don't miss it\!" IMAGE PROMPT: END CARD – The Storyteller (a friendly stick-figure host with a big round pure-white head, a warm wide smile, small round black reading glasses, a short red knitted scarf and a thin black stick body, holding an open storybook) waving at the viewer on the left side of the frame, empty space on the right for the FOLLOW button. Setting: soft sunny meadow gradient. + STYLE
+
+  
+
+END OF PART 1 OF 2.

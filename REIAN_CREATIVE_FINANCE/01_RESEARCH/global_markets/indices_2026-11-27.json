@@ -1,0 +1,122 @@
+{
+ "fetched_utc": "2026-11-27T17:20Z",
+ "indices": [
+  {
+   "index": "S&P 500",
+   "symbol": "^GSPC",
+   "unit": "USD (points)",
+   "date": "2026-11-25",
+   "close": 7182.78,
+   "prev_date": "2026-11-24",
+   "prev_close": 7201.09,
+   "change_pts": -18.31,
+   "change_pct": -0.25,
+   "note": "US closed 26 Nov (Thanksgiving); 27 Nov half-day still trading at check time (17:20 UTC), so not used",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EGSPC/history/"
+  },
+  {
+   "index": "Dow Jones Industrial Average",
+   "symbol": "^DJI",
+   "unit": "USD (points)",
+   "date": "2026-11-25",
+   "close": 50182.95,
+   "prev_date": "2026-11-24",
+   "prev_close": 50018.7,
+   "change_pts": 164.25,
+   "change_pct": 0.33,
+   "note": "same as above",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EDJI/history/"
+  },
+  {
+   "index": "Nasdaq Composite",
+   "symbol": "^IXIC",
+   "unit": "USD (points)",
+   "date": "2026-11-25",
+   "close": 23585.8,
+   "prev_date": "2026-11-24",
+   "prev_close": 23733.54,
+   "change_pts": -147.74,
+   "change_pct": -0.62,
+   "note": "same as above",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EIXIC/history/"
+  },
+  {
+   "index": "NYSE Composite",
+   "symbol": "^NYA",
+   "unit": "USD (points)",
+   "date": "2026-11-25",
+   "close": 23496.08,
+   "prev_date": "2026-11-24",
+   "prev_close": 23354.68,
+   "change_pts": 141.4,
+   "change_pct": 0.61,
+   "note": "same as above",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5ENYA/history/"
+  },
+  {
+   "index": "FTSE 100",
+   "symbol": "^FTSE",
+   "unit": "GBP (points)",
+   "date": "2026-11-27",
+   "close": 10698.81,
+   "prev_date": "2026-11-26",
+   "prev_close": 10609.3,
+   "change_pts": 89.51,
+   "change_pct": 0.84,
+   "note": "London closed 16:30 UK; checked 17:20 UTC",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EFTSE/history/"
+  },
+  {
+   "index": "FTSE 250",
+   "symbol": "^FTMC",
+   "unit": "GBP (points)",
+   "date": "2026-11-27",
+   "close": 24314.72,
+   "prev_date": "2026-11-26",
+   "prev_close": 24092.7,
+   "change_pts": 222.02,
+   "change_pct": 0.92,
+   "note": "as above",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EFTMC/history/"
+  },
+  {
+   "index": "JSE All Share",
+   "symbol": "^J203.JO",
+   "unit": "ZAR (points)",
+   "date": "2026-11-27",
+   "close": 108783.31,
+   "prev_date": "2026-11-26",
+   "prev_close": 106631.5,
+   "change_pts": 2151.81,
+   "change_pct": 2.02,
+   "note": "JSE closes 17:00 SAST",
+   "source": "Yahoo Finance via Firecrawl Alexandria finance-yahoo-com, https://finance.yahoo.com/quote/%5EJ203.JO/history/"
+  }
+ ],
+ "metals": [
+  {
+   "item": "Gold (COMEX Dec-26 future)",
+   "usd": 3658.3,
+   "prev": 3535.8,
+   "prev_date": "2026-11-25",
+   "at": "2026-11-27 17:10 UTC (intraday, not a settlement)",
+   "change_pct": 3.46
+  },
+  {
+   "item": "Platinum (NYMEX Jan-27 future)",
+   "usd": 1306.5,
+   "prev": 1241.4,
+   "prev_date": "2026-11-25",
+   "at": "2026-11-27 intraday",
+   "change_pct": 5.24
+  },
+  {
+   "item": "Copper (COMEX Mar-27 future, USD/lb)",
+   "usd": 5.601,
+   "prev": 5.3325,
+   "prev_date": "2026-11-25",
+   "at": "2026-11-27 17:10 UTC intraday",
+   "change_pct": 5.04
+  }
+ ]
+}

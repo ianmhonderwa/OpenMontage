@@ -1,0 +1,26 @@
+{
+  "id": "GRM-005",
+  "style": "v2",
+  "series": "GRM",
+  "series_badge": "GRIMM STICKMAN TALES",
+  "ep_number": 5,
+  "title": "The Wolf and the Seven Young Kids",
+  "title_html": "The Wolf and the<br>Seven Young Kids",
+  "next_title": "Faithful John",
+  "source": "Grimm, Household Tales, tr. Margaret Hunt (1884), tale 5",
+  "lesson": "Trust is good. Checking is better.",
+  "voice": "bf_lily",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "Mother Goat had to go out. Seven kids, she said, don't open the door to the wolf. He has a rough voice and black feet.",
+    "Knock, knock. Open up, it's Mummy! You're not Mummy, said the kids. Your voice is rough!",
+    "So the wolf ate chalk to make his voice soft. But the kids saw a black paw at the window. Not Mummy!",
+    "So he had a baker smear dough on his feet, and a miller dust them with flour. White paws! The kids opened up.",
+    "They hid everywhere: under the table, in the bed, in the oven. The wolf gobbled up six, and fell asleep under a tree. Only the youngest, hiding in the clock, was safe.",
+    "Mother came home, found the wolf snoring, snipped him open, and out hopped all six kids! They filled his belly with stones.",
+    "The wolf woke up thirsty, leaned over the well, and splash! Trust is good. Checking is better.",
+    "Next time: Faithful John, the most loyal servant ever. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

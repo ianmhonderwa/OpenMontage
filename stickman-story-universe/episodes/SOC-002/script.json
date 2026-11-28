@@ -1,0 +1,34 @@
+{
+  "id": "SOC-002",
+  "series": "SOC",
+  "series_badge": "SOCRATES &amp; THE WISE ONES",
+  "ep_number": 2,
+  "title": "Testing the Politicians",
+  "title_html": "Testing the<br>Politicians",
+  "next_title": "How Many Things I Do Not Need",
+  "source": "Plato, Apology 21c-e (Jowett tr.)",
+  "lesson": "Confidence is not the same as knowledge.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Socrates' first target: a famous politician. Everyone in Athens said he was brilliant.",
+    "Excuse me, said Socrates. What is justice? Easy, said the politician. Justice is... whatever I say it is.",
+    "And what makes you right? Because I'm important. And what makes you important? Because I'm right!",
+    "Round and round they went, in circles, like a dog chasing its own tail.",
+    "The crowd began to laugh. The politician turned red with anger. Socrates had just made an enemy.",
+    "Socrates walked away, thinking: He doesn't know, but he thinks he knows. I don't know, and I know I don't know.",
+    "The loudest voice in the room isn't always the wisest. Confidence is not the same as knowledge.",
+    "Next time: Socrates goes shopping, and buys nothing. Follow so you don't miss it!"
+  ],
+  "gaps": [
+    0.4,
+    0.45,
+    0.45,
+    0.4,
+    0.45,
+    0.5,
+    0.6,
+    0.0
+  ]
+}

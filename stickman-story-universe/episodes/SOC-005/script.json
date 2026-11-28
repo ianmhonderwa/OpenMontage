@@ -1,0 +1,25 @@
+{
+  "id": "SOC-005",
+  "series": "SOC",
+  "series_badge": "SOCRATES &amp; THE WISE ONES",
+  "ep_number": 5,
+  "title": "Socrates and the Kick",
+  "title_html": "Socrates<br>and the Kick",
+  "next_title": "The Ring of Invisibility",
+  "source": "Diogenes Laertius, Lives of the Philosophers II.21 (Yonge tr.)",
+  "lesson": "When someone acts like a donkey, you don't have to become one too.",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "music": "lyre",
+  "lines": [
+    "Socrates spent his days in the market, asking questions. And his questions made some people very, very angry.",
+    "One man could not win the argument. His face went red. His ears went hot. And then, he kicked Socrates!",
+    "Everyone gasped. Socrates! Aren't you going to take him to court? He kicked you, in front of everyone!",
+    "Socrates simply dusted off his robe, and thought about it for a moment.",
+    "Tell me, he said. If a donkey kicked me, would I take the donkey to court?",
+    "The crowd burst out laughing. The angry man stood there, looking very, very silly. Even the donkey looked embarrassed.",
+    "When someone acts like a donkey, you don't have to become one too. Stay calm, and let their behaviour speak for itself.",
+    "Next time: the ring that makes you invisible. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.5, 0.55, 0.55, 0.55, 0.6, 0.8, 0.0]
+}

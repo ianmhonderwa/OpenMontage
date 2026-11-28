@@ -1,0 +1,439 @@
+1
+00:00:00,400 --> 00:00:02,495
+Listing day gets the headlines.
+
+2
+00:00:02,495 --> 00:00:04,590
+But the real commitment starts
+
+3
+00:00:04,590 --> 00:00:05,580
+the day after.
+
+4
+00:00:05,580 --> 00:00:07,442
+Here's what life looks like
+
+5
+00:00:07,442 --> 00:00:09,071
+as a listed company in
+
+6
+00:00:09,071 --> 00:00:11,225
+Zimbabwe. This is Reian Creative
+
+7
+00:00:11,225 --> 00:00:13,145
+Finance. Understanding markets.
+
+8
+00:00:13,145 --> 00:00:14,309
+Following capital.
+
+9
+00:00:14,659 --> 00:00:16,357
+First, you have new owners.
+
+10
+00:00:16,357 --> 00:00:18,604
+Ordinary shares usually carry votes
+
+11
+00:00:18,604 --> 00:00:19,864
+at general meetings,
+
+12
+00:00:19,864 --> 00:00:22,275
+where shareholders elect directors and
+
+13
+00:00:22,275 --> 00:00:23,754
+approve major decisions.
+
+14
+00:00:23,754 --> 00:00:25,617
+Dividends are paid only when
+
+15
+00:00:25,617 --> 00:00:27,425
+the board declares them out
+
+16
+00:00:27,425 --> 00:00:29,507
+of profits. Nothing is guaranteed.
+
+17
+00:00:29,857 --> 00:00:31,533
+Then the reporting calendar.
+
+18
+00:00:31,533 --> 00:00:32,843
+On both the ZSE and
+
+19
+00:00:32,843 --> 00:00:34,624
+the VFEX, interim results are
+
+20
+00:00:34,624 --> 00:00:36,300
+due within three months of
+
+21
+00:00:36,300 --> 00:00:37,452
+the half year end.
+
+22
+00:00:37,452 --> 00:00:39,338
+Audited annual results must be
+
+23
+00:00:39,338 --> 00:00:41,329
+published within three months of
+
+24
+00:00:41,329 --> 00:00:42,848
+year end, and the annual
+
+25
+00:00:42,848 --> 00:00:44,943
+report sent to shareholders within
+
+26
+00:00:44,943 --> 00:00:46,462
+six months, and at least
+
+27
+00:00:46,462 --> 00:00:48,086
+21 days before the annual
+
+28
+00:00:48,086 --> 00:00:50,234
+general meeting. And price sensitive
+
+29
+00:00:50,234 --> 00:00:52,172
+news must be disclosed promptly.
+
+30
+00:00:52,522 --> 00:00:54,228
+Now your share price and
+
+31
+00:00:54,228 --> 00:00:56,559
+market capitalisation. Market cap is
+
+32
+00:00:56,559 --> 00:00:58,491
+simply shares in issue times
+
+33
+00:00:58,491 --> 00:00:59,572
+the share price,
+
+34
+00:00:59,572 --> 00:01:01,505
+and it changes every trading
+
+35
+00:01:01,505 --> 00:01:03,438
+day. Our example company from
+
+36
+00:01:03,438 --> 00:01:05,200
+part three has 40 million
+
+37
+00:01:05,200 --> 00:01:06,792
+shares. At 50 cents it's
+
+38
+00:01:06,792 --> 00:01:08,441
+worth 20 million dollars.
+
+39
+00:01:08,441 --> 00:01:09,293
+At 60 cents,
+
+40
+00:01:09,293 --> 00:01:10,942
+24 million. A weak share
+
+41
+00:01:10,942 --> 00:01:12,648
+price can make it harder
+
+42
+00:01:12,648 --> 00:01:14,069
+to raise money later.
+
+43
+00:01:14,419 --> 00:01:16,527
+Governance matters even more after
+
+44
+00:01:16,527 --> 00:01:18,530
+listing. Investors expect a board
+
+45
+00:01:18,530 --> 00:01:20,111
+that challenges management,
+
+46
+00:01:20,111 --> 00:01:21,956
+including independent directors,
+
+47
+00:01:21,956 --> 00:01:23,959
+audit and remuneration committees,
+
+48
+00:01:23,959 --> 00:01:25,698
+clear rules on conflicts of
+
+49
+00:01:25,698 --> 00:01:27,701
+interest and related party deals,
+
+50
+00:01:27,701 --> 00:01:29,546
+and an annual general meeting
+
+51
+00:01:29,546 --> 00:01:31,707
+where shareholders can question the
+
+52
+00:01:31,707 --> 00:01:32,919
+board face to face.
+
+53
+00:01:32,919 --> 00:01:34,869
+Remember Nvidia from our global
+
+54
+00:01:34,869 --> 00:01:37,136
+markets episode: when governance fails,
+
+55
+00:01:37,136 --> 00:01:38,717
+the share price feels it.
+
+56
+00:01:39,067 --> 00:01:40,860
+A listing also opens doors.
+
+57
+00:01:40,860 --> 00:01:42,205
+A company can do a
+
+58
+00:01:42,205 --> 00:01:44,335
+rights issue, offering new shares
+
+59
+00:01:44,335 --> 00:01:46,296
+to existing shareholders first.
+
+60
+00:01:46,296 --> 00:01:47,809
+It can use its shares
+
+61
+00:01:47,809 --> 00:01:49,378
+to pay for acquisitions,
+
+62
+00:01:49,378 --> 00:01:51,675
+reward staff through employee share
+
+63
+00:01:51,675 --> 00:01:53,749
+schemes, and it gains visibility
+
+64
+00:01:53,749 --> 00:01:55,430
+with lenders and partners.
+
+65
+00:01:55,780 --> 00:01:57,162
+So it's a trade off.
+
+66
+00:01:57,162 --> 00:01:58,025
+On one side:
+
+67
+00:01:58,025 --> 00:01:59,234
+access to capital,
+
+68
+00:01:59,234 --> 00:02:00,616
+liquidity for owners,
+
+69
+00:02:00,616 --> 00:02:02,689
+credibility and shares you can
+
+70
+00:02:02,689 --> 00:02:03,955
+use as a currency.
+
+71
+00:02:03,955 --> 00:02:04,877
+On the other:
+
+72
+00:02:04,877 --> 00:02:06,489
+ongoing compliance costs,
+
+73
+00:02:06,489 --> 00:02:08,619
+public scrutiny of every result,
+
+74
+00:02:08,619 --> 00:02:10,058
+some loss of control,
+
+75
+00:02:10,058 --> 00:02:12,016
+and pressure from the market
+
+76
+00:02:12,016 --> 00:02:13,167
+every single day.
+
+77
+00:02:13,517 --> 00:02:15,485
+And you're always being watched.
+
+78
+00:02:15,485 --> 00:02:17,508
+The exchange enforces its rules,
+
+79
+00:02:17,508 --> 00:02:19,913
+the Securities and Exchange Commission
+
+80
+00:02:19,913 --> 00:02:21,170
+oversees the market,
+
+81
+00:02:21,170 --> 00:02:23,083
+and the Reserve Bank's foreign
+
+82
+00:02:23,083 --> 00:02:25,707
+exchange rules cover foreign shareholdings
+
+83
+00:02:25,707 --> 00:02:27,183
+and any listing abroad,
+
+84
+00:02:27,183 --> 00:02:29,151
+which needs its prior approval.
+
+85
+00:02:29,151 --> 00:02:31,010
+Serious breaches can lead to
+
+86
+00:02:31,010 --> 00:02:32,759
+your shares being suspended.
+
+87
+00:02:33,109 --> 00:02:34,743
+Finally, the exit doors.
+
+88
+00:02:34,743 --> 00:02:36,620
+A suspension halts trading,
+
+89
+00:02:36,620 --> 00:02:38,798
+often because results are late
+
+90
+00:02:38,798 --> 00:02:40,614
+or information is unclear.
+
+91
+00:02:40,614 --> 00:02:43,035
+Delisting means the company leaves
+
+92
+00:02:43,035 --> 00:02:45,214
+the exchange, either voluntarily,
+
+93
+00:02:45,214 --> 00:02:46,909
+for example to move to
+
+94
+00:02:46,909 --> 00:02:49,088
+another exchange, or because it
+
+95
+00:02:49,088 --> 00:02:50,964
+no longer meets the rules.
+
+96
+00:02:50,964 --> 00:02:52,114
+TSL, for example,
+
+97
+00:02:52,114 --> 00:02:53,870
+was reported to end its
+
+98
+00:02:53,870 --> 00:02:55,685
+ZSE listing in June 2026
+
+99
+00:02:55,685 --> 00:02:57,259
+and move to the VFEX.
+
+100
+00:02:57,609 --> 00:02:59,074
+Listing is a marriage,
+
+101
+00:02:59,074 --> 00:03:00,031
+not a wedding.
+
+102
+00:03:00,031 --> 00:03:01,214
+Prepare for years,
+
+103
+00:03:01,214 --> 00:03:02,960
+report on time every time,
+
+104
+00:03:02,960 --> 00:03:04,988
+and treat your shareholders as
+
+105
+00:03:04,988 --> 00:03:06,735
+partners. That's the end of
+
+106
+00:03:06,735 --> 00:03:08,256
+our road to the stock
+
+107
+00:03:08,256 --> 00:03:10,565
+exchange series. This is educational
+
+108
+00:03:10,565 --> 00:03:12,649
+content, not legal or investment
+
+109
+00:03:12,649 --> 00:03:15,015
+advice. Follow Reian Creative Finance
+
+110
+00:03:15,015 --> 00:03:15,635
+for more.

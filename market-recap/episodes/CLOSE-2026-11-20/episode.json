@@ -1,0 +1,173 @@
+{
+  "id": "CLOSE-2026-11-20",
+  "name": "Week Close 20 Nov 2026",
+  "series": "WEEK CLOSE",
+  "week": "Week ending Friday 20 November 2026",
+  "handle": "@reian.creative.finance",
+  "voice": "bm_george",
+  "speed": 1.05,
+  "sources": [
+    "Yahoo Finance daily closes (^GSPC, ^NYA, ^FTSE, ^J203.JO), 13 & 20 Nov 2026",
+    "AfricanFinancials ZSE and VFEX price lists, 20 Nov 2026",
+    "EFE Securities, Market Comment 13.11.2026 (ZSE All Share 499.40)"
+  ],
+  "ticker": [
+    {
+      "sym": "S&P 500",
+      "chg": -8.09
+    },
+    {
+      "sym": "NYSE",
+      "chg": -7.6
+    },
+    {
+      "sym": "JSE",
+      "chg": -6.89
+    },
+    {
+      "sym": "FTSE",
+      "chg": -5.1
+    },
+    {
+      "sym": "NMBZ",
+      "chg": 14.7
+    },
+    {
+      "sym": "SEED CO",
+      "chg": 16.18
+    },
+    {
+      "sym": "ZIMPLOW",
+      "chg": -12.1
+    }
+  ],
+  "segments": [
+    {
+      "type": "cover",
+      "kicker": "WEEK CLOSE",
+      "title": "A red week<br>everywhere",
+      "titleSize": "130px",
+      "week": "Week ending Friday 20 November 2026",
+      "delta": -8.09,
+      "deltaLabel": "S&P 500 THIS WEEK",
+      "say": "What a week. Markets fell around the world. The S&P 500 lost more than 8 percent in five days. Here's your Friday close across five markets."
+    },
+    {
+      "type": "bars",
+      "chapter": "01 / The world",
+      "title": "This week's damage",
+      "sub": "Friday 20 Nov close vs Friday 13 Nov",
+      "items": [
+        {
+          "label": "S&P 500",
+          "value": -8.09,
+          "note": "6,949.88"
+        },
+        {
+          "label": "NYSE",
+          "value": -7.6,
+          "note": "22,657.82"
+        },
+        {
+          "label": "JSE",
+          "value": -6.89,
+          "note": "104,638.77"
+        },
+        {
+          "label": "FTSE 100",
+          "value": -5.1,
+          "note": "10,346.34"
+        }
+      ],
+      "source": "Yahoo Finance daily closes",
+      "say": "In New York, the NYSE Composite fell 7.6 percent this week. In Johannesburg, the All Share index lost almost 7 percent. London's FTSE 100 dropped 5.1."
+    },
+    {
+      "type": "compare",
+      "chapter": "02 / Zimbabwe",
+      "title": "ZSE All Share",
+      "from": {
+        "value": "499.40",
+        "label": "Fri 13 Nov close"
+      },
+      "to": {
+        "value": "491.81",
+        "label": "latest published close"
+      },
+      "delta": -1.52,
+      "deltaText": "\u22121.52% WEEK TO THURSDAY",
+      "source": "EFE Securities (13 Nov) \u00b7 AfricanFinancials",
+      "say": "Zimbabwe held up far better. The ZSE All Share was down about one and a half percent by Thursday. As I found out, Friday's final index figure wasn't published yet when I checked."
+    },
+    {
+      "type": "bars",
+      "chapter": "02 / Zimbabwe",
+      "title": "Friday's movers",
+      "sub": "ZSE and VFEX, Friday 20 Nov session",
+      "items": [
+        {
+          "label": "SEED CO (VFEX)",
+          "value": 16.18
+        },
+        {
+          "label": "NMBZ",
+          "value": 14.7
+        },
+        {
+          "label": "RAINBOW",
+          "value": 14.12
+        },
+        {
+          "label": "SIMBISA (VFEX)",
+          "value": -9.01
+        },
+        {
+          "label": "ZIMPLOW (VFEX)",
+          "value": -12.1
+        }
+      ],
+      "source": "AfricanFinancials, 20 Nov 2026",
+      "say": "On Friday, Seed Co jumped 16 percent on the VFEX. NMBZ and Rainbow Tourism each rose 14 on the ZSE. Zimplow fell 12, and Simbisa 9."
+    },
+    {
+      "type": "but",
+      "text": "BUT\u2026",
+      "say": "But why did the world fall?"
+    },
+    {
+      "type": "cards",
+      "chapter": "03 / Keep calm",
+      "title": "What we know",
+      "cards": [
+        {
+          "big": "5 DAYS",
+          "text": "Global stocks fell all week",
+          "sub": "led by tech and chip stocks"
+        },
+        {
+          "big": "?",
+          "text": "No confirmed single cause",
+          "sub": "in the sources we checked"
+        },
+        {
+          "big": "ZIM",
+          "text": "Local market moved separately",
+          "sub": "different drivers, different currency"
+        }
+      ],
+      "say": "Tech and chip stocks led the fall, but in the sources I checked there was no single confirmed cause. Zimbabwe's market moved on its own, because it has different drivers and a different currency."
+    },
+    {
+      "type": "outro",
+      "chapter": "04 / Next week",
+      "title": "Next week",
+      "follow": "FOLLOW FOR MONDAY'S OPEN",
+      "lines": [
+        "Monday: does the sell-off continue?",
+        "We'll bring you the open, every Monday"
+      ],
+      "disclaimer": "Not financial advice. Data: Yahoo Finance, AfricanFinancials, EFE Securities.",
+      "say": "On Monday night, I'll show you how the new week opened. This is not financial advice. Follow so you don't miss it."
+    }
+  ]
+}
