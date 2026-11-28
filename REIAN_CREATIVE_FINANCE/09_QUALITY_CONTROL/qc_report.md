@@ -21,8 +21,8 @@ Prepared 28 Nov 2026. Every score is out of 100. A video passes at 95 or above.
 
 | Video | Duration | Loudness (LUFS) | True peak (dBTP) | Accuracy /30 | Technical /20 | Visual /20 | Audio /15 | Compliance /15 | **Total** | Pass at 95? |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1. USA and Europe (first render) | 4:54 | −15.2 | −1.2 | 27 | 20 | 14 | 12 | 15 | **88** | No (re-render in progress) |
-| 2. African markets | 3:30 | −14.6 | −1.3 | 27 | 20 | 17 | 13 | 15 | **92** | No |
+| 1. USA and Europe (re-render v2) | 4:54 | −14.6* | −1.2 | 27 | 20 | 19 | 13 | 15 | **94** | No (accuracy: secondary-sourced company figures) |
+| 2. African markets | 3:30 | −14.6 | −1.3 | 27 | 20 | 19 | 13 | 15 | **94** | No (accuracy: VFEX index unverified; one interpretive link) |
 | 3. Listing-ready | 3:26 | −14.5 | −1.4 | 29 | 20 | 19 | 13 | 15 | **96** | Yes |
 | 4. Private to public | 3:24 | −14.6* | −1.3 | 29 | 20 | 19 | 13 | 15 | **96** | Yes |
 | 5. IPO and valuation | 3:22 | −14.7* | −1.4 | 29 | 20 | 19 | 13 | 15 | **96** | Yes |
@@ -32,13 +32,12 @@ All six videos are 1080×1920 at 30 fps, with subtitle files and 30-second tease
 
 ## Where points were lost
 
-**Video 1 (first render)**
-- The header text overflowed the frame.
-- Captions showed spoken spellings such as "V F E X" and "Footsie" instead of written forms. Both faults are fixed in the engine, and the re-render will be scored separately.
+**Video 1**
+- The first render had header overflow and spoken-spelling captions (88/100). Both are fixed in the v2 re-render, which is the one scored above. Its audio was also re-normalised from −15.2 to −14.6 LUFS.
 - The Anthropic and Nvidia figures come from secondary reporting and an amended S-1. They are attributed on screen, but they are not fully primary.
 
 **Video 2**
-- The header label reads "GLOBAL MARKETS · 2/2", which is wrong for an Africa video.
+- (Corrected: the "GLOBAL MARKETS · 2/2" header is right. This is part 2 of the two-part Global Markets set, so no deduction.)
 - The VFEX index value could not be verified. It was left out, which is correct, but the market picture is incomplete.
 - The metals-to-JSE link is our own interpretation, and it is labelled as such.
 
@@ -51,8 +50,16 @@ All six videos are 1080×1920 at 30 fps, with subtitle files and 30-second tease
 
 ## Fixes before publishing
 
-1. Fix the Video 2 header label, then re-render Video 2.
+1. ~~Video 2 header label~~ Not a defect.
 2. ~~Loudness fix for Videos 4 and 5~~ Done 28 Nov. *Audio was re-normalised: before the fix they measured −15.2 and −15.3 LUFS; now −14.6 and −14.7.
-3. Score the Video 1 re-render once it is complete.
+3. ~~Score the Video 1 re-render~~ Done: 94/100.
 4. Have a person watch each video in full.
 5. Have the legal statements in Videos 3–6 reviewed by a Zimbabwe legal practitioner or sponsoring broker.
+
+## Why Videos 1 and 2 stay below 95
+
+Their remaining deductions are evidence limits in market news, not production faults:
+- Several company figures come from secondary reporting.
+- The VFEX index value could not be verified.
+
+These points will not be awarded artificially. To raise the scores, add primary sources: company filings and the VFEX daily bulletin.
