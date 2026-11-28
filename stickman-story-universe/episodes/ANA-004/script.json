@@ -1,0 +1,26 @@
+{
+  "id": "ANA-004",
+  "style": "v2",
+  "series": "ANA",
+  "series_badge": "ANANSI &amp; AFRICAN TALES",
+  "ep_number": 4,
+  "title": "Thunder and Anansi",
+  "title_html": "Thunder<br>and Anansi",
+  "next_title": "Why the Lizard Keeps Nodding",
+  "source": "Barker & Sinclair, West African Folk-Tales (1917), tale IV",
+  "lesson": "Greed that won't share ends up with nothing.",
+  "voice": "bm_daniel",
+  "speed": 1.0,
+  "music": "lyre",
+  "lines": [
+    "In a great famine, hungry Anansi rowed a leaky boat out to a palm tree growing in the sea.",
+    "Every nut he dropped missed the boat. Plop. Plop. Plop. So he jumped in after them, and landed at Thunder's cottage on the sea bed.",
+    "Kind old Thunder gave him a pot. Pot, pot, what you used to do for your master, do now for me. And food appeared!",
+    "But Anansi hid the pot. He grew plumper and plumper, while his family grew thinner.",
+    "His son, Kweku Tsin, turned into a fly and followed him. Soon the family feasted, then the whole village, until the pot melted away.",
+    "So Anansi went back to Thunder, and was given a stick. Stick, stick, what you used to do for your master, do for me also.",
+    "Whack! Whack! Whack! Anansi had to swim for it. Greed that won't share ends up with nothing.",
+    "Next time: why the lizard keeps nodding. Follow so you don't miss it!"
+  ],
+  "gaps": [0.55, 0.55, 0.55, 0.55, 0.55, 0.55, 0.8, 0.0]
+}

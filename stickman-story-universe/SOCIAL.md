@@ -207,3 +207,10 @@ Always add: #stickman #shorts #reiancreativeart (YouTube: put **#Shorts** in the
 - **YouTube title:** The Wolf and the Seven Young Kids | Grimm Fairy Tale | Story Shorts #Shorts
 - **YouTube description:** Grimm's classic tale retold in 3D animation: the wolf's tricks, the kid in the clock, and a splash in the well. Source: Grimm, Household Tales, tr. Margaret Hunt (1884), tale 5. Narration: AI voice (creator's own voice). Next episode: Faithful John.
 - **YouTube tags:** grimm, brothers grimm, fairy tales, wolf and the seven kids, bedtime story, kids stories, stranger danger, shorts
+
+### ANA-004 – Thunder and Anansi
+- **TikTok title:** Anansi Hid the Magic Pot… Big Mistake 🕷️⚡ Anansi Story #anansi #africanfolktales #storytime #animation
+- **TikTok description:** In a famine, Anansi fell into the sea and met kind old Thunder, who gave him a magic food pot. He hid it from his family, until his son turned into a fly and followed him. Then Thunder gave him… a stick. Whack! Greed that won't share ends up with nothing. Next: why the lizard keeps nodding. Follow @reian.creative.art · AI voice (creator's own voice) #anansi #ghana #westafrica #folktales #kidsstories #sharing #animatedstory #reiancreativeart
+- **YouTube title:** Thunder and Anansi | West African Folk Tale | Story Shorts #Shorts
+- **YouTube description:** Anansi the spider, a magic pot from Thunder under the sea, and a stick with a mind of its own. Source: Barker & Sinclair, West African Folk-Tales (1917), tale IV. Narration: AI voice (creator's own voice). Next episode: Why the Lizard Keeps Nodding.
+- **YouTube tags:** anansi, anansi the spider, african folktales, west african stories, ghana, kids stories, sharing, greed, shorts

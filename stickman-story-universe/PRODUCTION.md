@@ -89,7 +89,7 @@ Done: SOC-001 (pilot, branded 2026-11-14, Drive: https://drive.google.com/file/d
 | 25 | NAS-004 | The Dream of Nine Coins | The Turkish Jester, tr. George Borrow | Written – Batch 01 | Lengthen: 103 words (min 130) | [x] |
 | 26 | BIB-008 | The Rainbow Promise | Genesis 8:13-9:17 | Written – Batch 01 | Lengthen: 108 words (min 130) | [x] |
 | 27 | GRM-005 | The Wolf and the Seven Young Kids | Hunt tale 5, 'The Wolf and the Seven Young Kids' | Written – Batch 02 | – | [x] |
-| 28 | ANA-004 | Thunder and Anansi | Barker & Sinclair, tale IV, 'Thunder and Anansi' | Written – Batch 05 (2-part) | – | [ ] |
+| 28 | ANA-004 | Thunder and Anansi | Barker & Sinclair, tale IV, 'Thunder and Anansi' | Written – Batch 05 (2-part) | – | [x] |
 | 29 | SOC-006 | The Ring of Invisibility | Plato, Republic II 359c-360d | Written – Batch 01 | Lengthen: 124 words (min 130) | [ ] |
 | 30 | BIB-009 | The Tower of Babel | Genesis 11:1-9 | Written – Batch 02 | – | [ ] |
 | 31 | AES-005 | The Ass and the Grasshopper | Townsend, 'The Ass and the Grasshopper' | Written – Batch 02 | Trim: 164 words (max 160) | [ ] |
