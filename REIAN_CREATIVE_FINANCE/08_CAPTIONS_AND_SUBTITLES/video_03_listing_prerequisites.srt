@@ -1,0 +1,451 @@
+1
+00:00:00,400 --> 00:00:02,190
+What does it actually take
+
+2
+00:00:02,190 --> 00:00:04,035
+for a Zimbabwean company to
+
+3
+00:00:04,035 --> 00:00:05,880
+get onto the stock exchange?
+
+4
+00:00:05,880 --> 00:00:07,558
+In this four part series
+
+5
+00:00:07,558 --> 00:00:09,124
+we walk the whole road.
+
+6
+00:00:09,124 --> 00:00:11,137
+Part one: getting listing ready.
+
+7
+00:00:11,137 --> 00:00:13,150
+This is Reian Creative Finance.
+
+8
+00:00:13,150 --> 00:00:15,611
+Understanding markets. Following capital.
+
+9
+00:00:15,961 --> 00:00:17,509
+First, what is a stock
+
+10
+00:00:17,509 --> 00:00:19,916
+exchange? It's a regulated marketplace
+
+11
+00:00:19,916 --> 00:00:21,922
+where shares in companies are
+
+12
+00:00:21,922 --> 00:00:23,011
+bought and sold.
+
+13
+00:00:23,011 --> 00:00:24,845
+In Zimbabwe you have three
+
+14
+00:00:24,845 --> 00:00:27,138
+venues: the Zimbabwe Stock Exchange,
+
+15
+00:00:27,138 --> 00:00:29,373
+the Victoria Falls Stock Exchange,
+
+16
+00:00:29,373 --> 00:00:31,207
+which trades in US dollars,
+
+17
+00:00:31,207 --> 00:00:33,442
+and FINSEC, an alternative trading
+
+18
+00:00:33,442 --> 00:00:35,792
+platform licensed by the Securities
+
+19
+00:00:35,792 --> 00:00:37,913
+and Exchange Commission in 2016.
+
+20
+00:00:38,263 --> 00:00:39,929
+Next, three kinds of company.
+
+21
+00:00:39,929 --> 00:00:41,392
+Under section 85 of the
+
+22
+00:00:41,392 --> 00:00:43,563
+Companies and Other Business Entities
+
+23
+00:00:43,563 --> 00:00:45,178
+Act, a private company must
+
+24
+00:00:45,178 --> 00:00:46,591
+restrict share transfers,
+
+25
+00:00:46,591 --> 00:00:47,903
+have no more than 50
+
+26
+00:00:47,903 --> 00:00:49,670
+members, not counting employees,
+
+27
+00:00:49,670 --> 00:00:51,386
+and cannot invite the public
+
+28
+00:00:51,386 --> 00:00:52,496
+to buy its shares.
+
+29
+00:00:52,496 --> 00:00:54,061
+A public company has none
+
+30
+00:00:54,061 --> 00:00:55,322
+of those restrictions.
+
+31
+00:00:55,322 --> 00:00:56,786
+And a listed company is
+
+32
+00:00:56,786 --> 00:00:58,553
+a public company whose shares
+
+33
+00:00:58,553 --> 00:01:00,067
+have been admitted to an
+
+34
+00:01:00,067 --> 00:01:01,934
+exchange. Remember: public is not
+
+35
+00:01:01,934 --> 00:01:03,095
+the same as listed.
+
+36
+00:01:03,445 --> 00:01:05,259
+Before any exchange will look
+
+37
+00:01:05,259 --> 00:01:06,917
+at you, get the foundations
+
+38
+00:01:06,917 --> 00:01:08,989
+right. Be properly incorporated and
+
+39
+00:01:08,989 --> 00:01:10,648
+registered. Keep clean books,
+
+40
+00:01:10,648 --> 00:01:12,928
+with audited financial statements year
+
+41
+00:01:12,928 --> 00:01:14,378
+after year. Have a real
+
+42
+00:01:14,378 --> 00:01:15,933
+track record and a clear
+
+43
+00:01:15,933 --> 00:01:17,487
+growth story. And tidy up
+
+44
+00:01:17,487 --> 00:01:19,560
+your shareholder register and your
+
+45
+00:01:19,560 --> 00:01:21,685
+governance. Many companies spend two
+
+46
+00:01:21,685 --> 00:01:23,136
+or three years on this
+
+47
+00:01:23,136 --> 00:01:23,861
+stage alone.
+
+48
+00:01:24,211 --> 00:01:25,346
+Now the numbers.
+
+49
+00:01:25,346 --> 00:01:27,078
+Under section 87 of the
+
+50
+00:01:27,078 --> 00:01:28,810
+ZSE Listings Requirements,
+
+51
+00:01:28,810 --> 00:01:30,722
+a main board company needs
+
+52
+00:01:30,722 --> 00:01:32,992
+subscribed capital of 10 million
+
+53
+00:01:32,992 --> 00:01:35,262
+US dollars, a satisfactory profit
+
+54
+00:01:35,262 --> 00:01:37,113
+history for the last five
+
+55
+00:01:37,113 --> 00:01:38,666
+years where applicable,
+
+56
+00:01:38,666 --> 00:01:40,339
+at least 30 percent of
+
+57
+00:01:40,339 --> 00:01:42,250
+its shares in public hands,
+
+58
+00:01:42,250 --> 00:01:43,983
+and at least 300 public
+
+59
+00:01:43,983 --> 00:01:44,819
+shareholders.
+
+60
+00:01:45,169 --> 00:01:47,207
+The VFEX, which trades in
+
+61
+00:01:47,207 --> 00:01:49,177
+US dollars, sets a lower
+
+62
+00:01:49,177 --> 00:01:50,943
+bar under rule 88 of
+
+63
+00:01:50,943 --> 00:01:52,166
+its 2026 rules:
+
+64
+00:01:52,166 --> 00:01:54,679
+subscribed capital of 3 million
+
+65
+00:01:54,679 --> 00:01:56,581
+US dollars, at least 10
+
+66
+00:01:56,581 --> 00:01:58,483
+million shares in issue,
+
+67
+00:01:58,483 --> 00:02:00,385
+30 percent public float,
+
+68
+00:02:00,385 --> 00:02:02,287
+and at least 50 public
+
+69
+00:02:02,287 --> 00:02:03,238
+shareholders.
+
+70
+00:02:03,588 --> 00:02:05,408
+Not every company fits the
+
+71
+00:02:05,408 --> 00:02:07,001
+main board. The ZSE has
+
+72
+00:02:07,001 --> 00:02:09,220
+a development stage route needing
+
+73
+00:02:09,220 --> 00:02:10,927
+1.5 million US dollars of
+
+74
+00:02:10,927 --> 00:02:13,088
+subscribed capital and no profit
+
+75
+00:02:13,088 --> 00:02:14,738
+history, but with a bold
+
+76
+00:02:14,738 --> 00:02:17,071
+risk warning. Exploration and mining
+
+77
+00:02:17,071 --> 00:02:19,062
+companies can skip the profit
+
+78
+00:02:19,062 --> 00:02:20,996
+test. The VFEX has specialist
+
+79
+00:02:20,996 --> 00:02:22,191
+routes for mining,
+
+80
+00:02:22,191 --> 00:02:24,580
+special purpose acquisition companies,
+
+81
+00:02:24,580 --> 00:02:26,799
+green issuers, property trusts and
+
+82
+00:02:26,799 --> 00:02:27,140
+more.
+
+83
+00:02:27,490 --> 00:02:29,136
+You won't do this alone.
+
+84
+00:02:29,136 --> 00:02:31,252
+You'll need a sponsoring broker,
+
+85
+00:02:31,252 --> 00:02:33,368
+who guides the application and
+
+86
+00:02:33,368 --> 00:02:35,014
+deals with the exchange.
+
+87
+00:02:35,014 --> 00:02:36,837
+The ZSE rules require one
+
+88
+00:02:36,837 --> 00:02:38,365
+in the cases set out
+
+89
+00:02:38,365 --> 00:02:39,893
+in sections 16 to 19.
+
+90
+00:02:39,893 --> 00:02:41,480
+Add legal practitioners,
+
+91
+00:02:41,480 --> 00:02:43,714
+auditors, and a corporate finance
+
+92
+00:02:43,714 --> 00:02:45,772
+adviser for the valuation and
+
+93
+00:02:45,772 --> 00:02:46,477
+the offer.
+
+94
+00:02:46,827 --> 00:02:48,255
+Then the prospectus:
+
+95
+00:02:48,255 --> 00:02:50,678
+the document that tells investors
+
+96
+00:02:50,678 --> 00:02:53,348
+everything material about the company
+
+97
+00:02:53,348 --> 00:02:54,404
+and the offer.
+
+98
+00:02:54,404 --> 00:02:56,515
+The Companies Act deals with
+
+99
+00:02:56,515 --> 00:02:58,813
+prospectuses in sections 104 to
+
+100
+00:02:58,813 --> 00:03:00,739
+114, and section 108 makes
+
+101
+00:03:00,739 --> 00:03:02,974
+people liable for misstatements.
+
+102
+00:03:02,974 --> 00:03:04,651
+So every number in it
+
+103
+00:03:04,651 --> 00:03:05,707
+must be right.
+
+104
+00:03:06,057 --> 00:03:08,164
+So, listing starts years before
+
+105
+00:03:08,164 --> 00:03:09,802
+listing day: clean books,
+
+106
+00:03:09,802 --> 00:03:11,968
+strong governance and the right
+
+107
+00:03:11,968 --> 00:03:13,431
+advisers. In part two,
+
+108
+00:03:13,431 --> 00:03:15,245
+we turn a private company
+
+109
+00:03:15,245 --> 00:03:16,532
+into a public one.
+
+110
+00:03:16,532 --> 00:03:18,405
+This is educational content,
+
+111
+00:03:18,405 --> 00:03:20,512
+not legal or investment advice.
+
+112
+00:03:20,512 --> 00:03:22,794
+Follow Reian Creative Finance for
+
+113
+00:03:22,794 --> 00:03:23,145
+more.
